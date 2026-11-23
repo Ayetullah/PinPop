@@ -1,0 +1,209 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "No power card or idle aiming ring 600"
+    },
+    {
+      "pass": true,
+      "label": "Endpoint ring fills to 25 percent 600"
+    },
+    {
+      "pass": true,
+      "label": "Ring tint changes while line keeps ball color 600 0.25"
+    },
+    {
+      "pass": true,
+      "label": "Gold full ring glows only at maximum 600 0.25"
+    },
+    {
+      "pass": true,
+      "label": "Cancel clears ring without spending move"
+    },
+    {
+      "pass": true,
+      "label": "Endpoint ring fills to 60 percent 600"
+    },
+    {
+      "pass": true,
+      "label": "Ring tint changes while line keeps ball color 600 0.6"
+    },
+    {
+      "pass": true,
+      "label": "Gold full ring glows only at maximum 600 0.6"
+    },
+    {
+      "pass": true,
+      "label": "Cancel clears ring without spending move"
+    },
+    {
+      "pass": true,
+      "label": "Endpoint ring fills to 100 percent 600"
+    },
+    {
+      "pass": true,
+      "label": "Ring tint changes while line keeps ball color 600 1"
+    },
+    {
+      "pass": true,
+      "label": "Gold full ring glows only at maximum 600 1"
+    },
+    {
+      "pass": true,
+      "label": "Cancel clears ring without spending move"
+    },
+    {
+      "pass": true,
+      "label": "Horizontal positioning hides power ring 600"
+    },
+    {
+      "pass": true,
+      "label": "No power card or idle aiming ring 320"
+    },
+    {
+      "pass": true,
+      "label": "Endpoint ring fills to 25 percent 320"
+    },
+    {
+      "pass": true,
+      "label": "Ring tint changes while line keeps ball color 320 0.25"
+    },
+    {
+      "pass": true,
+      "label": "Gold full ring glows only at maximum 320 0.25"
+    },
+    {
+      "pass": true,
+      "label": "Cancel clears ring without spending move"
+    },
+    {
+      "pass": true,
+      "label": "Endpoint ring fills to 60 percent 320"
+    },
+    {
+      "pass": true,
+      "label": "Ring tint changes while line keeps ball color 320 0.6"
+    },
+    {
+      "pass": true,
+      "label": "Gold full ring glows only at maximum 320 0.6"
+    },
+    {
+      "pass": true,
+      "label": "Cancel clears ring without spending move"
+    },
+    {
+      "pass": true,
+      "label": "Endpoint ring fills to 100 percent 320"
+    },
+    {
+      "pass": true,
+      "label": "Ring tint changes while line keeps ball color 320 1"
+    },
+    {
+      "pass": true,
+      "label": "Gold full ring glows only at maximum 320 1"
+    },
+    {
+      "pass": true,
+      "label": "Cancel clears ring without spending move"
+    },
+    {
+      "pass": true,
+      "label": "Horizontal positioning hides power ring 320"
+    },
+    {
+      "pass": true,
+      "label": "No power card or idle aiming ring 1000"
+    },
+    {
+      "pass": true,
+      "label": "Endpoint ring fills to 25 percent 1000"
+    },
+    {
+      "pass": true,
+      "label": "Ring tint changes while line keeps ball color 1000 0.25"
+    },
+    {
+      "pass": true,
+      "label": "Gold full ring glows only at maximum 1000 0.25"
+    },
+    {
+      "pass": true,
+      "label": "Cancel clears ring without spending move"
+    },
+    {
+      "pass": true,
+      "label": "Endpoint ring fills to 60 percent 1000"
+    },
+    {
+      "pass": true,
+      "label": "Ring tint changes while line keeps ball color 1000 0.6"
+    },
+    {
+      "pass": true,
+      "label": "Gold full ring glows only at maximum 1000 0.6"
+    },
+    {
+      "pass": true,
+      "label": "Cancel clears ring without spending move"
+    },
+    {
+      "pass": true,
+      "label": "Endpoint ring fills to 100 percent 1000"
+    },
+    {
+      "pass": true,
+      "label": "Ring tint changes while line keeps ball color 1000 1"
+    },
+    {
+      "pass": true,
+      "label": "Gold full ring glows only at maximum 1000 1"
+    },
+    {
+      "pass": true,
+      "label": "Cancel clears ring without spending move"
+    },
+    {
+      "pass": true,
+      "label": "Horizontal positioning hides power ring 1000"
+    },
+    {
+      "pass": true,
+      "label": "Keyboard aim uses the same power ring"
+    },
+    {
+      "pass": true,
+      "label": "Finger pull fills and lights maximum ring"
+    },
+    {
+      "pass": true,
+      "label": "Finger release shoots once and hides ring"
+    },
+    {
+      "pass": true,
+      "label": "Triple remains visible during slower convergence"
+    },
+    {
+      "pass": true,
+      "label": "Slower triple reaches burst phase"
+    },
+    {
+      "pass": true,
+      "label": "Burst begins before icons disappear"
+    },
+    {
+      "pass": true,
+      "label": "Slower burst eventually removes icons"
+    },
+    {
+      "pass": true,
+      "label": "Full flight and merge animation remains visible for over one second"
+    },
+    {
+      "pass": true,
+      "label": "No browser runtime errors"
+    }
+  ],
+  "errors": []
+}

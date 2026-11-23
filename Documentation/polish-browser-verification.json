@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-19T11:00:49.495Z",
+  "passed": 42,
+  "total": 42,
+  "checks": [
+    {
+      "pass": true,
+      "label": "Boots into carnival home screen"
+    },
+    {
+      "pass": true,
+      "label": "Intro has 12 pins / 6 moves"
+    },
+    {
+      "pass": true,
+      "label": "Swap rotates full queue, spending one credit and no move"
+    },
+    {
+      "pass": true,
+      "label": "One move per shot; busy state blocks extra input"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color ball leaves every pin unchanged"
+    },
+    {
+      "pass": true,
+      "label": "Matching hit clears the full same-color cluster"
+    },
+    {
+      "pass": true,
+      "label": "Chain reaction never affects a different color"
+    },
+    {
+      "pass": true,
+      "label": "Intro can be won in three shots"
+    },
+    {
+      "pass": true,
+      "label": "Win awards 30 coins"
+    },
+    {
+      "pass": true,
+      "label": "Win rewards only once"
+    },
+    {
+      "pass": true,
+      "label": "Next level preserves wallet"
+    },
+    {
+      "pass": true,
+      "label": "10 coins purchase one swap"
+    },
+    {
+      "pass": true,
+      "label": "Purchases cannot overdraw coins"
+    },
+    {
+      "pass": true,
+      "label": "No credit blocks queue rotation"
+    },
+    {
+      "pass": true,
+      "label": "Restart cannot refill starter credits"
+    },
+    {
+      "pass": true,
+      "label": "Six missed shots lose and award no coins"
+    },
+    {
+      "pass": true,
+      "label": "Finished state blocks further actions"
+    },
+    {
+      "pass": true,
+      "label": "Restart/next level resets state"
+    },
+    {
+      "pass": true,
+      "label": "Final shot is allowed to resolve before ending"
+    },
+    {
+      "pass": true,
+      "label": "Final-move chain reaction can win"
+    },
+    {
+      "pass": true,
+      "label": "Home shop opens and rejects insufficient coins"
+    },
+    {
+      "pass": true,
+      "label": "Sound and reduced-motion controls work"
+    },
+    {
+      "pass": true,
+      "label": "Settings persist after reload"
+    },
+    {
+      "pass": true,
+      "label": "Play runs a guarded loading transition"
+    },
+    {
+      "pass": true,
+      "label": "Play enters the game and finishes loading"
+    },
+    {
+      "pass": true,
+      "label": "Animated swap still rotates full queue and consumes one credit"
+    },
+    {
+      "pass": true,
+      "label": "Restart/reload preserves spent credits and returns to home"
+    },
+    {
+      "pass": true,
+      "label": "Pointer launch spends exactly one move"
+    },
+    {
+      "pass": true,
+      "label": "Settings truly pause physics mid-shot"
+    },
+    {
+      "pass": true,
+      "label": "Resuming completes same-color chain reaction"
+    },
+    {
+      "pass": true,
+      "label": "Victory celebration awards coins exactly once"
+    },
+    {
+      "pass": true,
+      "label": "Next level transition preserves progression"
+    },
+    {
+      "pass": true,
+      "label": "Dedicated shop purchases swap credits"
+    },
+    {
+      "pass": true,
+      "label": "Pause menu returns home preserving wallet"
+    },
+    {
+      "pass": true,
+      "label": "Economy and progression survive reload"
+    },
+    {
+      "pass": true,
+      "label": "Gameplay controls fit 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Gameplay controls fit 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Gameplay controls fit 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Offline file:// standalone opens home"
+    },
+    {
+      "pass": true,
+      "label": "Real failure shows retry screen after final shot settles"
+    },
+    {
+      "pass": true,
+      "label": "Retry transitions to a fresh level"
+    },
+    {
+      "pass": true,
+      "label": "No browser runtime exceptions"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,10 @@
+9/9 passed.
+PASS: Collection panel leaves bowling gestures unobstructed
+PASS: Pair hint waits for a third piece without changing the match rules
+PASS: Only matching pairs receive the ready-pair halo
+PASS: Polished merge still removes exactly three and compacts the surviving piece
+PASS: Polished dock fits 320x740
+PASS: Polished dock fits 390x844
+PASS: Polished dock fits 1000x600
+PASS: Capacity badge shows unmatched occupancy at the warning threshold
+PASS: Restart clears all polished tokens and pair hints

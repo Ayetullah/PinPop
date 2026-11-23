@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "build_PinPopSplash": true,
+    "build_PinPopGame": true,
+    "build_HtmlReferenceHUD": true,
+    "build_AdventureHUD": true,
+    "build_PinPopRewardedVideo": true,
+    "build_PinPopSelfTest": true,
+    "native_splash": true,
+    "html_splash": true,
+    "native_gameplay": true,
+    "html_gameplay": true,
+    "html_before_menu": true,
+    "native_before_scene": true,
+    "editor_safe": true
+  },
+  "nativeSplash": "14/14",
+  "htmlSplash": "32/32",
+  "nativeGameplay": "62/62",
+  "htmlGameplay": "51/51"
+}

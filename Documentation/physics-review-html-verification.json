@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "runs": [
+    {
+      "friction": 0.45,
+      "fallen": 0,
+      "initialSpeed": 24.000000000000004,
+      "mass": 6
+    },
+    {
+      "friction": 0.14,
+      "fallen": 1,
+      "initialSpeed": 24.000000000000004,
+      "mass": 6
+    }
+  ]
+}

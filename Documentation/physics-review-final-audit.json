@@ -1,0 +1,53 @@
+{
+  "verifiedUtc": "2026-11-22T08:51:46.491125+00:00",
+  "finding": "High pin-floor friction stops already toppled pins on the table",
+  "change": "Pin-floor friction .45 -> .14; other contact pairs .45 and restitution .05",
+  "sample": "Six identical shots, three authored levels, 60%/100% power, 5 simulated seconds per shot",
+  "fallenBefore": 8,
+  "fallenAfter": 17,
+  "firstImpactSpeedUnchanged": true,
+  "reports": {
+    "physics-review-unity-verification.txt": {
+      "passed": 23,
+      "total": 23
+    },
+    "pin-behavior-unity-verification.txt": {
+      "passed": 35,
+      "total": 35
+    },
+    "smash-match-unity-verification.txt": {
+      "passed": 44,
+      "total": 44
+    },
+    "smash-match-model-verification.json": {
+      "passed": 33,
+      "total": 33
+    },
+    "physics-review-html-verification.json": {
+      "pass": true,
+      "runs": [
+        {
+          "friction": 0.45,
+          "fallen": 0,
+          "initialSpeed": 24.000000000000004,
+          "mass": 6
+        },
+        {
+          "friction": 0.14,
+          "fallen": 1,
+          "initialSpeed": 24.000000000000004,
+          "mass": 6
+        }
+      ]
+    }
+  },
+  "nativeSourceMatchesBuild": true,
+  "build": "Builds/PinPop.app",
+  "sha256": {
+    "Assets/Scripts/HtmlPhysicsContacts.cs": "c2ff699a4b2594cd623c3051ebb0406c1f9124a93f33754a69d8cdd0b5b8bc37",
+    "Assets/Scripts/BowlingBall.cs": "5ecc4d581ce66b7d85067a8d42ab435c17bc365bed68e1eed459996fa851b524",
+    "Assets/Scripts/PinPopSelfTest.cs": "b170353494658a372b7eace33ac8b2c45cbf2e2307055db45877012ff416bdca",
+    "Assets/Scripts/PinPopGame.cs": "eaa97416d1c555b2f222390361e21aea48a33694d7e4344ce1f50d27717491db",
+    "index.html": "38d9ea89da20314ee44554914b9a358de5b9f2bf85a4d5e1a6ca463fc29d90d4"
+  }
+}

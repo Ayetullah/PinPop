@@ -1,0 +1,37 @@
+{
+  "verifiedUtc": "2026-11-21T22:12:58.620893+00:00",
+  "referenceSha256": "f37fd0ccc6d12fe6edf33326fb97ab2845d75a69c72e92b3b9eb6885b2f4a84b",
+  "sourceSha256": {
+    "index.html": "9d21996e466456e0d4042a5ee914eff0e5056a498d322e92d63f41c8fdc29376",
+    "Assets/Scripts/PinPopMatchTray.cs": "56d66187a4bab4a2a558a805a7b5a440f37afdb5feae65f5f47bfabf6dd2e122",
+    "Assets/Scripts/HtmlMatchTrayUI.cs": "a7797ab035443868dd99ebf10e74d06913d7c30d0190fc1fbe76827e92b0667a",
+    "Assets/Scripts/PinPopLayouts.cs": "c09d83d3801a2fb76d258087d38c3edb47037c085616114ba1ee307c187b386e",
+    "Assets/Scripts/PinPopGame.cs": "5c3fca7cd83df5f3b3eb21752e8b2793ff0cc52b4bf6b2773d8a9d3b29516a60",
+    "Assets/Scripts/PinTarget.cs": "2cab4b2f3f09eb90db96e44a4f4de3316d8cbc37f5048003c35398e4cbf843a4",
+    "Assets/Scripts/HtmlReferenceHUD.cs": "89ac7e0242763ff9145f6c3d4fbf438079c18327406026f8c994baf44d97b284",
+    "Assets/Scripts/HtmlPhysicsContacts.cs": "b72529a819df17e1b3ed2447aec47791ebe57c322791427689c93d5d595595b9",
+    "Assets/Scripts/BowlingBall.cs": "f76e3962238653eef185231a50b8d1fb4bd6cb47d0925c92b4e500b98f40dac9",
+    "Assets/Scripts/PinPopEconomy.cs": "17ae368335cfb4b2f6ff7564110f5079eeedc1e1fb8a8bdea26aa08cc71067ed"
+  },
+  "reports": {
+    "smash-match-model-verification.json": {
+      "passed": 33,
+      "total": 33
+    },
+    "smash-match-browser-verification.json": {
+      "passed": 24,
+      "total": 24
+    },
+    "smash-match-layout-verification.json": {
+      "passed": 12,
+      "total": 12
+    },
+    "smash-match-unity-verification.txt": {
+      "passed": 44,
+      "total": 44
+    }
+  },
+  "nativeBuild": "Builds/PinPop.app",
+  "nativeScriptsMatchBuiltProject": true,
+  "scope": "First chapter completed with actual browser pointer shots; all 12 chapter color counts verified. PhysX falling, merging, pause, restart and rewarded continuation verified in native app."
+}

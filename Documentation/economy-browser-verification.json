@@ -1,0 +1,135 @@
+{
+  "passed": 32,
+  "total": 32,
+  "results": [
+    {
+      "pass": true,
+      "label": "Old upper purchase banner and explanation are absent"
+    },
+    {
+      "pass": true,
+      "label": "Four bowling balls appear and unaffordable products are disabled"
+    },
+    {
+      "pass": true,
+      "label": "Plus opens purchase without rotating queue or spending a move"
+    },
+    {
+      "pass": true,
+      "label": "Empty wallet disables swap purchase"
+    },
+    {
+      "pass": true,
+      "label": "Cancel preserves the wallet"
+    },
+    {
+      "pass": true,
+      "label": "Real pointer holds shot 1"
+    },
+    {
+      "pass": true,
+      "label": "Shot settles 1"
+    },
+    {
+      "pass": true,
+      "label": "Real pointer holds shot 2"
+    },
+    {
+      "pass": true,
+      "label": "Shot settles 2"
+    },
+    {
+      "pass": true,
+      "label": "Real pointer holds shot 3"
+    },
+    {
+      "pass": true,
+      "label": "Shot settles 3"
+    },
+    {
+      "pass": true,
+      "label": "Real pointer holds shot 4"
+    },
+    {
+      "pass": true,
+      "label": "Shot settles 4"
+    },
+    {
+      "pass": true,
+      "label": "Physics victory pays exact base plus saved-move bonus"
+    },
+    {
+      "pass": true,
+      "label": "Result explains the actual reward"
+    },
+    {
+      "pass": true,
+      "label": "One confirmation debits ten coins and grants exactly one credit"
+    },
+    {
+      "pass": true,
+      "label": "Main SWAP consumes a credit and rotates the whole queue separately"
+    },
+    {
+      "pass": true,
+      "label": "Marble purchase deducts ninety and equips"
+    },
+    {
+      "pass": true,
+      "label": "Galaxy purchase deducts three hundred and equips"
+    },
+    {
+      "pass": true,
+      "label": "Orbit purchase deducts one hundred eighty"
+    },
+    {
+      "pass": true,
+      "label": "Owned balls equip for free"
+    },
+    {
+      "pass": true,
+      "label": "All catalog cards fit 390x844"
+    },
+    {
+      "pass": true,
+      "label": "All catalog cards fit 320x740"
+    },
+    {
+      "pass": true,
+      "label": "All catalog cards fit 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Wallet, ownership and equipped ball survive reload"
+    },
+    {
+      "pass": true,
+      "label": "Purchased look reaches the ready 3D ball"
+    },
+    {
+      "pass": true,
+      "label": "Purchased look reaches a real launched 3D ball"
+    },
+    {
+      "pass": true,
+      "label": "Exact ten-coin balance buys the last permitted credit without going negative"
+    },
+    {
+      "pass": true,
+      "label": "Credit cap explains why another purchase is disabled"
+    },
+    {
+      "pass": true,
+      "label": "Transaction rereads the latest stored wallet and rejects a stale affordable offer"
+    },
+    {
+      "pass": true,
+      "label": "Legacy save migrates balances and unlocked progress"
+    },
+    {
+      "pass": true,
+      "label": "No JavaScript console errors"
+    }
+  ],
+  "errors": []
+}

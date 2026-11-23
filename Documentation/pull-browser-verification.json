@@ -1,0 +1,218 @@
+{
+  "date": "2026-11-19T13:12:28.562Z",
+  "passed": 52,
+  "total": 52,
+  "weak": 1,
+  "strong": 4,
+  "checks": [
+    {
+      "pass": true,
+      "label": "Standalone 3D game boots into home"
+    },
+    {
+      "pass": true,
+      "label": "Initial level and starter wallet unchanged"
+    },
+    {
+      "pass": true,
+      "label": "Swap rotates queue for one credit, not a move"
+    },
+    {
+      "pass": true,
+      "label": "Zero and invalid strength cannot spend a move"
+    },
+    {
+      "pass": true,
+      "label": "Power 0.15 never affects mismatched colors"
+    },
+    {
+      "pass": true,
+      "label": "Power 0.45 never affects mismatched colors"
+    },
+    {
+      "pass": true,
+      "label": "Power 0.6 never affects mismatched colors"
+    },
+    {
+      "pass": true,
+      "label": "Power 1 never affects mismatched colors"
+    },
+    {
+      "pass": true,
+      "label": "Identical aim: weak/medium/strong clears 1/2/3/4 pins"
+    },
+    {
+      "pass": true,
+      "label": "Launch spends once and locks simultaneous actions"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color projectile has no impact"
+    },
+    {
+      "pass": true,
+      "label": "Projectile rises then changes vertical velocity under gravity"
+    },
+    {
+      "pass": true,
+      "label": "Predicted flight arc reaches the chosen target"
+    },
+    {
+      "pass": true,
+      "label": "More tension increases projectile speed"
+    },
+    {
+      "pass": true,
+      "label": "Strong accurate shots can complete intro and award 30 coins"
+    },
+    {
+      "pass": true,
+      "label": "Reward is credited only once"
+    },
+    {
+      "pass": true,
+      "label": "Next level preserves economy"
+    },
+    {
+      "pass": true,
+      "label": "10 coins buy one swap credit"
+    },
+    {
+      "pass": true,
+      "label": "Wallet cannot be overdrawn"
+    },
+    {
+      "pass": true,
+      "label": "No credit prevents queue changes"
+    },
+    {
+      "pass": true,
+      "label": "Retry never refills starter credits"
+    },
+    {
+      "pass": true,
+      "label": "Misses exhaust moves and award no coins"
+    },
+    {
+      "pass": true,
+      "label": "Play transition finishes"
+    },
+    {
+      "pass": true,
+      "label": "Single next bowling ball has three finger holes"
+    },
+    {
+      "pass": true,
+      "label": "Ready ball touches meadow instead of floating"
+    },
+    {
+      "pass": true,
+      "label": "Next bowling ball shows queue second color beside swap"
+    },
+    {
+      "pass": true,
+      "label": "Tapping distant table no longer fires"
+    },
+    {
+      "pass": true,
+      "label": "Ball tap without pulling costs no move"
+    },
+    {
+      "pass": true,
+      "label": "Tiny pull cancels without spending a move"
+    },
+    {
+      "pass": true,
+      "label": "Diagonal pull sets both power and opposite direction"
+    },
+    {
+      "pass": true,
+      "label": "Live power meter updates; swap is blocked while holding"
+    },
+    {
+      "pass": true,
+      "label": "Escape cancels a pull without firing"
+    },
+    {
+      "pass": true,
+      "label": "Real weak pull knocks only part of matching group"
+    },
+    {
+      "pass": true,
+      "label": "Release launches and spends exactly one move"
+    },
+    {
+      "pass": true,
+      "label": "Shot updates next bowling ball preview"
+    },
+    {
+      "pass": true,
+      "label": "Released shot retains selected tension"
+    },
+    {
+      "pass": true,
+      "label": "Settings pause flight and physics"
+    },
+    {
+      "pass": true,
+      "label": "Real strong pull topples more pins than weak pull"
+    },
+    {
+      "pass": true,
+      "label": "Real strong impact remains color-filtered"
+    },
+    {
+      "pass": true,
+      "label": "Three pulled shots can win and credit 30 coins"
+    },
+    {
+      "pass": true,
+      "label": "Swap store still works after archery-style win"
+    },
+    {
+      "pass": true,
+      "label": "Swap updates next bowling ball color"
+    },
+    {
+      "pass": true,
+      "label": "Compact swap control preserves queue rotation and cost"
+    },
+    {
+      "pass": true,
+      "label": "Wallet and progress persist after reload"
+    },
+    {
+      "pass": true,
+      "label": "Ball grab area and compact controls fit 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Ball grab area and compact controls fit 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Ball grab area and compact controls fit 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Touch drag controls tension on phone"
+    },
+    {
+      "pass": true,
+      "label": "Touch cancellation never fires or spends a move"
+    },
+    {
+      "pass": true,
+      "label": "Self-contained file:// build works offline"
+    },
+    {
+      "pass": true,
+      "label": "GPU stays healthy after projectiles and resizes"
+    },
+    {
+      "pass": true,
+      "label": "No browser or shader exceptions"
+    }
+  ],
+  "errors": []
+}

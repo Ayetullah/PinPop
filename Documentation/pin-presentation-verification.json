@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-19T20:33:48.923Z",
+  "passed": 7,
+  "total": 7,
+  "checks": [
+    {
+      "pass": true,
+      "label": "Three cartoon character prints and smooth pin geometry are active"
+    },
+    {
+      "pass": true,
+      "label": "Initial next three colors match queue order"
+    },
+    {
+      "pass": true,
+      "label": "Swap updates all three preview balls"
+    },
+    {
+      "pass": true,
+      "label": "All three next balls fit without covering swap at 390x844"
+    },
+    {
+      "pass": true,
+      "label": "All three next balls fit without covering swap at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "All three next balls fit without covering swap at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "New materials and queue raise no shader or JavaScript errors"
+    }
+  ],
+  "errors": []
+}

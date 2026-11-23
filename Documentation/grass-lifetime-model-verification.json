@@ -1,0 +1,144 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "left strongest shot reaches grass"
+    },
+    {
+      "pass": true,
+      "label": "left lands close to table",
+      "data": {
+        "edgeDistance": 1.7834195531786108
+      }
+    },
+    {
+      "pass": true,
+      "label": "left grass impact caps speed"
+    },
+    {
+      "pass": true,
+      "label": "left rolls a short distance",
+      "data": {
+        "distance": 1.201660478835552
+      }
+    },
+    {
+      "pass": true,
+      "label": "left comes to rest"
+    },
+    {
+      "pass": true,
+      "label": "left sleeping ball survives until ten seconds"
+    },
+    {
+      "pass": true,
+      "label": "left removed from renderer list and physics after ten seconds"
+    },
+    {
+      "pass": true,
+      "label": "right strongest shot reaches grass"
+    },
+    {
+      "pass": true,
+      "label": "right lands close to table",
+      "data": {
+        "edgeDistance": 1.7834195531786108
+      }
+    },
+    {
+      "pass": true,
+      "label": "right grass impact caps speed"
+    },
+    {
+      "pass": true,
+      "label": "right rolls a short distance",
+      "data": {
+        "distance": 1.201660478835552
+      }
+    },
+    {
+      "pass": true,
+      "label": "right comes to rest"
+    },
+    {
+      "pass": true,
+      "label": "right sleeping ball survives until ten seconds"
+    },
+    {
+      "pass": true,
+      "label": "right removed from renderer list and physics after ten seconds"
+    },
+    {
+      "pass": true,
+      "label": "back strongest shot reaches grass"
+    },
+    {
+      "pass": true,
+      "label": "back lands close to table",
+      "data": {
+        "edgeDistance": 1.8347380812153595
+      }
+    },
+    {
+      "pass": true,
+      "label": "back grass impact caps speed"
+    },
+    {
+      "pass": true,
+      "label": "back rolls a short distance",
+      "data": {
+        "distance": 1.2016604788355565
+      }
+    },
+    {
+      "pass": true,
+      "label": "back comes to rest"
+    },
+    {
+      "pass": true,
+      "label": "back sleeping ball survives until ten seconds"
+    },
+    {
+      "pass": true,
+      "label": "back removed from renderer list and physics after ten seconds"
+    },
+    {
+      "pass": true,
+      "label": "front strongest shot reaches grass"
+    },
+    {
+      "pass": true,
+      "label": "front lands close to table",
+      "data": {
+        "edgeDistance": 1.661860952091156
+      }
+    },
+    {
+      "pass": true,
+      "label": "front grass impact caps speed"
+    },
+    {
+      "pass": true,
+      "label": "front rolls a short distance",
+      "data": {
+        "distance": 1.2016604788355534
+      }
+    },
+    {
+      "pass": true,
+      "label": "front comes to rest"
+    },
+    {
+      "pass": true,
+      "label": "front sleeping ball survives until ten seconds"
+    },
+    {
+      "pass": true,
+      "label": "front removed from renderer list and physics after ten seconds"
+    },
+    {
+      "pass": true,
+      "label": "Next shot retains grass ball before expiry"
+    }
+  ]
+}

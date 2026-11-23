@@ -1,0 +1,154 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Fresh wallet has free classic, 3 credits and zero coins"
+    },
+    {
+      "pass": true,
+      "label": "First clear with 3 moves pays 30 + 6 = 36"
+    },
+    {
+      "pass": true,
+      "label": "Repeated same result never credits the base reward again"
+    },
+    {
+      "pass": true,
+      "label": "Improving 3 to 5 moves pays only the 4-coin difference"
+    },
+    {
+      "pass": true,
+      "label": "Worse replay pays nothing"
+    },
+    {
+      "pass": true,
+      "label": "Next chapter pays independently without rewinding progress"
+    },
+    {
+      "pass": true,
+      "label": "Buying one swap deducts exactly 10"
+    },
+    {
+      "pass": true,
+      "label": "Using swap spends one credit, not coins or moves"
+    },
+    {
+      "pass": true,
+      "label": "Unaffordable ball purchase has no effect"
+    },
+    {
+      "pass": true,
+      "label": "Eight remaining moves yield 30 + 16 = 46"
+    },
+    {
+      "pass": true,
+      "label": "90-coin marble purchase is permanent and equips it"
+    },
+    {
+      "pass": true,
+      "label": "Duplicate purchase cannot charge again"
+    },
+    {
+      "pass": true,
+      "label": "Owned classic can be equipped without a charge"
+    },
+    {
+      "pass": true,
+      "label": "Locked ball cannot be equipped"
+    },
+    {
+      "pass": true,
+      "label": "Wallet and inventory survive export/reload"
+    },
+    {
+      "pass": true,
+      "label": "Reward history survives reload"
+    },
+    {
+      "pass": true,
+      "label": "Restart and level reset never refill the wallet or clear inventory"
+    },
+    {
+      "pass": true,
+      "label": "Marble costs 90"
+    },
+    {
+      "pass": true,
+      "label": "Orbit costs 180"
+    },
+    {
+      "pass": true,
+      "label": "Galaxy costs 300; total collection spending is 570"
+    },
+    {
+      "pass": true,
+      "label": "Equipped look reaches the launched ball without changing color or mass"
+    },
+    {
+      "pass": true,
+      "label": "Exact purchase balance reaches zero"
+    },
+    {
+      "pass": true,
+      "label": "Invalid product is rejected: -1"
+    },
+    {
+      "pass": true,
+      "label": "Invalid product is rejected: 4"
+    },
+    {
+      "pass": true,
+      "label": "Invalid product is rejected: NaN"
+    },
+    {
+      "pass": true,
+      "label": "Invalid product is rejected: 1"
+    },
+    {
+      "pass": true,
+      "label": "Zero wallet cannot buy a swap"
+    },
+    {
+      "pass": true,
+      "label": "Legacy wallet migrates without changing its balance"
+    },
+    {
+      "pass": true,
+      "label": "Previously completed legacy chapter cannot pay again"
+    },
+    {
+      "pass": true,
+      "label": "First new chapter after migration pays normally"
+    },
+    {
+      "pass": true,
+      "label": "Reward credits only available space at the coin limit"
+    },
+    {
+      "pass": true,
+      "label": "Credit limit rejects purchase before deducting money"
+    },
+    {
+      "pass": true,
+      "label": "Buying the last available credit is exact"
+    },
+    {
+      "pass": true,
+      "label": "Spending after a capped reward does not recreate uncredited reward"
+    },
+    {
+      "pass": true,
+      "label": "Invalid negative data falls back safely without unlocking products"
+    },
+    {
+      "pass": true,
+      "label": "Duplicate history normalizes to one best result"
+    },
+    {
+      "pass": true,
+      "label": "Normalized history pays only the next record improvement"
+    }
+  ],
+  "passed": 37,
+  "total": 37
+}

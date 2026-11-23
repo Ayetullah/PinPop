@@ -1,0 +1,63 @@
+{
+  "mechanic": "table surface rolling",
+  "suites": {
+    "pull-unity-verification.txt": {
+      "passed": 30,
+      "total": 30
+    },
+    "verification.txt": {
+      "passed": 23,
+      "total": 23
+    },
+    "collision-unity-verification.txt": {
+      "passed": 36,
+      "total": 36
+    },
+    "polish-unity-verification.txt": {
+      "passed": 36,
+      "total": 36
+    },
+    "transition-unity-verification.txt": {
+      "passed": 31,
+      "total": 31
+    },
+    "html-sync-unity-verification.txt": {
+      "passed": 49,
+      "total": 49
+    },
+    "video-review-unity-verification.txt": {
+      "passed": 53,
+      "total": 53
+    },
+    "rolling-levels-unity-verification.txt": {
+      "passed": 3,
+      "total": 3
+    },
+    "rolling-browser-verification.json": {
+      "passed": 30,
+      "total": 30
+    },
+    "collision-core-verification.json": {
+      "passed": 52,
+      "total": 52
+    }
+  },
+  "passed": 343,
+  "total": 343,
+  "runtimeErrors": [],
+  "nativeBuild": "Builds/PinPop.app",
+  "nativeLevelsVerified": [
+    1,
+    2,
+    4,
+    6
+  ],
+  "browserLevelsVerified": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ]
+}

@@ -1,0 +1,2 @@
+using UnityEngine;
+namespace PinPop {public sealed class RainbowBallFX:MonoBehaviour {Renderer[] skins;MaterialPropertyBlock props;void Start(){skins=GetComponentsInChildren<Renderer>();props=new MaterialPropertyBlock();}void Update(){var color=Color.HSVToRGB(Mathf.Repeat(Time.unscaledTime*.28f,1),.65f,1);foreach(var skin in skins){if(skin is TrailRenderer)continue;props.SetColor("_Color",color);props.SetColor("_EmissionColor",color*.15f);skin.SetPropertyBlock(props);}}}}

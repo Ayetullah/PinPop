@@ -1,0 +1,132 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Position clamps to front rail: -99"
+    },
+    {
+      "pass": true,
+      "label": "Positioning spends no move: -99"
+    },
+    {
+      "pass": true,
+      "label": "Swap preserves position: -99"
+    },
+    {
+      "pass": true,
+      "label": "Shot launches from selected position: -99"
+    },
+    {
+      "pass": true,
+      "label": "Busy shot locks positioning: -99"
+    },
+    {
+      "pass": true,
+      "label": "New level resets center: -99"
+    },
+    {
+      "pass": true,
+      "label": "Position clamps to front rail: -3.4"
+    },
+    {
+      "pass": true,
+      "label": "Positioning spends no move: -3.4"
+    },
+    {
+      "pass": true,
+      "label": "Swap preserves position: -3.4"
+    },
+    {
+      "pass": true,
+      "label": "Shot launches from selected position: -3.4"
+    },
+    {
+      "pass": true,
+      "label": "Busy shot locks positioning: -3.4"
+    },
+    {
+      "pass": true,
+      "label": "New level resets center: -3.4"
+    },
+    {
+      "pass": true,
+      "label": "Position clamps to front rail: 0"
+    },
+    {
+      "pass": true,
+      "label": "Positioning spends no move: 0"
+    },
+    {
+      "pass": true,
+      "label": "Swap preserves position: 0"
+    },
+    {
+      "pass": true,
+      "label": "Shot launches from selected position: 0"
+    },
+    {
+      "pass": true,
+      "label": "Busy shot locks positioning: 0"
+    },
+    {
+      "pass": true,
+      "label": "New level resets center: 0"
+    },
+    {
+      "pass": true,
+      "label": "Position clamps to front rail: 3.4"
+    },
+    {
+      "pass": true,
+      "label": "Positioning spends no move: 3.4"
+    },
+    {
+      "pass": true,
+      "label": "Swap preserves position: 3.4"
+    },
+    {
+      "pass": true,
+      "label": "Shot launches from selected position: 3.4"
+    },
+    {
+      "pass": true,
+      "label": "Busy shot locks positioning: 3.4"
+    },
+    {
+      "pass": true,
+      "label": "New level resets center: 3.4"
+    },
+    {
+      "pass": true,
+      "label": "Position clamps to front rail: 99"
+    },
+    {
+      "pass": true,
+      "label": "Positioning spends no move: 99"
+    },
+    {
+      "pass": true,
+      "label": "Swap preserves position: 99"
+    },
+    {
+      "pass": true,
+      "label": "Shot launches from selected position: 99"
+    },
+    {
+      "pass": true,
+      "label": "Busy shot locks positioning: 99"
+    },
+    {
+      "pass": true,
+      "label": "New level resets center: 99"
+    },
+    {
+      "pass": true,
+      "label": "Shifted launch reaches pins behind fixed bumpers"
+    },
+    {
+      "pass": true,
+      "label": "Invalid positions are rejected"
+    }
+  ]
+}

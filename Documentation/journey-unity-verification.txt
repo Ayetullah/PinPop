@@ -1,0 +1,56 @@
+55/55 passed.
+PASS: UI button is available: HELP_HOME
+PASS: Pointer reaches button: HELP_HOME
+PASS: Home opens a paused how-to-play page
+PASS: Help cannot be replaced by a nested settings or shop modal
+PASS: All help paragraphs fit and pause survives resize 390x844
+PASS: All help paragraphs fit and pause survives resize 320x740
+PASS: All help paragraphs fit and pause survives resize 1000x600
+PASS: All help paragraphs fit and pause survives resize 1100x700
+PASS: All help paragraphs fit and pause survives resize 1200x800
+PASS: Resize background uses a bounded small texture
+PASS: Window resizing reuses one sidebar texture
+PASS: UI button is available: HELP_CLOSE
+PASS: Pointer reaches button: HELP_CLOSE
+PASS: Help closes and resumes without changing the level
+PASS: UI button is available: PLAY
+PASS: Pointer reaches button: PLAY
+PASS: Play enters a fresh level after readable loading
+PASS: Keyboard aim displays selected power instead of zero
+PASS: Cancel clears keyboard aim and its meter
+PASS: Actual pull/release code spends exactly one move on shot 1
+PASS: UI button is available: HELP_GAME
+PASS: Pointer reaches button: HELP_GAME
+PASS: Opening help freezes a rolling ball without losing the shot
+PASS: UI button is available: HELP_CLOSE
+PASS: Pointer reaches button: HELP_CLOSE
+PASS: Actual pull/release code spends exactly one move on shot 2
+PASS: Actual pull/release code spends exactly one move on shot 3
+PASS: First level is won through the real pull/release control path
+PASS: Real-control victory grants one 30-coin reward
+PASS: Result cannot be replaced or unpaused by another overlay
+PASS: UI button is available: CONTINUE
+PASS: Pointer reaches button: CONTINUE
+PASS: Continue starts the next chapter
+PASS: UI button is available: GAME_SHOP
+PASS: Pointer reaches button: GAME_SHOP
+PASS: UI button is available: SHOP_BUY
+PASS: Pointer reaches button: SHOP_BUY
+PASS: Earned coins purchase exactly one swap
+PASS: UI button is available: CLOSE_SHOP
+PASS: Pointer reaches button: CLOSE_SHOP
+PASS: UI button is available: SETTINGS
+PASS: Pointer reaches button: SETTINGS
+PASS: UI button is available: RESTART
+PASS: Pointer reaches button: RESTART
+PASS: Restart freezes the old rolling board immediately while loading
+PASS: Closing a previous modal cannot unpause the loading board
+PASS: Settings restart preserves wallet and resets the board
+PASS: UI button is available: SETTINGS
+PASS: Pointer reaches button: SETTINGS
+PASS: UI button is available: GO_HOME
+PASS: Pointer reaches button: GO_HOME
+PASS: Settings return home preserves chapter progress
+PASS: High chapter numbers are retained without a 999 cap
+PASS: All twelve layouts reuse two contact meshes without changing their shapes
+PASS: Repeated impact particles reuse a material instead of allocating per hit

@@ -1,0 +1,3 @@
+NullReferenceException: Object reference not set to an instance of an object
+PinPop.PinPopSelfTest+<CarnivalMapChecks>d__32.MoveNext () (at /private/tmp/pinpop-layout-build/Assets/Scripts/PinPopSelfTest.cs:510)
+UnityEngine.SetupCoroutine.InvokeMoveNext (System.Collections.IEnumerator enumerator, System.IntPtr returnValueAddress) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)

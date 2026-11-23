@@ -1,0 +1,39 @@
+38/38 passed.
+PASS: Swap plus has a thirty-pixel visible disc inside a 44-pixel hit target
+PASS: Help is present in chapter one
+PASS: Video cannot grant moves to an unfinished game
+PASS: A real matching shot partially clears the table
+PASS: Exhaustion offers video rescue on the frozen failed board
+PASS: UI button is available: WATCH_VIDEO
+PASS: Pointer reaches button: WATCH_VIDEO
+PASS: Button artwork visibly presses without moving its input area: WATCH_VIDEO
+PASS: Starting video does not award early
+PASS: Video decoder produces visible pixels in the actual fullscreen UI
+PASS: Narrow video UI preserves twelve-pixel text and a 44-pixel cancel target
+PASS: UI button is available: Cancel rewarded video
+PASS: Pointer reaches button: Cancel rewarded video
+PASS: Cancelling the video grants nothing and preserves retry eligibility
+PASS: UI button is available: WATCH_VIDEO
+PASS: Pointer reaches button: WATCH_VIDEO
+PASS: Button artwork visibly presses without moving its input area: WATCH_VIDEO
+PASS: Video completion returns keyboard focus to gameplay
+PASS: Actual video completion grants exactly three moves once
+PASS: Reward waits for the full eight-second media playback
+PASS: Video recovery preserves pin poses and all previous clears
+PASS: Recovery preserves wallet and queue prefix while adding the extra shots
+PASS: Duplicate reward cannot grant a second set
+PASS: A rescued win pays its base reward without farming extra-move bonus
+PASS: New attempt resets eligibility but rejects stale callback
+PASS: Help remains absent after chapter one
+PASS: Recovery offer remains readable at 320x740
+PASS: Recovery offer remains readable at 390x844
+PASS: Recovery offer remains readable at 1000x600
+PASS: UI button is available: WATCH_VIDEO
+PASS: Pointer reaches button: WATCH_VIDEO
+PASS: Button artwork visibly presses without moving its input area: WATCH_VIDEO
+PASS: New attempt earns a fresh one-time video recovery
+PASS: Exhausting extra moves hides a second video offer
+PASS: UI button is available: CONTINUE
+PASS: Pointer reaches button: CONTINUE
+PASS: Button artwork visibly presses without moving its input area: CONTINUE
+PASS: Retry returns to a fresh chapter with normal moves

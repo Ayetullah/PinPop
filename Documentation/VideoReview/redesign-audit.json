@@ -1,0 +1,19 @@
+{
+  "direction": "Lunapark sahnesi ve büyük PinPop logosu",
+  "sourceBuildMatches": {
+    "Assets/Scripts/PinPopSplash.cs": true,
+    "Assets/Scripts/PinPopSelfTest.cs": true,
+    "Assets/Scenes/PinPop.unity": true,
+    "Assets/Resources/Startup/splash-preview.png": true
+  },
+  "unityPassed": 17,
+  "browserPassed": 38,
+  "recording": {
+    "width": 600,
+    "height": 1000,
+    "noOverlap": true,
+    "noCameraGap": true,
+    "homeReached": true,
+    "walletPreserved": true
+  }
+}

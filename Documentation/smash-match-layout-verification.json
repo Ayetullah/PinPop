@@ -1,0 +1,53 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Tiles are square at 600x1000"
+    },
+    {
+      "pass": true,
+      "label": "Dock does not cover upcoming balls at 600x1000"
+    },
+    {
+      "pass": true,
+      "label": "Upcoming balls leave swap button clear at 600x1000"
+    },
+    {
+      "pass": true,
+      "label": "Tiles are square at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Dock does not cover upcoming balls at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Upcoming balls leave swap button clear at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Tiles are square at 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Dock does not cover upcoming balls at 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Upcoming balls leave swap button clear at 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Tiles are square at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Dock does not cover upcoming balls at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Upcoming balls leave swap button clear at 1000x600"
+    }
+  ],
+  "errors": []
+}

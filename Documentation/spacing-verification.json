@@ -1,0 +1,52 @@
+{
+  "change": "extended rolling approach",
+  "launch": [
+    0,
+    0.4,
+    -7.2
+  ],
+  "nearestPinRowDistance": 7,
+  "tableLength": 13.6,
+  "tableBoundsZ": [
+    -8.8,
+    4.8
+  ],
+  "speedRange": [
+    4,
+    12
+  ],
+  "suites": {
+    "pull-unity-verification.txt": {
+      "passed": 32,
+      "total": 32
+    },
+    "verification.txt": {
+      "passed": 23,
+      "total": 23
+    },
+    "video-review-unity-verification.txt": {
+      "passed": 53,
+      "total": 53
+    },
+    "rolling-levels-unity-verification.txt": {
+      "passed": 3,
+      "total": 3
+    },
+    "rolling-browser-verification.json": {
+      "passed": 30,
+      "total": 30
+    },
+    "spacing-browser-verification.json": {
+      "passed": 7,
+      "total": 7
+    },
+    "collision-core-verification.json": {
+      "passed": 52,
+      "total": 52
+    }
+  },
+  "passed": 200,
+  "total": 200,
+  "runtimeErrors": [],
+  "nativeBuild": "Builds/PinPop.app"
+}

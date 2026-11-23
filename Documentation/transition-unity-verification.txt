@@ -1,0 +1,32 @@
+31/31 passed.
+PASS: All UI graphics, including inactive custom effects, have CanvasRenderer
+PASS: RaycastAll completes without MissingComponentException during transition/resize
+PASS: Visible loading curtain receives pointer raycast
+PASS: Bowling artwork is visible during guarded transition
+PASS: Transition blocks shooting and swapping
+PASS: Transition names requested next level before loading
+PASS: All UI graphics, including inactive custom effects, have CanvasRenderer
+PASS: RaycastAll completes without MissingComponentException during transition/resize
+PASS: All UI graphics, including inactive custom effects, have CanvasRenderer
+PASS: RaycastAll completes without MissingComponentException during transition/resize
+PASS: All UI graphics, including inactive custom effects, have CanvasRenderer
+PASS: RaycastAll completes without MissingComponentException during transition/resize
+PASS: All UI graphics, including inactive custom effects, have CanvasRenderer
+PASS: RaycastAll completes without MissingComponentException during transition/resize
+PASS: Visible loading curtain receives pointer raycast
+PASS: Normal loading screen stays fully visible long enough to read
+PASS: Bowling artwork animation advances on unscaled time
+PASS: Normal transition respects minimum readable duration
+PASS: Transition enters exactly one requested level and closes
+PASS: Transition preserves coins and swap credits
+PASS: Transition artwork fits phone viewport
+PASS: Resizing preserves loading animation progress
+PASS: All UI graphics, including inactive custom effects, have CanvasRenderer
+PASS: RaycastAll completes without MissingComponentException during transition/resize
+PASS: All UI graphics, including inactive custom effects, have CanvasRenderer
+PASS: RaycastAll completes without MissingComponentException during transition/resize
+PASS: Consecutive level transition completes on phone
+PASS: Reduced motion shows a readable static loading screen instead of a flash
+PASS: Reduced-motion loading keeps gameplay locked while visible
+PASS: Reduced-motion transition respects the same minimum duration
+PASS: Reduced motion enters the requested level after the loading screen

@@ -1,0 +1,33 @@
+32/32 passed.
+PASS: Ready ball rests on the front of the table
+PASS: Ready ball has at least 6.9 world units of approach before the pins
+PASS: Extended physical table supports the entire approach and pin deck
+PASS: Ready queue skips only the foreground ball
+PASS: Queue fits remaining moves 3
+PASS: Queue fits remaining moves 2
+PASS: Queue fits remaining moves 1
+PASS: Queue fits remaining moves 0
+PASS: Queue fits remaining moves 6
+PASS: Pull power changes horizontal speed without ballistic lift
+PASS: Invalid or zero tension spends no move
+PASS: Weak rolling shot starts
+PASS: Rolling shot previews the actual next three balls
+PASS: Ball travels forward at table height before contact
+PASS: Ball physically rotates as it rolls
+PASS: Weak rolling impact can topple matching pins
+PASS: Rolling ball leaves other colors fixed
+PASS: Stronger rolling shot clears more matching pins at the same aim
+PASS: Tap without pulling cancels for free
+PASS: Diagonal backward pull sets power and opposite direction
+PASS: Maximum pull keeps the held ball on the table
+PASS: Table aim appears without a falling-point label
+PASS: Every trajectory dot lies on the table surface
+PASS: Guide stops at the first pin instead of drawing through it
+PASS: Cancel clears the guide without using a move
+PASS: Release launches exactly once at selected power
+PASS: Release hides the aiming guide and obsolete landing label
+PASS: After rolling the preview skips the new foreground ball once
+PASS: Last move is not declared lost before collisions resolve
+PASS: Final clear leaves a short impact beat
+PASS: Last-move win rewards exactly once
+PASS: Reward is not duplicated

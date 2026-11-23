@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "Assets/Scripts/BowlingBall.cs": true,
+    "Assets/Scripts/PinPopGame.cs": true,
+    "Assets/Scripts/PinPopSelfTest.cs": true,
+    "native_ball_cleanup": true,
+    "html_ball_cleanup": true,
+    "html_renderer_removes_expired_balls": true
+  },
+  "unity": "12/12",
+  "htmlPhysics": "29/29",
+  "gameplayRegression": "33/33"
+}

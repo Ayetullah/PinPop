@@ -1,0 +1,28 @@
+{
+  "verifiedUtc": "2026-11-22T08:02:31.715348+00:00",
+  "request": "Polish the collection panel shown in the attached screenshot",
+  "nativeVisualChecks": 9,
+  "browserVisualChecks": 13,
+  "physicsRegressionChecks": 44,
+  "modelChecks": 33,
+  "nativeBuild": "Builds/PinPop.app",
+  "nativeSourceMatchesBuild": true,
+  "visualStatesReviewed": [
+    "empty",
+    "same-color pair",
+    "mixed colors",
+    "flight",
+    "merge",
+    "capacity warning",
+    "320x740",
+    "390x844",
+    "1000x600"
+  ],
+  "sourceSha256": {
+    "Assets/Scripts/HtmlMatchTrayUI.cs": "321bed74da3fbdd652b618a6285218b4e7c27b1131037820cad54554a6ddb758",
+    "Assets/Scripts/PinPopGame.cs": "0d862bff5cf4b286575362e3cde6589545c4520728044a63c6701f07e917eb0c",
+    "Assets/Scripts/PinPopSelfTest.cs": "25900b96add07c7c3151d9117287d5d17436d9551008696fd45478afef8aa9e5",
+    "index.html": "56b42959b796e433ad876df20a7666a247e351b478db88fec1f0a058e4803763"
+  },
+  "mechanicChanges": false
+}

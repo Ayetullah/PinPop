@@ -1,0 +1,67 @@
+66/66 passed.
+PASS: Chapter 1 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 2 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 3 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 4 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 5 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 6 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 7 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 8 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 9 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 10 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 11 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 12 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 13 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 14 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 15 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 16 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 17 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 18 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 19 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 20 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 21 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 22 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 23 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 24 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 25 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 26 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 27 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 28 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 29 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 30 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 31 has unlocked colors, complete triples and valid ammo
+PASS: Chapter 32 has unlocked colors, complete triples and valid ammo
+PASS: Coat and tray sprite exist for rabbit
+PASS: Ball previews support color 0
+PASS: Coat and tray sprite exist for penguin
+PASS: Ball previews support color 1
+PASS: Coat and tray sprite exist for cat
+PASS: Ball previews support color 2
+PASS: Coat and tray sprite exist for lion
+PASS: Ball previews support color 3
+PASS: Coat and tray sprite exist for bear
+PASS: Ball previews support color 4
+PASS: Coat and tray sprite exist for frog
+PASS: Ball previews support color 5
+PASS: Coat and tray sprite exist for elephant
+PASS: Ball previews support color 6
+PASS: Coat and tray sprite exist for fox
+PASS: Ball previews support color 7
+PASS: Runtime board and queue at chapter 1
+PASS: Runtime board and queue at chapter 3
+PASS: Runtime board and queue at chapter 5
+PASS: Runtime board and queue at chapter 7
+PASS: Runtime board and queue at chapter 9
+PASS: Runtime board and queue at chapter 11
+PASS: Runtime board and queue at chapter 12
+PASS: Physical falling collection preserves color 0
+PASS: Physical falling collection preserves color 1
+PASS: Physical falling collection preserves color 2
+PASS: Physical falling collection preserves color 3
+PASS: Physical falling collection preserves color 4
+PASS: Physical falling collection preserves color 5
+PASS: Physical falling collection preserves color 6
+PASS: Physical falling collection preserves color 7
+PASS: Eight distinct figures coexist without false triples
+PASS: Ten unmatched figures trigger capacity loss
+PASS: Eighth-color triple merges and removes exactly three

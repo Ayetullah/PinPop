@@ -1,0 +1,153 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Runtime FOV stays editable at 600 / 35"
+    },
+    {
+      "pass": true,
+      "label": "Collection matches projected wooden edge at 600 / 35"
+    },
+    {
+      "pass": true,
+      "label": "Collected pin remains centered in its square slot at 600 / 35"
+    },
+    {
+      "pass": true,
+      "label": "Runtime FOV stays editable at 600 / 45"
+    },
+    {
+      "pass": true,
+      "label": "Collection matches projected wooden edge at 600 / 45"
+    },
+    {
+      "pass": true,
+      "label": "Collected pin remains centered in its square slot at 600 / 45"
+    },
+    {
+      "pass": true,
+      "label": "Runtime FOV stays editable at 600 / 60"
+    },
+    {
+      "pass": true,
+      "label": "Collection matches projected wooden edge at 600 / 60"
+    },
+    {
+      "pass": true,
+      "label": "Collected pin remains centered in its square slot at 600 / 60"
+    },
+    {
+      "pass": true,
+      "label": "Runtime FOV stays editable at 320 / 35"
+    },
+    {
+      "pass": true,
+      "label": "Collection matches projected wooden edge at 320 / 35"
+    },
+    {
+      "pass": true,
+      "label": "Collected pin remains centered in its square slot at 320 / 35"
+    },
+    {
+      "pass": true,
+      "label": "Runtime FOV stays editable at 320 / 45"
+    },
+    {
+      "pass": true,
+      "label": "Collection matches projected wooden edge at 320 / 45"
+    },
+    {
+      "pass": true,
+      "label": "Collected pin remains centered in its square slot at 320 / 45"
+    },
+    {
+      "pass": true,
+      "label": "Runtime FOV stays editable at 320 / 60"
+    },
+    {
+      "pass": true,
+      "label": "Collection matches projected wooden edge at 320 / 60"
+    },
+    {
+      "pass": true,
+      "label": "Collected pin remains centered in its square slot at 320 / 60"
+    },
+    {
+      "pass": true,
+      "label": "Runtime FOV stays editable at 390 / 35"
+    },
+    {
+      "pass": true,
+      "label": "Collection matches projected wooden edge at 390 / 35"
+    },
+    {
+      "pass": true,
+      "label": "Collected pin remains centered in its square slot at 390 / 35"
+    },
+    {
+      "pass": true,
+      "label": "Runtime FOV stays editable at 390 / 45"
+    },
+    {
+      "pass": true,
+      "label": "Collection matches projected wooden edge at 390 / 45"
+    },
+    {
+      "pass": true,
+      "label": "Collected pin remains centered in its square slot at 390 / 45"
+    },
+    {
+      "pass": true,
+      "label": "Runtime FOV stays editable at 390 / 60"
+    },
+    {
+      "pass": true,
+      "label": "Collection matches projected wooden edge at 390 / 60"
+    },
+    {
+      "pass": true,
+      "label": "Collected pin remains centered in its square slot at 390 / 60"
+    },
+    {
+      "pass": true,
+      "label": "Runtime FOV stays editable at 1000 / 35"
+    },
+    {
+      "pass": true,
+      "label": "Collection matches projected wooden edge at 1000 / 35"
+    },
+    {
+      "pass": true,
+      "label": "Collected pin remains centered in its square slot at 1000 / 35"
+    },
+    {
+      "pass": true,
+      "label": "Runtime FOV stays editable at 1000 / 45"
+    },
+    {
+      "pass": true,
+      "label": "Collection matches projected wooden edge at 1000 / 45"
+    },
+    {
+      "pass": true,
+      "label": "Collected pin remains centered in its square slot at 1000 / 45"
+    },
+    {
+      "pass": true,
+      "label": "Runtime FOV stays editable at 1000 / 60"
+    },
+    {
+      "pass": true,
+      "label": "Collection matches projected wooden edge at 1000 / 60"
+    },
+    {
+      "pass": true,
+      "label": "Collected pin remains centered in its square slot at 1000 / 60"
+    },
+    {
+      "pass": true,
+      "label": "No browser runtime errors"
+    }
+  ],
+  "errors": []
+}

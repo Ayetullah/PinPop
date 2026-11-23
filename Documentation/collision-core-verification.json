@@ -1,0 +1,336 @@
+{
+  "date": "2026-11-20T20:45:16.485Z",
+  "passed": 64,
+  "total": 64,
+  "angles": [
+    {
+      "offset": -0.35,
+      "normal": {
+        "x": -0.6169808039693023,
+        "y": 0.046352358466028275,
+        "z": -0.7856119566287354
+      },
+      "outgoing": {
+        "x": -0.7606076406482495,
+        "y": 0.05714271462663177,
+        "z": 7.031505594741051
+      },
+      "kineticBefore": 192,
+      "kineticAfter": 179.09092655504492
+    },
+    {
+      "offset": 0,
+      "normal": {
+        "x": 7.980821494062795e-17,
+        "y": 0.046823586298586135,
+        "z": -0.998903174369838
+      },
+      "outgoing": {
+        "x": 1.3402671477601513e-16,
+        "y": 0.07863365256696163,
+        "z": 6.322482078571484
+      },
+      "kineticBefore": 192,
+      "kineticAfter": 172.53125328001687
+    },
+    {
+      "offset": 0.35,
+      "normal": {
+        "x": 0.6169808039693028,
+        "y": 0.04635235846602828,
+        "z": -0.7856119566287352
+      },
+      "outgoing": {
+        "x": 0.7606076406482498,
+        "y": 0.05714271462663176,
+        "z": 7.031505594741052
+      },
+      "kineticBefore": 192,
+      "kineticAfter": 179.09092655504494
+    }
+  ],
+  "blockedAngles": [
+    {
+      "offset": -0.35,
+      "outgoing": {
+        "x": -5.550824191097904,
+        "y": 0.4170207420269643,
+        "z": 0.9320429004992006
+      }
+    },
+    {
+      "offset": 0,
+      "outgoing": {
+        "x": 9.583606301842362e-16,
+        "y": 0.5622714617283722,
+        "z": -3.995124516871943
+      }
+    },
+    {
+      "offset": 0.35,
+      "outgoing": {
+        "x": 5.550824191097909,
+        "y": 0.41702074202696443,
+        "z": 0.9320429004992015
+      }
+    }
+  ],
+  "checks": [
+    {
+      "pass": true,
+      "label": "Contact occurs at offset -0.35"
+    },
+    {
+      "pass": true,
+      "label": "Horizontal x momentum conserved at offset -0.35"
+    },
+    {
+      "pass": true,
+      "label": "Horizontal z momentum conserved at offset -0.35"
+    },
+    {
+      "pass": true,
+      "label": "Impact dissipates energy without creating energy at offset -0.35"
+    },
+    {
+      "pass": true,
+      "label": "Contact occurs at offset 0"
+    },
+    {
+      "pass": true,
+      "label": "Horizontal x momentum conserved at offset 0"
+    },
+    {
+      "pass": true,
+      "label": "Horizontal z momentum conserved at offset 0"
+    },
+    {
+      "pass": true,
+      "label": "Impact dissipates energy without creating energy at offset 0"
+    },
+    {
+      "pass": true,
+      "label": "Contact occurs at offset 0.35"
+    },
+    {
+      "pass": true,
+      "label": "Horizontal x momentum conserved at offset 0.35"
+    },
+    {
+      "pass": true,
+      "label": "Horizontal z momentum conserved at offset 0.35"
+    },
+    {
+      "pass": true,
+      "label": "Impact dissipates energy without creating energy at offset 0.35"
+    },
+    {
+      "pass": true,
+      "label": "Contact angle controls left/right deflection"
+    },
+    {
+      "pass": true,
+      "label": "Centered contact has no artificial lateral kick"
+    },
+    {
+      "pass": true,
+      "label": "Mirrored angles produce mirrored deflection"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color pin physically contacts ball at offset -0.35"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color pin stays fixed and uncleared at offset -0.35"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color collision dissipates ball speed at offset -0.35"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color contact triggers one brief block feedback at offset -0.35"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color rebound costs one move without clearing pins at offset -0.35"
+    },
+    {
+      "pass": true,
+      "label": "Block flash fades away at offset -0.35"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color pin physically contacts ball at offset 0"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color pin stays fixed and uncleared at offset 0"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color collision dissipates ball speed at offset 0"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color contact triggers one brief block feedback at offset 0"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color rebound costs one move without clearing pins at offset 0"
+    },
+    {
+      "pass": true,
+      "label": "Block flash fades away at offset 0"
+    },
+    {
+      "pass": true,
+      "label": "Centered wrong-color collision rebounds without lateral drift"
+    },
+    {
+      "pass": true,
+      "label": "Matching next ball unlocks the formerly fixed pin"
+    },
+    {
+      "pass": true,
+      "label": "Matching next ball can move the previously blocked pin"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color pin physically contacts ball at offset 0.35"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color pin stays fixed and uncleared at offset 0.35"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color collision dissipates ball speed at offset 0.35"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color contact triggers one brief block feedback at offset 0.35"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color rebound costs one move without clearing pins at offset 0.35"
+    },
+    {
+      "pass": true,
+      "label": "Block flash fades away at offset 0.35"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color glancing contacts deflect in opposite directions"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color mirrored contacts have consistent rebound angles"
+    },
+    {
+      "pass": true,
+      "label": "All ball colors still collide with the table after filter changes"
+    },
+    {
+      "pass": true,
+      "label": "Rolling launch is horizontal at power 0.2"
+    },
+    {
+      "pass": true,
+      "label": "Every guide point stays on table surface at power 0.2"
+    },
+    {
+      "pass": true,
+      "label": "Guide ends at surface target at power 0.2"
+    },
+    {
+      "pass": true,
+      "label": "Real body rolls on table before pin contact at power 0.2"
+    },
+    {
+      "pass": true,
+      "label": "Rolling launch is horizontal at power 0.8"
+    },
+    {
+      "pass": true,
+      "label": "Every guide point stays on table surface at power 0.8"
+    },
+    {
+      "pass": true,
+      "label": "Guide ends at surface target at power 0.8"
+    },
+    {
+      "pass": true,
+      "label": "Real body rolls on table before pin contact at power 0.8"
+    },
+    {
+      "pass": true,
+      "label": "Rolling launch is horizontal at power 1"
+    },
+    {
+      "pass": true,
+      "label": "Every guide point stays on table surface at power 1"
+    },
+    {
+      "pass": true,
+      "label": "Guide ends at surface target at power 1"
+    },
+    {
+      "pass": true,
+      "label": "Real body rolls on table before pin contact at power 1"
+    },
+    {
+      "pass": true,
+      "label": "Guide terminates at first pin obstacle"
+    },
+    {
+      "pass": true,
+      "label": "Distinct layout 1 completes within its move budget"
+    },
+    {
+      "pass": true,
+      "label": "Distinct layout 2 completes within its move budget"
+    },
+    {
+      "pass": true,
+      "label": "Distinct layout 3 completes within its move budget"
+    },
+    {
+      "pass": true,
+      "label": "Distinct layout 4 completes within its move budget"
+    },
+    {
+      "pass": true,
+      "label": "Distinct layout 5 completes within its move budget"
+    },
+    {
+      "pass": true,
+      "label": "Distinct layout 6 completes within its move budget"
+    },
+    {
+      "pass": true,
+      "label": "Distinct layout 7 completes within its move budget"
+    },
+    {
+      "pass": true,
+      "label": "Distinct layout 8 completes within its move budget"
+    },
+    {
+      "pass": true,
+      "label": "Distinct layout 9 completes within its move budget"
+    },
+    {
+      "pass": true,
+      "label": "Distinct layout 10 completes within its move budget"
+    },
+    {
+      "pass": true,
+      "label": "Distinct layout 11 completes within its move budget"
+    },
+    {
+      "pass": true,
+      "label": "Distinct layout 12 completes within its move budget"
+    }
+  ]
+}

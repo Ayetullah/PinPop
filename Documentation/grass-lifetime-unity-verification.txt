@@ -1,0 +1,13 @@
+12/12 passed.
+PASS: Full power side shot reaches grass
+PASS: Grass contact caps full power ball speed
+PASS: Full power shot lands near table edge
+PASS: Grass ball rolls less than 1.5 units after landing
+PASS: Grass resistance brings ball to rest
+PASS: Pause freezes grass lifetime and physics
+PASS: Next turn starts normally
+PASS: Next shot preserves grass ball before its expiry
+PASS: Resting ball remains visible until ten seconds after landing
+PASS: Resting grass ball is removed at ten seconds
+PASS: Restart clears remaining balls
+PASS: Pins still fall freely through grass for collection

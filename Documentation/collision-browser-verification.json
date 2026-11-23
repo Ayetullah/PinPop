@@ -1,0 +1,274 @@
+{
+  "date": "2026-11-19T20:33:36.945Z",
+  "passed": 66,
+  "total": 66,
+  "weak": 2,
+  "strong": 4,
+  "checks": [
+    {
+      "pass": true,
+      "label": "Standalone 3D game boots into home"
+    },
+    {
+      "pass": true,
+      "label": "Initial layout and wallet remain intact"
+    },
+    {
+      "pass": true,
+      "label": "Swap rotates queue without spending a move"
+    },
+    {
+      "pass": true,
+      "label": "Invalid tension never spends moves"
+    },
+    {
+      "pass": true,
+      "label": "Real sphere-pin contact at lateral offset -0.35"
+    },
+    {
+      "pass": true,
+      "label": "Forward momentum transfers into pin at offset -0.35"
+    },
+    {
+      "pass": true,
+      "label": "Pin receives contact impulse at offset -0.35"
+    },
+    {
+      "pass": true,
+      "label": "Isolated collision approximately conserves horizontal momentum at offset -0.35"
+    },
+    {
+      "pass": true,
+      "label": "Real sphere-pin contact at lateral offset 0"
+    },
+    {
+      "pass": true,
+      "label": "Forward momentum transfers into pin at offset 0"
+    },
+    {
+      "pass": true,
+      "label": "Pin receives contact impulse at offset 0"
+    },
+    {
+      "pass": true,
+      "label": "Isolated collision approximately conserves horizontal momentum at offset 0"
+    },
+    {
+      "pass": true,
+      "label": "Real sphere-pin contact at lateral offset 0.35"
+    },
+    {
+      "pass": true,
+      "label": "Forward momentum transfers into pin at offset 0.35"
+    },
+    {
+      "pass": true,
+      "label": "Pin receives contact impulse at offset 0.35"
+    },
+    {
+      "pass": true,
+      "label": "Isolated collision approximately conserves horizontal momentum at offset 0.35"
+    },
+    {
+      "pass": true,
+      "label": "Left and right impacts deflect ball in opposite directions"
+    },
+    {
+      "pass": true,
+      "label": "Centered contact produces no invented lateral kick"
+    },
+    {
+      "pass": true,
+      "label": "Mirrored impact angles give mirrored deflection"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color ball transfers no momentum"
+    },
+    {
+      "pass": true,
+      "label": "Gravity still bends the airborne launch"
+    },
+    {
+      "pass": true,
+      "label": "Chains cannot move a different color"
+    },
+    {
+      "pass": true,
+      "label": "Matching physical impacts can topple pins"
+    },
+    {
+      "pass": true,
+      "label": "Contact solver stays finite"
+    },
+    {
+      "pass": true,
+      "label": "Accurate physical shots and follow-ups win within move budget"
+    },
+    {
+      "pass": true,
+      "label": "Victory reward is credited once"
+    },
+    {
+      "pass": true,
+      "label": "Next level preserves wallet"
+    },
+    {
+      "pass": true,
+      "label": "10 coins buy one swap"
+    },
+    {
+      "pass": true,
+      "label": "Wallet cannot be overdrawn"
+    },
+    {
+      "pass": true,
+      "label": "Exhausted misses lead to failure without rewards"
+    },
+    {
+      "pass": true,
+      "label": "Play transition finishes"
+    },
+    {
+      "pass": true,
+      "label": "Three next bowling balls each have three finger holes"
+    },
+    {
+      "pass": true,
+      "label": "Ready ball touches meadow instead of floating"
+    },
+    {
+      "pass": true,
+      "label": "Three next balls show ordered queue colors above swap"
+    },
+    {
+      "pass": true,
+      "label": "Tapping distant table no longer fires"
+    },
+    {
+      "pass": true,
+      "label": "Ball tap without pulling costs no move"
+    },
+    {
+      "pass": true,
+      "label": "Tiny pull cancels without spending a move"
+    },
+    {
+      "pass": true,
+      "label": "Diagonal pull sets both power and opposite direction"
+    },
+    {
+      "pass": true,
+      "label": "Live power meter updates; swap is blocked while holding"
+    },
+    {
+      "pass": true,
+      "label": "Escape cancels a pull without firing"
+    },
+    {
+      "pass": true,
+      "label": "Weak physical shot leaves part of group standing"
+    },
+    {
+      "pass": true,
+      "label": "Visible next-ball count respects remaining moves"
+    },
+    {
+      "pass": true,
+      "label": "Release launches and spends exactly one move"
+    },
+    {
+      "pass": true,
+      "label": "Shot updates next bowling ball preview"
+    },
+    {
+      "pass": true,
+      "label": "Released shot retains selected tension"
+    },
+    {
+      "pass": true,
+      "label": "Settings pause flight and physics"
+    },
+    {
+      "pass": true,
+      "label": "Aimed strong shot transfers momentum and topples pins"
+    },
+    {
+      "pass": true,
+      "label": "Real strong impact remains color-filtered"
+    },
+    {
+      "pass": true,
+      "label": "Visible next-ball count respects remaining moves"
+    },
+    {
+      "pass": true,
+      "label": "Visible next-ball count respects remaining moves"
+    },
+    {
+      "pass": true,
+      "label": "Visible next-ball count respects remaining moves"
+    },
+    {
+      "pass": true,
+      "label": "Visible next-ball count respects remaining moves"
+    },
+    {
+      "pass": true,
+      "label": "Visible next-ball count respects remaining moves"
+    },
+    {
+      "pass": true,
+      "label": "Planned pulled shots win with physical collisions and credit 30 coins"
+    },
+    {
+      "pass": true,
+      "label": "Swap store works after physical collision win"
+    },
+    {
+      "pass": true,
+      "label": "Swap updates next bowling ball color"
+    },
+    {
+      "pass": true,
+      "label": "Compact swap control preserves queue rotation and cost"
+    },
+    {
+      "pass": true,
+      "label": "Wallet and progress persist after reload"
+    },
+    {
+      "pass": true,
+      "label": "Ball grab area and compact controls fit 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Ball grab area and compact controls fit 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Ball grab area and compact controls fit 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Touch drag controls tension on phone"
+    },
+    {
+      "pass": true,
+      "label": "Touch cancellation never fires or spends a move"
+    },
+    {
+      "pass": true,
+      "label": "Self-contained file:// build works offline"
+    },
+    {
+      "pass": true,
+      "label": "GPU stays healthy after projectiles and resizes"
+    },
+    {
+      "pass": true,
+      "label": "No browser or shader exceptions"
+    }
+  ],
+  "errors": []
+}

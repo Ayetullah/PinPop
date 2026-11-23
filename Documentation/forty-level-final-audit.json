@@ -1,0 +1,27 @@
+{
+  "totalLevels": 40,
+  "newLevels": 20,
+  "oldLayoutsPreserved": true,
+  "regions": 2,
+  "checkpointChests": 8,
+  "sourceBuildMatches": {
+    "Assets/Scripts/PinPopAdventure.cs": true,
+    "Assets/Scripts/PinPopLayouts.cs": true,
+    "Assets/Scripts/CarnivalMapCatalog.cs": true,
+    "Assets/Scripts/CarnivalMapView.cs": true,
+    "Assets/Scripts/PinPopGame.cs": true,
+    "Assets/Scripts/PinPopSelfTest.cs": true,
+    "Assets/Resources/MapArt/catalog.json": true,
+    "Assets/ArtSource/adventure-model.js": true,
+    "Assets/ArtSource/carnival-map-view.js": true,
+    "Assets/Scenes/PinPop.unity": true
+  },
+  "checks": {
+    "forty-level-unity-verification.txt": 139,
+    "carnival-map-unity-verification.txt": 81,
+    "forty-level-browser-verification.json": 111,
+    "carnival-map-browser-verification.json": 38
+  },
+  "totalChecks": 369,
+  "notes": "Result flow tests simulate solved boards; actual physics boards are instantiated for all new Unity levels and all HTML levels. No claim of forty manual playthroughs."
+}

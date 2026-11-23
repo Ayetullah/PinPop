@@ -1,0 +1,35 @@
+{
+  "verifiedUtc": "2026-11-22T08:29:14.258852+00:00",
+  "requirements": {
+    "collectedPins": "Actual Art.PinMesh/Art.PinCoat render, preserved from flight through tray and match",
+    "fixedBall": "Six held pointer directions plus release at Launch in native and browser tests",
+    "solidCollisions": "All color pair colliders enabled for all twelve layouts; three mixed-color contacts, same-color motion and three full-power free-rotation shots measured"
+  },
+  "reports": {
+    "pin-behavior-unity-verification.txt": 35,
+    "smash-match-unity-verification.txt": 44,
+    "tray-polish-unity-verification.txt": 9,
+    "pin-behavior-browser-verification.json": 21,
+    "smash-match-model-verification.json": 33
+  },
+  "strongShotMaxPenetrationUnits": [
+    0.003964722,
+    0,
+    0.002756193
+  ],
+  "nativeSourceMatchesBuild": true,
+  "build": "Builds/PinPop.app",
+  "sha256": {
+    "Assets/Scripts/PinTarget.cs": "05b72d1bdc7272e8dff91a4578bee6f38eb5308ceb0dda687af48819d55b2ee0",
+    "Assets/Scripts/PinPopGame.cs": "35357b4e6d7f149b031f4d13520ecfcc658e42136b7b30e7d2e74368db1788bf",
+    "Assets/Scripts/PinPopVisuals.cs": "608969ebba75d9cc220ca6b7af16d7558d3ea6533b167a2b8c640b146b34d869",
+    "Assets/Scripts/HtmlMatchTrayUI.cs": "6b802c51cb5e107dded05250348b0c81b7186d6434ae38c2c756d7f91c07840a",
+    "Assets/Scripts/PinPopSelfTest.cs": "1548ed382106ddc429552e83f59b2e2212bae4b3875e9b900cb096186855ab13",
+    "Assets/Editor/PinIconBaker.cs": "2ecbaaa9635a43b32335190840e47f319e32f122fc2fa5f10db5784a07d49b4b",
+    "Assets/Editor/ProjectSetup.cs": "6b60a7883f5f302b70d9a65cedf41a427052e1cc83ee8f2f4fb92486e3424ad0",
+    "Assets/Resources/PinIcons/pin-0.png": "cb91de896005d08013309d90545529826459e632ee2a40d674f7d758d4900e62",
+    "Assets/Resources/PinIcons/pin-1.png": "36373620dfdf2bf521fbbf33e1cf5515f5054beb10f95b7a90c4800afe344e91",
+    "Assets/Resources/PinIcons/pin-2.png": "18f3e640fbb738fd500a7a5e907327806dcbdfdfe77ef89602a4339ef3be762e",
+    "index.html": "6c08c294b799d2e6029677956616c01828376b78ae45aab811be063b82ddc70f"
+  }
+}

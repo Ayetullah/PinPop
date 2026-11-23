@@ -1,0 +1,38 @@
+{
+  "totalLevels": 40,
+  "levelsPerRegion": 20,
+  "regions": [
+    {
+      "title": "Lunapark Kapısı",
+      "levels": "1–20",
+      "chests": 4
+    },
+    {
+      "title": "Dönme Dolap",
+      "levels": "21–40",
+      "chests": 4
+    }
+  ],
+  "secondRegionUnlocksAfter": 20,
+  "progress": "selected region /20",
+  "navigation": "unlocked region tabs; current region opens on progress",
+  "savesPreserved": true,
+  "sourceBuildMatches": {
+    "Assets/Scripts/PinPopAdventure.cs": true,
+    "Assets/Scripts/CarnivalMapView.cs": true,
+    "Assets/Scripts/AdventureHUD.cs": true,
+    "Assets/Scripts/PinPopSelfTest.cs": true,
+    "Assets/Resources/MapArt/catalog.json": true,
+    "Assets/ArtSource/adventure-ui.js": true,
+    "Assets/ArtSource/carnival-map-view.js": true,
+    "Assets/Scenes/PinPop.unity": true
+  },
+  "htmlModulesMatch": true,
+  "checks": {
+    "forty-level-unity-verification.txt": 148,
+    "carnival-map-unity-verification.txt": 82,
+    "forty-level-browser-verification.json": 114,
+    "carnival-map-browser-verification.json": 51
+  },
+  "totalChecks": 395
+}

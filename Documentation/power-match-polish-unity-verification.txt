@@ -1,0 +1,63 @@
+62/62 passed.
+PASS: Idle has no power card or aiming ring: (600, 1000)
+PASS: Endpoint ring tracks power 0.25 at (600, 1000)
+PASS: Power tint transitions cream to gold: 0.25
+PASS: Trajectory keeps matching ball color: 0.25
+PASS: Glow belongs only to full power: 0.25
+PASS: Quarter power draws a real quarter-ring mesh
+PASS: Cancel clears ring and glow
+PASS: Endpoint ring tracks power 0.6 at (600, 1000)
+PASS: Power tint transitions cream to gold: 0.6
+PASS: Trajectory keeps matching ball color: 0.6
+PASS: Glow belongs only to full power: 0.6
+PASS: Cancel clears ring and glow
+PASS: Endpoint ring tracks power 1 at (600, 1000)
+PASS: Power tint transitions cream to gold: 1
+PASS: Trajectory keeps matching ball color: 1
+PASS: Glow belongs only to full power: 1
+PASS: Full power closes the complete ring
+PASS: Cancel clears ring and glow
+PASS: Horizontal positioning never shows a power ring: (600, 1000)
+PASS: Idle has no power card or aiming ring: (320, 740)
+PASS: Endpoint ring tracks power 0.25 at (320, 740)
+PASS: Power tint transitions cream to gold: 0.25
+PASS: Trajectory keeps matching ball color: 0.25
+PASS: Glow belongs only to full power: 0.25
+PASS: Quarter power draws a real quarter-ring mesh
+PASS: Cancel clears ring and glow
+PASS: Endpoint ring tracks power 0.6 at (320, 740)
+PASS: Power tint transitions cream to gold: 0.6
+PASS: Trajectory keeps matching ball color: 0.6
+PASS: Glow belongs only to full power: 0.6
+PASS: Cancel clears ring and glow
+PASS: Endpoint ring tracks power 1 at (320, 740)
+PASS: Power tint transitions cream to gold: 1
+PASS: Trajectory keeps matching ball color: 1
+PASS: Glow belongs only to full power: 1
+PASS: Full power closes the complete ring
+PASS: Cancel clears ring and glow
+PASS: Horizontal positioning never shows a power ring: (320, 740)
+PASS: Idle has no power card or aiming ring: (1000, 600)
+PASS: Endpoint ring tracks power 0.25 at (1000, 600)
+PASS: Power tint transitions cream to gold: 0.25
+PASS: Trajectory keeps matching ball color: 0.25
+PASS: Glow belongs only to full power: 0.25
+PASS: Quarter power draws a real quarter-ring mesh
+PASS: Cancel clears ring and glow
+PASS: Endpoint ring tracks power 0.6 at (1000, 600)
+PASS: Power tint transitions cream to gold: 0.6
+PASS: Trajectory keeps matching ball color: 0.6
+PASS: Glow belongs only to full power: 0.6
+PASS: Cancel clears ring and glow
+PASS: Endpoint ring tracks power 1 at (1000, 600)
+PASS: Power tint transitions cream to gold: 1
+PASS: Trajectory keeps matching ball color: 1
+PASS: Glow belongs only to full power: 1
+PASS: Full power closes the complete ring
+PASS: Cancel clears ring and glow
+PASS: Horizontal positioning never shows a power ring: (1000, 600)
+PASS: Releasing shoots once and immediately hides power ring
+PASS: Real triple remains visible through slower convergence
+PASS: Pause freezes slower merge
+PASS: Burst begins while all three icons still exist
+PASS: Slower burst cleans up exactly once

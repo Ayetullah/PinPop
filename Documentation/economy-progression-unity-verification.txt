@@ -1,0 +1,25 @@
+24/24 passed.
+PASS: Rolling level 1 is completable within its original move budget
+PASS: Chapter 1 earns exact reward with zero purchased or starter swaps
+PASS: Rolling level 2 is completable within its original move budget
+PASS: Chapter 2 earns exact reward with zero purchased or starter swaps
+PASS: Rolling level 3 is completable within its original move budget
+PASS: Chapter 3 earns exact reward with zero purchased or starter swaps
+PASS: Rolling level 4 is completable within its original move budget
+PASS: Chapter 4 earns exact reward with zero purchased or starter swaps
+PASS: Rolling level 5 is completable within its original move budget
+PASS: Chapter 5 earns exact reward with zero purchased or starter swaps
+PASS: Rolling level 6 is completable within its original move budget
+PASS: Chapter 6 earns exact reward with zero purchased or starter swaps
+PASS: Rolling level 7 is completable within its original move budget
+PASS: Chapter 7 earns exact reward with zero purchased or starter swaps
+PASS: Rolling level 8 is completable within its original move budget
+PASS: Chapter 8 earns exact reward with zero purchased or starter swaps
+PASS: Rolling level 9 is completable within its original move budget
+PASS: Chapter 9 earns exact reward with zero purchased or starter swaps
+PASS: Rolling level 10 is completable within its original move budget
+PASS: Chapter 10 earns exact reward with zero purchased or starter swaps
+PASS: Rolling level 11 is completable within its original move budget
+PASS: Chapter 11 earns exact reward with zero purchased or starter swaps
+PASS: Rolling level 12 is completable within its original move budget
+PASS: Chapter 12 earns exact reward with zero purchased or starter swaps

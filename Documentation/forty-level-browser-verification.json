@@ -1,0 +1,461 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Campaign exposes forty levels and two regions"
+    },
+    {
+      "pass": true,
+      "label": "Existing twenty-level save preserves wallet, cosmetics and chest rewards"
+    },
+    {
+      "pass": true,
+      "label": "Level 1 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 1"
+    },
+    {
+      "pass": true,
+      "label": "Level 2 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 2"
+    },
+    {
+      "pass": true,
+      "label": "Level 3 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 3"
+    },
+    {
+      "pass": true,
+      "label": "Level 4 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 4"
+    },
+    {
+      "pass": true,
+      "label": "Level 5 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 5"
+    },
+    {
+      "pass": true,
+      "label": "Level 6 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 6"
+    },
+    {
+      "pass": true,
+      "label": "Level 7 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 7"
+    },
+    {
+      "pass": true,
+      "label": "Level 8 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 8"
+    },
+    {
+      "pass": true,
+      "label": "Level 9 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 9"
+    },
+    {
+      "pass": true,
+      "label": "Level 10 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 10"
+    },
+    {
+      "pass": true,
+      "label": "Level 11 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 11"
+    },
+    {
+      "pass": true,
+      "label": "Level 12 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 12"
+    },
+    {
+      "pass": true,
+      "label": "Level 13 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 13"
+    },
+    {
+      "pass": true,
+      "label": "Level 14 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 14"
+    },
+    {
+      "pass": true,
+      "label": "Level 15 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 15"
+    },
+    {
+      "pass": true,
+      "label": "Level 16 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 16"
+    },
+    {
+      "pass": true,
+      "label": "Level 17 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 17"
+    },
+    {
+      "pass": true,
+      "label": "Level 18 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 18"
+    },
+    {
+      "pass": true,
+      "label": "Level 19 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 19"
+    },
+    {
+      "pass": true,
+      "label": "Level 20 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 20"
+    },
+    {
+      "pass": true,
+      "label": "Level 21 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 21"
+    },
+    {
+      "pass": true,
+      "label": "New level 21 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 22 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 22"
+    },
+    {
+      "pass": true,
+      "label": "New level 22 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 23 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 23"
+    },
+    {
+      "pass": true,
+      "label": "New level 23 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 24 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 24"
+    },
+    {
+      "pass": true,
+      "label": "New level 24 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 25 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 25"
+    },
+    {
+      "pass": true,
+      "label": "New level 25 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 26 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 26"
+    },
+    {
+      "pass": true,
+      "label": "New level 26 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 27 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 27"
+    },
+    {
+      "pass": true,
+      "label": "New level 27 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 28 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 28"
+    },
+    {
+      "pass": true,
+      "label": "New level 28 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 29 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 29"
+    },
+    {
+      "pass": true,
+      "label": "New level 29 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 30 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 30"
+    },
+    {
+      "pass": true,
+      "label": "New level 30 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 31 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 31"
+    },
+    {
+      "pass": true,
+      "label": "New level 31 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 32 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 32"
+    },
+    {
+      "pass": true,
+      "label": "New level 32 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 33 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 33"
+    },
+    {
+      "pass": true,
+      "label": "New level 33 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 34 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 34"
+    },
+    {
+      "pass": true,
+      "label": "New level 34 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 35 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 35"
+    },
+    {
+      "pass": true,
+      "label": "New level 35 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 36 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 36"
+    },
+    {
+      "pass": true,
+      "label": "New level 36 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 37 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 37"
+    },
+    {
+      "pass": true,
+      "label": "New level 37 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 38 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 38"
+    },
+    {
+      "pass": true,
+      "label": "New level 38 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 39 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 39"
+    },
+    {
+      "pass": true,
+      "label": "New level 39 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Level 40 has valid physics board, color triples and supplied ammo"
+    },
+    {
+      "pass": true,
+      "label": "Unity and HTML agree on level 40"
+    },
+    {
+      "pass": true,
+      "label": "New level 40 arrangement is distinct"
+    },
+    {
+      "pass": true,
+      "label": "Current region has twenty distinct stops and four chests"
+    },
+    {
+      "pass": true,
+      "label": "Old completion unlocks only level twenty-one"
+    },
+    {
+      "pass": true,
+      "label": "Second region displays only twenty-one through forty and zero of twenty"
+    },
+    {
+      "pass": true,
+      "label": "Previous region has only levels one to twenty"
+    },
+    {
+      "pass": true,
+      "label": "Region switching preserves wallet, stock and four regional chests"
+    },
+    {
+      "pass": true,
+      "label": "Level twenty no longer shows final campaign action"
+    },
+    {
+      "pass": true,
+      "label": "Real continue handler advances twenty to twenty-one"
+    },
+    {
+      "pass": true,
+      "label": "New campaign grants all eight chest checkpoints exactly once"
+    },
+    {
+      "pass": true,
+      "label": "Final level forty opens with physics board"
+    },
+    {
+      "pass": true,
+      "label": "Fortieth victory completes the campaign"
+    },
+    {
+      "pass": true,
+      "label": "Final action returns to completed map without level forty-one"
+    },
+    {
+      "pass": true,
+      "label": "No runtime errors during new campaign and result flows"
+    }
+  ],
+  "errors": []
+}

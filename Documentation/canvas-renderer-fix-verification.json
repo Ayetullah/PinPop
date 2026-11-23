@@ -1,0 +1,12 @@
+{
+  "transitionAndRaycast": {
+    "passed": 16,
+    "total": 16
+  },
+  "screenFlow": {
+    "passed": 36,
+    "total": 36
+  },
+  "missingComponentExceptions": 0,
+  "appRebuilt": true
+}

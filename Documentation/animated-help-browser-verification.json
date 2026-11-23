@@ -1,0 +1,125 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "No extra help buttons on home or game screen"
+    },
+    {
+      "pass": true,
+      "label": "First chapter automatically opens tutorial"
+    },
+    {
+      "pass": true,
+      "label": "Automatic tutorial starts at first scene"
+    },
+    {
+      "pass": true,
+      "label": "Tutorial contains zero buttons"
+    },
+    {
+      "pass": true,
+      "label": "First showing records seen flag"
+    },
+    {
+      "pass": true,
+      "label": "Touch swipe left advances"
+    },
+    {
+      "pass": true,
+      "label": "Touch swipe right goes back"
+    },
+    {
+      "pass": true,
+      "label": "Right swipe on first scene does not wrap"
+    },
+    {
+      "pass": true,
+      "label": "Tap-sized movement does not skip"
+    },
+    {
+      "pass": true,
+      "label": "Mouse drag also advances"
+    },
+    {
+      "pass": true,
+      "label": "Swiping can reach final scene"
+    },
+    {
+      "pass": true,
+      "label": "Swiping right can revisit second scene"
+    },
+    {
+      "pass": true,
+      "label": "First full video automatically advances"
+    },
+    {
+      "pass": true,
+      "label": "Second full video automatically advances"
+    },
+    {
+      "pass": true,
+      "label": "Final video automatically closes to gameplay"
+    },
+    {
+      "pass": true,
+      "label": "Playback and swiping preserve board, wallet, moves and queue"
+    },
+    {
+      "pass": true,
+      "label": "Restarting chapter one does not show tutorial again"
+    },
+    {
+      "pass": true,
+      "label": "Seen flag survives full page reload"
+    },
+    {
+      "pass": true,
+      "label": "Button-free layout fits 320"
+    },
+    {
+      "pass": true,
+      "label": "Touch swipe surface works at 320"
+    },
+    {
+      "pass": true,
+      "label": "Last scene left swipe exits at 320"
+    },
+    {
+      "pass": true,
+      "label": "Button-free layout fits 390"
+    },
+    {
+      "pass": true,
+      "label": "Touch swipe surface works at 390"
+    },
+    {
+      "pass": true,
+      "label": "Last scene left swipe exits at 390"
+    },
+    {
+      "pass": true,
+      "label": "Button-free layout fits 1000"
+    },
+    {
+      "pass": true,
+      "label": "Touch swipe surface works at 1000"
+    },
+    {
+      "pass": true,
+      "label": "Last scene left swipe exits at 1000"
+    },
+    {
+      "pass": true,
+      "label": "Reduced motion has stable teaching pose"
+    },
+    {
+      "pass": true,
+      "label": "Reduced motion still advances automatically"
+    },
+    {
+      "pass": true,
+      "label": "No browser runtime errors"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "build_PinPopGame": true,
+    "build_PinPopMatchTray": true,
+    "build_HtmlReferenceHUD": true,
+    "build_HtmlMatchTrayUI": true,
+    "build_PinPopSelfTest": true,
+    "native_pass": true,
+    "power-match-polish-browser-verification.json": true,
+    "smash-match-model-verification.json": true,
+    "shared_html_render_timing": true,
+    "shared_unity_render_timing": true
+  },
+  "unity": "28/28",
+  "browser": "21/21",
+  "model": "33/33",
+  "convergeSeconds": 0.32,
+  "blastSeconds": 0.44
+}

@@ -1,0 +1,97 @@
+96/96 passed.
+PASS: Fresh wallet includes classic and three credits
+PASS: First clear with three moves pays exactly 36
+PASS: Same result cannot pay twice
+PASS: Improved result pays only its four-coin difference
+PASS: Worse replay never pays again
+PASS: New chapter pays 30 plus four bonus coins
+PASS: One credit costs exactly ten coins
+PASS: Using a credit does not spend coins again
+PASS: Unaffordable ball is not purchased
+PASS: Eight saved moves pay 46 coins
+PASS: Marble costs ninety and equips permanently
+PASS: Owned ball cannot be charged again
+PASS: Only owned balls equip and equipment is free
+PASS: Serialized ownership and claim history survive reload
+PASS: Full paid collection costs 570 coins
+PASS: Invalid product cannot alter the wallet: -1
+PASS: Invalid product cannot alter the wallet: 4
+PASS: Invalid product cannot alter the wallet: 2147483647
+PASS: Coin cap credits only available capacity
+PASS: Credit cap rejects before charging
+PASS: Last available credit purchases exactly
+PASS: Spending after capped reward never recreates a claim
+PASS: Large coin display rounds down without inflating the balance
+PASS: Invalid negative save cannot grant currency or locked balls
+PASS: Legacy migration preserves 47 coins and two credits
+PASS: Legacy paid chapters cannot be farmed again
+PASS: First new migrated chapter earns normally
+PASS: Old upper buy-swap banner is absent
+PASS: UI button is available: HOME_SHOP
+PASS: Pointer reaches button: HOME_SHOP
+PASS: Button artwork visibly presses without moving its input area: HOME_SHOP
+PASS: Home store opens the bowling ball catalog
+PASS: Insufficient balance disables paid balls
+PASS: UI button is available: CLOSE_SHOP
+PASS: Pointer reaches button: CLOSE_SHOP
+PASS: Button artwork visibly presses without moving its input area: CLOSE_SHOP
+PASS: UI button is available: PLAY
+PASS: Pointer reaches button: PLAY
+PASS: Button artwork visibly presses without moving its input area: PLAY
+PASS: Real win credits the displayed base and saved-move bonus
+PASS: Duplicate completion callback never pays twice
+PASS: UI button is available: CONTINUE
+PASS: Pointer reaches button: CONTINUE
+PASS: Button artwork visibly presses without moving its input area: CONTINUE
+PASS: UI button is available: SWAP_PLUS
+PASS: Pointer reaches button: SWAP_PLUS
+PASS: Plus opens a paused purchase sheet without using swap
+PASS: UI button is available: SWAP_BUY_CONFIRM
+PASS: Pointer reaches button: SWAP_BUY_CONFIRM
+PASS: Button artwork visibly presses without moving its input area: SWAP_BUY_CONFIRM
+PASS: Confirmed purchase adds one credit, deducts ten, and consumes no move
+PASS: UI button is available: SWAP
+PASS: Pointer reaches button: SWAP
+PASS: Button artwork visibly presses without moving its input area: SWAP
+PASS: Main swap button still rotates separately and consumes only a credit
+PASS: UI button is available: GAME_SHOP
+PASS: Pointer reaches button: GAME_SHOP
+PASS: Button artwork visibly presses without moving its input area: GAME_SHOP
+PASS: UI button is available: BALL_BUY_1
+PASS: Pointer reaches button: BALL_BUY_1
+PASS: Button artwork visibly presses without moving its input area: BALL_BUY_1
+PASS: Live catalog buys and equips marble for 90
+PASS: UI button is available: BALL_BUY_3
+PASS: Pointer reaches button: BALL_BUY_3
+PASS: Button artwork visibly presses without moving its input area: BALL_BUY_3
+PASS: Live catalog buys galaxy for 300
+PASS: UI button is available: BALL_BUY_2
+PASS: Pointer reaches button: BALL_BUY_2
+PASS: Button artwork visibly presses without moving its input area: BALL_BUY_2
+PASS: Live catalog buys orbit for 180
+PASS: Duplicate UI purchase is rejected by the model
+PASS: UI button is available: BALL_BUY_0
+PASS: Pointer reaches button: BALL_BUY_0
+PASS: Button artwork visibly presses without moving its input area: BALL_BUY_0
+PASS: Owned classic equips for free
+PASS: UI button is available: BALL_BUY_3
+PASS: Pointer reaches button: BALL_BUY_3
+PASS: Button artwork visibly presses without moving its input area: BALL_BUY_3
+PASS: Owned galaxy equips without a second charge
+PASS: All four catalog cards remain readable at 390x844
+PASS: All four catalog cards remain readable at 320x740
+PASS: All four catalog cards remain readable at 1000x600
+PASS: UI button is available: CLOSE_SHOP
+PASS: Pointer reaches button: CLOSE_SHOP
+PASS: Button artwork visibly presses without moving its input area: CLOSE_SHOP
+PASS: Restart/reload preserves equipped and owned balls
+PASS: Equipped galaxy reaches the actual ready 3D material
+PASS: Next-ball previews show the equipped appearance
+PASS: Purchased appearance reaches a real shot without changing physics or color
+PASS: UI button is available: SWAP_PLUS
+PASS: Pointer reaches button: SWAP_PLUS
+PASS: Empty wallet cannot buy a credit or become negative
+PASS: UI button is available: SWAP_BUY_CANCEL
+PASS: Pointer reaches button: SWAP_BUY_CANCEL
+PASS: Button artwork visibly presses without moving its input area: SWAP_BUY_CANCEL
+PASS: Cancelling credit purchase preserves wallet and selected ball

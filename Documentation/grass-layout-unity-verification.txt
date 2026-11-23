@@ -1,0 +1,26 @@
+25/25 passed.
+PASS: Selecting a distant target does not start a timed charge
+PASS: Holding without pulling does not increase shot power
+PASS: Pull distance controls power while the ball remains fixed
+PASS: Grass supports bowling balls while collected pins still fall freely
+PASS: A real shot leaves the table and lands on the grass collider
+PASS: Grass rolling resistance slows a moving ball after a visible roll
+PASS: Grass ball remains present beyond the former six-second lifetime
+PASS: Grass ball naturally comes to rest instead of disappearing
+PASS: Another shot can begin while the previous ball stays on the grass
+PASS: Starting the next turn preserves the previous grass ball
+PASS: Pausing also freezes grass physics
+PASS: A pin still falls through the meadow into collection
+PASS: Collection board sits below the chapter in the upper half: (600, 1000)
+PASS: All ten collection slots fit: (600, 1000)
+PASS: Upcoming balls are ordered directly above swap without overlap: (600, 1000)
+PASS: Collection board sits below the chapter in the upper half: (320, 740)
+PASS: All ten collection slots fit: (320, 740)
+PASS: Upcoming balls are ordered directly above swap without overlap: (320, 740)
+PASS: Collection board sits below the chapter in the upper half: (390, 844)
+PASS: All ten collection slots fit: (390, 844)
+PASS: Upcoming balls are ordered directly above swap without overlap: (390, 844)
+PASS: Collection board sits below the chapter in the upper half: (1000, 600)
+PASS: All ten collection slots fit: (1000, 600)
+PASS: Upcoming balls are ordered directly above swap without overlap: (1000, 600)
+PASS: Restart clears grass balls and the moved collection board state

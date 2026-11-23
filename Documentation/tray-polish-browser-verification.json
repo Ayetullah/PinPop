@@ -1,0 +1,57 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Two waiting same-color pieces receive pair halos"
+    },
+    {
+      "pass": true,
+      "label": "Unrelated piece stays distinct from the ready pair"
+    },
+    {
+      "pass": true,
+      "label": "Polished merge preserves exact three-piece removal"
+    },
+    {
+      "pass": true,
+      "label": "Ten square inset wells at 600x1000"
+    },
+    {
+      "pass": true,
+      "label": "Dock leaves upcoming balls clear at 600x1000"
+    },
+    {
+      "pass": true,
+      "label": "Ten square inset wells at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Dock leaves upcoming balls clear at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Ten square inset wells at 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Dock leaves upcoming balls clear at 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Ten square inset wells at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Dock leaves upcoming balls clear at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Capacity warning communicates eight unmatched pieces"
+    },
+    {
+      "pass": true,
+      "label": "No browser runtime errors"
+    }
+  ],
+  "errors": []
+}

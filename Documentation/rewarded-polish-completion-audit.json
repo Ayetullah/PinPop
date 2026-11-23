@@ -1,0 +1,72 @@
+{
+  "objective": "Hamle bitince video ile +3 hamle; daha küçük SWAP +; baştan sona oynayış ve polish",
+  "checks": {
+    "recovery-model-verification.json": "10/10",
+    "recovery-browser-verification.json": "19/19",
+    "economy-core-verification.json": "37/37",
+    "playthrough-browser-verification.json": "17/17",
+    "recovery-unity-verification.txt": "38/38",
+    "economy-unity-verification.txt": "96/96",
+    "economy-progression-unity-verification.txt": "24/24"
+  },
+  "requirements": [
+    {
+      "requirement": "Hamle bitince video tamamlayarak +3 hamle",
+      "status": "verified",
+      "evidence": [
+        "recovery-browser-verification.json",
+        "recovery-unity-verification.txt",
+        "recovery-model-verification.json"
+      ],
+      "observations": "Gerçek medya bitişi, erken kapatma, hatalı medya, geç/tekrar bildirim ve aynı masaya dönüş doğrulandı. Her denemede bir tamamlanan video desteği."
+    },
+    {
+      "requirement": "AdMob kullanımı",
+      "status": "implemented_in_test_configuration",
+      "evidence": [
+        "../Packages/com.google.ads.mobile/package.json",
+        "../Assets/Scripts/AdMobRewardedProvider.cs",
+        "../Assets/Resources/AdMobConfig.json",
+        "../Assets/GoogleMobileAds/Resources/GoogleMobileAdsSettings.asset"
+      ],
+      "observations": "Resmi SDK 11.7.0 ile derlendi. Mobilde SDK ödül ve kapanış bildirimlerine bağlı; Google test kimlikleri ayarlı. Canlı kimlikler verilmedi ve Android/iOS cihaz reklamı bu makinede doğrulanmadı. Mac/HTML yerel tanıtım videosu kullanıyor."
+    },
+    {
+      "requirement": "SWAP + görünümünü küçültme",
+      "status": "verified",
+      "evidence": [
+        "recovery-browser-verification.json",
+        "recovery-unity-verification.txt"
+      ],
+      "observations": "Görünür disk 30 piksel; giriş alanı 44 piksel."
+    },
+    {
+      "requirement": "Oyunu baştan sona oynama",
+      "status": "verified",
+      "evidence": [
+        "playthrough-browser-verification.json",
+        "economy-progression-unity-verification.txt"
+      ],
+      "observations": "Tarayıcıda gerçek çek-bırak girişleriyle ana menüden 12 düzenin tümü, son bölümde yeniden deneme dahil tamamlandı. Unity 12 düzeni sıfır swap ile tamamladı."
+    },
+    {
+      "requirement": "Polish",
+      "status": "verified",
+      "evidence": [
+        "recovery-unity-offer.png",
+        "recovery-unity-used-offer.png",
+        "recovery-unity-video.png",
+        "recovery-unity-video-320.png",
+        "recovery-unity-verification.txt",
+        "economy-unity-verification.txt"
+      ],
+      "observations": "Yeni sonuç düzeni, video ilerlemesi/yükleme görünümü, en az 12 piksel video metni ve 44 piksel iptal hedefi, basılma geri bildirimi, +3 hamle animasyonu, klavye odağı ve yeniden boyutlandırma doğrulandı. Ekran görüntüleri görsel olarak incelendi."
+    }
+  ],
+  "artifacts": [
+    "../Builds/PinPop.app",
+    "../index.html",
+    "REWARDED_MOVES_AND_POLISH.md"
+  ],
+  "video_sha256": "4caafa74228a3b692ac51751b94ba5a3ce598d628ddb8aa8ef23fee4d715050b"
+}

@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Help text and action fit without clipping at 600x1000"
+    },
+    {
+      "pass": true,
+      "label": "Help text and action fit without clipping at 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Help text and action fit without clipping at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Help text and action fit without clipping at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Chapter badge stays above pin heads"
+    },
+    {
+      "pass": true,
+      "label": "No runtime errors during page inspection"
+    }
+  ],
+  "errors": []
+}

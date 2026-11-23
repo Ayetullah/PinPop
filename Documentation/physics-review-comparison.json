@@ -1,0 +1,184 @@
+{
+    "shots": [
+        {
+            "friction": 0.44999998807907107,
+            "power": 0.6000000238418579,
+            "meanTravel": 1.3865385055541993,
+            "firstImpactSpeed": 15.773307800292969,
+            "level": 0,
+            "fallen": 2,
+            "downOnTable": 4,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.44999998807907107,
+            "power": 1.0,
+            "meanTravel": 2.6591241359710695,
+            "firstImpactSpeed": 23.772769927978517,
+            "level": 0,
+            "fallen": 2,
+            "downOnTable": 4,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.44999998807907107,
+            "power": 0.6000000238418579,
+            "meanTravel": 0.3810379207134247,
+            "firstImpactSpeed": 15.773307800292969,
+            "level": 2,
+            "fallen": 1,
+            "downOnTable": 0,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.44999998807907107,
+            "power": 1.0,
+            "meanTravel": 0.7445248961448669,
+            "firstImpactSpeed": 23.772769927978517,
+            "level": 2,
+            "fallen": 1,
+            "downOnTable": 1,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.44999998807907107,
+            "power": 0.6000000238418579,
+            "meanTravel": 0.7232574224472046,
+            "firstImpactSpeed": 15.773307800292969,
+            "level": 5,
+            "fallen": 1,
+            "downOnTable": 4,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.44999998807907107,
+            "power": 1.0,
+            "meanTravel": 1.2040824890136719,
+            "firstImpactSpeed": 23.772769927978517,
+            "level": 5,
+            "fallen": 1,
+            "downOnTable": 4,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.23999999463558198,
+            "power": 0.6000000238418579,
+            "meanTravel": 2.3540396690368654,
+            "firstImpactSpeed": 15.773307800292969,
+            "level": 0,
+            "fallen": 1,
+            "downOnTable": 4,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.23999999463558198,
+            "power": 1.0,
+            "meanTravel": 4.8030853271484379,
+            "firstImpactSpeed": 23.772769927978517,
+            "level": 0,
+            "fallen": 4,
+            "downOnTable": 2,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.23999999463558198,
+            "power": 0.6000000238418579,
+            "meanTravel": 0.7490299344062805,
+            "firstImpactSpeed": 15.773307800292969,
+            "level": 2,
+            "fallen": 1,
+            "downOnTable": 1,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.23999999463558198,
+            "power": 1.0,
+            "meanTravel": 1.0631972551345826,
+            "firstImpactSpeed": 23.772769927978517,
+            "level": 2,
+            "fallen": 1,
+            "downOnTable": 1,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.23999999463558198,
+            "power": 0.6000000238418579,
+            "meanTravel": 1.2034908533096314,
+            "firstImpactSpeed": 15.773307800292969,
+            "level": 5,
+            "fallen": 2,
+            "downOnTable": 2,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.23999999463558198,
+            "power": 1.0,
+            "meanTravel": 1.9092556238174439,
+            "firstImpactSpeed": 23.772769927978517,
+            "level": 5,
+            "fallen": 2,
+            "downOnTable": 3,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.14000000059604646,
+            "power": 0.6000000238418579,
+            "meanTravel": 4.311031818389893,
+            "firstImpactSpeed": 15.773307800292969,
+            "level": 0,
+            "fallen": 4,
+            "downOnTable": 2,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.14000000059604646,
+            "power": 1.0,
+            "meanTravel": 6.34246826171875,
+            "firstImpactSpeed": 23.772769927978517,
+            "level": 0,
+            "fallen": 6,
+            "downOnTable": 0,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.14000000059604646,
+            "power": 0.6000000238418579,
+            "meanTravel": 1.0872362852096558,
+            "firstImpactSpeed": 15.773307800292969,
+            "level": 2,
+            "fallen": 1,
+            "downOnTable": 1,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.14000000059604646,
+            "power": 1.0,
+            "meanTravel": 1.5508298873901368,
+            "firstImpactSpeed": 23.772769927978517,
+            "level": 2,
+            "fallen": 1,
+            "downOnTable": 1,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.14000000059604646,
+            "power": 0.6000000238418579,
+            "meanTravel": 1.432507872581482,
+            "firstImpactSpeed": 15.773307800292969,
+            "level": 5,
+            "fallen": 2,
+            "downOnTable": 2,
+            "lockedStayed": true
+        },
+        {
+            "friction": 0.14000000059604646,
+            "power": 1.0,
+            "meanTravel": 2.035813331604004,
+            "firstImpactSpeed": 23.772769927978517,
+            "level": 5,
+            "fallen": 3,
+            "downOnTable": 1,
+            "lockedStayed": true
+        }
+    ]
+}

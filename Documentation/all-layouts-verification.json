@@ -1,0 +1,100 @@
+{
+  "layouts": [
+    {
+      "level": 1,
+      "won": true,
+      "cleared": 12,
+      "total": 12,
+      "movesLeft": 2,
+      "shots": 4
+    },
+    {
+      "level": 2,
+      "won": true,
+      "cleared": 18,
+      "total": 18,
+      "movesLeft": 2,
+      "shots": 6
+    },
+    {
+      "level": 3,
+      "won": true,
+      "cleared": 18,
+      "total": 18,
+      "movesLeft": 1,
+      "shots": 7
+    },
+    {
+      "level": 4,
+      "won": true,
+      "cleared": 24,
+      "total": 24,
+      "movesLeft": 3,
+      "shots": 6
+    },
+    {
+      "level": 5,
+      "won": true,
+      "cleared": 24,
+      "total": 24,
+      "movesLeft": 3,
+      "shots": 6
+    },
+    {
+      "level": 6,
+      "won": true,
+      "cleared": 24,
+      "total": 24,
+      "movesLeft": 0,
+      "shots": 9
+    },
+    {
+      "level": 7,
+      "won": true,
+      "cleared": 24,
+      "total": 24,
+      "movesLeft": 3,
+      "shots": 6
+    },
+    {
+      "level": 8,
+      "won": true,
+      "cleared": 24,
+      "total": 24,
+      "movesLeft": 3,
+      "shots": 6
+    },
+    {
+      "level": 9,
+      "won": true,
+      "cleared": 24,
+      "total": 24,
+      "movesLeft": 0,
+      "shots": 9
+    },
+    {
+      "level": 10,
+      "won": true,
+      "cleared": 24,
+      "total": 24,
+      "movesLeft": 3,
+      "shots": 6
+    },
+    {
+      "level": 11,
+      "won": true,
+      "cleared": 24,
+      "total": 24,
+      "movesLeft": 3,
+      "shots": 6
+    },
+    {
+      "level": 12,
+      "won": true,
+      "cleared": 24,
+      "total": 24,
+      "movesLeft": 0,
+      "shots": 9
+    }
+  ]
+}

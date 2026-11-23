@@ -1,0 +1,81 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Plus visible disc shrunk to thirty pixels with a 44-pixel input area"
+    },
+    {
+      "pass": true,
+      "label": "Real exhausted partial board offers rescue"
+    },
+    {
+      "pass": true,
+      "label": "Video offer appears on failure"
+    },
+    {
+      "pass": true,
+      "label": "Video offer fits 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Video offer fits 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Video offer fits 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Playback does not award early"
+    },
+    {
+      "pass": true,
+      "label": "Early close awards nothing and preserves eligibility"
+    },
+    {
+      "pass": true,
+      "label": "A forged early ended event cannot award moves"
+    },
+    {
+      "pass": true,
+      "label": "Seeking to the end does not count as watching"
+    },
+    {
+      "pass": true,
+      "label": "Invalid media returns to the offer without a reward"
+    },
+    {
+      "pass": true,
+      "label": "Playback reaches its real end"
+    },
+    {
+      "pass": true,
+      "label": "Completed media grants exactly three moves"
+    },
+    {
+      "pass": true,
+      "label": "Resume preserves the cleared count and pin poses at the exact reward boundary"
+    },
+    {
+      "pass": true,
+      "label": "Resume keeps wallet and queue prefix"
+    },
+    {
+      "pass": true,
+      "label": "Duplicate media completion cannot add more moves"
+    },
+    {
+      "pass": true,
+      "label": "Second exhaustion has no repeat video offer"
+    },
+    {
+      "pass": true,
+      "label": "Retry restores normal moves and a fresh one-time eligibility"
+    },
+    {
+      "pass": true,
+      "label": "No browser errors"
+    }
+  ],
+  "errors": []
+}

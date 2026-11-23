@@ -1,0 +1,6 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
+const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8'),library=html.slice(html.indexOf('const CANNON=(()=>{'),html.indexOf('const LEVEL_REWARD=')),constants=html.slice(html.indexOf('const LEVEL_REWARD='),html.indexOf('const $=id=>')),model=html.slice(html.indexOf('class Game{'),html.indexOf('\nlet wallet={}'));
+const ctx={};vm.createContext(ctx);vm.runInContext(library+'\n'+constants+'\n'+model+'\nthis.Game=Game',ctx);const Game=ctx.Game,results=[];function check(pass,label){results.push({pass:!!pass,label});console.log((pass?'PASS: ':'FAIL: ')+label)}
+for(let level=0;level<12;level++){const g=new Game({coins:0,swaps:0});g.reset(level);let shots=0;while(!g.finished&&g.moves>0){const ps=g.pins.filter(p=>!p.cleared&&p.color===g.queue[0]).sort((a,b)=>a.z-b.z),front=ps.filter(p=>p.z<(ps[0]?.z??0)+.3),x=front.length?front.reduce((a,p)=>a+p.x,0)/front.length:4;g.shoot({x,z:ps[0]?.z??-2.6},1);for(let i=0;i<600;i++)g.step(1/120);shots++}check(g.won&&g.swaps===0&&g.coins===30+2*g.moves,"Chapter "+(level+1)+" wins with zero credits and pays "+g.coins+" coins in "+shots+" shots")}
+
+fs.writeFileSync(path.join(__dirname,"economy-progression-browser-verification.json"),JSON.stringify({results},null,2));process.exit(results.some(r=>!r.pass)?1:0);

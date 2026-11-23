@@ -1,0 +1,89 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Holding a target no longer starts charging"
+    },
+    {
+      "pass": true,
+      "label": "Holding the ball without pulling gives no automatic charge"
+    },
+    {
+      "pass": true,
+      "label": "Pull distance determines power and waiting does not increase it"
+    },
+    {
+      "pass": true,
+      "label": "Releasing a pulled shot consumes one move"
+    },
+    {
+      "pass": true,
+      "label": "Real simulated shot lands on the grass"
+    },
+    {
+      "pass": true,
+      "label": "Grass friction produces a visible roll and gradual slowdown"
+    },
+    {
+      "pass": true,
+      "label": "Ball remains after ten seconds and comes to rest"
+    },
+    {
+      "pass": true,
+      "label": "Next shot preserves the old grass ball"
+    },
+    {
+      "pass": true,
+      "label": "Grass cannot catch pins before collection"
+    },
+    {
+      "pass": true,
+      "label": "Collection board below chapter and clear of top controls at 600x1000"
+    },
+    {
+      "pass": true,
+      "label": "Queue aligned above swap; ten square slots at 600x1000"
+    },
+    {
+      "pass": true,
+      "label": "Collection board below chapter and clear of top controls at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Queue aligned above swap; ten square slots at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Collection board below chapter and clear of top controls at 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Queue aligned above swap; ten square slots at 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Collection board below chapter and clear of top controls at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Queue aligned above swap; ten square slots at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "No runtime browser errors"
+    }
+  ],
+  "physics": {
+    "landStep": 141,
+    "speed0": 8.131227478880199,
+    "speed1": 5.230486960554443,
+    "alive": true,
+    "stopped": true,
+    "ground": true,
+    "travel": 11.438922200452199,
+    "next": true,
+    "preserved": true,
+    "pinsIgnoreGrass": true
+  },
+  "errors": []
+}

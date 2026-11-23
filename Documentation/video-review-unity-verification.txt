@@ -1,0 +1,54 @@
+53/53 passed.
+PASS: 9:16 viewport has no empty margins at 540x960
+PASS: 9:16 viewport has no empty margins at 1080x1920
+PASS: 9:16 viewport has no empty margins at 1440x2560
+PASS: 9:16 viewport has no empty margins at 2160x3840
+PASS: Native 9:16 game view uses full screen height and width
+PASS: Chapter lettering stays in front of decorative cart boards
+PASS: UI button is available: HOME_SHOP
+PASS: Pointer reaches button: HOME_SHOP
+PASS: Shop opens and pauses the game at recording resolution
+PASS: UI button is available: SHOP_BUY
+PASS: Pointer reaches button: SHOP_BUY
+PASS: Shop purchase still spends exactly 10 coins and grants one swap
+PASS: UI button is available: CLOSE_SHOP
+PASS: Pointer reaches button: CLOSE_SHOP
+PASS: UI button is available: PLAY
+PASS: Pointer reaches button: PLAY
+PASS: All UI graphics, including inactive custom effects, have CanvasRenderer
+PASS: RaycastAll completes without MissingComponentException during transition/resize
+PASS: Visible loading curtain receives pointer raycast
+PASS: Recorded level 13 starts with its original 24 pins and 9 moves
+PASS: Rolling interaction has no falling-point label
+PASS: Aim marker renders visible pixels on the table
+PASS: Full viewport pull keeps power and table guide aligned
+PASS: Release at recording resolution launches exactly one shot
+PASS: Settings pause the in-flight ball without losing the shot
+PASS: UI button is available: RESUME
+PASS: Pointer reaches button: RESUME
+PASS: High-power rolling shot resolves and only clears matching cyan pins
+PASS: UI button is available: GAME_SHOP
+PASS: Pointer reaches button: GAME_SHOP
+PASS: UI button is available: SHOP_BUY
+PASS: Pointer reaches button: SHOP_BUY
+PASS: In-game shop remains clickable and preserves economy
+PASS: UI button is available: CLOSE_SHOP
+PASS: Pointer reaches button: CLOSE_SHOP
+PASS: UI button is available: SWAP
+PASS: Pointer reaches button: SWAP
+PASS: Swap still rotates queue and spends a credit without a move
+PASS: UI button is available: SETTINGS
+PASS: Pointer reaches button: SETTINGS
+PASS: UI button is available: RESTART
+PASS: Pointer reaches button: RESTART
+PASS: Restart from recorded settings resets the board and preserves purchases
+PASS: Resizing to a larger native 9:16 viewport preserves full framing
+PASS: UI button is available: SETTINGS
+PASS: Pointer reaches button: SETTINGS
+PASS: UI button is available: RESUME
+PASS: Pointer reaches button: RESUME
+PASS: Landscape view keeps intentional centered portrait framing
+PASS: UI button is available: SETTINGS
+PASS: Pointer reaches button: SETTINGS
+PASS: UI button is available: RESUME
+PASS: Pointer reaches button: RESUME

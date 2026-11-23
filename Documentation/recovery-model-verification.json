@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Unfinished game rejects extra moves"
+    },
+    {
+      "pass": true,
+      "label": "Exhausted partial table is eligible"
+    },
+    {
+      "pass": true,
+      "label": "Eligible completion grants exactly three moves"
+    },
+    {
+      "pass": true,
+      "label": "Board physics and prior clears are retained"
+    },
+    {
+      "pass": true,
+      "label": "Extra queue is appended without wallet or appearance changes"
+    },
+    {
+      "pass": true,
+      "label": "Duplicate completion does not add moves"
+    },
+    {
+      "pass": true,
+      "label": "Second exhaustion cannot repeat the offer"
+    },
+    {
+      "pass": true,
+      "label": "Fresh attempt resets eligibility and retains balance"
+    },
+    {
+      "pass": true,
+      "label": "Rescued win pays base only despite unused extra moves"
+    },
+    {
+      "pass": true,
+      "label": "Victory cannot receive a rescue"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Exactly twenty chapters form one region with four map pages"
+    },
+    {
+      "pass": true,
+      "label": "Page 0 belongs to first region; only final chest is region chest"
+    },
+    {
+      "pass": true,
+      "label": "Page 1 belongs to first region; only final chest is region chest"
+    },
+    {
+      "pass": true,
+      "label": "Page 2 belongs to first region; only final chest is region chest"
+    },
+    {
+      "pass": true,
+      "label": "Page 3 belongs to first region; only final chest is region chest"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 1 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 2 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 3 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 4 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 5 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 6 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 7 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 8 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 9 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 10 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 11 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 12 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 13 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 14 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 15 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 16 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 17 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 18 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 19 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 20 retains its existing layout, colors and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter twenty-one is not added"
+    },
+    {
+      "pass": true,
+      "label": "Legacy beyond-end current level safely opens last published chapter"
+    },
+    {
+      "pass": true,
+      "label": "Existing five-chapter milestone rewards are preserved"
+    },
+    {
+      "pass": true,
+      "label": "All four reward claims and helper types are preserved"
+    },
+    {
+      "pass": true,
+      "label": "Claimed chests never pay twice"
+    },
+    {
+      "pass": true,
+      "label": "Old save retains coins, completed chapters, chest flags and inventory"
+    },
+    {
+      "pass": true,
+      "label": "Reload cannot duplicate previous region rewards"
+    },
+    {
+      "pass": true,
+      "label": "Future content count derives additional twenty-chapter regions"
+    }
+  ]
+}

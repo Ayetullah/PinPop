@@ -1,0 +1,32 @@
+{
+  "objective": "Daha akışkan ve göze hitap eden nasıl oynanır rehberi",
+  "unity": "46/46 passed.",
+  "browser": {
+    "passed": 13,
+    "total": 13,
+    "errors": []
+  },
+  "verifiedBuildSources": [
+    "Assets/Scripts/AnimatedHowTo.cs",
+    "Assets/Scripts/HelpDemoArt.cs",
+    "Assets/Scripts/PinPopSelfTest.cs"
+  ],
+  "sourceBuildMatch": true,
+  "htmlSourceEmbeddedMatch": true,
+  "visualReview": [
+    "animated-help-unity-pull.png",
+    "animated-help-unity-320.png",
+    "animated-help-unity-burst.png",
+    "animated-help-browser-pull.png",
+    "polished-help-motion-review.png"
+  ],
+  "motionPreview": "polished-help-preview.webm",
+  "requirements": [
+    "Eased entrance and seamless loop reset fade",
+    "Cached wood/gradient/contact shadow art",
+    "Rolling, staggered pin falls and curved token flights",
+    "Match ring/glow/sparkles clipped within stage",
+    "Arcing swap movement and stable input areas with press feedback",
+    "Responsive controls, reduced motion and unchanged live game state"
+  ]
+}

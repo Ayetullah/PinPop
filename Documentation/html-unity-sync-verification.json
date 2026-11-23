@@ -1,0 +1,45 @@
+{
+  "reference": "index.html",
+  "referenceSha256": "0114f150bde407e3995eafe7b4ad2a7d20cf808b3d8fe98d1dd1f792842f6582",
+  "unityVersion": "6000.3.24f1",
+  "runtime": "macOS",
+  "checks": [
+    {
+      "report": "verification.txt",
+      "passed": 23,
+      "total": 23
+    },
+    {
+      "report": "pull-unity-verification.txt",
+      "passed": 34,
+      "total": 34
+    },
+    {
+      "report": "collision-unity-verification.txt",
+      "passed": 36,
+      "total": 36
+    },
+    {
+      "report": "polish-unity-verification.txt",
+      "passed": 36,
+      "total": 36
+    },
+    {
+      "report": "visual-verification.txt",
+      "passed": 8,
+      "total": 8
+    },
+    {
+      "report": "transition-unity-verification.txt",
+      "passed": 9,
+      "total": 9
+    },
+    {
+      "report": "html-sync-unity-verification.txt",
+      "passed": 49,
+      "total": 49
+    }
+  ],
+  "totalPassed": 195,
+  "totalChecks": 195
+}

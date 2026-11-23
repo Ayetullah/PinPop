@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Chapter 1 wins with zero credits and pays 34 coins in 4 shots"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 2 wins with zero credits and pays 34 coins in 6 shots"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 3 wins with zero credits and pays 32 coins in 7 shots"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 4 wins with zero credits and pays 36 coins in 6 shots"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 5 wins with zero credits and pays 36 coins in 6 shots"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 6 wins with zero credits and pays 30 coins in 9 shots"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 7 wins with zero credits and pays 36 coins in 6 shots"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 8 wins with zero credits and pays 36 coins in 6 shots"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 9 wins with zero credits and pays 30 coins in 9 shots"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 10 wins with zero credits and pays 36 coins in 6 shots"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 11 wins with zero credits and pays 36 coins in 6 shots"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 12 wins with zero credits and pays 30 coins in 9 shots"
+    }
+  ]
+}

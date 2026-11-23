@@ -1,0 +1,264 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Chapter 1 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 1 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 2 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 2 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 3 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 3 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 4 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 4 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 5 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 5 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 6 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 6 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 7 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 7 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 8 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 8 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 9 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 9 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 10 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 10 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 11 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 11 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 12 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 12 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 13 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 13 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 14 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 14 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 15 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 15 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 16 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 16 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 17 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 17 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 18 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 18 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 19 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 19 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 20 board and ammo"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 20 obstacle bodies"
+    },
+    {
+      "pass": true,
+      "label": "Ice is kinematic before breaking"
+    },
+    {
+      "pass": true,
+      "label": "Wrong color cannot crack ice"
+    },
+    {
+      "pass": true,
+      "label": "First correct impact cracks ice without moving it"
+    },
+    {
+      "pass": true,
+      "label": "Following shot releases thawed pin"
+    },
+    {
+      "pass": true,
+      "label": "Band binds three same-color pins"
+    },
+    {
+      "pass": true,
+      "label": "Band break releases whole group on following shot"
+    },
+    {
+      "pass": true,
+      "label": "Following shot unlocks bound group"
+    },
+    {
+      "pass": true,
+      "label": "Moving gate changes physical position"
+    },
+    {
+      "pass": true,
+      "label": "Color chooser consumes one item, no move"
+    },
+    {
+      "pass": true,
+      "label": "Absent color rejected"
+    },
+    {
+      "pass": true,
+      "label": "Rainbow arms once"
+    },
+    {
+      "pass": true,
+      "label": "Rainbow activates all colors for one shot"
+    },
+    {
+      "pass": true,
+      "label": "Extra moves preserve independent rewarded-video eligibility"
+    },
+    {
+      "pass": true,
+      "label": "Selected token enters pocket"
+    },
+    {
+      "pass": true,
+      "label": "Occupied pocket rejects another use"
+    },
+    {
+      "pass": true,
+      "label": "Two matching arrivals return pocket and reserve triple"
+    },
+    {
+      "pass": true,
+      "label": "Pocket triple animates to removal"
+    },
+    {
+      "pass": true,
+      "label": "Purchase charges exact coin price"
+    },
+    {
+      "pass": true,
+      "label": "Insufficient funds do not change inventory"
+    },
+    {
+      "pass": true,
+      "label": "Unlocked chest grants coins and inventory"
+    },
+    {
+      "pass": true,
+      "label": "Chest cannot repeat or unlock early"
+    },
+    {
+      "pass": true,
+      "label": "Inventory and chest claims survive reload"
+    },
+    {
+      "pass": true,
+      "label": "Restart clears temporary booster state"
+    },
+    {
+      "pass": true,
+      "label": "Fifth chapter folds chest into victory"
+    },
+    {
+      "pass": true,
+      "label": "Replay does not duplicate milestone reward"
+    }
+  ]
+}

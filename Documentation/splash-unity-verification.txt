@@ -1,0 +1,18 @@
+17/17 passed.
+PASS: Startup shows branded splash while prepared menu stays behind it
+PASS: Startup prepares home without launching a level
+PASS: Splash contains PinPop wordmark and bowling artwork
+PASS: All three character pins are present
+PASS: Splash uses full carnival scenery and a large wordmark
+PASS: Ready loading strip is filled
+PASS: Splash intercepts taps over the menu play button
+PASS: Map cannot open while startup splash is active
+PASS: Splash artwork disappears before the menu is revealed
+PASS: Splash remains readable after setup and first ready frame, then fades out
+PASS: Splash transitions automatically into home
+PASS: Splash preserves wallet, swap inventory and current level
+PASS: UI button is available: PLAY
+PASS: Pointer reaches button: PLAY
+PASS: Button artwork visibly presses without moving its input area: PLAY
+PASS: Menu works after splash and does not replay splash
+PASS: Returning home never shows startup splash again

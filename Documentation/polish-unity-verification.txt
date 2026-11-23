@@ -1,0 +1,37 @@
+36/36 passed.
+PASS: Home screen blocks gameplay input
+PASS: UI button is available: HOME_SHOP
+PASS: Pointer reaches button: HOME_SHOP
+PASS: Home shop pauses gameplay and protects insufficient balance
+PASS: UI button is available: CLOSE_SHOP
+PASS: Pointer reaches button: CLOSE_SHOP
+PASS: UI button is available: HOME_SETTINGS
+PASS: Pointer reaches button: HOME_SETTINGS
+PASS: Settings panel pauses the game
+PASS: UI button is available: CLOSE_SETTINGS
+PASS: Pointer reaches button: CLOSE_SETTINGS
+PASS: UI button is available: PLAY
+PASS: Pointer reaches button: PLAY
+PASS: Loading transition blocks shots
+PASS: Play enters active gameplay after entrance animation
+PASS: UI button is available: SWAP
+PASS: Pointer reaches button: SWAP
+PASS: Animated queue preserves rotation and credit cost
+PASS: UI button is available: SETTINGS
+PASS: Pointer reaches button: SETTINGS
+PASS: Paused game blocks shooting and swapping
+PASS: UI button is available: RESUME
+PASS: Pointer reaches button: RESUME
+PASS: Resume restores simulation
+PASS: UI button is available: SETTINGS
+PASS: Pointer reaches button: SETTINGS
+PASS: UI button is available: GO_HOME
+PASS: Pointer reaches button: GO_HOME
+PASS: Return home preserves wallet and resets board
+PASS: UI button is available: PLAY
+PASS: Pointer reaches button: PLAY
+PASS: UI button is available: SETTINGS
+PASS: Pointer reaches button: SETTINGS
+PASS: UI button is available: RESTART
+PASS: Pointer reaches button: RESTART
+PASS: Retry transition resets only level state

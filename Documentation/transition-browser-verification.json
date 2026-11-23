@@ -1,0 +1,53 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Transition is visible and locks the level"
+    },
+    {
+      "pass": true,
+      "label": "Transition has bowling artwork and live chapter title"
+    },
+    {
+      "pass": true,
+      "label": "Bowling ball animation advances"
+    },
+    {
+      "pass": true,
+      "label": "Transition hands off to playable board"
+    },
+    {
+      "pass": true,
+      "label": "Transition preserves economy and moves"
+    },
+    {
+      "pass": true,
+      "label": "Chapter artwork fits 390×844"
+    },
+    {
+      "pass": true,
+      "label": "Chapter artwork fits 320×740"
+    },
+    {
+      "pass": true,
+      "label": "Chapter artwork fits 1000×600"
+    },
+    {
+      "pass": true,
+      "label": "Reduced motion disables bowling animation"
+    },
+    {
+      "pass": true,
+      "label": "Reduced motion preserves readable loading duration"
+    },
+    {
+      "pass": true,
+      "label": "Reduced motion enters the requested chapter after readable loading"
+    },
+    {
+      "pass": true,
+      "label": "No browser runtime exceptions"
+    }
+  ],
+  "errors": []
+}

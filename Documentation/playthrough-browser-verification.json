@@ -1,0 +1,186 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Chapter 1 completed through actual pulled shots in the preceding campaign segment"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 2 completed through actual pulled shots in the preceding campaign segment"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 3 completed through actual pulled shots in the preceding campaign segment"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 4 completed through actual pulled shots in the preceding campaign segment"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 5 completed through actual pulled shots in the preceding campaign segment"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 6 completed through actual pulled shots in the preceding campaign segment"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 7 completed through actual pulled shots in the preceding campaign segment"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 8 completed through actual pulled shots in the preceding campaign segment"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 9 completed through actual pulled shots in the preceding campaign segment"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 10 completed through actual pulled shots in the preceding campaign segment"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 11 completed through actual pulled shots in the preceding campaign segment"
+    },
+    {
+      "pass": true,
+      "label": "Resume campaign at unlocked chapter twelve"
+    },
+    {
+      "pass": true,
+      "label": "Chapter twelve is completed through the real controls"
+    },
+    {
+      "pass": true,
+      "label": "Final chapter pays the exact reward after any video support"
+    },
+    {
+      "pass": true,
+      "label": "Final result returns home with the next chapter unlocked"
+    },
+    {
+      "pass": true,
+      "label": "Reload preserves campaign progress and purchased appearance"
+    },
+    {
+      "pass": true,
+      "label": "Continuation has no console errors"
+    }
+  ],
+  "chapters": [
+    {
+      "level": 1,
+      "shots": 4,
+      "moves": 2,
+      "cleared": 12,
+      "won": true,
+      "coins": 34,
+      "swaps": 3
+    },
+    {
+      "level": 2,
+      "shots": 6,
+      "moves": 2,
+      "cleared": 18,
+      "won": true,
+      "coins": 68,
+      "swaps": 3
+    },
+    {
+      "level": 3,
+      "shots": 7,
+      "moves": 1,
+      "cleared": 18,
+      "won": true,
+      "coins": 100,
+      "swaps": 3
+    },
+    {
+      "level": 4,
+      "shots": 6,
+      "moves": 3,
+      "cleared": 24,
+      "won": true,
+      "coins": 46,
+      "swaps": 3
+    },
+    {
+      "level": 5,
+      "shots": 6,
+      "moves": 3,
+      "cleared": 24,
+      "won": true,
+      "coins": 82,
+      "swaps": 3
+    },
+    {
+      "level": 6,
+      "shots": 8,
+      "moves": 1,
+      "cleared": 24,
+      "won": true,
+      "coins": 114,
+      "swaps": 1
+    },
+    {
+      "level": 7,
+      "shots": 6,
+      "moves": 3,
+      "cleared": 24,
+      "won": true,
+      "coins": 150,
+      "swaps": 1
+    },
+    {
+      "level": 8,
+      "shots": 6,
+      "moves": 3,
+      "cleared": 24,
+      "won": true,
+      "coins": 186,
+      "swaps": 1
+    },
+    {
+      "level": 9,
+      "shots": 9,
+      "moves": 0,
+      "cleared": 24,
+      "won": true,
+      "coins": 216,
+      "swaps": 0
+    },
+    {
+      "level": 10,
+      "shots": 6,
+      "moves": 3,
+      "cleared": 24,
+      "won": true,
+      "coins": 252,
+      "swaps": 0
+    },
+    {
+      "level": 11,
+      "shots": 6,
+      "moves": 3,
+      "cleared": 24,
+      "won": true,
+      "coins": 288,
+      "swaps": 0
+    },
+    {
+      "level": 12,
+      "shots": 7,
+      "moves": 2,
+      "cleared": 24,
+      "won": true,
+      "coins": 322,
+      "swaps": 0,
+      "videoRescueUsed": false
+    }
+  ],
+  "notes": "Chapters 1–11 completed consecutively. The first attempt at chapter 12 left one pin; retried from its unlocked home state and completed below.",
+  "chapter12InitialRemaining": 1,
+  "errors": []
+}

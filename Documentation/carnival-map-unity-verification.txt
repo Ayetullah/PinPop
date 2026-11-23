@@ -1,0 +1,83 @@
+82/82 passed.
+PASS: UI button is available: PLAY
+PASS: Pointer reaches button: PLAY
+PASS: Button artwork visibly presses without moving its input area: PLAY
+PASS: Home opens paused scrolling map
+PASS: Page arrows are removed
+PASS: Second region stays locked until twenty levels are completed
+PASS: Chapter 1 exists in the single scroll content
+PASS: Chapter 2 exists in the single scroll content
+PASS: Chapter 3 exists in the single scroll content
+PASS: Chapter 4 exists in the single scroll content
+PASS: Chapter 5 exists in the single scroll content
+PASS: Chapter 6 exists in the single scroll content
+PASS: Chapter 7 exists in the single scroll content
+PASS: Chapter 8 exists in the single scroll content
+PASS: Chapter 9 exists in the single scroll content
+PASS: Chapter 10 exists in the single scroll content
+PASS: Chapter 11 exists in the single scroll content
+PASS: Chapter 12 exists in the single scroll content
+PASS: Chapter 13 exists in the single scroll content
+PASS: Chapter 14 exists in the single scroll content
+PASS: Chapter 15 exists in the single scroll content
+PASS: Chapter 16 exists in the single scroll content
+PASS: Chapter 17 exists in the single scroll content
+PASS: Chapter 18 exists in the single scroll content
+PASS: Chapter 19 exists in the single scroll content
+PASS: Chapter 20 exists in the single scroll content
+PASS: All twenty original attraction icons remain
+PASS: Map has one vertical scrolling viewport
+PASS: First chapter is centered at initial open
+PASS: Mouse wheel scrolls route downward
+PASS: Manual scrolling is not pulled back to the current chapter
+PASS: Pointer drag scrolls real Unity ScrollRect
+PASS: Reopening recenters instead of restoring an arbitrary manual scroll
+PASS: Decorations animate while map pauses game time
+PASS: Reduced motion freezes decorative animation
+PASS: Current chapter 1 centers at (600, 1000)
+PASS: Scroll map stays in screen at (600, 1000)
+PASS: Touch targets and labels fit at (600, 1000) progress 0
+PASS: Current chapter 20 centers at (600, 1000)
+PASS: Scroll map stays in screen at (600, 1000)
+PASS: Touch targets and labels fit at (600, 1000) progress 19
+PASS: Current chapter 21 centers at (600, 1000)
+PASS: Scroll map stays in screen at (600, 1000)
+PASS: Touch targets and labels fit at (600, 1000) progress 20
+PASS: Current chapter 40 centers at (600, 1000)
+PASS: Scroll map stays in screen at (600, 1000)
+PASS: Touch targets and labels fit at (600, 1000) progress 39
+PASS: Current chapter 1 centers at (320, 740)
+PASS: Scroll map stays in screen at (320, 740)
+PASS: Touch targets and labels fit at (320, 740) progress 0
+PASS: Current chapter 20 centers at (320, 740)
+PASS: Scroll map stays in screen at (320, 740)
+PASS: Touch targets and labels fit at (320, 740) progress 19
+PASS: Current chapter 21 centers at (320, 740)
+PASS: Scroll map stays in screen at (320, 740)
+PASS: Touch targets and labels fit at (320, 740) progress 20
+PASS: Current chapter 40 centers at (320, 740)
+PASS: Scroll map stays in screen at (320, 740)
+PASS: Touch targets and labels fit at (320, 740) progress 39
+PASS: Current chapter 1 centers at (1000, 600)
+PASS: Scroll map stays in screen at (1000, 600)
+PASS: Touch targets and labels fit at (1000, 600) progress 0
+PASS: Current chapter 20 centers at (1000, 600)
+PASS: Scroll map stays in screen at (1000, 600)
+PASS: Touch targets and labels fit at (1000, 600) progress 19
+PASS: Current chapter 21 centers at (1000, 600)
+PASS: Scroll map stays in screen at (1000, 600)
+PASS: Touch targets and labels fit at (1000, 600) progress 20
+PASS: Current chapter 40 centers at (1000, 600)
+PASS: Scroll map stays in screen at (1000, 600)
+PASS: Touch targets and labels fit at (1000, 600) progress 39
+PASS: Intermediate and locked chests coexist on one route
+PASS: UI button is available: MAP_CHEST_0
+PASS: Pointer reaches button: MAP_CHEST_0
+PASS: Button artwork visibly presses without moving its input area: MAP_CHEST_0
+PASS: Chest rewards remain single-use
+PASS: Claiming a chest preserves manual map position
+PASS: UI button is available: MAP_LEVEL_5
+PASS: Pointer reaches button: MAP_LEVEL_5
+PASS: Tap launches the correct chapter from scrolling map
+PASS: Completed campaign centers last chapter without adding content
+PASS: Completed region progress remains twenty of twenty

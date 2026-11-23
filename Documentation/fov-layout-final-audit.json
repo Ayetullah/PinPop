@@ -1,0 +1,45 @@
+{
+  "verifiedUtc": "2026-11-22T10:56:39.065510+00:00",
+  "requirements": {
+    "runtimeFov": "Actual Camera.fieldOfView edits persist over frames, pause and home/game transitions; exposed game/home base fields are editable",
+    "trayWidth": "Panel endpoints match visible projection of the 8.55-wide back wooden edge; square slots and collected pin positions scale with it"
+  },
+  "samples": {
+    "screens": [
+      [
+        600,
+        1000
+      ],
+      [
+        320,
+        740
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        1000,
+        600
+      ]
+    ],
+    "fovDegrees": [
+      35,
+      45,
+      60
+    ]
+  },
+  "reports": {
+    "fov-layout-unity-verification.txt": 39,
+    "grass-layout-unity-verification.txt": 25,
+    "fov-layout-browser-verification.json": 37
+  },
+  "nativeBuildMatchesSource": true,
+  "build": "Builds/PinPop.app",
+  "sha256": {
+    "Assets/Scripts/PinPopGame.cs": "9732683be63052c33576353a12b894e19306ef149edfd13550594eca53a4a1d0",
+    "Assets/Scripts/HtmlMatchTrayUI.cs": "677bf9b412162a2f34e773fe7490406288e48a09768fb417fd050086ab1a0f21",
+    "Assets/Scripts/PinPopSelfTest.cs": "2cbeba10a130710b3a89f71ce6f62cf4caf144b735d2b8939d71785d8c929237",
+    "index.html": "2d8467615abea2ef39691274c2ae52975d2fd95da5f26b1e6e6e2770146a6dbd"
+  }
+}

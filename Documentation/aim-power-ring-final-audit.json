@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "Assets/Scripts/PinPopGame.cs": true,
+    "Assets/Scripts/AimPowerRing.cs": true,
+    "Assets/Scripts/HtmlReferenceHUD.cs": true,
+    "Assets/Scripts/PinPopSelfTest.cs": true,
+    "Assets/Resources/AimPowerOverlay.shader": true,
+    "native_pass": true,
+    "browser_pass": true,
+    "old_card_removed": true,
+    "slower_merge_preserved": true
+  },
+  "unity": "62/62",
+  "browser": "51/51"
+}

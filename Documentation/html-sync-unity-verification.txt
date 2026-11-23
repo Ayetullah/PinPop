@@ -1,0 +1,50 @@
+49/49 passed.
+PASS: Fresh sound preference matches HTML: muted by default
+PASS: UI button is available: HOME_SETTINGS
+PASS: Pointer reaches button: HOME_SETTINGS
+PASS: UI button is available: SOUND
+PASS: Pointer reaches button: SOUND
+PASS: Sound enabled state, sprite and saved preference agree
+PASS: Enabling sound plays HTML confirmation tone
+PASS: UI button is available: SOUND
+PASS: Pointer reaches button: SOUND
+PASS: Sound disabled state, sprite and saved preference agree
+PASS: UI button is available: MOTION
+PASS: Pointer reaches button: MOTION
+PASS: Reduced motion toggle is saved
+PASS: UI button is available: CLOSE_SETTINGS
+PASS: Pointer reaches button: CLOSE_SETTINGS
+PASS: Saved settings reload without resetting economy
+PASS: Staggered entrance animates visuals without changing physics collider scale
+PASS: Reduced motion immediately finishes an in-progress pin entrance
+PASS: Invalid shot input cannot consume a move or corrupt physics
+PASS: Last two moves use HTML warning color
+PASS: Pull can start before focus loss
+PASS: Losing application focus cancels pull without spending a move
+PASS: HTML meadow surface participates in physics
+PASS: Pin contact shapes match HTML compound body, neck and head
+PASS: All compound collider pairs enforce pin color isolation
+PASS: Result dialog freezes game physics while UI effects continue
+PASS: Failure copy matches HTML and preserves wallet message
+PASS: Result modal cannot be replaced by settings
+PASS: Victory copy and live reward balance match HTML
+PASS: Victory reward and earned stars are live
+PASS: HTML victory fireworks and flying coin layers are present
+PASS: DPI-independent app bounds match at 800x1000
+PASS: Result stays populated after resize 800x1000
+PASS: DPI-independent app bounds match at 1440x900
+PASS: Result stays populated after resize 1440x900
+PASS: DPI-independent app bounds match at 600x700
+PASS: Result stays populated after resize 600x700
+PASS: DPI-independent app bounds match at 800x1200
+PASS: Result stays populated after resize 800x1200
+PASS: Home wallet displays multi-digit coin and swap values
+PASS: UI button is available: HOME_SHOP
+PASS: Pointer reaches button: HOME_SHOP
+PASS: Shop totals reflow around complete labels
+PASS: UI button is available: SHOP_BUY
+PASS: Pointer reaches button: SHOP_BUY
+PASS: Funded shop updates live totals after purchase
+PASS: UI button is available: CLOSE_SHOP
+PASS: Pointer reaches button: CLOSE_SHOP
+PASS: Game wallet expands for multiple digits without baked coin text

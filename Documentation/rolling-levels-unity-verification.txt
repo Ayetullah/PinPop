@@ -1,0 +1,4 @@
+3/3 passed.
+PASS: Rolling level 2 is completable within its original move budget
+PASS: Rolling level 4 is completable within its original move budget
+PASS: Rolling level 6 is completable within its original move budget

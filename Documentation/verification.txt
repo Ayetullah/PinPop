@@ -1,0 +1,25 @@
+PinPop runtime verification: 23/23 passed.
+Unity 6000.3.24f1
+PASS: Intro starts with 12 pins and 6 moves
+PASS: Fresh wallet has 3 starter swaps; insufficient coins cannot buy
+PASS: Swap rotates the entire queue and consumes one credit, not a move
+PASS: Wrong-color shot accepted
+PASS: A shot spends exactly one move
+PASS: Swap and duplicate shots blocked while physics resolves
+PASS: Wrong-color ball rebounds without moving pins
+PASS: Matching-color rolling shot accepted
+PASS: Matching-color impact physically topples and clears pins
+PASS: Chain reactions do not activate another color
+PASS: Intro is winnable within its move budget
+PASS: Level victory awards exactly 30 coins
+PASS: Reward is not duplicated after the victory
+PASS: Next level resets state and increases the layout
+PASS: 10 coins purchase exactly one swap credit
+PASS: Wallet changes persist to PlayerPrefs
+PASS: Purchases cannot overdraw the wallet
+PASS: No credit means no queue rotation
+PASS: Restart preserves wallet and never refills starter credits
+PASS: Exhausting moves shows failure after physics settles
+PASS: Finished state blocks shooting and swapping
+PASS: Retry restores fresh level state
+PASS: Failed level grants no coins

@@ -1,0 +1,159 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Splash appears before usable home 600"
+    },
+    {
+      "pass": true,
+      "label": "Carnival scenery, large logo and loading strip 600"
+    },
+    {
+      "pass": true,
+      "label": "Splash shows brand and bowling artwork 600"
+    },
+    {
+      "pass": true,
+      "label": "Splash content fits viewport 600"
+    },
+    {
+      "pass": true,
+      "label": "Tapping through splash cannot open the map 600"
+    },
+    {
+      "pass": true,
+      "label": "Readable splash holds then fades after initialization 600"
+    },
+    {
+      "pass": true,
+      "label": "Artwork fades before home is revealed 600"
+    },
+    {
+      "pass": true,
+      "label": "Splash transitions automatically into usable home 600"
+    },
+    {
+      "pass": true,
+      "label": "Startup preserves saved progression and inventory 600"
+    },
+    {
+      "pass": true,
+      "label": "Play works without replaying splash 600"
+    },
+    {
+      "pass": true,
+      "label": "Splash appears before usable home 320"
+    },
+    {
+      "pass": true,
+      "label": "Carnival scenery, large logo and loading strip 320"
+    },
+    {
+      "pass": true,
+      "label": "Splash shows brand and bowling artwork 320"
+    },
+    {
+      "pass": true,
+      "label": "Splash content fits viewport 320"
+    },
+    {
+      "pass": true,
+      "label": "Tapping through splash cannot open the map 320"
+    },
+    {
+      "pass": true,
+      "label": "Readable splash holds then fades after initialization 320"
+    },
+    {
+      "pass": true,
+      "label": "Artwork fades before home is revealed 320"
+    },
+    {
+      "pass": true,
+      "label": "Splash transitions automatically into usable home 320"
+    },
+    {
+      "pass": true,
+      "label": "Startup preserves saved progression and inventory 320"
+    },
+    {
+      "pass": true,
+      "label": "Play works without replaying splash 320"
+    },
+    {
+      "pass": true,
+      "label": "Splash appears before usable home 1000"
+    },
+    {
+      "pass": true,
+      "label": "Carnival scenery, large logo and loading strip 1000"
+    },
+    {
+      "pass": true,
+      "label": "Splash shows brand and bowling artwork 1000"
+    },
+    {
+      "pass": true,
+      "label": "Splash content fits viewport 1000"
+    },
+    {
+      "pass": true,
+      "label": "Reduced motion keeps splash artwork still"
+    },
+    {
+      "pass": true,
+      "label": "Tapping through splash cannot open the map 1000"
+    },
+    {
+      "pass": true,
+      "label": "Readable splash holds then fades after initialization 1000"
+    },
+    {
+      "pass": true,
+      "label": "Artwork fades before home is revealed 1000"
+    },
+    {
+      "pass": true,
+      "label": "Splash transitions automatically into usable home 1000"
+    },
+    {
+      "pass": true,
+      "label": "Startup preserves saved progression and inventory 1000"
+    },
+    {
+      "pass": true,
+      "label": "Play works without replaying splash 1000"
+    },
+    {
+      "pass": true,
+      "label": "Normal startup produces no runtime errors"
+    },
+    {
+      "pass": true,
+      "label": "Failed initialization shows retry instead of an endless splash"
+    },
+    {
+      "pass": true,
+      "label": "Failure keeps home blocked and exposes retry"
+    },
+    {
+      "pass": true,
+      "label": "Failed startup cannot incorrectly switch to ready"
+    },
+    {
+      "pass": true,
+      "label": "Retry recovers to home"
+    },
+    {
+      "pass": true,
+      "label": "Retry preserves saved progress"
+    },
+    {
+      "pass": true,
+      "label": "Only the injected startup failure was logged"
+    }
+  ],
+  "errors": [
+    "Uncaught (in promise): Error: QA startup load failure\n    at Promise.all (<anonymous>:1:230)\n    at file:///Users/ayetullah/Desktop/Projeler/Unity%20Projects/PinPop/index.html?splash=2:133:38"
+  ]
+}

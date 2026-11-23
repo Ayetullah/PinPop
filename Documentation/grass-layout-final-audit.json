@@ -1,0 +1,27 @@
+{
+  "verifiedUtc": "2026-11-22T10:41:58.512120+00:00",
+  "requirements": {
+    "input": "Timed hold charge removed; pull distance and release restored with fixed launch",
+    "grass": "Real ball landing, gradual slowdown, lifetime beyond six seconds, natural stop, preservation on next shot and restart cleanup verified",
+    "collection": "Below chapter and upper controls, upper screen half at four resolutions",
+    "queue": "Ordered next three balls above swap at four resolutions"
+  },
+  "checks": {
+    "grass-layout-unity-verification.txt": 25,
+    "pin-behavior-unity-verification.txt": 35,
+    "smash-match-unity-verification.txt": 44,
+    "grass-layout-browser-verification.json": 18,
+    "smash-match-model-verification.json": 33
+  },
+  "nativeBuildMatchesSource": true,
+  "build": "Builds/PinPop.app",
+  "sha256": {
+    "Assets/Scripts/PinPopGame.cs": "4ce68f7edf57604a5446fc24b6a57dda8057561e1dc7e226ca8324d16ac77c82",
+    "Assets/Scripts/BowlingBall.cs": "ae905d8eb3bc0d606482cb8403f8c57911f341d32339e1f281f9c9a673592084",
+    "Assets/Scripts/HtmlPhysicsContacts.cs": "37cab83d46171aacd5318a2a2afbd179c835d8b8cb71a65d2e2c860f9aad8fd4",
+    "Assets/Scripts/HtmlMatchTrayUI.cs": "dd6242e7458a593b3fe221886ada1400dbf9644ddfe8345c32daa4d25df28156",
+    "Assets/Scripts/HtmlReferenceHUD.cs": "6e74b28ed33d9b0378e6fe65080277c362d0a371f6614a4b1a29b6cf5d703afa",
+    "Assets/Scripts/PinPopSelfTest.cs": "fd1b30c9ed721d4a457c0ca7726fb620c1945ede9c802e673a460de4cebc4e2f",
+    "index.html": "eb8c5c147d93b4320eb1e9e398741b2f054962dcaaceab24a620d274929af6c0"
+  }
+}

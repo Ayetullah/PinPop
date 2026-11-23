@@ -1,0 +1,222 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Fresh game opens in home with starter wallet"
+    },
+    {
+      "pass": true,
+      "label": "Home opens the complete how-to-play page"
+    },
+    {
+      "pass": true,
+      "label": "Empty wallet shows shop with purchase disabled"
+    },
+    {
+      "pass": true,
+      "label": "Sound switch enables effects"
+    },
+    {
+      "pass": true,
+      "label": "Reduced motion keeps a readable loading page"
+    },
+    {
+      "pass": true,
+      "label": "Play enters the actual table"
+    },
+    {
+      "pass": true,
+      "label": "Loading lasts at least 1.4 seconds"
+    },
+    {
+      "pass": true,
+      "label": "In-game help is available"
+    },
+    {
+      "pass": true,
+      "label": "Closing help preserves moves"
+    },
+    {
+      "pass": true,
+      "label": "Keyboard shows aim and actual selected power"
+    },
+    {
+      "pass": true,
+      "label": "Escape cancels keyboard aiming without opening a dialog"
+    },
+    {
+      "pass": true,
+      "label": "Escape opens pause settings after cancel"
+    },
+    {
+      "pass": true,
+      "label": "Closing settings returns keyboard control to the table"
+    },
+    {
+      "pass": true,
+      "label": "Rapid cancelled drag can be grabbed again 1"
+    },
+    {
+      "pass": true,
+      "label": "Rapid cancelled drag can be grabbed again 2"
+    },
+    {
+      "pass": true,
+      "label": "Rapid cancelled drag can be grabbed again 3"
+    },
+    {
+      "pass": true,
+      "label": "Selected pull is held before release 1"
+    },
+    {
+      "pass": true,
+      "label": "Real pull/release spends one move on shot 1"
+    },
+    {
+      "pass": true,
+      "label": "Help pauses an already rolling ball"
+    },
+    {
+      "pass": true,
+      "label": "Shot 1 finishes physics"
+    },
+    {
+      "pass": true,
+      "label": "Selected pull is held before release 2"
+    },
+    {
+      "pass": true,
+      "label": "Real pull/release spends one move on shot 2"
+    },
+    {
+      "pass": true,
+      "label": "Shot 2 finishes physics"
+    },
+    {
+      "pass": true,
+      "label": "Selected pull is held before release 3"
+    },
+    {
+      "pass": true,
+      "label": "Real pull/release spends one move on shot 3"
+    },
+    {
+      "pass": true,
+      "label": "Shot 3 finishes physics"
+    },
+    {
+      "pass": true,
+      "label": "Selected pull is held before release 4"
+    },
+    {
+      "pass": true,
+      "label": "Real pull/release spends one move on shot 4"
+    },
+    {
+      "pass": true,
+      "label": "Shot 4 finishes physics"
+    },
+    {
+      "pass": true,
+      "label": "Actual pulled shots complete the first level"
+    },
+    {
+      "pass": true,
+      "label": "Victory page opens and credits 30 coins once"
+    },
+    {
+      "pass": true,
+      "label": "Continue starts the next level"
+    },
+    {
+      "pass": true,
+      "label": "Funded shop buys exactly one credit for 10 coins"
+    },
+    {
+      "pass": true,
+      "label": "Restart returns through loading"
+    },
+    {
+      "pass": true,
+      "label": "Restart resets the board and preserves wallet"
+    },
+    {
+      "pass": true,
+      "label": "Miss 1 resolves before failure"
+    },
+    {
+      "pass": true,
+      "label": "Miss 2 resolves before failure"
+    },
+    {
+      "pass": true,
+      "label": "Miss 3 resolves before failure"
+    },
+    {
+      "pass": true,
+      "label": "Miss 4 resolves before failure"
+    },
+    {
+      "pass": true,
+      "label": "Miss 5 resolves before failure"
+    },
+    {
+      "pass": true,
+      "label": "Miss 6 resolves before failure"
+    },
+    {
+      "pass": true,
+      "label": "Miss 7 resolves before failure"
+    },
+    {
+      "pass": true,
+      "label": "Miss 8 resolves before failure"
+    },
+    {
+      "pass": true,
+      "label": "Exhausting real keyboard shots opens the failure page"
+    },
+    {
+      "pass": true,
+      "label": "Failure preserves coins and swap credits"
+    },
+    {
+      "pass": true,
+      "label": "Retry returns through loading"
+    },
+    {
+      "pass": true,
+      "label": "Retry restores a fresh level"
+    },
+    {
+      "pass": true,
+      "label": "Settings returns to home at the correct chapter"
+    },
+    {
+      "pass": true,
+      "label": "Help page fits 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Help page fits 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Help page fits 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Reload restores chapter, coin balance and swap credits"
+    },
+    {
+      "pass": true,
+      "label": "Saved progress beyond level 1000 is not silently rewound"
+    },
+    {
+      "pass": true,
+      "label": "No browser or shader runtime exceptions through the whole journey"
+    }
+  ],
+  "errors": [],
+  "actualPulledShots": 4
+}

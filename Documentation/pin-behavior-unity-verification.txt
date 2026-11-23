@@ -1,0 +1,36 @@
+35/35 passed.
+PASS: Chapter 1 starts separated with solid body/neck/head collision for every color pair
+PASS: Chapter 2 starts separated with solid body/neck/head collision for every color pair
+PASS: Chapter 3 starts separated with solid body/neck/head collision for every color pair
+PASS: Chapter 4 starts separated with solid body/neck/head collision for every color pair
+PASS: Chapter 5 starts separated with solid body/neck/head collision for every color pair
+PASS: Chapter 6 starts separated with solid body/neck/head collision for every color pair
+PASS: Chapter 7 starts separated with solid body/neck/head collision for every color pair
+PASS: Chapter 8 starts separated with solid body/neck/head collision for every color pair
+PASS: Chapter 9 starts separated with solid body/neck/head collision for every color pair
+PASS: Chapter 10 starts separated with solid body/neck/head collision for every color pair
+PASS: Chapter 11 starts separated with solid body/neck/head collision for every color pair
+PASS: Chapter 12 starts separated with solid body/neck/head collision for every color pair
+PASS: Pull changes aim/power while the ball stays fixed: (-120.00, -80.00)
+PASS: Pull changes aim/power while the ball stays fixed: (120.00, -80.00)
+PASS: Pull changes aim/power while the ball stays fixed: (0.00, -140.00)
+PASS: Pull changes aim/power while the ball stays fixed: (0.00, 140.00)
+PASS: Pull changes aim/power while the ball stays fixed: (-140.00, 0.00)
+PASS: Pull changes aim/power while the ball stays fixed: (140.00, 0.00)
+PASS: Release launches from the same fixed anchor and consumes one move
+PASS: Actual contact keeps pin surfaces separated: 0 against 1; max overlap=0
+PASS: Different-color blocker remains fixed after pin impact
+PASS: Actual contact keeps pin surfaces separated: 1 against 2; max overlap=0
+PASS: Different-color blocker remains fixed after pin impact
+PASS: Actual contact keeps pin surfaces separated: 2 against 0; max overlap=0
+PASS: Different-color blocker remains fixed after pin impact
+PASS: Actual contact keeps pin surfaces separated: 0 against 0; max overlap=0
+PASS: Same-color pins transfer physical motion
+PASS: Full-power free-rotation shot keeps visible pin bodies separated in chapter 1; max overlap=0.0004984774
+PASS: Full-power free-rotation shot keeps visible pin bodies separated in chapter 3; max overlap=0
+PASS: Full-power free-rotation shot keeps visible pin bodies separated in chapter 6; max overlap=0.004844189
+PASS: A physically fallen target flies as the actual printed bowling pin, preserving its silhouette
+PASS: Collected pin remains in its slot without becoming a cube
+PASS: Collected pin proportions survive resize to 320x740
+PASS: Collected pin proportions survive resize to 390x844
+PASS: Collected pin proportions survive resize to 1000x600

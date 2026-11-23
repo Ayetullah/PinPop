@@ -1,0 +1,13 @@
+12/12 passed.
+PASS: Rolling level 1 is completable within its original move budget
+PASS: Rolling level 2 is completable within its original move budget
+PASS: Rolling level 3 is completable within its original move budget
+PASS: Rolling level 4 is completable within its original move budget
+PASS: Rolling level 5 is completable within its original move budget
+PASS: Rolling level 6 is completable within its original move budget
+PASS: Rolling level 7 is completable within its original move budget
+PASS: Rolling level 8 is completable within its original move budget
+PASS: Rolling level 9 is completable within its original move budget
+PASS: Rolling level 10 is completable within its original move budget
+PASS: Rolling level 11 is completable within its original move budget
+PASS: Rolling level 12 is completable within its original move budget

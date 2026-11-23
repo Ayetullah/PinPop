@@ -1,0 +1,81 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Play opens five-node region map"
+    },
+    {
+      "pass": true,
+      "label": "Future chapters locked"
+    },
+    {
+      "pass": true,
+      "label": "Color chooser shows available colors"
+    },
+    {
+      "pass": true,
+      "label": "Choosing color updates queue and consumes one item"
+    },
+    {
+      "pass": true,
+      "label": "Rainbow UI arms next shot"
+    },
+    {
+      "pass": true,
+      "label": "Ice and moving gate coexist"
+    },
+    {
+      "pass": true,
+      "label": "Pocket selector shows actual collected figure"
+    },
+    {
+      "pass": true,
+      "label": "UI transfers chosen figure to pocket"
+    },
+    {
+      "pass": true,
+      "label": "Map fits 320"
+    },
+    {
+      "pass": true,
+      "label": "Map fits 390"
+    },
+    {
+      "pass": true,
+      "label": "Map fits 1000"
+    },
+    {
+      "pass": true,
+      "label": "Region 1 renders all five chapters"
+    },
+    {
+      "pass": true,
+      "label": "Region 2 renders all five chapters"
+    },
+    {
+      "pass": true,
+      "label": "Region 3 renders all five chapters"
+    },
+    {
+      "pass": true,
+      "label": "Region 4 renders all five chapters"
+    },
+    {
+      "pass": true,
+      "label": "Milestone victory includes chest in same result screen"
+    },
+    {
+      "pass": true,
+      "label": "First new-color visit shows tutorial"
+    },
+    {
+      "pass": true,
+      "label": "Ice lesson follows color introduction"
+    },
+    {
+      "pass": true,
+      "label": "No runtime exceptions"
+    }
+  ],
+  "errors": []
+}

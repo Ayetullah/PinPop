@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-19T20:33:44.705Z",
+  "passed": 7,
+  "total": 7,
+  "checks": [
+    {
+      "pass": true,
+      "label": "Real wrong-color UI shot makes physical contact"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color UI contact flashes the fixed pin"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color UI shot awards no cleared pins"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color group remains at original positions"
+    },
+    {
+      "pass": true,
+      "label": "Rebound spends one move and preserves remaining swap credits"
+    },
+    {
+      "pass": true,
+      "label": "Temporary block flash fades"
+    },
+    {
+      "pass": true,
+      "label": "Block feedback raises no renderer or JavaScript errors"
+    }
+  ],
+  "contact": {
+    "normal": {
+      "x": 0.6091593139407747,
+      "y": 0.5859094606750257,
+      "z": -0.5344483456150887
+    },
+    "incoming": {
+      "x": -3.249362447412978,
+      "y": -3.054332686813635,
+      "z": 11.31227320190278
+    },
+    "outgoing": {
+      "x": 4.1498313199975705,
+      "y": 0.49140485651087207,
+      "z": -1.164737340210444
+    },
+    "pinColor": 0,
+    "ballColor": 1
+  },
+  "errors": []
+}

@@ -1,0 +1,11 @@
+{
+  "Assets/Scripts/PinPopGame.cs": true,
+  "Assets/Scripts/PinPopSelfTest.cs": true,
+  "Assets/Scripts/PinPopAdventure.cs": true,
+  "launch-position-model-verification.json": true,
+  "launch-position-browser-verification.json": true,
+  "grass-lifetime-model-verification.json": true,
+  "smash-match-model-verification.json": true,
+  "unity": true,
+  "html_source_embedded": true
+}

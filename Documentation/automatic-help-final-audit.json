@@ -1,0 +1,30 @@
+{
+  "objective": "Butonsuz, otomatik ilerleyen ve kaydırılabilir rehber; bölüm 1 ilk girişinde otomatik açılma",
+  "unity": "43/43 passed.",
+  "browser": {
+    "passed": 30,
+    "total": 30,
+    "errors": []
+  },
+  "sourceBuildMatch": true,
+  "embeddedBrowserSourceMatch": true,
+  "requirements": {
+    "remove_buttons": "Zero tutorial Button components/DOM buttons; no home/game question-mark controls",
+    "automatic_playback": "5.4 / 7.8 / 5.5 second scenes, last scene closes and resumes live game",
+    "swipe": "Left/right touch and mouse, first boundary, final exit, tap/vertical rejection, resize preservation",
+    "first_entry": "Production level entry opens first scene once; seen flag persisted; restart/reload does not reopen",
+    "game_state": "Board, queue, moves, swap and coins unchanged; only tutorial seen flag written",
+    "presentation": "320/390/landscape screenshots inspected; reduced motion stable and automatic"
+  },
+  "build": "Builds/PinPop.app",
+  "keys": [
+    "PinPop.HowTo.Seen.v1",
+    "pinpop-html-howto-seen-v1"
+  ],
+  "codeHashes": {
+    "Assets/Scripts/AnimatedHowTo.cs": "fff178e86b39df70e3280bb215ababf02e24599be2242cdbbfb8cb3716eabb19",
+    "Assets/Scripts/PinPopHUD.cs": "261c0061268d3e86f28e83ff8a3fae83ddd3a0abe5a7af192767decaaeb8e8f6",
+    "Assets/Scripts/HtmlReferenceHUD.cs": "1708dcbddb9f4d914a3f5685dc5bb107fa2611ea17ba24d271cf3d9e4afcd555",
+    "Assets/Scripts/PinPopSelfTest.cs": "0a451d4f8ae825a2cab75e330f1ffd291a2fdc3a70bfeeef3ec881b65aacfc2b"
+  }
+}

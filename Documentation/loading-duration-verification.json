@@ -1,0 +1,18 @@
+{
+  "minimumSeconds": 1.4,
+  "reducedMotionKeepsReadableDuration": true,
+  "resizePreservesProgress": true,
+  "checks": [
+    {
+      "report": "transition-unity-verification.txt",
+      "passed": 22,
+      "total": 22
+    },
+    {
+      "report": "polish-unity-verification.txt",
+      "passed": 36,
+      "total": 36
+    }
+  ],
+  "totalPassed": 58
+}

@@ -1,0 +1,33 @@
+{
+  "objective": "Bowling topu mağazası, SWAP + satın alma, eski üst yazıların kaldırılması ve coin hesabı",
+  "checks": {
+    "unity_shop_and_economy": "82/82",
+    "browser_shop_and_economy": "32/32",
+    "integer_economy_model": "37/37",
+    "unity_zero_credit_progression": "24/24 (12 layouts)",
+    "browser_zero_credit_progression": "12/12"
+  },
+  "artifacts": [
+    "Builds/PinPop.app",
+    "index.html",
+    "Documentation/ECONOMY_AND_SHOP.md"
+  ],
+  "requirements": [
+    {
+      "requirement": "Mağazada bowling topu satışı",
+      "evidence": "Canlı katalogda 90/180/300 harcama, kalıcı sahiplik, ücretsiz seçim, kayıt yükleme ve gerçek top malzemesi kontrolleri; iki motorun katalog görüntüleri incelendi."
+    },
+    {
+      "requirement": "SWAP üzerinde + üzerinden satın alma",
+      "evidence": "Gerçek UI tıklaması/raycast; 10 coin düşülür, 1 hak artar; satın alma hamle veya sıra tüketmez. Ana SWAP ayrı rotasyon yapar."
+    },
+    {
+      "requirement": "Eski +1 swap 10 coin yazısını ve üst açıklamayı kaldırma",
+      "evidence": "DOM/Unity HUD filtreleri ve güncel oyun görüntüleri; üst banner yok, açıklama yok. Fiyat yalnızca satın alma penceresinde."
+    },
+    {
+      "requirement": "Doğru coin hesabı",
+      "evidence": "Gerçek zafer 30+2×kalan hamle, tekrarlanan bitiş koruması, kayıtlı en iyi sonuç farkı, tam sayı fiyatlar, yetersiz bakiye, limitler ve eski kayıt geçişi doğrulandı."
+    }
+  ]
+}

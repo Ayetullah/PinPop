@@ -1,0 +1,28 @@
+{
+  "features": {
+    "1_map": "4 regions / 20 unlocked-by-progress nodes; replay; future mechanic/color previews; persistent one-time chests; existing progress beyond 20 continues",
+    "3_obstacles": "fixed colliders, per-color ice, three-pin band and physical moving gate; wrong color stays blocked; protection releases on next shot",
+    "4_boosters": "stock/shop and persistence for color selector, one-shot rainbow, selected-token pocket with automatic triple return, and three extra moves",
+    "7_polish": "first-visit color/obstacle lessons, real figure icons, reveal transitions with reduced-motion handling, crack/band particles, rainbow appearance, milestone result summary, responsive HUD"
+  },
+  "tests": {
+    "adventure-unity-verification.txt": "45/45 passed.",
+    "grass-layout-unity-verification.txt": "25/25 passed.",
+    "smash-match-unity-verification.txt": "44/44 passed.",
+    "adventure-model-verification.json": {
+      "passed": 65,
+      "total": 65
+    },
+    "adventure-browser-verification.json": {
+      "passed": 19,
+      "total": 19
+    },
+    "smash-match-model-verification.json": {
+      "passed": 33,
+      "total": 33
+    }
+  },
+  "build": "Builds/PinPop.app",
+  "sourceBuildEquality": true,
+  "htmlSha256": "9ced99e09566f80390864668df2db68a818f9912b67d4ff30c81307bb2130a90"
+}

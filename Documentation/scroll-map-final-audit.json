@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "build_AdventureHUD": true,
+    "build_CarnivalMapView": true,
+    "build_CarnivalMapCatalog": true,
+    "build_CarnivalMapGraphic": true,
+    "build_PinPopSelfTest": true,
+    "embedded_adventure-ui": true,
+    "embedded_carnival-map-view": true,
+    "native_pass": true,
+    "web_pass": true,
+    "no_navigation_arrows": true
+  },
+  "unity": "72/72",
+  "html": "32/32"
+}

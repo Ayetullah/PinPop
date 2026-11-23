@@ -1,0 +1,209 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Each region shows twenty chapters in one scrolling map without page arrows"
+    },
+    {
+      "pass": true,
+      "label": "Twenty attraction icons and four regional reward chests remain"
+    },
+    {
+      "pass": true,
+      "label": "First chapter centers on initial open"
+    },
+    {
+      "pass": true,
+      "label": "Second region is locked before completing twenty chapters"
+    },
+    {
+      "pass": true,
+      "label": "Mouse wheel scrolls downward"
+    },
+    {
+      "pass": true,
+      "label": "Manual scrolling is not reset by animation"
+    },
+    {
+      "pass": true,
+      "label": "Dragging on a chapter scrolls without launching it"
+    },
+    {
+      "pass": true,
+      "label": "Reopening recenters current chapter"
+    },
+    {
+      "pass": true,
+      "label": "Current chapter 1 centers at 600x1000"
+    },
+    {
+      "pass": true,
+      "label": "Viewport and touch targets fit 600 progress 0"
+    },
+    {
+      "pass": true,
+      "label": "Region tabs stay readable and tappable 600"
+    },
+    {
+      "pass": true,
+      "label": "Current chapter 20 centers at 600x1000"
+    },
+    {
+      "pass": true,
+      "label": "Viewport and touch targets fit 600 progress 19"
+    },
+    {
+      "pass": true,
+      "label": "Region tabs stay readable and tappable 600"
+    },
+    {
+      "pass": true,
+      "label": "Current chapter 21 centers at 600x1000"
+    },
+    {
+      "pass": true,
+      "label": "Viewport and touch targets fit 600 progress 20"
+    },
+    {
+      "pass": true,
+      "label": "Region tabs stay readable and tappable 600"
+    },
+    {
+      "pass": true,
+      "label": "Current chapter 40 centers at 600x1000"
+    },
+    {
+      "pass": true,
+      "label": "Viewport and touch targets fit 600 progress 39"
+    },
+    {
+      "pass": true,
+      "label": "Region tabs stay readable and tappable 600"
+    },
+    {
+      "pass": true,
+      "label": "Current chapter 1 centers at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Viewport and touch targets fit 320 progress 0"
+    },
+    {
+      "pass": true,
+      "label": "Region tabs stay readable and tappable 320"
+    },
+    {
+      "pass": true,
+      "label": "Current chapter 20 centers at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Viewport and touch targets fit 320 progress 19"
+    },
+    {
+      "pass": true,
+      "label": "Region tabs stay readable and tappable 320"
+    },
+    {
+      "pass": true,
+      "label": "Current chapter 21 centers at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Viewport and touch targets fit 320 progress 20"
+    },
+    {
+      "pass": true,
+      "label": "Region tabs stay readable and tappable 320"
+    },
+    {
+      "pass": true,
+      "label": "Current chapter 40 centers at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Viewport and touch targets fit 320 progress 39"
+    },
+    {
+      "pass": true,
+      "label": "Region tabs stay readable and tappable 320"
+    },
+    {
+      "pass": true,
+      "label": "Current chapter 1 centers at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Viewport and touch targets fit 1000 progress 0"
+    },
+    {
+      "pass": true,
+      "label": "Region tabs stay readable and tappable 1000"
+    },
+    {
+      "pass": true,
+      "label": "Current chapter 20 centers at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Viewport and touch targets fit 1000 progress 19"
+    },
+    {
+      "pass": true,
+      "label": "Region tabs stay readable and tappable 1000"
+    },
+    {
+      "pass": true,
+      "label": "Current chapter 21 centers at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Viewport and touch targets fit 1000 progress 20"
+    },
+    {
+      "pass": true,
+      "label": "Region tabs stay readable and tappable 1000"
+    },
+    {
+      "pass": true,
+      "label": "Current chapter 40 centers at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Viewport and touch targets fit 1000 progress 39"
+    },
+    {
+      "pass": true,
+      "label": "Region tabs stay readable and tappable 1000"
+    },
+    {
+      "pass": true,
+      "label": "Touch swipe moves map vertically"
+    },
+    {
+      "pass": true,
+      "label": "Touch scrolling does not select a chapter"
+    },
+    {
+      "pass": true,
+      "label": "Unlocked and future chests coexist in scroll content"
+    },
+    {
+      "pass": true,
+      "label": "Chest still rewards once"
+    },
+    {
+      "pass": true,
+      "label": "Claim keeps scroll position"
+    },
+    {
+      "pass": true,
+      "label": "Tap launches correct unlocked chapter"
+    },
+    {
+      "pass": true,
+      "label": "No browser runtime errors"
+    }
+  ],
+  "errors": []
+}

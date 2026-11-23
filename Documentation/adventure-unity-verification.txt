@@ -1,0 +1,46 @@
+45/45 passed.
+PASS: Adventure chapter 1 has valid board
+PASS: Adventure chapter 2 has valid board
+PASS: Adventure chapter 3 has valid board
+PASS: Adventure chapter 4 has valid board
+PASS: Adventure chapter 5 has valid board
+PASS: Adventure chapter 6 has valid board
+PASS: Adventure chapter 7 has valid board
+PASS: Adventure chapter 8 has valid board
+PASS: Adventure chapter 9 has valid board
+PASS: Adventure chapter 10 has valid board
+PASS: Adventure chapter 11 has valid board
+PASS: Adventure chapter 12 has valid board
+PASS: Adventure chapter 13 has valid board
+PASS: Adventure chapter 14 has valid board
+PASS: Adventure chapter 15 has valid board
+PASS: Adventure chapter 16 has valid board
+PASS: Adventure chapter 17 has valid board
+PASS: Adventure chapter 18 has valid board
+PASS: Adventure chapter 19 has valid board
+PASS: Adventure chapter 20 has valid board
+PASS: Map opens first chapter and locks future chapters
+PASS: Ice ignores wrong color
+PASS: Correct impact cracks ice and waits until next shot
+PASS: Next shot releases thawed pin
+PASS: Real matching ball cracks ice while protected pin stays fixed
+PASS: Band breaks across the three protected targets
+PASS: Following shot frees entire bound group
+PASS: Moving barrier has actual physical motion
+PASS: Color chooser changes ready ball without spending move
+PASS: Extra moves preserve video entitlement and fill queue
+PASS: Rainbow arms only once
+PASS: Rainbow shot activates all ordinary colors
+PASS: Selected arrived token enters pocket
+PASS: Two mates restore pocket and reserve triple
+PASS: Pocket triple finishes animation
+PASS: Inventory purchase charges exactly 35 coins
+PASS: Booster stock survives save/reload
+PASS: Chest pays once after milestone and locked chest rejects claim
+PASS: Claimed chest persists
+PASS: New color tutorial exists
+PASS: First obstacle tutorial follows color introduction
+PASS: Seen tutorial does not repeat
+PASS: Map card fits 320
+PASS: Map card fits 390
+PASS: Map card fits 1000

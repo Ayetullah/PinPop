@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Final file boots offline"
+    },
+    {
+      "pass": true,
+      "label": "Final keyboard guide and exposed preview agree"
+    },
+    {
+      "pass": true,
+      "label": "Escape cancels final keyboard aim"
+    },
+    {
+      "pass": true,
+      "label": "Escape leaves settings open"
+    },
+    {
+      "pass": true,
+      "label": "Final help text fits and explains reverse aiming"
+    },
+    {
+      "pass": true,
+      "label": "Help returns to the table"
+    },
+    {
+      "pass": true,
+      "label": "Escape-closing help returns keyboard focus to the table"
+    },
+    {
+      "pass": true,
+      "label": "Restart closes the previous dialog before showing loading"
+    },
+    {
+      "pass": true,
+      "label": "Restart completes into a fresh playable board"
+    },
+    {
+      "pass": true,
+      "label": "Final source has no runtime errors"
+    }
+  ],
+  "errors": []
+}

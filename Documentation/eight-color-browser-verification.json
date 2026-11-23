@@ -1,0 +1,57 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Chapter 1 unlocked palette"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 3 unlocked palette"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 5 unlocked palette"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 7 unlocked palette"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 9 unlocked palette"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 11 unlocked palette"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 12 unlocked palette"
+    },
+    {
+      "pass": true,
+      "label": "Eight distinct rendered tokens"
+    },
+    {
+      "pass": true,
+      "label": "All eight use real pin icons"
+    },
+    {
+      "pass": true,
+      "label": "Eight color HUD fits 320"
+    },
+    {
+      "pass": true,
+      "label": "Eight color HUD fits 390"
+    },
+    {
+      "pass": true,
+      "label": "Eight color HUD fits 1000"
+    },
+    {
+      "pass": true,
+      "label": "No browser exceptions"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,136 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Reference contract read directly: -0.8, 480 ms flight, 130 ms convergence and 240 ms removal"
+    },
+    {
+      "pass": true,
+      "label": "Collected color inserts after last unmatched tile of that color"
+    },
+    {
+      "pass": true,
+      "label": "Triples reserve immediately and no longer consume unmatched capacity"
+    },
+    {
+      "pass": true,
+      "label": "No merge starts before the 480 ms flights finish"
+    },
+    {
+      "pass": true,
+      "label": "All three arrivals precede the merge burst"
+    },
+    {
+      "pass": true,
+      "label": "Slower convergence remains visible for 320 ms"
+    },
+    {
+      "pass": true,
+      "label": "Burst starts before tiles are removed"
+    },
+    {
+      "pass": true,
+      "label": "After burst, exactly the matched triple is removed and survivors compact"
+    },
+    {
+      "pass": true,
+      "label": "Ten unmatched tiles reach the reference capacity"
+    },
+    {
+      "pass": true,
+      "label": "Simultaneous triples do not produce a false capacity loss"
+    },
+    {
+      "pass": true,
+      "label": "Simultaneous completed groups produce successive combo values"
+    },
+    {
+      "pass": true,
+      "label": "All simultaneous groups finish without stranded tiles"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 1 has complete triples and reference-like ammo per target"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 2 has complete triples and reference-like ammo per target"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 3 has complete triples and reference-like ammo per target"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 4 has complete triples and reference-like ammo per target"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 5 has complete triples and reference-like ammo per target"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 6 has complete triples and reference-like ammo per target"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 7 has complete triples and reference-like ammo per target"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 8 has complete triples and reference-like ammo per target"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 9 has complete triples and reference-like ammo per target"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 10 has complete triples and reference-like ammo per target"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 11 has complete triples and reference-like ammo per target"
+    },
+    {
+      "pass": true,
+      "label": "Chapter 12 has complete triples and reference-like ammo per target"
+    },
+    {
+      "pass": true,
+      "label": "A pin lying on the tabletop is not collected"
+    },
+    {
+      "pass": true,
+      "label": "Crossing a horizontal table boundary alone does not count as falling"
+    },
+    {
+      "pass": true,
+      "label": "Physical gravity crossing y=-0.8 collects exactly once"
+    },
+    {
+      "pass": true,
+      "label": "A fallen target never collects twice"
+    },
+    {
+      "pass": true,
+      "label": "Bowling ball retains its mass while the strongest shot reaches reference-like speed"
+    },
+    {
+      "pass": true,
+      "label": "Rewarded continuation preserves the collected unmatched pieces"
+    },
+    {
+      "pass": true,
+      "label": "Restart clears all tray flights and previous match groups"
+    },
+    {
+      "pass": true,
+      "label": "Last physical fall wins only after all four triple animations complete, even without an active shot"
+    },
+    {
+      "pass": true,
+      "label": "Delayed match completion pays the level reward only once"
+    }
+  ]
+}

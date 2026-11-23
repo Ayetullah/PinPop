@@ -1,0 +1,86 @@
+{
+  "verifiedAtUtc": "2026-11-20T21:22:31.548178+00:00",
+  "passed": 503,
+  "total": 503,
+  "distinctLayouts": 12,
+  "nativeLayouts": 12,
+  "browserLayouts": 12,
+  "screens": [
+    "home",
+    "game",
+    "help",
+    "settings",
+    "shop",
+    "loading",
+    "victory",
+    "failure"
+  ],
+  "actualBrowserPulledShots": 4,
+  "nativePulledShots": 3,
+  "suites": {
+    "journey-unity-verification.txt": {
+      "passed": 55,
+      "total": 55
+    },
+    "verification.txt": {
+      "passed": 23,
+      "total": 23
+    },
+    "pull-unity-verification.txt": {
+      "passed": 32,
+      "total": 32
+    },
+    "collision-unity-verification.txt": {
+      "passed": 36,
+      "total": 36
+    },
+    "polish-unity-verification.txt": {
+      "passed": 36,
+      "total": 36
+    },
+    "transition-unity-verification.txt": {
+      "passed": 31,
+      "total": 31
+    },
+    "html-sync-unity-verification.txt": {
+      "passed": 49,
+      "total": 49
+    },
+    "video-review-unity-verification.txt": {
+      "passed": 53,
+      "total": 53
+    },
+    "all-layouts-unity-verification.txt": {
+      "passed": 12,
+      "total": 12
+    },
+    "collision-core-verification.json": {
+      "passed": 64,
+      "total": 64
+    },
+    "journey-browser-verification.json": {
+      "passed": 54,
+      "total": 54
+    },
+    "rolling-browser-verification.json": {
+      "passed": 30,
+      "total": 30
+    },
+    "journey-gallery-verification.json": {
+      "passed": 6,
+      "total": 6
+    },
+    "transition-browser-verification.json": {
+      "passed": 12,
+      "total": 12
+    },
+    "release-browser-verification.json": {
+      "passed": 10,
+      "total": 10
+    }
+  },
+  "runtimeErrors": [],
+  "htmlSha256": "43bf0e0305c9d8de1e7983c8a57589ed88252783bc99b97edefe603e795ffb6a",
+  "nativeBuild": "Builds/PinPop.app",
+  "nativeSourceMatchesStagedBuild": true
+}

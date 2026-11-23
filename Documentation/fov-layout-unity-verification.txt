@@ -1,0 +1,40 @@
+39/39 passed.
+PASS: Editing Camera.fieldOfView persists over frames at (600, 1000) / 35
+PASS: Collection width equals the visible wooden pin-deck edge at (600, 1000) / 35
+PASS: Collected pin and square slot stay aligned after zoom at (600, 1000) / 35
+PASS: Editing Camera.fieldOfView persists over frames at (600, 1000) / 45
+PASS: Collection width equals the visible wooden pin-deck edge at (600, 1000) / 45
+PASS: Collected pin and square slot stay aligned after zoom at (600, 1000) / 45
+PASS: Editing Camera.fieldOfView persists over frames at (600, 1000) / 60
+PASS: Collection width equals the visible wooden pin-deck edge at (600, 1000) / 60
+PASS: Collected pin and square slot stay aligned after zoom at (600, 1000) / 60
+PASS: Editing Camera.fieldOfView persists over frames at (320, 740) / 35
+PASS: Collection width equals the visible wooden pin-deck edge at (320, 740) / 35
+PASS: Collected pin and square slot stay aligned after zoom at (320, 740) / 35
+PASS: Editing Camera.fieldOfView persists over frames at (320, 740) / 45
+PASS: Collection width equals the visible wooden pin-deck edge at (320, 740) / 45
+PASS: Collected pin and square slot stay aligned after zoom at (320, 740) / 45
+PASS: Editing Camera.fieldOfView persists over frames at (320, 740) / 60
+PASS: Collection width equals the visible wooden pin-deck edge at (320, 740) / 60
+PASS: Collected pin and square slot stay aligned after zoom at (320, 740) / 60
+PASS: Editing Camera.fieldOfView persists over frames at (390, 844) / 35
+PASS: Collection width equals the visible wooden pin-deck edge at (390, 844) / 35
+PASS: Collected pin and square slot stay aligned after zoom at (390, 844) / 35
+PASS: Editing Camera.fieldOfView persists over frames at (390, 844) / 45
+PASS: Collection width equals the visible wooden pin-deck edge at (390, 844) / 45
+PASS: Collected pin and square slot stay aligned after zoom at (390, 844) / 45
+PASS: Editing Camera.fieldOfView persists over frames at (390, 844) / 60
+PASS: Collection width equals the visible wooden pin-deck edge at (390, 844) / 60
+PASS: Collected pin and square slot stay aligned after zoom at (390, 844) / 60
+PASS: Editing Camera.fieldOfView persists over frames at (1000, 600) / 35
+PASS: Collection width equals the visible wooden pin-deck edge at (1000, 600) / 35
+PASS: Collected pin and square slot stay aligned after zoom at (1000, 600) / 35
+PASS: Editing Camera.fieldOfView persists over frames at (1000, 600) / 45
+PASS: Collection width equals the visible wooden pin-deck edge at (1000, 600) / 45
+PASS: Collected pin and square slot stay aligned after zoom at (1000, 600) / 45
+PASS: Editing Camera.fieldOfView persists over frames at (1000, 600) / 60
+PASS: Collection width equals the visible wooden pin-deck edge at (1000, 600) / 60
+PASS: Collected pin and square slot stay aligned after zoom at (1000, 600) / 60
+PASS: The exposed gameplay FOV field also applies at runtime
+PASS: Gameplay Camera FOV survives a home/game round trip
+PASS: Camera FOV is editable while gameplay is paused

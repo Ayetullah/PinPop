@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-19T20:31:47.591Z",
+  "passed": 15,
+  "total": 15,
+  "left": {
+    "x": -3.0016134714817557,
+    "y": 0.39,
+    "z": 0.904610110560502,
+    "time": 1.1276016007190082,
+    "onTable": true,
+    "radius": 0.39
+  },
+  "right": {
+    "x": 3.0016134714817557,
+    "y": 0.39,
+    "z": 0.904610110560502,
+    "time": 1.1276016007190082,
+    "onTable": true,
+    "radius": 0.39
+  },
+  "weak": {
+    "x": 0,
+    "y": 0.39,
+    "z": 0.5838142954136223,
+    "time": 1.2659994933579892,
+    "onTable": true,
+    "radius": 0.39
+  },
+  "strong": {
+    "x": 0,
+    "y": 0.39,
+    "z": 0.9176107095494934,
+    "time": 1.1248463840760587,
+    "onTable": true,
+    "radius": 0.39
+  },
+  "checks": [
+    {
+      "pass": true,
+      "label": "All three cartoon character images load in the live game"
+    },
+    {
+      "pass": true,
+      "label": "Landing marker is hidden before aiming"
+    },
+    {
+      "pass": true,
+      "label": "Large landing footprint and explicit estimated-drop label appear while pulling"
+    },
+    {
+      "pass": true,
+      "label": "Footprint is on the table at ball-radius contact height"
+    },
+    {
+      "pass": true,
+      "label": "Outer landing area is substantially larger than the previous aim dot"
+    },
+    {
+      "pass": true,
+      "label": "Drop marker uses calculated ground contact instead of the pin aim point"
+    },
+    {
+      "pass": true,
+      "label": "Landing area follows left/right aim"
+    },
+    {
+      "pass": true,
+      "label": "Landing prediction follows pull strength"
+    },
+    {
+      "pass": true,
+      "label": "Cancel hides marker without spending a move"
+    },
+    {
+      "pass": true,
+      "label": "Landing area persists while the unobstructed ball is airborne"
+    },
+    {
+      "pass": true,
+      "label": "Predicted marker disappears when a pin collision changes the flight"
+    },
+    {
+      "pass": true,
+      "label": "Drop label remains readable within canvas at 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Drop label remains readable within canvas at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Drop label remains readable within canvas at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Character textures and landing area raise no rendering or script errors"
+    }
+  ],
+  "errors": []
+}

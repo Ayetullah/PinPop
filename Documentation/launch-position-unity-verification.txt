@@ -1,0 +1,27 @@
+26/26 passed.
+PASS: New level starts at center of front edge
+PASS: Horizontal drag repositions without charging: (600, 1000)
+PASS: Positioning remains on front rail and clamps right even with vertical drift: (600, 1000)
+PASS: Releasing positioning gesture does not shoot: (600, 1000)
+PASS: Horizontal drag reaches left edge: (600, 1000)
+PASS: Visible ready ball follows selected position: (600, 1000)
+PASS: Swap preserves selected position: (600, 1000)
+PASS: Horizontal drag repositions without charging: (320, 740)
+PASS: Positioning remains on front rail and clamps right even with vertical drift: (320, 740)
+PASS: Releasing positioning gesture does not shoot: (320, 740)
+PASS: Horizontal drag reaches left edge: (320, 740)
+PASS: Visible ready ball follows selected position: (320, 740)
+PASS: Swap preserves selected position: (320, 740)
+PASS: Horizontal drag repositions without charging: (1000, 600)
+PASS: Positioning remains on front rail and clamps right even with vertical drift: (1000, 600)
+PASS: Releasing positioning gesture does not shoot: (1000, 600)
+PASS: Horizontal drag reaches left edge: (1000, 600)
+PASS: Visible ready ball follows selected position: (1000, 600)
+PASS: Swap preserves selected position: (1000, 600)
+PASS: Pull gesture charges shot without moving selected ball
+PASS: Aim preview starts from moved launch position
+PASS: Released shot uses selected front-edge position and one move
+PASS: Position cannot change while a shot resolves
+PASS: Shifted launch reaches pins past fixed bumpers
+PASS: Restart resets launch position to center
+PASS: Paused game blocks repositioning

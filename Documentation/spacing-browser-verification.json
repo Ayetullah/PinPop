@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "At least 6.9 units of rolling approach at 600x1000"
+    },
+    {
+      "pass": true,
+      "label": "At least three ball heights of visible empty approach at 600x1000"
+    },
+    {
+      "pass": true,
+      "label": "At least 6.9 units of rolling approach at 390x844"
+    },
+    {
+      "pass": true,
+      "label": "At least three ball heights of visible empty approach at 390x844"
+    },
+    {
+      "pass": true,
+      "label": "At least 6.9 units of rolling approach at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "At least three ball heights of visible empty approach at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "No browser runtime exceptions"
+    }
+  ],
+  "errors": []
+}

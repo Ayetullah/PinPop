@@ -1,0 +1,92 @@
+{
+  "recording": "Screen Recording 2026-11-20 at 16.40.02.mov",
+  "durationSeconds": 86.1666666667,
+  "findings": [
+    {
+      "issue": "Game viewport capped at 600x1100 physical pixels, leaving large empty space in 9:16 Unity Game View.",
+      "videoSeconds": [
+        0,
+        24,
+        48,
+        84
+      ],
+      "fix": "Use full viewport height with aspect-based side framing, DPI-independent profile selection and an exact 540x960 profile at 2x raster density.",
+      "evidence": [
+        "video-review-before-home.png",
+        "video-review-home.png",
+        "video-review-game.png"
+      ]
+    },
+    {
+      "issue": "Opaque background rectangles around modal close/purchase buttons.",
+      "videoSeconds": [
+        8,
+        49,
+        50.5
+      ],
+      "fix": "Export actual buttons in isolation over transparency at 2x density; verify all 32 shop sprite corner sets.",
+      "evidence": [
+        "video-review-before-buttons.png",
+        "video-review-buy.png"
+      ]
+    },
+    {
+      "issue": "Chapter lettering occluded by decorative cart trim.",
+      "videoSeconds": [
+        0,
+        20
+      ],
+      "fix": "Move plaque surface in front of trim depth.",
+      "evidence": [
+        "video-review-home.png"
+      ]
+    },
+    {
+      "issue": "Landing preview labels were exported as empty transparent images; the outside-table label also had zero dimensions.",
+      "videoSeconds": [
+        24,
+        66,
+        80
+      ],
+      "fix": "Capture independent label clones, update all eight profile bounds, and verify visible texture pixels plus A/B-rendered landing footprint.",
+      "evidence": [
+        "video-review-before-aim.png",
+        "video-review-open-landing.png",
+        "video-review-aim.png"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "report": "video-review-unity-verification.txt",
+      "passed": 54,
+      "total": 54
+    },
+    {
+      "report": "html-sync-unity-verification.txt",
+      "passed": 49,
+      "total": 49
+    },
+    {
+      "report": "transition-unity-verification.txt",
+      "passed": 16,
+      "total": 16
+    },
+    {
+      "report": "visual-verification.txt",
+      "passed": 8,
+      "total": 8
+    }
+  ],
+  "totalPassed": 127,
+  "spriteTransparency": {
+    "passed": 32,
+    "total": 32
+  },
+  "build": "Builds/PinPop.app",
+  "htmlSourceSha256": "0114f150bde407e3995eafe7b4ad2a7d20cf808b3d8fe98d1dd1f792842f6582",
+  "landingLabelAssets": {
+    "passed": 16,
+    "total": 16
+  }
+}

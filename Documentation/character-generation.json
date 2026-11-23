@@ -1,0 +1,23 @@
+[
+  {
+    "name": "rabbit",
+    "mode": "built-in image_gen",
+    "transparent_background": true,
+    "asset": "Assets/Art/Characters/rabbit.png",
+    "prompt": "Use case: game character decal illustration. Create one polished original 2D cartoon character bust: a cheerful pink-and-cream rabbit cartoon character with two long ears, big expressive eyes, a friendly grin, a coral pink hoodie, one small waving hand. Front facing, head and upper torso, head dominant, all ears and waving limb fully within the frame. Bold clean dark navy outlines, bright cel shading, readable at tiny game size, charming professional TV-cartoon character design, no text, no logo, no medallion, no scene, no ground, no drop shadow. Square composition, generous transparent margin, genuinely transparent background. This artwork will be printed on the curved front of a bowling pin."
+  },
+  {
+    "name": "penguin",
+    "mode": "built-in image_gen",
+    "transparent_background": true,
+    "asset": "Assets/Art/Characters/penguin.png",
+    "prompt": "Use case: game character decal illustration. Create one polished original 2D cartoon character bust: a cheerful turquoise-and-navy penguin cartoon character with a white face and belly, orange beak, big expressive eyes, a friendly grin, one waving flipper. Front facing, head and upper torso, head dominant, all ears and waving limb fully within the frame. Bold clean dark navy outlines, bright cel shading, readable at tiny game size, charming professional TV-cartoon character design, no text, no logo, no medallion, no scene, no ground, no drop shadow. Square composition, generous transparent margin, genuinely transparent background. This artwork will be printed on the curved front of a bowling pin."
+  },
+  {
+    "name": "cat",
+    "mode": "built-in image_gen",
+    "transparent_background": true,
+    "asset": "Assets/Art/Characters/cat.png",
+    "prompt": "Use case: game character decal illustration. Create one polished original 2D cartoon character bust: a cheerful lavender-and-cream cat cartoon character with pointed ears, fluffy cheeks, big expressive eyes, a friendly grin, a purple hoodie, one waving paw. Front facing, head and upper torso, head dominant, all ears and waving limb fully within the frame. Bold clean dark navy outlines, bright cel shading, readable at tiny game size, charming professional TV-cartoon character design, no text, no logo, no medallion, no scene, no ground, no drop shadow. Square composition, generous transparent margin, genuinely transparent background. This artwork will be printed on the curved front of a bowling pin."
+  }
+]

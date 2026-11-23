@@ -1,0 +1,125 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Standalone rolling game boots"
+    },
+    {
+      "pass": true,
+      "label": "Bowling ball mass is constant at every power"
+    },
+    {
+      "pass": true,
+      "label": "Power sets horizontal speed without upward launch"
+    },
+    {
+      "pass": true,
+      "label": "Ball rolls and rotates on table before contact"
+    },
+    {
+      "pass": true,
+      "label": "Strong roll topples more pins than weak roll at the same aim"
+    },
+    {
+      "pass": true,
+      "label": "Other-color pins stay fixed"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-colored roll cannot move the blocking cluster"
+    },
+    {
+      "pass": true,
+      "label": "Level 1 is winnable within authored moves with rolling physics"
+    },
+    {
+      "pass": true,
+      "label": "Level 2 is winnable within authored moves with rolling physics"
+    },
+    {
+      "pass": true,
+      "label": "Level 3 is winnable within authored moves with rolling physics"
+    },
+    {
+      "pass": true,
+      "label": "Level 4 is winnable within authored moves with rolling physics"
+    },
+    {
+      "pass": true,
+      "label": "Level 5 is winnable within authored moves with rolling physics"
+    },
+    {
+      "pass": true,
+      "label": "Level 6 is winnable within authored moves with rolling physics"
+    },
+    {
+      "pass": true,
+      "label": "Ready ball starts on the table"
+    },
+    {
+      "pass": true,
+      "label": "Tap without pull spends no move"
+    },
+    {
+      "pass": true,
+      "label": "Backward diagonal drag aims opposite and keeps held ball on table"
+    },
+    {
+      "pass": true,
+      "label": "Surface aim stops at first pin and has no drop label"
+    },
+    {
+      "pass": true,
+      "label": "Aim instruction names the matching pin color"
+    },
+    {
+      "pass": true,
+      "label": "Release rolls once and hides the guide"
+    },
+    {
+      "pass": true,
+      "label": "Rolling preview shows actual next ball"
+    },
+    {
+      "pass": true,
+      "label": "Settings pause rolling physics"
+    },
+    {
+      "pass": true,
+      "label": "Touch-sized aim works at 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Focus loss cancels without firing at 390x844"
+    },
+    {
+      "pass": true,
+      "label": "Touch-sized aim works at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Focus loss cancels without firing at 320x740"
+    },
+    {
+      "pass": true,
+      "label": "Touch-sized aim works at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Focus loss cancels without firing at 1000x600"
+    },
+    {
+      "pass": true,
+      "label": "Real touch drag powers the table roll on a phone"
+    },
+    {
+      "pass": true,
+      "label": "Touch cancellation never rolls or spends a move"
+    },
+    {
+      "pass": true,
+      "label": "No browser runtime exceptions"
+    }
+  ],
+  "errors": []
+}

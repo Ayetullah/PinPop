@@ -1,0 +1,28 @@
+{
+  "sourceBuildMatches": {
+    "Assets/Scripts/PinPopSplash.cs": true,
+    "Assets/Scripts/PinPopSplashPreview.cs": true,
+    "Assets/Scripts/PinPopStartupRecorder.cs": true,
+    "Assets/Scripts/PinPopGame.cs": true,
+    "Assets/Scripts/PinPopSelfTest.cs": true,
+    "Assets/Editor/ProjectSetup.cs": true,
+    "Assets/Editor/SplashScenePreviewSetup.cs": true,
+    "Assets/Scenes/PinPop.unity": true,
+    "Assets/Resources/Startup/splash-preview.png": true
+  },
+  "unityPassed": 15,
+  "browserPassed": 35,
+  "serializedScene": {
+    "serializedCamera": true,
+    "serializedArtwork": true,
+    "cameraCount": 1
+  },
+  "recording": {
+    "width": 600,
+    "height": 1000,
+    "noOverlap": true,
+    "noCameraGap": true,
+    "homeReached": true,
+    "walletPreserved": true
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Horizontal drag moves right without charge 600"
+    },
+    {
+      "pass": true,
+      "label": "Clamp and release preserve front rail and moves 600"
+    },
+    {
+      "pass": true,
+      "label": "Horizontal drag clamps left 600"
+    },
+    {
+      "pass": true,
+      "label": "Horizontal drag moves right without charge 320"
+    },
+    {
+      "pass": true,
+      "label": "Clamp and release preserve front rail and moves 320"
+    },
+    {
+      "pass": true,
+      "label": "Horizontal drag clamps left 320"
+    },
+    {
+      "pass": true,
+      "label": "Horizontal drag moves right without charge 1000"
+    },
+    {
+      "pass": true,
+      "label": "Clamp and release preserve front rail and moves 1000"
+    },
+    {
+      "pass": true,
+      "label": "Horizontal drag clamps left 1000"
+    },
+    {
+      "pass": true,
+      "label": "Swap preserves selected position"
+    },
+    {
+      "pass": true,
+      "label": "Touch positioning moves only horizontally without spending moves"
+    },
+    {
+      "pass": true,
+      "label": "New vertical gesture charges at selected position"
+    },
+    {
+      "pass": true,
+      "label": "Release shoots once from moved position"
+    },
+    {
+      "pass": true,
+      "label": "No browser runtime errors"
+    }
+  ],
+  "errors": []
+}

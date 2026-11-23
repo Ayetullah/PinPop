@@ -1,0 +1,9 @@
+8/8 passed.
+PASS: Swap button receives pointer at 600x1000
+PASS: UI click swaps queue at 600x1000
+PASS: Swap button receives pointer at 390x844
+PASS: UI click swaps queue at 390x844
+PASS: Swap button receives pointer at 800x1000
+PASS: UI click swaps queue at 800x1000
+PASS: Swap button receives pointer at 1000x600
+PASS: UI click swaps queue at 1000x600

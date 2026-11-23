@@ -1,0 +1,45 @@
+{
+  "results": [
+    {
+      "pass": true,
+      "label": "Game boots"
+    },
+    {
+      "pass": true,
+      "label": "Ready instruction explains color rule"
+    },
+    {
+      "pass": true,
+      "label": "Ready preview excludes foreground ball"
+    },
+    {
+      "pass": true,
+      "label": "In-flight UI previews actual next playable balls"
+    },
+    {
+      "pass": true,
+      "label": "Final shot: waits"
+    },
+    {
+      "pass": true,
+      "label": "Final shot: beat"
+    },
+    {
+      "pass": true,
+      "label": "Final shot: wins"
+    },
+    {
+      "pass": true,
+      "label": "Final shot: once"
+    },
+    {
+      "pass": true,
+      "label": "Ready preview restores after flight"
+    },
+    {
+      "pass": true,
+      "label": "No browser runtime exceptions"
+    }
+  ],
+  "errors": []
+}

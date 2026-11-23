@@ -1,0 +1,80 @@
+{
+  "objective": "Dört lunapark temalı, canlı ve her durağı özgün simgeli harita",
+  "tests": {
+    "carnival-map-unity-verification.txt": {
+      "passed": 100,
+      "total": 100
+    },
+    "animated-help-unity-verification.txt": {
+      "passed": 43,
+      "total": 43
+    },
+    "carnival-map-browser-verification.json": {
+      "passed": 24,
+      "total": 24
+    },
+    "adventure-browser-verification.json": {
+      "passed": 19,
+      "total": 19
+    }
+  },
+  "sourceBuildMatch": true,
+  "embeddedArtMatchesSourcePNGs": true,
+  "embeddedUIFilesMatch": true,
+  "regions": {
+    "gate": {
+      "path": "Assets/Resources/MapArt/region-gate.png",
+      "sha256": "0cfd460b6a221bce820c66a16be2fa6233946ab801c82c3c0768e14b39e28bd2"
+    },
+    "wheel": {
+      "path": "Assets/Resources/MapArt/region-wheel.png",
+      "sha256": "4660d9921a759f8cd1bfdc860a798723931ea60d531ddca9ed7f9b4b5e7f1dbb"
+    },
+    "tent": {
+      "path": "Assets/Resources/MapArt/region-tent.png",
+      "sha256": "00151c0b42010524dbcbebbb03d9abafecfd22c48390bd7916a5c09a161900ee"
+    },
+    "festival": {
+      "path": "Assets/Resources/MapArt/region-festival.png",
+      "sha256": "8a770182266b99c14f00353ed52c31b1627045dbd2d91000e2c826e31f285c82"
+    }
+  },
+  "distinctChapterIcons": [
+    "ticket",
+    "balloons",
+    "bumper",
+    "candy",
+    "snowflake",
+    "wheel",
+    "gondola",
+    "pinwheel",
+    "cloud",
+    "rainbow",
+    "tent",
+    "rings",
+    "duck",
+    "hammer",
+    "gift",
+    "star",
+    "rocket",
+    "moon",
+    "sparkler",
+    "trophy"
+  ],
+  "visualInspection": [
+    "carnival-map-unity-region-0.png",
+    "carnival-map-unity-region-1.png",
+    "carnival-map-unity-region-2.png",
+    "carnival-map-unity-region-3.png",
+    "carnival-map-unity-320.png",
+    "carnival-map-browser-region-3.png"
+  ],
+  "coverage": [
+    "Four region-specific illustrated backgrounds and palettes",
+    "Twenty distinct attraction icons and names",
+    "Balloons, upright Ferris cabins, bunting, fireworks and twinkles",
+    "Current stop pulse, curved unlocked route, stars, locks and persistent chest reward",
+    "44px touch areas, one-line native labels, compact maximum wallet balance",
+    "Offline HTML, reduced motion, chapter launch and automatic tutorial compatibility"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-19T10:38:00.333Z",
+  "passed": 31,
+  "total": 31,
+  "checks": [
+    {
+      "pass": true,
+      "label": "HTML boots in Chrome without external dependencies"
+    },
+    {
+      "pass": true,
+      "label": "Intro has 12 pins / 6 moves"
+    },
+    {
+      "pass": true,
+      "label": "Swap rotates full queue, spending one credit and no move"
+    },
+    {
+      "pass": true,
+      "label": "One move per shot; busy state blocks extra input"
+    },
+    {
+      "pass": true,
+      "label": "Wrong-color ball leaves every pin unchanged"
+    },
+    {
+      "pass": true,
+      "label": "Matching hit clears the full same-color cluster"
+    },
+    {
+      "pass": true,
+      "label": "Chain reaction never affects a different color"
+    },
+    {
+      "pass": true,
+      "label": "Intro can be won in three shots"
+    },
+    {
+      "pass": true,
+      "label": "Win awards 30 coins"
+    },
+    {
+      "pass": true,
+      "label": "Win rewards only once"
+    },
+    {
+      "pass": true,
+      "label": "Next level preserves wallet"
+    },
+    {
+      "pass": true,
+      "label": "10 coins purchase one swap"
+    },
+    {
+      "pass": true,
+      "label": "Purchases cannot overdraw coins"
+    },
+    {
+      "pass": true,
+      "label": "No credit blocks queue rotation"
+    },
+    {
+      "pass": true,
+      "label": "Restart cannot refill starter credits"
+    },
+    {
+      "pass": true,
+      "label": "Six missed shots lose and award no coins"
+    },
+    {
+      "pass": true,
+      "label": "Finished state blocks further actions"
+    },
+    {
+      "pass": true,
+      "label": "Restart/next level resets state"
+    },
+    {
+      "pass": true,
+      "label": "Final shot is allowed to resolve before ending"
+    },
+    {
+      "pass": true,
+      "label": "Final-move chain reaction can win"
+    },
+    {
+      "pass": true,
+      "label": "Real SWAP click rotates queue and spends a credit"
+    },
+    {
+      "pass": true,
+      "label": "Spent swap credit persists across restart and reload"
+    },
+    {
+      "pass": true,
+      "label": "Pointer press/release on table launches ball"
+    },
+    {
+      "pass": true,
+      "label": "Real browser shot topples matching pins"
+    },
+    {
+      "pass": true,
+      "label": "Real win shows reward and credits wallet"
+    },
+    {
+      "pass": true,
+      "label": "Real shop button buys one swap for 10 coins"
+    },
+    {
+      "pass": true,
+      "label": "Coin wallet, purchases and level persist after reload"
+    },
+    {
+      "pass": true,
+      "label": "390px phone layout fits viewport and exposes SWAP"
+    },
+    {
+      "pass": true,
+      "label": "320px layout has no horizontal overflow"
+    },
+    {
+      "pass": true,
+      "label": "Standalone file:// HTML opens directly"
+    },
+    {
+      "pass": true,
+      "label": "No browser runtime exceptions"
+    }
+  ],
+  "errors": []
+}
