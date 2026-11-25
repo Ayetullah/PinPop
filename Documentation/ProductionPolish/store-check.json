@@ -1,0 +1,9 @@
+{
+  "sdk": "iphoneos18.5",
+  "minimumAppStoreSDKMajor": 26,
+  "sdkEligible": false,
+  "appStoreDistributionProfile": false,
+  "testAdsIntentionallyRetained": true,
+  "source": "https://developer.apple.com/news/upcoming-requirements/?id=04282026a",
+  "readyForAppStoreUpload": false
+}

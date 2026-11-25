@@ -59,6 +59,17 @@ namespace PinPop
         }
         public static Mesh PinMesh()
         {
+            if(pinMesh!=null)return pinMesh;
+            pinMesh=Resources.Load<Mesh>("Prepared/pin-mesh");if(pinMesh!=null)return pinMesh;
+#if UNITY_EDITOR
+            return GeneratePinMesh();
+#else
+            throw new System.InvalidOperationException("Prepared pin mesh is missing");
+#endif
+        }
+#if UNITY_EDITOR
+        static Mesh GeneratePinMesh()
+        {
             if (pinMesh != null) return pinMesh;
             // Smooth regulation-style silhouette: weighted belly, narrow neck, rounded crown.
             Vector2[] profile = { new Vector2(.15f,0),new Vector2(.185f,.04f),new Vector2(.23f,.14f),new Vector2(.265f,.30f),new Vector2(.27f,.45f),new Vector2(.245f,.60f),new Vector2(.19f,.75f),new Vector2(.13f,.90f),new Vector2(.105f,1.02f),new Vector2(.12f,1.11f),new Vector2(.17f,1.20f),new Vector2(.19f,1.30f),new Vector2(.165f,1.40f),new Vector2(.10f,1.49f),new Vector2(.045f,1.523f),new Vector2(0,1.53f) };
@@ -78,6 +89,7 @@ namespace PinPop
             }
             pinMesh = new Mesh { name = "Printed bowling pin / smooth lathe", vertices = vertices.ToArray(), triangles = triangles.ToArray(), uv = uv.ToArray() }; pinMesh.RecalculateNormals(); pinMesh.RecalculateBounds(); return pinMesh;
         }
+#endif
         static readonly Material[] pinCoats = new Material[PinPopPalette.Count];
         public static Material PinCoat(int color)
         {
@@ -135,7 +147,7 @@ namespace PinPop
         static Material blobMaterial;
         public static Transform Blob(Transform parent,float radius)
         {
-            if(blobMaterial==null){var tex=new Texture2D(128,128,TextureFormat.RGBA32,false);for(int y=0;y<128;y++)for(int x=0;x<128;x++){float r=Mathf.Clamp01((Vector2.Distance(new Vector2(x,y),new Vector2(64,64))-4)/60);float alpha=r<.45f?Mathf.Lerp(.33f,.13f,r/.45f):Mathf.Lerp(.13f,0,(r-.45f)/.55f);tex.SetPixel(x,y,new Color(42/255f,35/255f,26/255f,alpha));}tex.Apply();blobMaterial=new Material(Shader.Find("PinPop/HTML Unlit"));blobMaterial.mainTexture=tex;}
+            if(blobMaterial==null){var tex=new Texture2D(128,128,TextureFormat.RGBA32,false);var pixels=new Color32[128*128];for(int y=0;y<128;y++)for(int x=0;x<128;x++){float r=Mathf.Clamp01((Vector2.Distance(new Vector2(x,y),new Vector2(64,64))-4)/60);float alpha=r<.45f?Mathf.Lerp(.33f,.13f,r/.45f):Mathf.Lerp(.13f,0,(r-.45f)/.55f);pixels[y*128+x]=new Color(42/255f,35/255f,26/255f,alpha);}tex.SetPixels32(pixels);tex.Apply();blobMaterial=new Material(Shader.Find("PinPop/HTML Unlit"));blobMaterial.mainTexture=tex;}
             var root=new GameObject("Soft contact shadow").transform;root.SetParent(parent,false);if(!blobMeshes.TryGetValue(radius,out var mesh)||mesh==null){mesh=new Mesh{name="PinPop shared shadow"};mesh.vertices=new[]{new Vector3(-radius,0,-radius),new Vector3(radius,0,-radius),new Vector3(radius,0,radius),new Vector3(-radius,0,radius)};mesh.uv=new[]{Vector2.zero,Vector2.right,Vector2.one,Vector2.up};mesh.triangles=new[]{0,2,1,0,3,2};blobMeshes[radius]=mesh;}root.gameObject.AddComponent<MeshFilter>().sharedMesh=mesh;var renderer=root.gameObject.AddComponent<MeshRenderer>();renderer.sharedMaterial=blobMaterial;renderer.shadowCastingMode=UnityEngine.Rendering.ShadowCastingMode.Off;return root;
         }
         public static void ImpactRing(Vector3 at,Color color,float duration){var root=new GameObject("HTML impact halo");root.transform.position=at;root.AddComponent<HtmlImpactRing>().Build(color,duration);}

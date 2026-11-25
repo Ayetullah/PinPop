@@ -1,0 +1,34 @@
+PASS: Native UI initialized
+PASS: Shared control dock exists
+PASS: Rainbow is geometry, not a missing font glyph
+PASS: Helper caption fits at 320: Cep
+PASS: Helper caption fits at 320: Renk
+PASS: Helper caption fits at 320: Gök kuşağı
+PASS: Helper caption fits at 320: +3 Hamle
+PASS: Helper touch width at 320: 44.30769
+PASS: Helper touch width at 320: 44.3077
+PASS: Helper touch width at 320: 44.30769
+PASS: Helper touch width at 320: 44.30769
+PASS: Helper caption fits at 390: Cep
+PASS: Helper caption fits at 390: Renk
+PASS: Helper caption fits at 390: +3 Hamle
+PASS: Helper caption fits at 390: Gök kuşağı
+PASS: Helper touch width at 390: 54
+PASS: Helper touch width at 390: 53.99999
+PASS: Helper touch width at 390: 54.00002
+PASS: Helper touch width at 390: 54
+PASS: Helper caption fits at 430: Cep
+PASS: Helper caption fits at 430: +3 Hamle
+PASS: Helper caption fits at 430: Gök kuşağı
+PASS: Helper caption fits at 430: Renk
+PASS: Helper touch width at 430: 59.53847
+PASS: Helper touch width at 430: 59.53846
+PASS: Helper touch width at 430: 59.53847
+PASS: Helper touch width at 430: 59.53847
+PASS: Power ring tracks pull 0.25
+PASS: Power ring tracks pull 0.6
+PASS: Power ring tracks pull 1
+PASS: Result star count for 0 remaining moves
+PASS: Result star count for 1 remaining moves
+PASS: Result star count for 9 remaining moves
+PASS: Large ball preview has a 512 pixel source

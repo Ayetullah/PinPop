@@ -1,0 +1,40 @@
+PASS: Native UI initialized
+PASS: Shared control dock exists
+PASS: Rainbow is geometry, not a missing font glyph
+PASS: Dock is at least 24 percent shorter at 320x568
+PASS: Table front has breathing room: 41.2818
+PASS: Helper touch width at 320: 44.30771
+PASS: Helper touch width at 320: 44.30769
+PASS: Helper touch width at 320: 44.30769
+PASS: Helper touch width at 320: 44.3077
+PASS: Dock is at least 24 percent shorter at 390x693
+PASS: Table front has breathing room: 51.23969
+PASS: Helper touch width at 390: 53.99999
+PASS: Helper touch width at 390: 54
+PASS: Helper touch width at 390: 53.99999
+PASS: Helper touch width at 390: 53.99998
+PASS: Dock is at least 24 percent shorter at 390x844
+PASS: Table front has breathing room: 130.7397
+PASS: Helper touch width at 390: 54
+PASS: Helper touch width at 390: 53.99999
+PASS: Helper touch width at 390: 54.00001
+PASS: Helper touch width at 390: 54
+PASS: Dock is at least 24 percent shorter at 430x932
+PASS: Table front has breathing room: 144.91
+PASS: Helper touch width at 430: 59.53846
+PASS: Helper touch width at 430: 59.53845
+PASS: Helper touch width at 430: 59.53847
+PASS: Helper touch width at 430: 59.53847
+PASS: Power ring tracks pull 0.25
+PASS: Pull has no percentage or instruction text at 0.25
+PASS: No MAX badge at 0.25
+PASS: Power ring tracks pull 0.6
+PASS: Pull has no percentage or instruction text at 0.6
+PASS: No MAX badge at 0.6
+PASS: Power ring tracks pull 1
+PASS: Pull has no percentage or instruction text at 1
+PASS: No MAX badge at 1
+PASS: Result star count for 0 remaining moves
+PASS: Result star count for 1 remaining moves
+PASS: Result star count for 9 remaining moves
+PASS: Large ball preview has a 512 pixel source

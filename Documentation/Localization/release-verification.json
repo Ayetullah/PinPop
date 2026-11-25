@@ -1,0 +1,18 @@
+{
+  "signatureValid": true,
+  "defaultLanguage": "en",
+  "supportedLanguages": [
+    "en",
+    "tr"
+  ],
+  "localizationRuntimePresent": true,
+  "reviewOverrideExcluded": true,
+  "qaTypesExcluded": true,
+  "debugFlagsAbsent": true,
+  "catalogPackedInResources": [
+    "resources.assets"
+  ],
+  "nativeLaunchCompiled": true,
+  "testAdsRetained": true,
+  "executableSHA256": "984776c70f5365d1b4450d5bab83a518ef84ce99e146808d46e8ca23a716df65"
+}

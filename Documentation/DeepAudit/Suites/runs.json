@@ -1,0 +1,26 @@
+[
+  {
+    "suite": "ui-en",
+    "exitCode": 0
+  },
+  {
+    "suite": "ui-tr",
+    "exitCode": 0
+  },
+  {
+    "suite": "campaign",
+    "exitCode": 1
+  },
+  {
+    "suite": "rescue",
+    "exitCode": 1
+  },
+  {
+    "suite": "collisions",
+    "exitCode": 0
+  },
+  {
+    "suite": "adventure",
+    "exitCode": 0
+  }
+]

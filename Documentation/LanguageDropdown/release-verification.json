@@ -1,0 +1,12 @@
+{
+  "signatureValid": true,
+  "languageDropdownIncluded": true,
+  "qaTypesExcluded": true,
+  "reviewOverrideExcluded": true,
+  "defaultLanguage": "en",
+  "supportedLanguages": [
+    "en",
+    "tr"
+  ],
+  "testAdsRetained": true
+}

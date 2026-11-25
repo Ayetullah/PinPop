@@ -37,6 +37,7 @@ public static class ProjectSetup
         PlayerSettings.colorSpace = ColorSpace.Linear;
         PlayerSettings.SetApplicationIdentifier(UnityEditor.Build.NamedBuildTarget.Standalone, "com.pinpop.colorbowling");
         PlayerSettings.SetApplicationIdentifier(UnityEditor.Build.NamedBuildTarget.Android, "com.pinpop.colorbowling");
+        IOSAppIconSetup.ApplyIfPresent();
         AssetDatabase.SaveAssets(); Debug.Log("PINPOP: Playable scene generated.");
     }
     public static void BuildMac()

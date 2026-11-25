@@ -1,0 +1,3 @@
+PASS: Language preference survives a real process restart
+PASS: Saved Turkish preference overrides an English device on restart
+PASS: Restarted UI uses the saved language

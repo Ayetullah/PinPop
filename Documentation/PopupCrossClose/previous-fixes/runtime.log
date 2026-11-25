@@ -1,0 +1,589 @@
+Mono path[0] = '/tmp/PinPopPolishReview.app/Contents/Resources/Data/Managed'
+Mono config path = '/tmp/PinPopPolishReview.app/Contents/MonoBleedingEdge/etc'
+Found 1 interfaces on host : 0) 192.168.1.123
+Player connection [8570625792]  Target information:
+
+Player connection [8570625792]  * "[IP] 192.168.1.123 [Port] 55000 [Flags] 2 [Guid] 1208160581 [EditorId] 3739945860 [Version] 1048832 [Id] OSXPlayer(1,Ayetullah-MacBook-Pro.local) [Debug] 0 [PackageName] OSXPlayer [ProjectName] PinPop" 
+
+Player connection [8570625792] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.24f1 (4e7b9b5b6244)
+[Subsystems] Discovering subsystems at path /tmp/PinPopPolishReview.app/Contents/Resources/Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+ preferred device: Apple M3 (high power)
+Metal devices available: 1
+0: Apple M3 (high power)
+Using device Apple M3 (high power)
+Initializing Metal device caps: Apple M3
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.096 seconds
+- Finished resetting the current domain, in  0.002 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+UnloadTime: 0.322083 ms
+PINPOP: Startup complete; home ready, level=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopGame/<Start>d__187:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopGame.cs:111)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Ice materials remain shared after twenty restarts: 1 → 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:25)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Aim ends at first bumper contact: physical=3.05, preview=3.05
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:26)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Moving gate prediction follows its current physical location
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:28)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Ordinary pause freezes collection flights
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:30)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: All presented figures stay inside the tray during 12 clears
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:32)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: All 12 figures finish exactly once without false capacity loss
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:32)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Only one readable combo label exists for 12 clears
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:32)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Ordinary pause freezes collection flights
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:30)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: All presented figures stay inside the tray during 48 clears
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:32)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: All 48 figures finish exactly once without false capacity loss
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:32)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Only one readable combo label exists for 48 clears
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:32)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Large clear queues reservations until a visible well is free
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:32)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Capacity loss freezes gameplay but waits for visible collection
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:35)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Overflow settlement rejects new shots and swaps
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:35)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Overflow settlement cannot be interrupted by settings
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:35)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Overflow result opens after all ten figures have visibly landed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:36)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Overflow settlement never spends currency or moves
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:36)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Overflow button fits its card: CONTINUE 320
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:37)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Overflow button fits its card: RESULT_HOME 320
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:37)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Overflow result has no irrelevant video offer
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:37)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Overflow button fits its card: CONTINUE 390
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:37)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Overflow button fits its card: RESULT_HOME 390
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:37)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Overflow result has no irrelevant video offer
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:37)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Overflow button fits its card: CONTINUE 1170
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:37)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Overflow button fits its card: RESULT_HOME 1170
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:37)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Overflow result has no irrelevant video offer
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:37)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Restart cancels the pending overflow result
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:38)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches how-to replay from game settings
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:39)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Replayed how-to stays paused
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:39)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: How-to retains one close cross without extra Done
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:39)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches how-to close cross
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:39)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: How-to cross returns to paused settings
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:39)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Replay preserves attempt, moves, queue and wallet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:39)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Closing settings restores the previous game/menu context
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:39)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches how-to replay from home settings
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:39)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Replayed how-to stays paused
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:39)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: How-to retains one close cross without extra Done
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:39)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches how-to close cross
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:39)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: How-to cross returns to paused settings
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:39)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Replay preserves attempt, moves, queue and wallet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:39)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Closing settings restores the previous game/menu context
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.AuditFixesReview:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:17)
+PinPop.AuditFixesReview/<Start>d__17:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/AuditFixesReview.cs:39)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+Thread 0x16d817000 may have been prematurely finalized
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Thread 0x16c64b000 may have been prematurely finalized
+PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1795596249965,"processId":74238,"allocatedMemory":2376843,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":13511},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38728},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2000},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":280},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":816},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":2911},{"DynamicArray":31512},{"HashMap":11776},{"Utility":298432},{"PoolAlloc":1368},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":520},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13192},{"Identifiers":6480},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}

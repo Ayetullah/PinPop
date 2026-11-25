@@ -1,0 +1,13 @@
+{
+  "developmentBuild": false,
+  "scriptDebugging": false,
+  "testAds": true,
+  "liveAdsExcludedByUser": true,
+  "nativeBuildPerformed": true,
+  "nativeBuildSucceeded": true,
+  "signatureVerified": true,
+  "physicalDeviceVerified": false,
+  "physicalDeviceInstalled": true,
+  "physicalDeviceLaunchVerified": true,
+  "reviewReport": "StartupPolish/README.md"
+}

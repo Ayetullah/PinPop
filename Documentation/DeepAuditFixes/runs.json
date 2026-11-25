@@ -1,0 +1,45 @@
+[
+  {
+    "suite": "regressions",
+    "exitCode": 0
+  },
+  {
+    "suite": "ui-en",
+    "exitCode": 0,
+    "folder": "ui-en-final"
+  },
+  {
+    "suite": "ui-tr",
+    "exitCode": 0,
+    "folder": "ui-tr-final"
+  },
+  {
+    "suite": "settings",
+    "exitCode": 0
+  },
+  {
+    "suite": "persistence",
+    "exitCode": 0,
+    "folder": "settings"
+  },
+  {
+    "suite": "campaign",
+    "exitCode": 0
+  },
+  {
+    "suite": "recovery",
+    "exitCode": 0
+  },
+  {
+    "suite": "adventure",
+    "exitCode": 0
+  },
+  {
+    "suite": "physics",
+    "exitCode": 0
+  },
+  {
+    "suite": "tray",
+    "exitCode": 0
+  }
+]

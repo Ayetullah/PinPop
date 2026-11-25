@@ -1,0 +1,25 @@
+{
+  "requirements": {
+    "noDeviceLanguageOptionDisplayed": true,
+    "languageLabelAndDropdownInOneRow": true,
+    "turkishAndEnglishOptions": true,
+    "selectedLanguageShownAndMarked": true,
+    "optionsComeFromLanguageDefinitions": true,
+    "futureLongListScrolls": true,
+    "outsideTapDismissesListOnly": true,
+    "preferencePersistsAcrossProcessRestart": true
+  },
+  "localChecks": 897,
+  "localFailures": 0,
+  "device": {
+    "complete": true,
+    "phases": 27,
+    "frames": 1783,
+    "errors": [],
+    "walletPreserved": true,
+    "languagePreferencePreserved": true
+  },
+  "releaseInstalled": true,
+  "releaseLaunched": true,
+  "releaseProcessVerifiedRunning": true
+}

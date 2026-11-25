@@ -1,0 +1,42 @@
+{
+    "observations": [
+        {
+            "id": "aim-through-bumper",
+            "detail": "First physical contact=Left bumper, distance=3.05, aim distance=6.512556",
+            "reproduced": true
+        },
+        {
+            "id": "pending-matches-outside-tray",
+            "detail": "Collected=12, items=12, unmatched=0, icons beyond tray=3",
+            "reproduced": true
+        },
+        {
+            "id": "combo-label-overlap",
+            "detail": "Simultaneous combo labels=4, overlapping label pairs=3",
+            "reproduced": true
+        },
+        {
+            "id": "overflow-failure-layout",
+            "detail": "Overflow=True, home bottom=587.4241, card bottom=595.02, status=Her denemede 1 kez · Coin harcanmaz, arrived=0/10",
+            "reproduced": true
+        },
+        {
+            "id": "ice-material-growth",
+            "detail": "Ice material count after warmup=4, after twenty restarts=84, surviving ice shells=4",
+            "reproduced": true
+        },
+        {
+            "id": "no-tutorial-replay-entry",
+            "detail": "Visible HELP controls in gameplay and settings=0, tutorial already seen=1",
+            "reproduced": true
+        },
+        {
+            "id": "continue-center-blocked",
+            "detail": "Center raycast=True, resulting level=20",
+            "reproduced": false
+        }
+    ],
+    "errors": [],
+    "complete": true,
+    "restored": true
+}

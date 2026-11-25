@@ -11,8 +11,16 @@ namespace PinPop {
   [Serializable] class Surface{public string name;public float[] color;public float roughness,metalness;public int texture;public bool transparent,unlit,doubleSided,vertexColors,plaque;}
   [Serializable] class Node{public string name;public int parent,geometry;public int[] materials;public float[] position,rotation,scale;public bool castShadow,receiveShadow;}
   public PinPopGame Model;public Transform Table {get;private set;} public Transform Cart {get;private set;}
-  Transform wheel;readonly System.Collections.Generic.List<Transform> cabins=new System.Collections.Generic.List<Transform>(); float clock;Texture2D plaqueTexture;Color32[] plaqueBase; Material plaque; int level=-1;
+  Transform wheel;readonly System.Collections.Generic.List<Transform> cabins=new System.Collections.Generic.List<Transform>(); float clock;Texture2D plaqueTexture,plaqueOriginal;Color32[] plaqueBase; Material plaque; int level=-1;string plaqueLanguage;
   public void Build(){
+   var asset=Resources.Load<GameObject>("Prepared/World");
+   if(asset==null)throw new InvalidOperationException("Prepared world is missing. Run PinPop/Prepare production assets before building.");
+   var world=Instantiate(asset,transform,false).GetComponent<PreparedWorld>();
+   Table=world.Table;Cart=world.Cart;wheel=world.Wheel;cabins.AddRange(world.Cabins);plaque=new Material(world.Plaque);plaqueOriginal=(Texture2D)world.Plaque.mainTexture;
+   foreach(var renderer in world.GetComponentsInChildren<MeshRenderer>(true)){var assigned=renderer.sharedMaterials;bool changed=false;for(int i=0;i<assigned.Length;i++)if(assigned[i]==world.Plaque){assigned[i]=plaque;changed=true;}if(changed)renderer.sharedMaterials=assigned;}
+  }
+#if UNITY_EDITOR
+  public PreparedWorld BuildSource(){
    var data=JsonUtility.FromJson<Data>(Resources.Load<TextAsset>("HtmlReference/scene").text);
    var mats=new Material[data.materials.Length];
    for(int i=0;i<mats.Length;i++){var s=data.materials[i];var m=new Material(Shader.Find(s.unlit?"PinPop/HTML Unlit":s.transparent?"PinPop/HTML Transparent":"PinPop/HTML Surface"));m.name=s.name;
@@ -32,10 +40,13 @@ namespace PinPop {
     if(d.geometry>=0){o.gameObject.AddComponent<MeshFilter>().sharedMesh=meshes[d.geometry];var renderer=o.gameObject.AddComponent<MeshRenderer>();var g=data.geometries[d.geometry];var materialIds=d.materials;if(g.groups.Length>0){var assigned=new Material[g.groups.Length];for(int k=0;k<assigned.Length;k++)assigned[k]=mats[materialIds[Mathf.Min(g.groups[k].material,materialIds.Length-1)]];renderer.sharedMaterials=assigned;}else renderer.sharedMaterial=mats[materialIds[0]];renderer.shadowCastingMode=d.castShadow?ShadowCastingMode.On:ShadowCastingMode.Off;renderer.receiveShadows=d.receiveShadow;}
     if(d.parent>=0&&data.nodes[d.parent].name=="Wheel"&&d.geometry<0)cabins.Add(o);if(d.name=="Table")Table=o;if(d.name=="Cart")Cart=o;if(d.name=="Wheel")wheel=o;
    }
+   var prepared=gameObject.AddComponent<PreparedWorld>();prepared.Table=Table;prepared.Cart=Cart;prepared.Wheel=wheel;prepared.Cabins=cabins.ToArray();prepared.Plaque=plaque;return prepared;
   }
+#endif
   public void SetHome(bool home){Table.gameObject.SetActive(!home);Cart.gameObject.SetActive(home);}
-  public void SetLevel(int value){if(level==value||plaque==null)return;level=value;
-   if(plaqueTexture==null){var original=(Texture2D)plaque.mainTexture;plaqueBase=original.GetPixels32();for(int y=0;y<160;y++)for(int x=0;x<512;x++)plaqueBase[y*512+x]=new Color32(0,0,0,0);plaqueTexture=new Texture2D(512,256,TextureFormat.RGBA32,false);plaqueTexture.wrapMode=TextureWrapMode.Clamp;plaque.mainTexture=plaqueTexture;}
+  public void SetLevel(int value){if(plaque==null||level==value&&plaqueLanguage==GameLocalization.LanguageCode)return;level=value;
+   if(plaqueBase==null||plaqueLanguage!=GameLocalization.LanguageCode){plaqueLanguage=GameLocalization.LanguageCode;plaqueBase=(plaqueOriginal??(Texture2D)plaque.mainTexture).GetPixels32();for(int y=0;y<160;y++)for(int x=0;x<512;x++)plaqueBase[y*512+x]=new Color32(0,0,0,0);if(!GameLocalization.Turkish){var heading=Resources.Load<Texture2D>("Localization/plaque-en");if(heading==null)throw new InvalidOperationException("Prepared English plaque is missing");var strip=heading.GetPixels32();System.Array.Copy(strip,0,plaqueBase,160*512,strip.Length);}}
+   if(plaqueTexture==null){plaqueTexture=new Texture2D(512,256,TextureFormat.RGBA32,false);plaqueTexture.wrapMode=TextureWrapMode.Clamp;plaque.mainTexture=plaqueTexture;}
    var pixels=(Color32[])plaqueBase.Clone();string text=(value+1).ToString();int left=Mathf.RoundToInt(256-text.Length*75.08f/2);
    foreach(char c in text){var glyph=Resources.Load<Texture2D>("HtmlReference/plaque-digit-"+c);var data=glyph.GetPixels32();for(int y=0;y<160;y++)for(int x=0;x<110;x++){int dx=left+x,dy=y+25;if(dx>=0&&dx<512&&dy<160&&data[y*110+x].a>0)pixels[dy*512+dx]=data[y*110+x];}left+=75;}
    plaqueTexture.SetPixels32(pixels);plaqueTexture.Apply();}

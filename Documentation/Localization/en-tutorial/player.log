@@ -1,0 +1,763 @@
+Mono path[0] = '/tmp/PinPopPolishReview.app/Contents/Resources/Data/Managed'
+Mono config path = '/tmp/PinPopPolishReview.app/Contents/MonoBleedingEdge/etc'
+Found 1 interfaces on host : 0) 192.168.1.123
+Player connection [8570625792]  Target information:
+
+Player connection [8570625792]  * "[IP] 192.168.1.123 [Port] 55000 [Flags] 2 [Guid] 47138561 [EditorId] 2907088298 [Version] 1048832 [Id] OSXPlayer(1,Ayetullah-MacBook-Pro.local) [Debug] 0 [PackageName] OSXPlayer [ProjectName] PinPop" 
+
+Player connection [8570625792] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.24f1 (4e7b9b5b6244)
+[Subsystems] Discovering subsystems at path /tmp/PinPopPolishReview.app/Contents/Resources/Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+ preferred device: Apple M3 (high power)
+Metal devices available: 1
+0: Apple M3 (high power)
+Using device Apple M3 (high power)
+Initializing Metal device caps: Apple M3
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.097 seconds
+- Finished resetting the current domain, in  0.001 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+UnloadTime: 0.482291 ms
+PINPOP: Startup complete; home ready, level=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopGame/<Start>d__186:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopGame.cs:110)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Other chapters do not trigger or consume first-chapter tutorial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:576)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: First entry automatically opens tutorial and pauses gameplay
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:577)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: First showing persists seen flag immediately
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:577)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Tutorial has one close cross and no extra navigation buttons
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:577)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Close cross receives the actual pointer raycast in scene 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:579)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Close cross immediately resumes play from scene 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:579)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Close cross receives the actual pointer raycast in scene 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:579)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Close cross immediately resumes play from scene 1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:579)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Close cross receives the actual pointer raycast in scene 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:579)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Close cross immediately resumes play from scene 2
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:579)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Closing tutorial preserves queue, moves and wallet
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:580)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Animation runs during pause while held bowling ball stays still
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:581)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches tutorial swipe surface
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest:SwipeHelp (single,single,int) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:589)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Finger swipe left advances one scene
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches tutorial swipe surface
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest:SwipeHelp (single,single,int) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:589)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Finger swipe right returns one scene
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches tutorial swipe surface
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest:SwipeHelp (single,single,int) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:589)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Right swipe at first scene does not wrap
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches tutorial swipe surface
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest:SwipeHelp (single,single,int) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:589)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches tutorial swipe surface
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest:SwipeHelp (single,single,int) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:589)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Taps and vertical drags do not change scenes
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches tutorial swipe surface
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest:SwipeHelp (single,single,int) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:589)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Mouse drag also advances scene
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches tutorial swipe surface
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest:SwipeHelp (single,single,int) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:589)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Left swipe reaches last scene
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches tutorial swipe surface
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest:SwipeHelp (single,single,int) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:589)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Right swipe can revisit previous scene
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+Metal RecreateSurface[0x11a75c3d0]: surface size 390x844
+PASS: Resizing preserves tutorial scene and playback position
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:582)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+Metal RecreateSurface[0x11a75c3d0]: surface size 600x1000
+PASS: First video automatically advances after its full duration
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:583)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Wrong color demonstration keeps targets fixed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:583)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Effects stay clipped inside teaching stage
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:583)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Second video automatically advances to swap
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:583)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Swap illustration sends first bowling ball to queue end
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:583)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Last video automatically closes tutorial and resumes gameplay
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:583)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Automatic playback and swipes never mutate board, queue, wallet, moves or swaps
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:584)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Returning to chapter one does not repeat tutorial
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:585)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+Metal RecreateSurface[0x11a75c3d0]: surface size 320x740
+PASS: Closable tutorial fits 320
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:586)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Tutorial close target stays comfortably tappable at 320
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:586)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches tutorial swipe surface
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest:SwipeHelp (single,single,int) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:589)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:586)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Swipe target works at 320
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:586)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+Metal RecreateSurface[0x11a75c3d0]: surface size 390x844
+PASS: Closable tutorial fits 390
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:586)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Tutorial close target stays comfortably tappable at 390
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:586)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches tutorial swipe surface
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest:SwipeHelp (single,single,int) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:589)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:586)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Swipe target works at 390
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:586)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+Metal RecreateSurface[0x11a75c3d0]: surface size 1000x600
+PASS: Closable tutorial fits 1000
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:586)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Tutorial close target stays comfortably tappable at 1000
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:586)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches tutorial swipe surface
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest:SwipeHelp (single,single,int) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:589)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:586)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Swipe target works at 1000
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:586)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Reduced motion still uses stable teaching pose
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:587)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Reduced motion still advances automatically
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:587)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches tutorial swipe surface
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest:SwipeHelp (single,single,int) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:589)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:587)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pointer reaches tutorial swipe surface
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest:SwipeHelp (single,single,int) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:589)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:587)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Left swipe on final scene exits directly to game
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AnimatedHelpChecks>d__40:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:587)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+Thread 0x16f74b000 may have been prematurely finalized
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Thread 0x16e60b000 may have been prematurely finalized
+PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1795538731651,"processId":42767,"allocatedMemory":2376883,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":13535},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38744},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2000},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":280},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":816},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":2911},{"DynamicArray":31512},{"HashMap":11776},{"Utility":298432},{"PoolAlloc":1368},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":520},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13192},{"Identifiers":6480},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}

@@ -1,3 +1,4 @@
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -15,3 +16,5 @@ namespace PinPop {
   static void SaveFrame(PinPopGame game,PinPopSplash splash,string path){Canvas.ForceUpdateCanvases();var rt=new RenderTexture(600,1000,24);var old=RenderTexture.active;game.Camera.targetTexture=rt;game.Camera.Render();game.Hud.UICamera.targetTexture=rt;game.Hud.UICamera.Render();if(splash!=null){splash.SplashCamera.targetTexture=rt;splash.SplashCamera.Render();splash.SplashCamera.targetTexture=null;}RenderTexture.active=rt;var image=new Texture2D(600,1000,TextureFormat.RGB24,false);image.ReadPixels(new Rect(0,0,600,1000),0,0);image.Apply();File.WriteAllBytes(path,image.EncodeToPNG());game.Camera.targetTexture=null;game.Hud.UICamera.targetTexture=null;RenderTexture.active=old;rt.Release();Destroy(rt);Destroy(image);}
  }
 }
+
+#endif

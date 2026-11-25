@@ -1,0 +1,1138 @@
+{
+  "entries": [
+    {
+      "source": "BOWLING FESTİVALİ",
+      "en": "BOWLING FESTIVAL"
+    },
+    {
+      "source": "OYNA",
+      "en": "PLAY"
+    },
+    {
+      "source": "Aynı rengi bul, masayı temizle.",
+      "en": "Match the color. Clear the table."
+    },
+    {
+      "source": "Mağaza",
+      "en": "Shop"
+    },
+    {
+      "source": "HAMLE",
+      "en": "MOVES"
+    },
+    {
+      "source": "SIRADAKİ",
+      "en": "UP NEXT"
+    },
+    {
+      "source": "MASA TERTEMİZ!",
+      "en": "TABLE CLEARED!"
+    },
+    {
+      "source": "SONRAKİ BÖLÜM",
+      "en": "NEXT LEVEL"
+    },
+    {
+      "source": "ANA MENÜ",
+      "en": "HOME"
+    },
+    {
+      "source": "AYARLAR",
+      "en": "SETTINGS"
+    },
+    {
+      "source": "TAMAM",
+      "en": "DONE"
+    },
+    {
+      "source": "TEKRAR",
+      "en": "RETRY"
+    },
+    {
+      "source": "KAPALI",
+      "en": "OFF"
+    },
+    {
+      "source": "AÇIK",
+      "en": "ON"
+    },
+    {
+      "source": "Ses efektleri  ·  {0}",
+      "en": "Sound effects  ·  {0}"
+    },
+    {
+      "source": "Hareketi azalt  ·  {0}",
+      "en": "Reduce motion  ·  {0}"
+    },
+    {
+      "source": "Bu bölümün ödülü zaten alındı.",
+      "en": "You already earned this level's reward."
+    },
+    {
+      "source": "Video desteğiyle tamamlandı",
+      "en": "Completed with a video rescue"
+    },
+    {
+      "source": "Bölüm {0} + hamle bonusu {1}",
+      "en": "Level {0} + move bonus {1}"
+    },
+    {
+      "source": "+{0} COIN\nBakiye: {1}",
+      "en": "+{0} COINS\nBalance: {1}",
+      "enOne": "+{0} COIN\nBalance: {1}"
+    },
+    {
+      "source": "REKLAM TERCİHLERİ",
+      "en": "AD PRIVACY"
+    },
+    {
+      "source": "SON BİR ŞANS!",
+      "en": "ONE MORE CHANCE!"
+    },
+    {
+      "source": "+3 HAMLE",
+      "en": "+3 MOVES"
+    },
+    {
+      "source": "+3 HAMLE!",
+      "en": "+3 MOVES!"
+    },
+    {
+      "source": "VİDEO İZLE · +3 HAMLE",
+      "en": "WATCH VIDEO · +3 MOVES"
+    },
+    {
+      "source": "TEKRAR DENE",
+      "en": "TRY AGAIN"
+    },
+    {
+      "source": "TOPLAMA ALANI DOLDU",
+      "en": "TRAY FULL"
+    },
+    {
+      "source": "HAMLELER BİTTİ",
+      "en": "OUT OF MOVES"
+    },
+    {
+      "source": "10 yer eşleşmeden doldu.\nAynı renklerden üçlü topla.",
+      "en": "All 10 slots filled without a match.\nCollect three of the same color."
+    },
+    {
+      "source": "{0} duba kaldı.\n{1}",
+      "en": "Pins left: {0}\n{1}"
+    },
+    {
+      "source": "Bu denemede video desteğini kullandın.\nYeni bir planla tekrar dene.",
+      "en": "You used your video rescue this attempt.\nTry again with a new plan."
+    },
+    {
+      "source": "Masanı koru. Videoyu tamamla,\n+3 hamleyle kaldığın yerden devam et.",
+      "en": "Keep your table. Finish the video\nand continue with 3 extra moves."
+    },
+    {
+      "source": "Video hazırlanıyor…",
+      "en": "Preparing video…"
+    },
+    {
+      "source": "Coin ve swap hakların korunuyor.",
+      "en": "Your coins and swaps are safe."
+    },
+    {
+      "source": "Her denemede 1 kez · Coin harcanmaz",
+      "en": "Once per attempt · No coins spent"
+    },
+    {
+      "source": "TOP MAĞAZASI",
+      "en": "BALL SHOP"
+    },
+    {
+      "source": "Güçleri aynı, görünümleri farklı. Seçtiğin stil her renge uygulanır.",
+      "en": "Same power, different looks. Your style applies to every color."
+    },
+    {
+      "source": "KAPAT",
+      "en": "CLOSE"
+    },
+    {
+      "source": "SWAP HAKKI",
+      "en": "GET SWAPS"
+    },
+    {
+      "source": "1 SWAP  ·  10 COIN",
+      "en": "1 SWAP  ·  10 COINS"
+    },
+    {
+      "source": "SATIN AL",
+      "en": "BUY"
+    },
+    {
+      "source": "VAZGEÇ",
+      "en": "CANCEL"
+    },
+    {
+      "source": "BAKİYE: {0} COIN",
+      "en": "BALANCE: {0} COINS",
+      "enOne": "BALANCE: {0} COIN"
+    },
+    {
+      "source": "ÜCRETSİZ",
+      "en": "FREE"
+    },
+    {
+      "source": "SAHİPSİN",
+      "en": "OWNED"
+    },
+    {
+      "source": "SEÇİLİ",
+      "en": "SELECTED"
+    },
+    {
+      "source": "SEÇ",
+      "en": "SELECT"
+    },
+    {
+      "source": "YETERSİZ",
+      "en": "NOT ENOUGH"
+    },
+    {
+      "source": "Şu anda {0} hakkın var",
+      "en": "Swaps available: {0}"
+    },
+    {
+      "source": "En fazla 999 hak biriktirebilirsin.",
+      "en": "You can hold up to 999 swaps."
+    },
+    {
+      "source": "{0} coin eksik. Yeni bölümleri tamamla.",
+      "en": "You need {0} more coins. Complete new levels."
+    },
+    {
+      "source": "Bakiye: {0} → {1} coin",
+      "en": "Balance: {0} → {1} coins"
+    },
+    {
+      "source": "LİMİTE ULAŞILDI",
+      "en": "LIMIT REACHED"
+    },
+    {
+      "source": "YETERSİZ COIN",
+      "en": "NOT ENOUGH COINS"
+    },
+    {
+      "source": "BÖLÜM {0}",
+      "en": "LEVEL {0}"
+    },
+    {
+      "source": "BÖLÜM 1",
+      "en": "LEVEL 1"
+    },
+    {
+      "source": "Her zafer 30 coin kazandırır. Bir swap hakkı 10 coin.",
+      "en": "Each win earns 30 coins. A swap costs 10 coins."
+    },
+    {
+      "source": "Haklar oyunu kapatsan da seninle kalır.",
+      "en": "Your swaps are saved when you close the game."
+    },
+    {
+      "source": "HARİTAYA DÖN",
+      "en": "BACK TO MAP"
+    },
+    {
+      "source": "{0} duba toplandı.\n{1} hamle cebinde kaldı!",
+      "en": "Pins collected: {0}\nMoves left: {1}"
+    },
+    {
+      "source": "Doğru renk için sıranı değiştir.",
+      "en": "Swap your queue for the right color."
+    },
+    {
+      "source": "+{0} COIN · Bakiye: {1}",
+      "en": "+{0} COINS · Balance: {1}",
+      "enOne": "+{0} COIN · Balance: {1}"
+    },
+    {
+      "source": "Yeni rekor bonusu +{0}",
+      "en": "New best bonus +{0}"
+    },
+    {
+      "source": "{0} coin",
+      "en": "{0} coins",
+      "enOne": "{0} coin"
+    },
+    {
+      "source": "Coin: <b>{0}</b>",
+      "en": "Coins: <b>{0}</b>"
+    },
+    {
+      "source": "Lunapark hazırlanıyor…",
+      "en": "Preparing the carnival…"
+    },
+    {
+      "source": "Lunapark kuruluyor…",
+      "en": "Building the carnival…"
+    },
+    {
+      "source": "Masa hazırlanıyor…",
+      "en": "Preparing the table…"
+    },
+    {
+      "source": "Arayüz hazırlanıyor…",
+      "en": "Preparing the interface…"
+    },
+    {
+      "source": "Festival hazırlanıyor…",
+      "en": "Getting the festival ready…"
+    },
+    {
+      "source": "Renkler hazırlanıyor…",
+      "en": "Preparing the colors…"
+    },
+    {
+      "source": "AYNI RENK. TAM İSABET.",
+      "en": "SAME COLOR. PERFECT HIT."
+    },
+    {
+      "source": "MASAYI TEMİZLE!",
+      "en": "CLEAR THE TABLE!"
+    },
+    {
+      "source": "İLK TOP EN SONA GİTTİ · −1 SWAP",
+      "en": "FIRST BALL MOVED TO THE END · −1 SWAP"
+    },
+    {
+      "source": "+1 SWAP ALINDI · −10 COIN",
+      "en": "+1 SWAP ADDED · −10 COINS"
+    },
+    {
+      "source": "{0} alındı ve seçildi",
+      "en": "{0} purchased and equipped"
+    },
+    {
+      "source": "{0} seçildi",
+      "en": "{0} equipped"
+    },
+    {
+      "source": "+3 HAMLE · KALDIĞIN YERDEN DEVAM!",
+      "en": "+3 MOVES · KEEP GOING!"
+    },
+    {
+      "source": "TOPU GERİYE ÇEKEREK GÜÇ VER",
+      "en": "PULL BACK TO ADD POWER"
+    },
+    {
+      "source": "LUNAPARK KAPISI",
+      "en": "CARNIVAL GATE"
+    },
+    {
+      "source": "DÖNME DOLAP",
+      "en": "FERRIS WHEEL"
+    },
+    {
+      "source": "OYUN ÇADIRI",
+      "en": "GAME TENT"
+    },
+    {
+      "source": "YILDIZ FESTİVALİ",
+      "en": "STAR FESTIVAL"
+    },
+    {
+      "source": "Renk seç",
+      "en": "Color picker"
+    },
+    {
+      "source": "Gökkuşağı",
+      "en": "Rainbow"
+    },
+    {
+      "source": "Tepsi cebi",
+      "en": "Tray pocket"
+    },
+    {
+      "source": "+3 hamle",
+      "en": "+3 moves"
+    },
+    {
+      "source": "Sabit engel",
+      "en": "Bumper"
+    },
+    {
+      "source": "Buzlu duba",
+      "en": "Icy pin"
+    },
+    {
+      "source": "Bağlı üçlü",
+      "en": "Linked trio"
+    },
+    {
+      "source": "Hareketli bariyer",
+      "en": "Moving barrier"
+    },
+    {
+      "source": "{0} açılır",
+      "en": "Unlocks {0}"
+    },
+    {
+      "source": "Aynı renkleri üçle",
+      "en": "Match three of a color"
+    },
+    {
+      "source": "BAĞ KOPTU · SONRAKİ ATIŞTA SERBEST",
+      "en": "LINK BROKEN · FREE ON THE NEXT SHOT"
+    },
+    {
+      "source": "{0} kullanıldı",
+      "en": "{0} used"
+    },
+    {
+      "source": "CEPTEKİ DUBA ÜÇLÜYÜ TAMAMLADI",
+      "en": "POCKET PIN COMPLETED THE TRIO"
+    },
+    {
+      "source": "{0} AÇILDI",
+      "en": "{0} UNLOCKED"
+    },
+    {
+      "source": "{0} dubalarını aynı renk topla eşleştir.\nToplanan üç aynı figür birleşip silinir.",
+      "en": "Hit the {0} pins with a ball of the same color.\nCollect three matching figures to clear them."
+    },
+    {
+      "source": "SEKME ENGELLERİ",
+      "en": "BUMPER OBSTACLES"
+    },
+    {
+      "source": "Topu ön kenarda sağa–sola kaydır. Engellerin yanından açı bularak at.",
+      "en": "Slide the ball along the front edge. Find an angle around the bumpers."
+    },
+    {
+      "source": "BUZLU DUBA",
+      "en": "ICY PIN"
+    },
+    {
+      "source": "Aynı renkte bir top çarptığında buz kırılır.\nDuba sonraki atışta hareket edebilir.",
+      "en": "A matching ball breaks the ice.\nThe pin can move on the next shot."
+    },
+    {
+      "source": "BAĞLI ÜÇLÜ",
+      "en": "LINKED TRIO"
+    },
+    {
+      "source": "Aynı renkte bir top bağı koparır.\nÜç duba sonraki atışta serbest kalır.",
+      "en": "A matching ball breaks the link.\nThe three pins are free on the next shot."
+    },
+    {
+      "source": "HAREKETLİ BARİYER",
+      "en": "MOVING BARRIER"
+    },
+    {
+      "source": "Geçit açılana kadar bekle, ardından atışını bırak.",
+      "en": "Wait for the opening, then release your shot."
+    },
+    {
+      "source": "Tavşan",
+      "en": "Rabbit"
+    },
+    {
+      "source": "Penguen",
+      "en": "Penguin"
+    },
+    {
+      "source": "Kedi",
+      "en": "Cat"
+    },
+    {
+      "source": "Aslan",
+      "en": "Lion"
+    },
+    {
+      "source": "Ayı",
+      "en": "Bear"
+    },
+    {
+      "source": "Kurbağa",
+      "en": "Frog"
+    },
+    {
+      "source": "Fil",
+      "en": "Elephant"
+    },
+    {
+      "source": "Tilki",
+      "en": "Fox"
+    },
+    {
+      "source": "RENK",
+      "en": "COLOR"
+    },
+    {
+      "source": "GÖKKUŞ.",
+      "en": "RAINBOW"
+    },
+    {
+      "source": "CEP",
+      "en": "POCKET"
+    },
+    {
+      "source": "BÖLÜM HARİTASI",
+      "en": "LEVEL MAP"
+    },
+    {
+      "source": "CEP: {0} · iki eşini bekliyor",
+      "en": "POCKET: {0} · waiting for two matches"
+    },
+    {
+      "source": "SANDIK +{0} COIN · +1 {1}",
+      "en": "CHEST +{0} COINS · +1 {1}"
+    },
+    {
+      "source": "ANLADIM",
+      "en": "GOT IT"
+    },
+    {
+      "source": "PINPOP · LUNAPARK MACERASI",
+      "en": "PINPOP · CARNIVAL ADVENTURE"
+    },
+    {
+      "source": "SANDIK AÇILDI · +{0} COIN",
+      "en": "CHEST OPENED · +{0} COINS"
+    },
+    {
+      "source": "Sıradaki topun rengini seç. Hamle harcamaz.\nMasada kalan renklerden birini seçebilirsin.",
+      "en": "Choose the next ball's color. No move spent.\nPick a color still on the table."
+    },
+    {
+      "source": "Bir sonraki top bütün renklere etki eder.\nDüşen dubalar kendi renkleriyle toplanır.",
+      "en": "Your next ball hits every color.\nFallen pins keep their own colors in the tray."
+    },
+    {
+      "source": "Bekleyen bir dubayı tek kişilik cebe taşı.\nAynı renkten iki duba gelince üçlü tamamlanır.",
+      "en": "Move a waiting pin into the single-slot pocket.\nTwo more of its color complete the trio."
+    },
+    {
+      "source": "Mevcut masayı koruyarak üç hamle ekle.\nÖdüllü video hakkını tüketmez.",
+      "en": "Add three moves and keep your table.\nYour video rescue remains available."
+    },
+    {
+      "source": "{0}\nEnvanter: {1}",
+      "en": "{0}\nStock: {1}"
+    },
+    {
+      "source": "Önce tepsiye bir duba topla.",
+      "en": "Collect a pin in the tray first."
+    },
+    {
+      "source": "Cep dolu; iki eşini toplayarak boşalt.",
+      "en": "Pocket full. Collect two matches to empty it."
+    },
+    {
+      "source": "KULLAN",
+      "en": "USE"
+    },
+    {
+      "source": "+1 AL · {0} COIN",
+      "en": "GET +1 · {0} COINS"
+    },
+    {
+      "source": "Envantere +1 {0}",
+      "en": "Added +1 {0} to your stock"
+    },
+    {
+      "source": "ÇEK, BIRAK, YUVARLA",
+      "en": "PULL, RELEASE, ROLL"
+    },
+    {
+      "source": "AYNI RENKTEN ÜÇÜNÜ TOPLA",
+      "en": "COLLECT THREE OF ONE COLOR"
+    },
+    {
+      "source": "SIRANI SWAP İLE DEĞİŞTİR",
+      "en": "SWAP YOUR QUEUE"
+    },
+    {
+      "source": "Topu geriye çekerek güç ver.\nBıraktığında ters yöne yuvarlanır.",
+      "en": "Pull the ball back to add power.\nRelease to roll it the other way."
+    },
+    {
+      "source": "Farklı renk sabit kalır.\nToplanan üç aynı figür birleşip silinir.",
+      "en": "Other colors stay in place.\nThree matching figures merge and clear."
+    },
+    {
+      "source": "İlk top sıranın sonuna gider.\n1 swap kullanılır, hamle sayısı aynı kalır.",
+      "en": "The first ball moves to the end.\nUses 1 swap and costs no moves."
+    },
+    {
+      "source": "GÖR · ÖĞREN · YUVARLA",
+      "en": "WATCH · LEARN · ROLL"
+    },
+    {
+      "source": "←  Kaydırarak geç  →",
+      "en": "←  Swipe to continue  →"
+    },
+    {
+      "source": "TOPA DOKUN",
+      "en": "TOUCH THE BALL"
+    },
+    {
+      "source": "GERİYE ÇEK · GÜÇ VER",
+      "en": "PULL BACK · ADD POWER"
+    },
+    {
+      "source": "BIRAK!",
+      "en": "RELEASE!"
+    },
+    {
+      "source": "TAM İSABET!",
+      "en": "PERFECT HIT!"
+    },
+    {
+      "source": "FARKLI RENK · DUBA SABİT",
+      "en": "OTHER COLOR · PIN STAYS"
+    },
+    {
+      "source": "AYNI RENK · MASADAN DÜŞÜR",
+      "en": "SAME COLOR · KNOCK IT OFF"
+    },
+    {
+      "source": "3 AYNI FİGÜR",
+      "en": "3 MATCHING FIGURES"
+    },
+    {
+      "source": "ÜÇLÜ TAMAMLANDI!",
+      "en": "TRIO COMPLETE!"
+    },
+    {
+      "source": "12 HAMLE · 3 SWAP",
+      "en": "12 MOVES · 3 SWAPS"
+    },
+    {
+      "source": "12 HAMLE · 2 SWAP",
+      "en": "12 MOVES · 2 SWAPS"
+    },
+    {
+      "source": "YENİDEN DENE",
+      "en": "RETRY"
+    },
+    {
+      "source": "Hazır!",
+      "en": "Ready!"
+    },
+    {
+      "source": "Oyun yüklenemedi. Tekrar deneyebilirsin.",
+      "en": "Couldn't load the game. Please try again."
+    },
+    {
+      "source": "ÖDÜLLÜ VİDEO",
+      "en": "REWARDED VIDEO"
+    },
+    {
+      "source": "Video şu an hazır değil. Biraz sonra tekrar dene.",
+      "en": "No video available right now. Try again shortly."
+    },
+    {
+      "source": "Video tamamlanmadı. Hamle eklenmedi.",
+      "en": "Video not completed. No moves added."
+    },
+    {
+      "source": "Video açılamadı. Tekrar deneyebilirsin.",
+      "en": "Couldn't open the video. Please try again."
+    },
+    {
+      "source": "PINPOP TANITIMI",
+      "en": "PINPOP PREVIEW"
+    },
+    {
+      "source": "Video yükleniyor…",
+      "en": "Loading video…"
+    },
+    {
+      "source": "Video yüklenemedi. Tekrar deneyebilirsin.",
+      "en": "Couldn't load the video. Please try again."
+    },
+    {
+      "source": "Video duraklatıldı",
+      "en": "Video paused"
+    },
+    {
+      "source": "{0} sn · Bitince +3 hamle",
+      "en": "{0} sec · Finish for +3 moves"
+    },
+    {
+      "source": "Tamamla, +3 hamleyle devam et",
+      "en": "Finish to continue with 3 extra moves"
+    },
+    {
+      "source": "BURADASIN",
+      "en": "YOU ARE HERE"
+    },
+    {
+      "source": "BÖLGE SANDIĞI",
+      "en": "REGION CHEST"
+    },
+    {
+      "source": "ARA SANDIK",
+      "en": "BONUS CHEST"
+    },
+    {
+      "source": "SANDIK ALINDI",
+      "en": "CHEST CLAIMED"
+    },
+    {
+      "source": "SANDIĞI AÇ",
+      "en": "OPEN CHEST"
+    },
+    {
+      "source": "{0} · {1} / {2}",
+      "en": "{0} · {1} / {2}"
+    },
+    {
+      "source": "TÜM BÖLÜMLER TAMAMLANDI",
+      "en": "ALL LEVELS COMPLETE"
+    },
+    {
+      "source": "BÖLGE TAMAMLANDI",
+      "en": "REGION COMPLETE"
+    },
+    {
+      "source": "LUNAPARK",
+      "en": "CARNIVAL"
+    },
+    {
+      "source": "Karışık",
+      "en": "Mixed"
+    },
+    {
+      "source": "Buz",
+      "en": "Ice"
+    },
+    {
+      "source": "Bağ",
+      "en": "Link"
+    },
+    {
+      "source": "Geçit",
+      "en": "Gate"
+    },
+    {
+      "source": "Tampon",
+      "en": "Bumper"
+    },
+    {
+      "source": "Üçlü",
+      "en": "Trio"
+    },
+    {
+      "source": "{0} renk · {1}",
+      "en": "{0} colors · {1}"
+    },
+    {
+      "source": "YANDAN AÇI BUL",
+      "en": "AIM FROM THE SIDE"
+    },
+    {
+      "source": "GEÇİDİ BEKLE",
+      "en": "WAIT FOR THE GAP"
+    },
+    {
+      "source": "AÇILINCA YUVARLA",
+      "en": "ROLL WHEN IT OPENS"
+    },
+    {
+      "source": "İLK ATIŞ: BUZU KIR",
+      "en": "FIRST SHOT: BREAK THE ICE"
+    },
+    {
+      "source": "İLK ATIŞ: BAĞI KOPAR",
+      "en": "FIRST SHOT: BREAK THE LINK"
+    },
+    {
+      "source": "SONRAKİ ATIŞ: DEVİR",
+      "en": "NEXT SHOT: KNOCK IT DOWN"
+    },
+    {
+      "source": "PEMBE",
+      "en": "PINK"
+    },
+    {
+      "source": "TURKUAZ",
+      "en": "TEAL"
+    },
+    {
+      "source": "MOR",
+      "en": "PURPLE"
+    },
+    {
+      "source": "SARI",
+      "en": "YELLOW"
+    },
+    {
+      "source": "TURUNCU",
+      "en": "ORANGE"
+    },
+    {
+      "source": "YEŞİL",
+      "en": "GREEN"
+    },
+    {
+      "source": "MAVİ",
+      "en": "BLUE"
+    },
+    {
+      "source": "KIRMIZI",
+      "en": "RED"
+    },
+    {
+      "source": "YENİ MASA HAZIR",
+      "en": "NEW TABLE READY"
+    },
+    {
+      "source": "Renkler hazır. Sıra sende.",
+      "en": "Colors ready. Your turn."
+    },
+    {
+      "source": "Çek, nişan al, yuvarla.",
+      "en": "Pull, aim, roll."
+    },
+    {
+      "source": "GÜZEL!",
+      "en": "NICE!"
+    },
+    {
+      "source": "HARİKA!",
+      "en": "GREAT!"
+    },
+    {
+      "source": "SÜPER!",
+      "en": "SUPER!"
+    },
+    {
+      "source": "MUHTEŞEM!",
+      "en": "AMAZING!"
+    },
+    {
+      "source": "Klasik",
+      "en": "Classic"
+    },
+    {
+      "source": "Mermer",
+      "en": "Marble"
+    },
+    {
+      "source": "Yörünge",
+      "en": "Orbit"
+    },
+    {
+      "source": "Galaksi",
+      "en": "Galaxy"
+    },
+    {
+      "source": "İlk biletin, ilk maceran",
+      "en": "Your first ticket, your first adventure"
+    },
+    {
+      "source": "Bilet Gişesi",
+      "en": "Ticket Booth"
+    },
+    {
+      "source": "Balon Sokağı",
+      "en": "Balloon Street"
+    },
+    {
+      "source": "İlk Tampon",
+      "en": "First Bumper"
+    },
+    {
+      "source": "Şeker Durağı",
+      "en": "Candy Stop"
+    },
+    {
+      "source": "Buzlu Geçit",
+      "en": "Icy Passage"
+    },
+    {
+      "source": "İkinci Bilet",
+      "en": "Second Ticket"
+    },
+    {
+      "source": "Renkli Kortej",
+      "en": "Color Parade"
+    },
+    {
+      "source": "Çifte Tampon",
+      "en": "Double Bumper"
+    },
+    {
+      "source": "Şeker Labirenti",
+      "en": "Candy Maze"
+    },
+    {
+      "source": "Donmuş Meydan",
+      "en": "Frozen Square"
+    },
+    {
+      "source": "Gökyüzüne uzanan renkli duraklar",
+      "en": "Colorful stops reaching for the sky"
+    },
+    {
+      "source": "Gökyüzü Turu",
+      "en": "Sky Ride"
+    },
+    {
+      "source": "Altın Kabin",
+      "en": "Golden Gondola"
+    },
+    {
+      "source": "Rüzgâr Gülü",
+      "en": "Pinwheel"
+    },
+    {
+      "source": "Bulut Yolu",
+      "en": "Cloud Path"
+    },
+    {
+      "source": "Yüksek Kabin",
+      "en": "High Gondola"
+    },
+    {
+      "source": "Rüzgâr Köprüsü",
+      "en": "Wind Bridge"
+    },
+    {
+      "source": "Dönen Renkler",
+      "en": "Spinning Colors"
+    },
+    {
+      "source": "Bulut Merdiveni",
+      "en": "Cloud Steps"
+    },
+    {
+      "source": "Gökkuşağı Zirvesi",
+      "en": "Rainbow Summit"
+    },
+    {
+      "source": "Her çadırda başka bir sürpriz",
+      "en": "A new surprise in every tent"
+    },
+    {
+      "source": "Büyük Çadır",
+      "en": "Big Top"
+    },
+    {
+      "source": "Halka Atışı",
+      "en": "Ring Toss"
+    },
+    {
+      "source": "Ördek Avı",
+      "en": "Duck Hunt"
+    },
+    {
+      "source": "Güç Kulesi",
+      "en": "Power Tower"
+    },
+    {
+      "source": "Ödül Rafı",
+      "en": "Prize Shelf"
+    },
+    {
+      "source": "Usta Çadırı",
+      "en": "Master Tent"
+    },
+    {
+      "source": "Çapraz Halkalar",
+      "en": "Crossed Rings"
+    },
+    {
+      "source": "Ördek Koridoru",
+      "en": "Duck Alley"
+    },
+    {
+      "source": "Güç Geçidi",
+      "en": "Power Passage"
+    },
+    {
+      "source": "Büyük Ödül",
+      "en": "Grand Prize"
+    },
+    {
+      "source": "Geceyi ışıkla doldur",
+      "en": "Light up the night"
+    },
+    {
+      "source": "Yıldız Yolu",
+      "en": "Star Path"
+    },
+    {
+      "source": "Roket Rampası",
+      "en": "Rocket Ramp"
+    },
+    {
+      "source": "Ay Işığı",
+      "en": "Moonlight"
+    },
+    {
+      "source": "Işık Şöleni",
+      "en": "Light Show"
+    },
+    {
+      "source": "Büyük Kupa",
+      "en": "Grand Trophy"
+    },
+    {
+      "source": "Yıldız Koridoru",
+      "en": "Star Corridor"
+    },
+    {
+      "source": "Roket Geçidi",
+      "en": "Rocket Passage"
+    },
+    {
+      "source": "Ay Bahçesi",
+      "en": "Moon Garden"
+    },
+    {
+      "source": "Final Işıkları",
+      "en": "Final Lights"
+    },
+    {
+      "source": "Şampiyonluk Kupası",
+      "en": "Champion's Trophy"
+    },
+    {
+      "source": "PINPOP",
+      "en": "PINPOP"
+    },
+    {
+      "source": "PinPop",
+      "en": "PinPop"
+    },
+    {
+      "source": "SWAP",
+      "en": "SWAP"
+    },
+    {
+      "source": "↔  SWAP",
+      "en": "↔  SWAP"
+    },
+    {
+      "source": "COIN",
+      "en": "COIN"
+    },
+    {
+      "source": "Coin",
+      "en": "Coin"
+    },
+    {
+      "source": "coin",
+      "en": "coin"
+    },
+    {
+      "source": "●",
+      "en": "●"
+    },
+    {
+      "source": "✦",
+      "en": "✦"
+    },
+    {
+      "source": "▣",
+      "en": "▣"
+    },
+    {
+      "source": "+3",
+      "en": "+3"
+    },
+    {
+      "source": "×",
+      "en": "×"
+    },
+    {
+      "source": "+",
+      "en": "+"
+    },
+    {
+      "source": "←",
+      "en": "←"
+    },
+    {
+      "source": "→",
+      "en": "→"
+    },
+    {
+      "source": "RENK SEÇ",
+      "en": "COLOR PICKER"
+    },
+    {
+      "source": "GÖKKUŞAĞI",
+      "en": "RAINBOW"
+    },
+    {
+      "source": "TEPSİ CEBİ",
+      "en": "TRAY POCKET"
+    },
+    {
+      "source": "{0} swap",
+      "en": "{0} swaps",
+      "enOne": "{0} swap"
+    },
+    {
+      "source": "Swap: <b>{0}</b>",
+      "en": "Swaps: <b>{0}</b>"
+    },
+    {
+      "source": "{0} hak",
+      "en": "{0} swaps",
+      "enOne": "{0} swap"
+    },
+    {
+      "source": "{0} x{1}",
+      "en": "{0} x{1}"
+    },
+    {
+      "source": "BUZ KIRILDI · SONRAKİ ATIŞTA SERBEST",
+      "en": "ICE BROKEN · FREE ON THE NEXT SHOT"
+    },
+    {
+      "source": "Aynı renkle eşleştir, doğru anda yuvarla.",
+      "en": "Match the color and time your roll."
+    },
+    {
+      "source": "Doğru rengi seç, doğru anda yuvarla.",
+      "en": "Choose the right color and time your roll."
+    },
+    {
+      "source": "Harita",
+      "en": "Map"
+    },
+    {
+      "source": "Ayarlar",
+      "en": "Settings"
+    },
+    {
+      "source": "Aynı renk top ile buzu kır.",
+      "en": "Break the ice with a matching ball."
+    },
+    {
+      "source": "DİL",
+      "en": "LANGUAGE"
+    },
+    {
+      "source": "Cihaz dili",
+      "en": "Device"
+    },
+    {
+      "source": "Türkçe",
+      "en": "Türkçe"
+    },
+    {
+      "source": "English",
+      "en": "English"
+    },
+    {
+      "source": "Dil",
+      "en": "Language"
+    },
+    {
+      "source": "NASIL OYNANIR?",
+      "en": "HOW TO PLAY"
+    }
+  ]
+}

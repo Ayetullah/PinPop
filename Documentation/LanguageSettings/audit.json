@@ -1,0 +1,25 @@
+{
+  "requirements": {
+    "milestoneRewardSeparatedFromContinue": true,
+    "allFourMilestonesCheckedInTwoLanguagesAtThreeSizes": true,
+    "languageSelectionInHomeAndGameplaySettings": true,
+    "selectionAppliesWithoutRestart": true,
+    "preferenceSurvivesRealProcessRestart": true,
+    "autoUsesDeviceWithEnglishFallback": true,
+    "movesQueueWalletPreserved": true
+  },
+  "localChecks": 866,
+  "localFailures": 0,
+  "device": {
+    "complete": true,
+    "phases": 28,
+    "frames": 1787,
+    "errors": [],
+    "walletPreserved": true,
+    "languagePreferencePreserved": true
+  },
+  "releaseBuildSucceeded": true,
+  "releaseInstalled": true,
+  "releaseLaunched": true,
+  "releaseProcessVerifiedRunning": true
+}

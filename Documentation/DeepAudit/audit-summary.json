@@ -1,0 +1,19 @@
+{
+  "reviewOnly": true,
+  "productionScriptsUnchanged": true,
+  "reproducedFindings": 6,
+  "uiEnglishPassed": 372,
+  "uiTurkishPassed": 337,
+  "physicsPassed": 36,
+  "adventurePassed": 65,
+  "campaignPassed": 146,
+  "campaignFailed": 2,
+  "recoveryPassed": 36,
+  "recoveryFailed": 2,
+  "legacyTestFailuresExplainedInReport": true,
+  "nativeComplete": true,
+  "nativeRuntimeErrors": 0,
+  "nativeWalletPreserved": true,
+  "nativeLanguagePreserved": true,
+  "normalReleaseRestoredAndRunning": true
+}

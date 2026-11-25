@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-24",
+  "device": "iPhone 13",
+  "bundleId": "com.pinpop.colorbowling",
+  "configuration": "Release",
+  "installed": true,
+  "signatureValid": true,
+  "deviceIncludedInProfile": true,
+  "profileExpiresUTC": "2026-11-30T21:21:33Z",
+  "launchStatus": "normalLaunchSucceeded",
+  "awaitingUserDeveloperTrust": false,
+  "gameplayVerified": false,
+  "userConfirmedLaunch": true,
+  "processVerifiedRunning": true,
+  "processIdentifier": 2991,
+  "pinPopCrashReportsFound": 0,
+  "consoleLaunchStatus": "CoreDeviceError10004; normal launch succeeded; live console not captured"
+}

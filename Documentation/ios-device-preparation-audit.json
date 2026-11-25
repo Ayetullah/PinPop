@@ -1,0 +1,74 @@
+{
+  "exported": true,
+  "bundleId": "com.pinpop.colorbowling",
+  "minimumIOS": "15.0",
+  "ARM64": true,
+  "IL2CPP": true,
+  "testAds": true,
+  "SKAdNetworkCount": 50,
+  "adSDK": "Google Mobile Ads 13.12+ via Swift Package Manager",
+  "consentSDK": "Google UMP 3.1.0 via Swift Package Manager",
+  "iOSIconSlots": 19,
+  "fullXcodeInstalled": true,
+  "nativeDependenciesResolved": true,
+  "signedAppBuilt": true,
+  "installedOnDevice": true,
+  "cocoaPodsVersion": "1.17.0",
+  "blockers": [
+    "Approve developer profile trust again after clean reinstall"
+  ],
+  "testDevice": {
+    "model": "iPhone 13",
+    "iOS": "27.2.1",
+    "xcodePairing": "available (paired)",
+    "developerMode": "enabled"
+  },
+  "xcodeSelection": {
+    "initialCandidate": "16.4",
+    "reason": "Supported on macOS 15.5; iPhone pairing and unsigned ARM64 native build verified",
+    "currentSDKCandidate": "27.2",
+    "currentSDKMinimumMacOS": "26.6",
+    "macOSUpgradeAuthorized": false
+  },
+  "appleWebLoginConfirmed": true,
+  "usbIPhoneDetected": true,
+  "xcodeDownload": {
+    "version": "16.4",
+    "source": "Apple Developer official download",
+    "status": "complete",
+    "path": "/Users/ayetullah/Downloads/Xcode_16.4.xip",
+    "bytes": 3036085732,
+    "archiveSignature": "signed Apple Software",
+    "codeSignature": "valid on disk; Apple Root CA",
+    "gatekeeper": "accepted; Apple System"
+  },
+  "xcodeApplication": "/Applications/Xcode-16.4.app",
+  "xcodeFirstLaunchReady": true,
+  "xcodeVersion": "16.4 (16F6)",
+  "nativeUIAutomationAvailable": false,
+  "unsignedNativeBuild": "succeeded",
+  "unsignedNativeBuildLog": "/tmp/pinpop-ios-unsigned-build.log",
+  "latestDeviceQuery": "connected; Developer Mode enabled",
+  "appleTeamConfigured": true,
+  "signedNativeBuild": "succeeded",
+  "launchedOnDevice": true,
+  "launchStatus": "Clean reinstall completed; new launch blocked by device trust approval",
+  "gameplayVerified": false,
+  "startupConsoleVerified": true,
+  "startupFailure": "Shader stripping followed by CapsuleCollider native component stripping",
+  "startupFix": "Retain runtime shaders; preserve CreatePrimitive collider/renderer types via link.xml; safe image-effect fallback",
+  "startupFixVerification": "Signed build installed; home ready marker observed; no managed exceptions in startup console",
+  "startupConsoleLog": "/tmp/pinpop-ios-fixed-console.log",
+  "cleanReinstall": {
+    "uninstalled": true,
+    "installed": true,
+    "launchSucceeded": false,
+    "launchBlocker": "iOS developer trust approval required again after uninstall"
+  },
+  "mobilePolish": {
+    "build": "signed native build succeeded",
+    "desktopChecks": "34/34",
+    "deviceInstall": "pending reconnect",
+    "savesReset": false
+  }
+}

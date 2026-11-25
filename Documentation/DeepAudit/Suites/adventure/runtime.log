@@ -1,0 +1,907 @@
+Mono path[0] = '/tmp/PinPopPolishReview.app/Contents/Resources/Data/Managed'
+Mono config path = '/tmp/PinPopPolishReview.app/Contents/MonoBleedingEdge/etc'
+Found 2 interfaces on host : 0) 192.168.1.123 1) 169.254.91.167
+Player connection [8570625792]  Target information:
+
+Player connection [8570625792]  * "[IP] 192.168.1.123 [Port] 55000 [Flags] 2 [Guid] 1330968384 [EditorId] 3847818383 [Version] 1048832 [Id] OSXPlayer(1,Ayetullah-MacBook-Pro.local) [Debug] 0 [PackageName] OSXPlayer [ProjectName] PinPop" 
+
+Player connection [8570625792]  * "[IP] 169.254.91.167 [Port] 55000 [Flags] 2 [Guid] 1330968384 [EditorId] 3847818383 [Version] 1048832 [Id] OSXPlayer(1,Ayetullah-MacBook-Pro.local) [Debug] 0 [PackageName] OSXPlayer [ProjectName] PinPop" 
+
+Player connection [8570625792] Started UDP target info broadcast (1) on [225.0.0.222:54997].
+
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.24f1 (4e7b9b5b6244)
+[Subsystems] Discovering subsystems at path /tmp/PinPopPolishReview.app/Contents/Resources/Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+ preferred device: Apple M3 (high power)
+Metal devices available: 1
+0: Apple M3 (high power)
+Using device Apple M3 (high power)
+Initializing Metal device caps: Apple M3
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.060 seconds
+- Finished resetting the current domain, in  0.001 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+UnloadTime: 0.270042 ms
+PINPOP: Startup complete; home ready, level=0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopGame/<Start>d__186:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopGame.cs:110)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 1 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 2 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 3 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 4 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 5 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 6 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 7 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 8 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 9 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 10 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 11 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 12 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 13 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 14 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 15 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 16 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 17 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 18 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 19 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 20 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 21 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 22 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 23 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 24 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 25 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 26 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 27 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 28 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 29 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 30 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 31 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 32 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 33 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 34 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 35 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 36 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 37 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 38 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 39 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Adventure chapter 40 has valid board
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:592)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Map opens first chapter and locks future chapters
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:593)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Ice ignores wrong color
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:594)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Correct impact cracks ice and waits until next shot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:594)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Next shot releases thawed pin
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:594)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Real matching ball cracks ice while protected pin stays fixed
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:595)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Band breaks across the three protected targets
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:596)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Following shot frees entire bound group
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:596)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Moving barrier has actual physical motion
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:597)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Color chooser changes ready ball without spending move
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:598)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Extra moves preserve video entitlement and fill queue
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:598)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Rainbow arms only once
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:598)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Rainbow shot activates all ordinary colors
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:598)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Selected arrived token enters pocket
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:599)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Two mates restore pocket and reserve triple
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:599)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Pocket triple finishes animation
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:599)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Inventory purchase charges exactly 35 coins
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:600)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Booster stock survives save/reload
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:600)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Chest pays once after milestone and locked chest rejects claim
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Claimed chest persists
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:601)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: New color tutorial exists
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:602)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: First obstacle tutorial follows color introduction
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:602)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+PASS: Seen tutorial does not repeat
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:602)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+Metal RecreateSurface[0x14a120a00]: surface size 320x740
+PASS: Map card fits 320
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:603)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+Metal RecreateSurface[0x14a120a00]: surface size 390x844
+PASS: Map card fits 390
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:603)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+Metal RecreateSurface[0x14a120a00]: surface size 1000x600
+PASS: Map card fits 1000
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[]) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/DebugLogHandler.cs:9)
+UnityEngine.Logger:Log (UnityEngine.LogType,object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Logging/Logger.cs:60)
+UnityEngine.Debug:Log (object) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs:123)
+PinPop.PinPopSelfTest:Check (bool,string) (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:847)
+PinPop.PinPopSelfTest/<AdventureChecks>d__42:MoveNext () (at /private/tmp/pinpop-ios-icon/Assets/Scripts/PinPopSelfTest.cs:603)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: /Users/bokken/build/output/unity/unity/Runtime/Export/Debug/Debug.bindings.cs Line: 123)
+
+Metal RecreateSurface[0x14a120a00]: surface size 600x1000
+Thread 0x16cbd3000 may have been prematurely finalized
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Thread 0x16ba07000 may have been prematurely finalized
+PlayerConnection::Cleanup##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1795555936409,"processId":67672,"allocatedMemory":2376883,"memoryLabels":[{"Default":14161},{"Permanent":1520},{"Thread":39352},{"Manager":13535},{"VertexData":8},{"Geometry":408},{"Texture":16},{"Shader":78377},{"Material":24},{"GfxDevice":38744},{"GfxThread":400},{"Animation":328},{"Audio":3040},{"FreeType":8},{"FontEngine":736},{"Physics":2000},{"Physics2D":16},{"Serialization":624},{"Input":10056},{"JobScheduler":33216},{"TextLib":280},{"Mono":32},{"ScriptingNativeRuntime":128},{"BaseObject":1609216},{"Resource":496},{"Renderer":3528},{"Transform":6485},{"File":816},{"WebCam":32},{"Culling":32},{"Terrain":11250},{"Wind":24},{"String":2911},{"DynamicArray":31512},{"HashMap":11776},{"Utility":298432},{"PoolAlloc":1368},{"AI":40},{"TypeTree":5064},{"ScriptManager":64},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":112},{"GI":7176},{"Director":8152},{"CloudService":144},{"WebRequest":520},{"VR":47442},{"SceneManager":360},{"Video":2080},{"LazyScriptCache":32},{"Camera":9},{"Secure":241},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57496},{"Baselib":16},{"Hierarchy":992},{"CoreStats":13192},{"Identifiers":6480},{"Gui":40},{"CoreBusinessMetrics":120},{"AssetReference":32}]}

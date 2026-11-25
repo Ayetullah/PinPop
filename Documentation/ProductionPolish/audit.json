@@ -1,0 +1,30 @@
+{
+  "visualChecksPassed": 163,
+  "visualChecksFailed": 0,
+  "sidebar": "left; vertical; separate gameplay framing",
+  "retinaRenderSize": [
+    1170,
+    2532
+  ],
+  "simulatedSafeArea": [
+    0,
+    102,
+    1170,
+    2289
+  ],
+  "physicalDeviceVerified": false,
+  "physicalDeviceNote": "User cannot connect iPhone at present",
+  "testAdsRetained": true,
+  "liveAdsExcludedByUser": true,
+  "releaseExport": "succeeded",
+  "releaseNativeBuild": "succeeded",
+  "signatureVerified": true,
+  "releaseReviewCodeExcluded": true,
+  "releaseDebugFlagsAbsent": true,
+  "nativeLaunchStoryboardCompiled": true,
+  "appStoreReady": false,
+  "appStoreLimitations": [
+    "Installed iOS SDK 18.5; Apple requires 26 or later",
+    "Current signing profile is for device development, not App Store distribution"
+  ]
+}

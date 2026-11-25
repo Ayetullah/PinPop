@@ -1,0 +1,13 @@
+{
+  "desktopChecksPassed": 34,
+  "desktopChecksFailed": 0,
+  "testedWidths": [
+    320,
+    390,
+    430
+  ],
+  "iosBuild": "signed ARM64 Debug build succeeded; codesign verified",
+  "deviceInstall": "pending; iPhone unavailable",
+  "savesReset": false,
+  "nativeBuildLog": "/tmp/pinpop-ios-polish-build.log"
+}

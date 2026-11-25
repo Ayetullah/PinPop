@@ -1,0 +1,24 @@
+{
+  "languagePolicy": {
+    "turkishDevice": "tr",
+    "englishDevice": "en",
+    "allOtherDeviceLanguages": "en",
+    "default": "en"
+  },
+  "catalogEntries": 276,
+  "localReviews": {
+    "englishUI": 347,
+    "turkishUI": 314,
+    "tutorial": 53,
+    "failures": 0,
+    "splashBothLanguages": true
+  },
+  "sourceManifestMatches": true,
+  "releaseBuildSucceeded": true,
+  "releaseSignedAndVerified": true,
+  "deviceRuntimeVerified": false,
+  "deviceInstalled": false,
+  "deviceConnectionAtCompletion": [
+    "disconnected"
+  ]
+}

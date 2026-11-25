@@ -1,0 +1,22 @@
+[
+  {
+    "language": "en",
+    "flag": "-settings-language-review",
+    "exitCode": 0
+  },
+  {
+    "language": "en",
+    "flag": "-language-pref-verify",
+    "exitCode": 0
+  },
+  {
+    "language": "en",
+    "flag": "-crisp-ui-review",
+    "exitCode": 0
+  },
+  {
+    "language": "tr",
+    "flag": "-crisp-ui-review",
+    "exitCode": 0
+  }
+]

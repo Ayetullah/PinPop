@@ -1,0 +1,154 @@
+{
+    "width": 600,
+    "height": 1000,
+    "noOverlap": true,
+    "noCameraGap": true,
+    "homeReached": true,
+    "walletPreserved": true,
+    "frames": [
+        {
+            "time": 0.000607907772064209,
+            "cover": 1.0,
+            "art": 1.0,
+            "readyAge": 0.00009420514106750488,
+            "cameras": 3,
+            "path": "frame-0000.png"
+        },
+        {
+            "time": 0.08680275082588196,
+            "cover": 1.0,
+            "art": 1.0,
+            "readyAge": 0.08621233701705933,
+            "cameras": 3,
+            "path": "frame-0001.png"
+        },
+        {
+            "time": 0.17369285225868226,
+            "cover": 1.0,
+            "art": 1.0,
+            "readyAge": 0.1730993390083313,
+            "cameras": 3,
+            "path": "frame-0002.png"
+        },
+        {
+            "time": 0.2570650279521942,
+            "cover": 1.0,
+            "art": 1.0,
+            "readyAge": 0.2564741373062134,
+            "cameras": 3,
+            "path": "frame-0003.png"
+        },
+        {
+            "time": 0.3404788076877594,
+            "cover": 1.0,
+            "art": 1.0,
+            "readyAge": 0.3398856520652771,
+            "cameras": 3,
+            "path": "frame-0004.png"
+        },
+        {
+            "time": 0.4292561113834381,
+            "cover": 1.0,
+            "art": 0.8334757089614868,
+            "readyAge": 0.4286675453186035,
+            "cameras": 3,
+            "path": "frame-0005.png"
+        },
+        {
+            "time": 0.511792778968811,
+            "cover": 1.0,
+            "art": 0.12518171966075898,
+            "readyAge": 0.5111993551254273,
+            "cameras": 3,
+            "path": "frame-0006.png"
+        },
+        {
+            "time": 0.5989053249359131,
+            "cover": 0.8971017003059387,
+            "art": 0.0,
+            "readyAge": 0.5983142256736755,
+            "cameras": 3,
+            "path": "frame-0007.png"
+        },
+        {
+            "time": 0.6820418834686279,
+            "cover": 0.4712606370449066,
+            "art": 0.0,
+            "readyAge": 0.6814484000205994,
+            "cameras": 3,
+            "path": "frame-0008.png"
+        },
+        {
+            "time": 0.7700473070144653,
+            "cover": 0.05510318651795387,
+            "art": 0.0,
+            "readyAge": 0.7694571614265442,
+            "cameras": 3,
+            "path": "frame-0009.png"
+        },
+        {
+            "time": 0.8534129858016968,
+            "cover": 0.0,
+            "art": 0.0,
+            "readyAge": 0.8108583092689514,
+            "cameras": 2,
+            "path": "frame-0010.png"
+        },
+        {
+            "time": 0.9403626918792725,
+            "cover": 0.0,
+            "art": 0.0,
+            "readyAge": 0.8108583092689514,
+            "cameras": 2,
+            "path": "frame-0011.png"
+        },
+        {
+            "time": 1.0236607789993287,
+            "cover": 0.0,
+            "art": 0.0,
+            "readyAge": 0.8108583092689514,
+            "cameras": 2,
+            "path": "frame-0012.png"
+        },
+        {
+            "time": 1.1116907596588135,
+            "cover": 0.0,
+            "art": 0.0,
+            "readyAge": 0.8108583092689514,
+            "cameras": 2,
+            "path": "frame-0013.png"
+        },
+        {
+            "time": 1.1987274885177613,
+            "cover": 0.0,
+            "art": 0.0,
+            "readyAge": 0.8108583092689514,
+            "cameras": 2,
+            "path": "frame-0014.png"
+        },
+        {
+            "time": 1.286692500114441,
+            "cover": 0.0,
+            "art": 0.0,
+            "readyAge": 0.8108583092689514,
+            "cameras": 2,
+            "path": "frame-0015.png"
+        },
+        {
+            "time": 1.3736672401428223,
+            "cover": 0.0,
+            "art": 0.0,
+            "readyAge": 0.8108583092689514,
+            "cameras": 2,
+            "path": "frame-0016.png"
+        },
+        {
+            "time": 1.461574912071228,
+            "cover": 0.0,
+            "art": 0.0,
+            "readyAge": 0.8108583092689514,
+            "cameras": 2,
+            "path": "frame-0017.png"
+        }
+    ]
+}

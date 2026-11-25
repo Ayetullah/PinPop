@@ -1,0 +1,45 @@
+44/44 passed.
+PASS: Reference gravity and open platform edges have no extra catching floor
+PASS: Chapter 1 has complete color triples and ammo per target
+PASS: Chapter 2 has complete color triples and ammo per target
+PASS: Chapter 3 has complete color triples and ammo per target
+PASS: Chapter 4 has complete color triples and ammo per target
+PASS: Chapter 5 has complete color triples and ammo per target
+PASS: Chapter 6 has complete color triples and ammo per target
+PASS: Chapter 7 has complete color triples and ammo per target
+PASS: Chapter 8 has complete color triples and ammo per target
+PASS: Chapter 9 has complete color triples and ammo per target
+PASS: Chapter 10 has complete color triples and ammo per target
+PASS: Chapter 11 has complete color triples and ammo per target
+PASS: Chapter 12 has complete color triples and ammo per target
+PASS: Same colors insert together and reserved triples stop occupying capacity
+PASS: Reference flights wait 480 ms
+PASS: Convergence remains visible for 320 ms after arrival
+PASS: Burst precedes removal and starts the combo
+PASS: Matched triple removes after 440 ms and survivors close the gap
+PASS: Ten unmatched objects reach the reference tray limit
+PASS: A target lying on the table does not collect merely because it tilted
+PASS: Passing a horizontal table edge is not enough before the vertical fall
+PASS: Real gravity crossing -0.8 collects exactly three and reserves their match
+PASS: Pause also freezes collection flights
+PASS: Real fallen targets trigger the triple-match burst
+PASS: Collection slots empty after merging while the remaining board persists
+PASS: Two differently colored fallen pieces remain waiting in the tray
+PASS: UI button is available: WATCH_VIDEO
+PASS: Pointer reaches button: WATCH_VIDEO
+PASS: Press keeps the button hit target fixed: WATCH_VIDEO
+PASS: A real completed video preserves collected pieces and grants three more shots
+PASS: Last physical fall does not win before the final merge finishes
+PASS: Final triple completes victory and preserves rescued-win coin rules
+PASS: Restart/new level cancels every old flight, match and collected tile
+PASS: A real bowling impact physically pushes targets off the table
+PASS: Every naturally fallen target is represented by a waiting tile or a completed triple
+PASS: All ten collection cells fit at 320x740
+PASS: Collection tiles stay square at 320x740
+PASS: Collection dock leaves upcoming balls visible at 320x740
+PASS: All ten collection cells fit at 390x844
+PASS: Collection tiles stay square at 390x844
+PASS: Collection dock leaves upcoming balls visible at 390x844
+PASS: All ten collection cells fit at 1000x600
+PASS: Collection tiles stay square at 1000x600
+PASS: Collection dock leaves upcoming balls visible at 1000x600

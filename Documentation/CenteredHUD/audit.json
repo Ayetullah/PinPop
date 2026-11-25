@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "splash": 17,
+    "transition": 31,
+    "ui": 241,
+    "failures": 0
+  },
+  "deviceRuns": [
+    {
+      "name": "first",
+      "complete": true,
+      "errors": 0,
+      "walletPreserved": true,
+      "phases": 22,
+      "frames": 1588
+    },
+    {
+      "name": "repeat",
+      "complete": true,
+      "errors": 0,
+      "walletPreserved": true,
+      "phases": 22,
+      "frames": 1609
+    }
+  ],
+  "releaseBuildSucceeded": true,
+  "liveAdsUnchanged": true,
+  "releaseInstalled": true,
+  "releaseLaunched": true,
+  "releaseProcessVerifiedRunning": true
+}

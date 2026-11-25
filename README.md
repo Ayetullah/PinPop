@@ -150,3 +150,11 @@ Her biri 20 bölümlük iki bölge, toplam 40 bölüm ve sekiz tek seferlik sand
 ### Resimli bölge haritası
 
 Dört lunapark teması, 20 özgün bölüm simgesi ve bölgeye özel hareketli süsler: [CARNIVAL_MAP.md](Documentation/CARNIVAL_MAP.md). Arka planlar ve ikonlar `Assets/Resources/MapArt/` altında saklanır; HTML kopyaları dosya içinde gömülüdür.
+
+### iOS uygulama ikonu
+
+Top ve üç duba tasarımlı ikon iPhone/iPad ve App Store dahil 19 iOS alanına atanmıştır. Ana görsel `Assets/AppIcons/iOS/PinPop-iOS-1024.png`; tekrar üretim ve doğrulama: [IOS_APP_ICON.md](Documentation/IOS_APP_ICON.md).
+
+### Gerçek iOS cihaz testi
+
+Device SDK / ARM64 / IL2CPP / Metal ve otomatik imzalama ayarları hazırlanmıştır. Development Xcode çıktısı `Builds/iOSDevice` altındadır. CocoaPods kurulumu, Xcode/Apple hesabı/cihaz gereksinimleri ve build/install araçları: [IOS_DEVICE_TESTING.md](Documentation/IOS_DEVICE_TESTING.md). İmzalı build ve cihaz testi henüz tamamlanmamıştır.

@@ -13,20 +13,22 @@ namespace PinPop
         public Collider Hitbox { get; private set; }
         public Collider[] Hitboxes {get;private set;}
         public bool Iced {get;private set;}public bool Banded {get;private set;}bool releasedThisShot;Transform iceVisual,bandVisual;
+        static Material iceMaterial;
+        static Material IceMaterial {get{if(iceMaterial==null)iceMaterial=new Material(Shader.Find("Sprites/Default")){name="Shared pin ice",color=new Color(.45f,.88f,1,.38f)};return iceMaterial;}}
         PinPopGame game;
         Coroutine flash;Transform blob;
         public bool IsLocked => !Cleared && Body.isKinematic;
         public void Setup(PinPopGame owner, int color)
         {
-            game = owner; ColorId = color;
+            StartupTiming.Begin("pin setup");game = owner; ColorId = color;
             Visual=new GameObject("Printed pin visual").transform;Visual.SetParent(transform,false);Visual.gameObject.AddComponent<MeshFilter>().sharedMesh=Art.PinMesh();SkinRenderer=Visual.gameObject.AddComponent<MeshRenderer>();SkinRenderer.sharedMaterial=Art.PinCoat(color);
-            var lower=Art.PinContactHull(transform,0);var neck=Art.PinContactHull(transform,1);var head=Art.PinContactHull(transform,2);
+            StartupTiming.Begin("pin contacts");var lower=Art.PinContactHull(transform,0);var neck=Art.PinContactHull(transform,1);var head=Art.PinContactHull(transform,2);
             Hitboxes=new Collider[]{lower,neck,head};Hitbox=lower;foreach(var c in Hitboxes){c.contactOffset=.004f;c.sharedMaterial=BowlingBall.ContactMaterial;HtmlPhysicsContacts.Register(c,HtmlPhysicsContacts.Kind.Pin);}
-            blob=Art.Blob(transform.parent,.42f);
+            StartupTiming.End();StartupTiming.Begin("pin blob");blob=Art.Blob(transform.parent,.42f);StartupTiming.End();
             Body = gameObject.AddComponent<Rigidbody>(); Body.mass = 1; Body.isKinematic = false; Body.linearDamping = .04f; Body.angularDamping = .08f;
             Body.interpolation = RigidbodyInterpolation.Interpolate; Body.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;Body.solverIterations=24;Body.solverVelocityIterations=12;
             Art.Shape("Pin rubber sole", PrimitiveType.Cylinder, new Vector3(0,.006f,0), new Vector3(.30f,.006f,.30f), Art.Mat(Art.Hex("46505B")), Visual);
-            Body.sleepThreshold=.02f;Body.centerOfMass = new Vector3(0, .42f, 0); Body.maxAngularVelocity = 32; Body.Sleep();
+            Body.sleepThreshold=.02f;Body.centerOfMass = new Vector3(0, .42f, 0); Body.maxAngularVelocity = 32; Body.Sleep();StartupTiming.End();
         }
         public void SetShotColor(int color)
         {
@@ -37,7 +39,7 @@ namespace PinPop
             Body.isKinematic = locked;
             if(!locked)Body.collisionDetectionMode=CollisionDetectionMode.ContinuousSpeculative;
         }
-        public void Protect(bool ice,bool band){Iced|=ice;Banded|=band;if(ice&&iceVisual==null){var m=new Material(Shader.Find("Sprites/Default")){color=new Color(.45f,.88f,1,.38f)};iceVisual=Art.Shape("Cracked ice shell",PrimitiveType.Cube,new Vector3(0,.75f,0),new Vector3(.64f,1.54f,.64f),m,Visual).transform;foreach(int side in new[]{-1,1}){var crack=Art.Shape("Ice fracture",PrimitiveType.Cube,new Vector3(side*.12f,side*.08f,-.51f),new Vector3(.022f,.30f,.008f),Art.Mat(Art.Hex("DFFAFF")),iceVisual);crack.transform.localRotation=Quaternion.Euler(0,0,side*28);}}
+        public void Protect(bool ice,bool band){Iced|=ice;Banded|=band;if(ice&&iceVisual==null){var m=IceMaterial;iceVisual=Art.Shape("Cracked ice shell",PrimitiveType.Cube,new Vector3(0,.75f,0),new Vector3(.64f,1.54f,.64f),m,Visual).transform;foreach(int side in new[]{-1,1}){var crack=Art.Shape("Ice fracture",PrimitiveType.Cube,new Vector3(side*.12f,side*.08f,-.51f),new Vector3(.022f,.30f,.008f),Art.Mat(Art.Hex("DFFAFF")),iceVisual);crack.transform.localRotation=Quaternion.Euler(0,0,side*28);}}
             if(band&&bandVisual==null)bandVisual=Art.Shape("Gold binding band",PrimitiveType.Cylinder,new Vector3(0,.44f,0),new Vector3(.62f,.07f,.62f),Art.Mat(Art.Hex("F3CA62")),Visual).transform;
         }
         public void ReleaseBand(){Banded=false;releasedThisShot=true;if(bandVisual!=null){Art.Burst(transform.position+Vector3.up*.5f,Art.Hex("F3CA62"),10);Destroy(bandVisual.gameObject);}}
@@ -65,7 +67,7 @@ namespace PinPop
         void Update()
         {
             if(blob!=null){bool onTable=Mathf.Abs(transform.position.x)<4.2f&&transform.position.z>=-8.8f&&transform.position.z<=4.8f;blob.position=new Vector3(transform.position.x,onTable?.008f:-1.26f,transform.position.z);blob.localScale=Vector3.one*Mathf.Max(.05f,Visual.localScale.x);}
-            if(Cleared||IsLocked)return;
+            if(Cleared||IsLocked||game.TrayOverflow)return;
             if(Body.worldCenterOfMass.y<PinPopMatchTray.CollectHeight){
                 Cleared=true;game.OnPinCleared(this);foreach(var collider in Hitboxes)collider.enabled=false;gameObject.SetActive(false);Destroy(gameObject);
             }

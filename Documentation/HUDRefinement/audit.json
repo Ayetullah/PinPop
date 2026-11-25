@@ -1,0 +1,18 @@
+{
+  "checksPassed": 40,
+  "checksFailed": 0,
+  "renderedSizes": [
+    "320x568",
+    "390x693",
+    "390x844",
+    "430x932"
+  ],
+  "controlDockHeight": "150 logical units (previously 200)",
+  "percentageTextRemoved": true,
+  "maxBadgeRemoved": true,
+  "iosExport": "succeeded",
+  "iosNativeBuild": "signed ARM64 Debug build succeeded",
+  "deviceInstall": "not performed; device unavailable",
+  "signing": "codesign verification passed",
+  "nativeBuildLog": "/tmp/pinpop-light-hud-ios-build.log"
+}

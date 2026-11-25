@@ -1,0 +1,107 @@
+{
+  "iosSlotsAssigned": 19,
+  "onlyIOSSettingsChanged": true,
+  "files": [
+    {
+      "path": "Assets/AppIcons/iOS/PinPop-iOS-1024.png",
+      "width": 1024,
+      "height": 1024,
+      "pngColorType": "RGB, no alpha",
+      "sha256": "fa5a6cefc33790037acd221171dcd23baa9445e82ef6938b22483d61265a5e8a"
+    },
+    {
+      "path": "Assets/AppIcons/iOS/PinPop-iOS-120x120.png",
+      "width": 120,
+      "height": 120,
+      "pngColorType": "RGB, no alpha",
+      "sha256": "4d54ac71c69d36f8eba6a0bddfbaf4183acaf50839a72f1cee30bc5e49e0111f"
+    },
+    {
+      "path": "Assets/AppIcons/iOS/PinPop-iOS-152x152.png",
+      "width": 152,
+      "height": 152,
+      "pngColorType": "RGB, no alpha",
+      "sha256": "d8317af1a6491e9caaffd77db0de54b1a0ac09af5ce7c430e02c63a5c75d0e84"
+    },
+    {
+      "path": "Assets/AppIcons/iOS/PinPop-iOS-167x167.png",
+      "width": 167,
+      "height": 167,
+      "pngColorType": "RGB, no alpha",
+      "sha256": "e155882f1bb5eb04b27cf54e80151ea02b9c24d978c28cb0fa0006a2dc5f27e5"
+    },
+    {
+      "path": "Assets/AppIcons/iOS/PinPop-iOS-180x180.png",
+      "width": 180,
+      "height": 180,
+      "pngColorType": "RGB, no alpha",
+      "sha256": "77d82b740fa189a40a2daf98d1167ecf058e84f1464c60c84b44d2ddc500bced"
+    },
+    {
+      "path": "Assets/AppIcons/iOS/PinPop-iOS-20x20.png",
+      "width": 20,
+      "height": 20,
+      "pngColorType": "RGB, no alpha",
+      "sha256": "274c706fb1ec3793a4125501225579ea0b72db4293ca1d33e5a28fad877e83ac"
+    },
+    {
+      "path": "Assets/AppIcons/iOS/PinPop-iOS-29x29.png",
+      "width": 29,
+      "height": 29,
+      "pngColorType": "RGB, no alpha",
+      "sha256": "5cd4232695e3be373fe4de9bc3984906cc81595b6fed9c8e1d75c1bbbd98d929"
+    },
+    {
+      "path": "Assets/AppIcons/iOS/PinPop-iOS-40x40.png",
+      "width": 40,
+      "height": 40,
+      "pngColorType": "RGB, no alpha",
+      "sha256": "c6caaa088a6142a8b0af96dfaeb3b5eb7648a7429145f8cd4be6fe2b8d21e7ab"
+    },
+    {
+      "path": "Assets/AppIcons/iOS/PinPop-iOS-58x58.png",
+      "width": 58,
+      "height": 58,
+      "pngColorType": "RGB, no alpha",
+      "sha256": "51fb4c9339e015364e327cb1509375a3714f364733cf9a981b5cb8f06efa811a"
+    },
+    {
+      "path": "Assets/AppIcons/iOS/PinPop-iOS-60x60.png",
+      "width": 60,
+      "height": 60,
+      "pngColorType": "RGB, no alpha",
+      "sha256": "e7f5f7b5393c7bd314504375980bc076d97a314d1366dcb9f455a0466bbecc3d"
+    },
+    {
+      "path": "Assets/AppIcons/iOS/PinPop-iOS-76x76.png",
+      "width": 76,
+      "height": 76,
+      "pngColorType": "RGB, no alpha",
+      "sha256": "5668c809bb769ddab0879ed67344001ec64372566050f55a98a3e93661c871ee"
+    },
+    {
+      "path": "Assets/AppIcons/iOS/PinPop-iOS-80x80.png",
+      "width": 80,
+      "height": 80,
+      "pngColorType": "RGB, no alpha",
+      "sha256": "3aa34c1a39e9d100c0c98d9185f741f44fe409ca7e798f192b787bec2bdbfcf0"
+    },
+    {
+      "path": "Assets/AppIcons/iOS/PinPop-iOS-87x87.png",
+      "width": 87,
+      "height": 87,
+      "pngColorType": "RGB, no alpha",
+      "sha256": "db32217969f4ccc53d74269589d136450b5d605d090473beed326fc5626034d4"
+    }
+  ],
+  "freshUnitySessionValidated": true,
+  "allSourceGUIDsResolve": true,
+  "visualPreviewsChecked": [
+    1024,
+    180,
+    120,
+    60
+  ],
+  "sceneRegenerationPreservesAssignments": true,
+  "freshSessionAfterSceneRegenerationValidated": true
+}

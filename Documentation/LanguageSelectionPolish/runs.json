@@ -1,0 +1,10 @@
+[
+  {
+    "test": "settings",
+    "exitCode": 0
+  },
+  {
+    "test": "persistence",
+    "exitCode": 0
+  }
+]

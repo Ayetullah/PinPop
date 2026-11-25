@@ -1,0 +1,11 @@
+{
+    "outputPath": "/Users/ayetullah/Desktop/Projeler/Unity Projects/PinPop/Builds/iOSReleaseCandidate",
+    "bundleId": "com.pinpop.colorbowling",
+    "infoPlist": true,
+    "testAdApplicationId": true,
+    "adNetworkEntries": true,
+    "iconCatalog": true,
+    "automaticSigning": true,
+    "nativeAccessibility": true,
+    "nativeDeviceBuildPerformed": false
+}

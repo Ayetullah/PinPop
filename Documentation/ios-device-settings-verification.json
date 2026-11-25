@@ -1,0 +1,11 @@
+{
+    "bundleId": "com.pinpop.colorbowling",
+    "backend": "IL2CPP",
+    "architecture": "ARM64",
+    "minimumIOS": "15.0",
+    "sdk": "DeviceSDK",
+    "automaticSigning": true,
+    "developmentExport": true,
+    "testAds": true,
+    "teamConfigured": true
+}

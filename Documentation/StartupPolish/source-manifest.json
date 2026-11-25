@@ -1,0 +1,270 @@
+[
+  {
+    "path": "Assets/Scripts/CarnivalWorld.cs",
+    "sha256": "46d94ce0a46ec2396eb6d8e04afad701112760a8bc2b3686f85e4112266f30b4"
+  },
+  {
+    "path": "Assets/Scripts/RainbowBallFX.cs",
+    "sha256": "ac9459aff65080f9f759656fdb8b1362f94aab86fcc608a144ba1f07baec8615"
+  },
+  {
+    "path": "Assets/Scripts/PinPopPalette.cs",
+    "sha256": "6cc792caacdee3be36dbfbc87d90f7e72846c87f8de04f88deeb6b1c6bfddab9"
+  },
+  {
+    "path": "Assets/Scripts/PinPopSelfTest.cs",
+    "sha256": "9773a271ab2d2bea294be3dd655d0b40c7e04dcf80825815549ea8b452a1e1ec"
+  },
+  {
+    "path": "Assets/Scripts/PinPopAdventure.cs",
+    "sha256": "71fb5a2f265a961ae5afdc27869e6258f80de7bc9861ea01e2643627e228cc73"
+  },
+  {
+    "path": "Assets/Scripts/AdventureHUD.cs",
+    "sha256": "b4ce4d43f1d80f3fdf0f7890b00591e74f19f4f12adf4be8de07def5a888e8ac"
+  },
+  {
+    "path": "Assets/Scripts/BowlingBall.cs",
+    "sha256": "0d75b4aaa6e2a43afa7098ffb414fbbaafd8ae7645002bcbd0384b002f9fcff9"
+  },
+  {
+    "path": "Assets/Scripts/CarnivalMapCatalog.cs",
+    "sha256": "d02828177360c05f750e991b4bc22bfb56e2e7a55f0f39689a8f794728586842"
+  },
+  {
+    "path": "Assets/Scripts/PinPopHUD.cs",
+    "sha256": "584aac465de2c67f921ade32721e8f342c6227c68daa75a8e2d34a2a4a26ec8b"
+  },
+  {
+    "path": "Assets/Scripts/HtmlImpactRing.cs",
+    "sha256": "3520993b8ef17e246b294ef66c2285bf76852ca33f0aeabcd21476f7de5a1e8a"
+  },
+  {
+    "path": "Assets/Scripts/PinPopRewardedVideo.cs",
+    "sha256": "723a9fc8904fc22bf2e41de033a437a23975fce2216d6f6b2ce72e1860751439"
+  },
+  {
+    "path": "Assets/Scripts/HtmlGameAudio.cs",
+    "sha256": "eb1eebb5bb801b554ab608681e4c7b61bddd5aafead09295cfaa9d12d3032bf4"
+  },
+  {
+    "path": "Assets/Scripts/HtmlButtonFeedback.cs",
+    "sha256": "5f700311af77b90545e0129b9fa0d37eb32d7ab3d57dbe5af54cd7e3a571141d"
+  },
+  {
+    "path": "Assets/Scripts/PinPopEconomy.cs",
+    "sha256": "107b67bccaf44dfe6d5f835c602d11be23d670e4a90ce83291f7ecbd8b931d54"
+  },
+  {
+    "path": "Assets/Scripts/PinPopMatchTray.cs",
+    "sha256": "8af6c7cdd8ec8a7a916c0c0a750757c3838eec62f863f7c7c06606ca115b9c1f"
+  },
+  {
+    "path": "Assets/Scripts/PreparedWorld.cs",
+    "sha256": "1ee3260f07cc26070fa75b525aa2a62466460bf20d333757d497406a196c1aca"
+  },
+  {
+    "path": "Assets/Scripts/CrispText.cs",
+    "sha256": "8dc2d06aeb33dd7438e4bc3ebbe00d936a7497ca12e2a089594d213d6ff5f708"
+  },
+  {
+    "path": "Assets/Scripts/PinTarget.cs",
+    "sha256": "cd7f975643a20b2dba2d94824009b5e337156a315421026cd8365cd60dd47c0f"
+  },
+  {
+    "path": "Assets/Scripts/BallLooks.cs",
+    "sha256": "ad704a0eec8e9f1721babd17d42214dba71c1a8da16537faf6ef3e9605d6af0f"
+  },
+  {
+    "path": "Assets/Scripts/CrispUI.cs",
+    "sha256": "6a8b9fead099c009781d8f9f173311d20d6b41b97a43a195115ff66bf725999e"
+  },
+  {
+    "path": "Assets/Scripts/CrispUIReview.cs",
+    "sha256": "161078f5bde5a9486054efccdcfce911003dee2dad8183b9d1dc88d4f1f76056"
+  },
+  {
+    "path": "Assets/Scripts/PinPopLayouts.cs",
+    "sha256": "f6de3731b49c5359c97f1492f01a6c7c9102e7de6e85a07256d351fbddd69774"
+  },
+  {
+    "path": "Assets/Scripts/BowlingTransition.cs",
+    "sha256": "328cd374a23f81ab06589264f0b08e29b29a242bdad95f29a9cab96b3a09cf40"
+  },
+  {
+    "path": "Assets/Scripts/HtmlLook.cs",
+    "sha256": "8d859ded7e06fd87e788fc4fa87107a509808e9ba1c5ccd9592f636c0d5baa67"
+  },
+  {
+    "path": "Assets/Scripts/PinPopGame.cs",
+    "sha256": "06887fcf5eab03a91f6a7296a585762a40504ff7231039e1187fde51913e56af"
+  },
+  {
+    "path": "Assets/Scripts/HtmlMatchTrayUI.cs",
+    "sha256": "80c7f9d6e6ea0aadbe48a1039893cdc5ac9ea5b7441f95364dda55b620b53924"
+  },
+  {
+    "path": "Assets/Scripts/HelpDemoArt.cs",
+    "sha256": "d5447d2248b66c689fc1c88188ed76c7af951217e032fb34db009235619b1b37"
+  },
+  {
+    "path": "Assets/Scripts/HtmlReferenceWorld.cs",
+    "sha256": "1841148864c54e466b905fc1e99d33ff08a6ba54607698c4d453b429ada98395"
+  },
+  {
+    "path": "Assets/Scripts/PinPopVisuals.cs",
+    "sha256": "f8baf6fd77ee1e076095c1585062f86936f08b09048a0eaf5ecc34979354d7b2"
+  },
+  {
+    "path": "Assets/Scripts/DevicePolishReview.cs",
+    "sha256": "19cf665b7571752560554f37cdf104f6b14c11fd353d4f2287870024a16677e6"
+  },
+  {
+    "path": "Assets/Scripts/CarnivalMapGraphic.cs",
+    "sha256": "9cdaa262de085ca46529a0f2a8af267ef1e52030c63a2c30c641cb276b8ba6b2"
+  },
+  {
+    "path": "Assets/Scripts/CarnivalMapView.cs",
+    "sha256": "4fda5a683f279ae23c2d91fc52f2e668aabe4f10d5d903f7fb2020211418cf35"
+  },
+  {
+    "path": "Assets/Scripts/HtmlReferenceHUD.cs",
+    "sha256": "7a75a2acd65f9fb693533fb4cd0651fd6415b78016fd5ad5367decd8257d53b3"
+  },
+  {
+    "path": "Assets/Scripts/HtmlPlatformPreferences.cs",
+    "sha256": "529ae43096eeb7962010ca5a9b7cf5731659a4ecd69deaa48522560048745bfb"
+  },
+  {
+    "path": "Assets/Scripts/PinPopStartupRecorder.cs",
+    "sha256": "e790dab007c4b70812f80a47e2dd768cb5b13449f917e1440239d80bc701723e"
+  },
+  {
+    "path": "Assets/Scripts/HtmlCrispHUD.cs",
+    "sha256": "396c6b2386644dc93f5617597905ca3cf56ab6948e3c662429571457d68eea12"
+  },
+  {
+    "path": "Assets/Scripts/PinPopSplash.cs",
+    "sha256": "9766b7592dbddfc21d6ff4a529a1f21eaabfcfecbd011862be24c4e4250d419d"
+  },
+  {
+    "path": "Assets/Scripts/AdMobRewardedProvider.cs",
+    "sha256": "4b5b7b71ab0b5fe50c2f88e1bfc898001f2a788cfb2db7006ecfbc02f16fcdcc"
+  },
+  {
+    "path": "Assets/Scripts/LessonDemo.cs",
+    "sha256": "3da9c83547f750a418ce661325a97cc59f9de50cec95bbcb46421aa4f877aaed"
+  },
+  {
+    "path": "Assets/Scripts/HtmlPhysicsContacts.cs",
+    "sha256": "37cab83d46171aacd5318a2a2afbd179c835d8b8cb71a65d2e2c860f9aad8fd4"
+  },
+  {
+    "path": "Assets/Scripts/PinPopSplashPreview.cs",
+    "sha256": "a9c6746e62dedf29d5578bae68173a50a9cf79db40bfbe3d9788857275f11558"
+  },
+  {
+    "path": "Assets/Scripts/HtmlResultFX.cs",
+    "sha256": "6ebad50b978158a9ddfda1391c4aef7b4cd5c720b61df9c30c212aa4c4b6402b"
+  },
+  {
+    "path": "Assets/Scripts/AnimatedHowTo.cs",
+    "sha256": "73e6cbc10482e5730e9d5ae809e9eebabbdaa304f951825da352bc2b88669452"
+  },
+  {
+    "path": "Assets/Scripts/AimPowerRing.cs",
+    "sha256": "96aed91acb87e2772b59c15d5322740226c3948602aaad00afa079b98d5f2722"
+  },
+  {
+    "path": "Assets/Scripts/StartupTiming.cs",
+    "sha256": "44ee1b2e737211d00a2e738623329b0b440b0b442b23058a9868659d497e2c79"
+  },
+  {
+    "path": "Assets/Editor/ProductionAssets.cs",
+    "sha256": "bf9d584af282a3c710ac7aaaa8b3440219326021d66b3fb20ab71c84940cb399"
+  },
+  {
+    "path": "Assets/Editor/IOSDeviceBuild.cs",
+    "sha256": "76a9e4fa08ef2a5267cc4b1e6b14524ca18ec9d7bf95e03ae55645f38d51bf23"
+  },
+  {
+    "path": "Assets/Editor/SplashScenePreviewSetup.cs",
+    "sha256": "c0f3452bc2083d89369f32fcec665d67880aa783ebb8dfe28bd8708f7c445092"
+  },
+  {
+    "path": "Assets/Editor/PinIconBaker.cs",
+    "sha256": "0a8a80de0af61285ac10a96f97ea938d74e0818b5c8ec29a94f461b857dc8b7d"
+  },
+  {
+    "path": "Assets/Editor/HtmlReferenceTextureImporter.cs",
+    "sha256": "7ad00f0001efe2fd27f3b399b9db4b30e7d7d0f947ac1c091cdbb017ee2e9f6a"
+  },
+  {
+    "path": "Assets/Editor/ProjectSetup.cs",
+    "sha256": "8b3f8c7fb67b69026d8049a797a58f439508272a226f3e2c6ce24450dc16dd7a"
+  },
+  {
+    "path": "Assets/Editor/RuntimeShaderBuild.cs",
+    "sha256": "e7b2f48a94cbc34e202dd141b7fa6a036a4b5bc844a3a29e0b9d55938aea8a2b"
+  },
+  {
+    "path": "Assets/Editor/IOSBuildPhases.cs",
+    "sha256": "3549c606e444a6efbe1bf037f15bdf51f1eac4afa4c849cf2ee76771f2ece465"
+  },
+  {
+    "path": "Assets/Editor/IOSAppIconSetup.cs",
+    "sha256": "75a7895feef68348466a688aefdc61e31dabc9a5c0876e55670ce49dfcd804e1"
+  },
+  {
+    "path": "Assets/Editor/IOSLaunchScreen.cs",
+    "sha256": "0a6db95052f8a1b80aabb1ca179220868057b5b7c6c41c2f09a1883d6d9cbc22"
+  },
+  {
+    "path": "Assets/Editor/SplashArtworkPreparation.cs",
+    "sha256": "dbe3c27e91021e5edabb74142fd69b1cd572646cdd3191fcd738f130920add3d"
+  },
+  {
+    "path": "Assets/Editor/CrispUIReviewBuild.cs",
+    "sha256": "b6f6d60e3fe5bf9274916c342089a36eda2f0170194a1c0e6ee131b029292d3c"
+  },
+  {
+    "path": "Assets/Editor/CrispUITextureImporter.cs",
+    "sha256": "f4847076511238714e4ac7869df7330e186c1aaff75e74dc888c2ba18192c3aa"
+  },
+  {
+    "path": "Assets/Editor/MapArtImporter.cs",
+    "sha256": "7412bee5d7bfebf99941ed9cdeea6b8572d4cf4ef1dac078f21f5089d6ad5bd3"
+  },
+  {
+    "path": "Assets/Shaders/HtmlLook.shader",
+    "sha256": "43dc5ce41200fc3a54366c1fc0b8984500ee5404e773ef5aae31540ba9e60388"
+  },
+  {
+    "path": "Assets/Shaders/HtmlSurface.shader",
+    "sha256": "f0ebe477894c1639ee7cbd44a4ea650ba7db39407e586bd0c66c875c4bb6060a"
+  },
+  {
+    "path": "Assets/Shaders/HtmlTransparent.shader",
+    "sha256": "03ac2411842351926717a7a44a683afc84f6d5ec33c73f98a9e1736b5247caf0"
+  },
+  {
+    "path": "Assets/Shaders/HtmlUnlit.shader",
+    "sha256": "19ddb1e5903c64ce407f2846bc98371ada913676812369c1bc7cdd2cd52f9d4c"
+  },
+  {
+    "path": "ProjectSettings/ProjectSettings.asset",
+    "sha256": "fe1c6e192fbbff7538f09c274617ad6346162093f52a3f075b83e5f2e712cd0e"
+  },
+  {
+    "path": "Assets/Resources/Prepared/World.prefab",
+    "sha256": "fb30b5a879e0f9379f478f9ea9a15eb100ddefa7c99c5e7232d9b54b9d7fa44d"
+  },
+  {
+    "path": "Assets/PreparedNative/shade.png",
+    "sha256": "fdd57988999bc35c0ca4d74e14b5201061d5e9cd1cb9007aa23125eef76dd59f"
+  },
+  {
+    "path": "Assets/PreparedNative/foreground.png",
+    "sha256": "0003323b36220c149009641d559c51f50da845814f282482e29d15d1b014a6fb"
+  }
+]

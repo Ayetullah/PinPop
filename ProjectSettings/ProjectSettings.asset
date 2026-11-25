@@ -17,7 +17,7 @@ PlayerSettings:
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.12156863, g: 0.12156863, b: 0.1254902, a: 1}
-  m_ShowUnitySplashScreen: 1
+  m_ShowUnitySplashScreen: 0
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
@@ -172,10 +172,11 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.pinpop.colorbowling
     Standalone: com.pinpop.colorbowling
+    iPhone: com.pinpop.colorbowling
   buildNumber:
     Standalone: 0
     VisionOS: 0
-    iPhone: 0
+    iPhone: 1
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
@@ -247,14 +248,14 @@ PlayerSettings:
   metalCompileShaderBinary: 0
   iOSRenderExtraFrameOnPause: 0
   iosCopyPluginsCodeInsteadOfSymlink: 0
-  appleDeveloperTeamID: 
+  appleDeveloperTeamID: 5828H262SQ
   iOSManualSigningProvisioningProfileID: 
   tvOSManualSigningProvisioningProfileID: 
   VisionOSManualSigningProvisioningProfileID: 
   iOSManualSigningProvisioningProfileType: 0
   tvOSManualSigningProvisioningProfileType: 0
   VisionOSManualSigningProvisioningProfileType: 0
-  appleEnableAutomaticSigning: 0
+  appleEnableAutomaticSigning: 1
   iOSRequireARKit: 0
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
@@ -303,97 +304,116 @@ PlayerSettings:
   m_BuildTargetPlatformIcons:
   - m_BuildTarget: iPhone
     m_Icons:
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: e3284135b2d9e4d46bdf7a36cca383a5, type: 3}
       m_Width: 180
       m_Height: 180
       m_Kind: 0
       m_SubKind: iPhone
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: f6b1e76b6161b436eb3fb20f9b4992fd, type: 3}
       m_Width: 120
       m_Height: 120
       m_Kind: 0
       m_SubKind: iPhone
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 5a2203800be524562a4378c1799f6076, type: 3}
       m_Width: 167
       m_Height: 167
       m_Kind: 0
       m_SubKind: iPad
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 078b7a1cd4c014c1fb441a7b1832fa5a, type: 3}
       m_Width: 152
       m_Height: 152
       m_Kind: 0
       m_SubKind: iPad
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 097283bb4d9424f4cbb6b276049ee266, type: 3}
       m_Width: 76
       m_Height: 76
       m_Kind: 0
       m_SubKind: iPad
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: f6b1e76b6161b436eb3fb20f9b4992fd, type: 3}
       m_Width: 120
       m_Height: 120
       m_Kind: 3
       m_SubKind: iPhone
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 346143197c57a46f098cedff54c4f379, type: 3}
       m_Width: 80
       m_Height: 80
       m_Kind: 3
       m_SubKind: iPhone
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 346143197c57a46f098cedff54c4f379, type: 3}
       m_Width: 80
       m_Height: 80
       m_Kind: 3
       m_SubKind: iPad
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 787950dd5fbd245fa98abdc76b636029, type: 3}
       m_Width: 40
       m_Height: 40
       m_Kind: 3
       m_SubKind: iPad
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 0c3b90bfdbe3b4f0ba9b4f5f32e41727, type: 3}
       m_Width: 87
       m_Height: 87
       m_Kind: 1
       m_SubKind: iPhone
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 89a1e36e98ebb48a7bb19a9a7e2e5588, type: 3}
       m_Width: 58
       m_Height: 58
       m_Kind: 1
       m_SubKind: iPhone
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 57e6537822d7146d79a6056d310cc574, type: 3}
       m_Width: 29
       m_Height: 29
       m_Kind: 1
       m_SubKind: iPhone
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 89a1e36e98ebb48a7bb19a9a7e2e5588, type: 3}
       m_Width: 58
       m_Height: 58
       m_Kind: 1
       m_SubKind: iPad
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 57e6537822d7146d79a6056d310cc574, type: 3}
       m_Width: 29
       m_Height: 29
       m_Kind: 1
       m_SubKind: iPad
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 5e4a218f40b6542c1bc3403c4171f7fe, type: 3}
       m_Width: 60
       m_Height: 60
       m_Kind: 2
       m_SubKind: iPhone
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 787950dd5fbd245fa98abdc76b636029, type: 3}
       m_Width: 40
       m_Height: 40
       m_Kind: 2
       m_SubKind: iPhone
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 787950dd5fbd245fa98abdc76b636029, type: 3}
       m_Width: 40
       m_Height: 40
       m_Kind: 2
       m_SubKind: iPad
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: 50412fe7cf51546bab46cca4edd30ec4, type: 3}
       m_Width: 20
       m_Height: 20
       m_Kind: 2
       m_SubKind: iPad
-    - m_Textures: []
+    - m_Textures:
+      - {fileID: 2800000, guid: cfd827c44d1b34075837ad27c33c032c, type: 3}
       m_Width: 1024
       m_Height: 1024
       m_Kind: 4
@@ -494,7 +514,10 @@ PlayerSettings:
   m_BuildTargetShaderSettings: []
   m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
-  m_BuildTargetGraphicsAPIs: []
+  m_BuildTargetGraphicsAPIs:
+  - m_BuildTarget: iOSSupport
+    m_APIs: 10000000
+    m_Automatic: 0
   m_BuildTargetVRSettings: []
   m_DefaultShaderChunkSizeInMB: 16
   m_DefaultShaderChunkCount: 0
@@ -781,8 +804,10 @@ PlayerSettings:
   scriptingDefineSymbols:
     Standalone: 
   additionalCompilerArguments: {}
-  platformArchitecture: {}
-  scriptingBackend: {}
+  platformArchitecture:
+    iPhone: 1
+  scriptingBackend:
+    iPhone: 1
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   il2cppStacktraceInformation: {}

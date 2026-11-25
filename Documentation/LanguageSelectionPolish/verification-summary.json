@@ -1,0 +1,21 @@
+{
+  "uiChecks": 284,
+  "persistenceChecks": 3,
+  "failedChecks": 0,
+  "catalogEntries": 281,
+  "visualSizes": [
+    "320x568",
+    "390x844",
+    "1170x2532"
+  ],
+  "reviewedClosedAndExpanded": true,
+  "languages": [
+    "tr",
+    "en"
+  ],
+  "iosReleaseBuildSucceeded": true,
+  "iosSignatureVerified": true,
+  "installedOnIPhone13": true,
+  "launchedOnIPhone13": true,
+  "installedProcessVerified": true
+}

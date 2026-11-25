@@ -1,0 +1,29 @@
+{
+  "scope": "Six verified fixes only; 1000+ campaign work deferred by user",
+  "localChecks": {
+    "regressions": 41,
+    "ui-en-final": 372,
+    "ui-tr-final": 337,
+    "settings": 284,
+    "settings/persistence": 3,
+    "campaign": 148,
+    "recovery": 38,
+    "adventure": 65,
+    "physics": 36,
+    "tray": 44
+  },
+  "localPassed": 1368,
+  "localFailed": 0,
+  "nativeRegressionsPassed": 41,
+  "nativeRegressionsFailed": 0,
+  "nativeNormalReviewComplete": true,
+  "nativeRuntimeErrors": 0,
+  "nativeWalletPreserved": true,
+  "nativeLanguagePreferencePreserved": true,
+  "releaseBuildSucceeded": true,
+  "releaseSignatureVerified": true,
+  "reviewTypesExcludedFromRelease": true,
+  "releaseInstalledOnIPhone13": true,
+  "releaseLaunchSucceeded": true,
+  "installedReleaseProcessVerified": true
+}

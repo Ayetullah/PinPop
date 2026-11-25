@@ -1,0 +1,441 @@
+{
+    "device": "iPhone14,5",
+    "version": "6000.3.24f1",
+    "language": "en",
+    "deviceLanguage": "Turkish",
+    "width": 1170,
+    "height": 2532,
+    "readyAtSeconds": 0.6630743145942688,
+    "homeAtSeconds": 1.4605004787445069,
+    "complete": true,
+    "initialReducedMotion": false,
+    "walletPreserved": true,
+    "languagePreferencePreserved": true,
+    "sections": [
+        {
+            "name": "startup",
+            "frames": 25,
+            "over50ms": 3,
+            "over100ms": 2,
+            "medianMs": 16.6702938079834,
+            "p95Ms": 100.08317565917969,
+            "p99Ms": 167.60662841796876,
+            "maxMs": 167.60662841796876
+        },
+        {
+            "name": "splash-reveal",
+            "frames": 47,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.712669372558595,
+            "p95Ms": 18.4187068939209,
+            "p99Ms": 18.87041473388672,
+            "maxMs": 18.87041473388672
+        },
+        {
+            "name": "home",
+            "frames": 121,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.687747955322267,
+            "p95Ms": 17.192041397094728,
+            "p99Ms": 17.662954330444337,
+            "maxMs": 18.484792709350587
+        },
+        {
+            "name": "level-transition",
+            "frames": 74,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.66228675842285,
+            "p95Ms": 17.02129554748535,
+            "p99Ms": 35.36841583251953,
+            "maxMs": 35.36841583251953
+        },
+        {
+            "name": "board-entrance",
+            "frames": 67,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.661287307739259,
+            "p95Ms": 16.73328971862793,
+            "p99Ms": 16.774169921875,
+            "maxMs": 16.774169921875
+        },
+        {
+            "name": "game-idle",
+            "frames": 118,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.665624618530275,
+            "p95Ms": 17.227954864501954,
+            "p99Ms": 17.643537521362306,
+            "maxMs": 19.52224349975586
+        },
+        {
+            "name": "aim",
+            "frames": 91,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.667587280273439,
+            "p95Ms": 17.111494064331056,
+            "p99Ms": 17.56296157836914,
+            "maxMs": 17.56296157836914
+        },
+        {
+            "name": "shop-open",
+            "frames": 70,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.673540115356447,
+            "p95Ms": 16.75,
+            "p99Ms": 16.837039947509767,
+            "maxMs": 16.837039947509767
+        },
+        {
+            "name": "settings-open",
+            "frames": 39,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.669708251953126,
+            "p95Ms": 16.91099739074707,
+            "p99Ms": 19.550752639770509,
+            "maxMs": 19.550752639770509
+        },
+        {
+            "name": "settings-language-en",
+            "frames": 38,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.662918090820314,
+            "p95Ms": 16.73579216003418,
+            "p99Ms": 16.757326126098634,
+            "maxMs": 16.757326126098634
+        },
+        {
+            "name": "settings-language-tr",
+            "frames": 37,
+            "over50ms": 1,
+            "over100ms": 0,
+            "medianMs": 16.6787052154541,
+            "p95Ms": 18.627288818359376,
+            "p99Ms": 68.71475219726563,
+            "maxMs": 68.71475219726563
+        },
+        {
+            "name": "helper-0",
+            "frames": 41,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.66558074951172,
+            "p95Ms": 16.71120262145996,
+            "p99Ms": 16.795501708984376,
+            "maxMs": 16.795501708984376
+        },
+        {
+            "name": "helper-1",
+            "frames": 40,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.658334732055665,
+            "p95Ms": 16.74324607849121,
+            "p99Ms": 16.75425148010254,
+            "maxMs": 16.75425148010254
+        },
+        {
+            "name": "helper-2",
+            "frames": 40,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.658836364746095,
+            "p95Ms": 16.78549575805664,
+            "p99Ms": 16.819202423095704,
+            "maxMs": 16.819202423095704
+        },
+        {
+            "name": "helper-3",
+            "frames": 40,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.6704158782959,
+            "p95Ms": 16.77841567993164,
+            "p99Ms": 16.80049705505371,
+            "maxMs": 16.80049705505371
+        },
+        {
+            "name": "map-open",
+            "frames": 76,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.6649169921875,
+            "p95Ms": 16.729045867919923,
+            "p99Ms": 16.773788452148439,
+            "maxMs": 16.773788452148439
+        },
+        {
+            "name": "lesson-0",
+            "frames": 117,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.66179084777832,
+            "p95Ms": 17.247669219970704,
+            "p99Ms": 17.978628158569337,
+            "maxMs": 17.98862648010254
+        },
+        {
+            "name": "lesson-1",
+            "frames": 118,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.655797958374025,
+            "p95Ms": 17.00095558166504,
+            "p99Ms": 17.575170516967775,
+            "maxMs": 18.881710052490236
+        },
+        {
+            "name": "lesson-2",
+            "frames": 118,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.672704696655275,
+            "p95Ms": 16.744707107543947,
+            "p99Ms": 16.777664184570314,
+            "maxMs": 16.80112648010254
+        },
+        {
+            "name": "lesson-3",
+            "frames": 118,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.66462516784668,
+            "p95Ms": 16.724332809448243,
+            "p99Ms": 16.743083953857423,
+            "maxMs": 16.75316619873047
+        },
+        {
+            "name": "how-to",
+            "frames": 47,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.672334671020509,
+            "p95Ms": 16.764711380004884,
+            "p99Ms": 16.920082092285158,
+            "maxMs": 16.920082092285158
+        },
+        {
+            "name": "how-to-close-1",
+            "frames": 46,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.664371490478517,
+            "p95Ms": 16.75641441345215,
+            "p99Ms": 16.768835067749025,
+            "maxMs": 16.768835067749025
+        },
+        {
+            "name": "how-to-close-2",
+            "frames": 47,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.71941566467285,
+            "p95Ms": 17.002790451049806,
+            "p99Ms": 17.20045280456543,
+            "maxMs": 17.20045280456543
+        },
+        {
+            "name": "result",
+            "frames": 88,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.658126831054689,
+            "p95Ms": 16.77191734313965,
+            "p99Ms": 16.885000228881837,
+            "maxMs": 16.885000228881837
+        },
+        {
+            "name": "milestone-result",
+            "frames": 40,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.67120933532715,
+            "p95Ms": 16.878124237060548,
+            "p99Ms": 16.881540298461915,
+            "maxMs": 16.881540298461915
+        },
+        {
+            "name": "failure",
+            "frames": 40,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.663789749145509,
+            "p95Ms": 16.766708374023439,
+            "p99Ms": 16.881336212158204,
+            "maxMs": 16.881336212158204
+        },
+        {
+            "name": "swap-shop",
+            "frames": 40,
+            "over50ms": 0,
+            "over100ms": 0,
+            "medianMs": 16.67566680908203,
+            "p95Ms": 16.783084869384767,
+            "p99Ms": 16.8125,
+            "maxMs": 16.8125
+        }
+    ],
+    "errors": [],
+    "hitches": [
+        {
+            "time": 0.14670124650001527,
+            "ms": 167.60662841796876,
+            "splashAge": 0.012637421488761902,
+            "stage": "Renkler hazırlanıyor…"
+        },
+        {
+            "time": 0.39505431056022646,
+            "ms": 82.59941864013672,
+            "splashAge": 0.26101046800613406,
+            "stage": "Arayüz hazırlanıyor…"
+        },
+        {
+            "time": 0.6412662863731384,
+            "ms": 100.08317565917969,
+            "splashAge": 0.5072001218795776,
+            "stage": "Masa hazırlanıyor…"
+        },
+        {
+            "time": 3.9310951232910158,
+            "ms": 35.36841583251953,
+            "splashAge": -1.0,
+            "stage": "level-transition"
+        },
+        {
+            "time": 13.307978630065918,
+            "ms": 68.71475219726563,
+            "splashAge": -1.0,
+            "stage": "settings-language-tr"
+        }
+    ],
+    "work": [
+        {
+            "name": "world construction",
+            "ms": 7.0792999267578129
+        },
+        {
+            "name": "HUD initialize",
+            "ms": 30.954498291015626
+        },
+        {
+            "name": "help construction",
+            "ms": 8.787599563598633
+        },
+        {
+            "name": "shop construction",
+            "ms": 12.775500297546387
+        },
+        {
+            "name": "recovery construction",
+            "ms": 1.3111000061035157
+        },
+        {
+            "name": "BuildNativeHome",
+            "ms": 2.327699899673462
+        },
+        {
+            "name": "BuildNativeGame",
+            "ms": 8.74470043182373
+        },
+        {
+            "name": "BuildNativeWin",
+            "ms": 2.3684000968933107
+        },
+        {
+            "name": "BuildNativeSettings(settingsHome)",
+            "ms": 6.3566999435424809
+        },
+        {
+            "name": "BuildNativeSettings(settingsGame)",
+            "ms": 4.342199802398682
+        },
+        {
+            "name": "economy and adventure",
+            "ms": 5.906099796295166
+        },
+        {
+            "name": "pin contacts",
+            "ms": 1.6995999813079835
+        },
+        {
+            "name": "pin blob",
+            "ms": 3.728600025177002
+        },
+        {
+            "name": "pin setup",
+            "ms": 6.012800216674805
+        },
+        {
+            "name": "help construction",
+            "ms": 8.489399909973145
+        },
+        {
+            "name": "shop construction",
+            "ms": 8.284000396728516
+        },
+        {
+            "name": "recovery construction",
+            "ms": 1.4190000295639039
+        },
+        {
+            "name": "BuildNativeHome",
+            "ms": 2.6208999156951906
+        },
+        {
+            "name": "BuildNativeGame",
+            "ms": 5.537499904632568
+        },
+        {
+            "name": "BuildNativeWin",
+            "ms": 1.4919999837875367
+        },
+        {
+            "name": "BuildNativeSettings(settingsHome)",
+            "ms": 2.2490999698638918
+        },
+        {
+            "name": "BuildNativeSettings(settingsGame)",
+            "ms": 3.1317999362945558
+        },
+        {
+            "name": "help construction",
+            "ms": 4.034200191497803
+        },
+        {
+            "name": "shop construction",
+            "ms": 3.579200029373169
+        },
+        {
+            "name": "recovery construction",
+            "ms": 1.3032000064849854
+        },
+        {
+            "name": "BuildNativeHome",
+            "ms": 1.472100019454956
+        },
+        {
+            "name": "BuildNativeGame",
+            "ms": 4.237400054931641
+        },
+        {
+            "name": "BuildNativeWin",
+            "ms": 1.1263999938964844
+        },
+        {
+            "name": "BuildNativeSettings(settingsHome)",
+            "ms": 1.742400050163269
+        },
+        {
+            "name": "BuildNativeSettings(settingsGame)",
+            "ms": 2.5952999591827394
+        }
+    ]
+}

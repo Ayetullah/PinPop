@@ -1,0 +1,30 @@
+[
+  {
+    "suite": "popups-tr",
+    "exitCode": 0
+  },
+  {
+    "suite": "popups-en",
+    "exitCode": 0
+  },
+  {
+    "suite": "ui-tr",
+    "exitCode": 0
+  },
+  {
+    "suite": "ui-en",
+    "exitCode": 0
+  },
+  {
+    "suite": "video",
+    "exitCode": 0
+  },
+  {
+    "suite": "previous-fixes",
+    "exitCode": 0
+  },
+  {
+    "suite": "campaign",
+    "exitCode": 0
+  }
+]

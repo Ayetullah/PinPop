@@ -1,0 +1,18 @@
+{
+  "signatureVerified": true,
+  "excludedQATypes": [
+    "DevicePolishReview",
+    "CrispUIReview",
+    "PinPopSelfTest",
+    "PinPopStartupRecorder",
+    "ReviewSafeArea",
+    "ReviewSize"
+  ],
+  "developmentDebugFlagsAbsent": true,
+  "nativeLaunchStoryboardCompiled": true,
+  "nativeLaunchPlistKeysVerified": true,
+  "testAdAppIdRetained": true,
+  "sdk": "iphoneos18.5",
+  "deviceIncludedInProfile": true,
+  "profileExpiresUTC": "2026-11-30T21:21:33Z"
+}

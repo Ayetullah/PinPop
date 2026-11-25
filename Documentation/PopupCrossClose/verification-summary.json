@@ -1,0 +1,25 @@
+{
+  "localChecks": {
+    "popups-tr": 457,
+    "popups-en": 457,
+    "previous-fixes": 41,
+    "ui-tr": 337,
+    "ui-en": 372,
+    "video": 39,
+    "campaign": 148
+  },
+  "localPassed": 1851,
+  "localFailed": 0,
+  "iosDiagnosticBuildSucceeded": true,
+  "iosReleaseBuildSucceeded": true,
+  "deviceInstallAttempt": "Diagnostic installed after reconnect; 457 native checks passed",
+  "nativeVerificationComplete": true,
+  "releaseInstalled": true,
+  "releaseSignatureVerified": true,
+  "reviewTypesExcludedFromRelease": true,
+  "nativePassed": 457,
+  "nativeFailed": 0,
+  "nativePlayerDataRestored": true,
+  "releaseLaunchSucceeded": true,
+  "installedReleaseProcessVerified": true
+}

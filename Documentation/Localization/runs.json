@@ -1,0 +1,27 @@
+[
+  {
+    "language": "en",
+    "review": "ui",
+    "exitCode": 0
+  },
+  {
+    "language": "tr",
+    "review": "ui",
+    "exitCode": 0
+  },
+  {
+    "language": "en",
+    "review": "tutorial",
+    "exitCode": 0
+  },
+  {
+    "language": "en",
+    "review": "splash",
+    "exitCode": 0
+  },
+  {
+    "language": "tr",
+    "review": "splash",
+    "exitCode": 0
+  }
+]

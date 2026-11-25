@@ -1,0 +1,19 @@
+{
+  "signatureVerified": true,
+  "qaTypesAbsent": {
+    "DevicePolishReview": true,
+    "CrispUIReview": true,
+    "PinPopSelfTest": true,
+    "PinPopStartupRecorder": true,
+    "ReviewSafeArea": true,
+    "ReviewSize": true
+  },
+  "developmentDebugFlagsAbsent": true,
+  "nativeLaunchStoryboardCompiled": true,
+  "nativeLaunchPlistKeysVerified": true,
+  "testAdAppIdRetained": true,
+  "sdk": "iphoneos18.5",
+  "deviceIncludedInProfile": true,
+  "profileExpiresUTC": "2026-11-30T21:21:33Z",
+  "executableSHA256": "79080e0c7a8fc7c3a8a9a9dc5ff366b821170cc55b0d5da550b3270b916bc249"
+}

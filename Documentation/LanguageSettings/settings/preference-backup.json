@@ -1,0 +1,58 @@
+{
+    "values": [
+        {
+            "key": "PinPop.Economy.v2",
+            "value": "{\"version\":2,\"coins\":0,\"swaps\":3,\"ownedMask\":1,\"selectedBall\":0,\"legacyRewardedBefore\":0,\"highestLevel\":0,\"earnings\":[]}",
+            "exists": true,
+            "integer": false
+        },
+        {
+            "key": "PinPop.Adventure.v1",
+            "value": "{\"version\":1,\"chests\":0,\"lessons\":1,\"stock\":[3,2,2,2]}",
+            "exists": true,
+            "integer": false
+        },
+        {
+            "key": "PinPop.Language",
+            "value": "",
+            "exists": false,
+            "integer": false
+        },
+        {
+            "key": "Level",
+            "value": "0",
+            "exists": true,
+            "integer": true
+        },
+        {
+            "key": "Coins",
+            "value": "0",
+            "exists": true,
+            "integer": true
+        },
+        {
+            "key": "SwapCredits",
+            "value": "3",
+            "exists": true,
+            "integer": true
+        },
+        {
+            "key": "ReducedMotion",
+            "value": "0",
+            "exists": true,
+            "integer": true
+        },
+        {
+            "key": "Muted",
+            "value": "0",
+            "exists": false,
+            "integer": true
+        },
+        {
+            "key": "PinPop.HowTo.Seen.v1",
+            "value": "0",
+            "exists": false,
+            "integer": true
+        }
+    ]
+}

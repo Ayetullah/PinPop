@@ -1,0 +1,233 @@
+PASS: Dropdown contains the supported languages only
+PASS: Initial automatic preference displays its resolved language
+PASS: No device-language option is displayed
+PASS: Language label and dropdown share one row
+PASS: Actual pointer raycast reaches LANGUAGE_DROPDOWN
+PASS: Language dropdown opens
+PASS: Dropdown offers en
+PASS: Actual pointer raycast reaches Item 1: English
+PASS: Selecting a language removes the popup and input blocker
+PASS: Settings saves explicit selection, including the initially displayed language: en
+PASS: Language change keeps settings open and gameplay paused
+PASS: Language change takes effect immediately: en
+PASS: Changing language preserves the attempt, moves, queue and wallet
+PASS: Open settings title updates
+PASS: Actual pointer raycast reaches LANGUAGE_DROPDOWN
+PASS: Language dropdown opens
+PASS: Dropdown offers tr
+PASS: Actual pointer raycast reaches Item 0: Türkçe
+PASS: Selecting a language removes the popup and input blocker
+PASS: Settings saves explicit selection, including the initially displayed language: tr
+PASS: Language change keeps settings open and gameplay paused
+PASS: Language change takes effect immediately: tr
+PASS: Changing language preserves the attempt, moves, queue and wallet
+PASS: Open settings title updates
+PASS: Actual pointer raycast reaches LANGUAGE_DROPDOWN
+PASS: Language dropdown opens
+PASS: Dropdown offers tr
+PASS: Actual pointer raycast reaches Item 0: Türkçe
+PASS: Selecting a language removes the popup and input blocker
+PASS: Settings saves explicit selection, including the initially displayed language: tr
+PASS: Language change keeps settings open and gameplay paused
+PASS: Language change takes effect immediately: tr
+PASS: Changing language preserves the attempt, moves, queue and wallet
+PASS: Open settings title updates
+PASS: Actual pointer raycast reaches LANGUAGE_DROPDOWN
+PASS: Language dropdown opens
+PASS: Dropdown offers en
+PASS: Actual pointer raycast reaches Item 1: English
+PASS: Selecting a language removes the popup and input blocker
+PASS: Settings saves explicit selection, including the initially displayed language: en
+PASS: Language change keeps settings open and gameplay paused
+PASS: Language change takes effect immediately: en
+PASS: Changing language preserves the attempt, moves, queue and wallet
+PASS: Open settings title updates
+PASS: Actual pointer raycast reaches LANGUAGE_DROPDOWN
+PASS: Actual pointer raycast reaches Blocker
+PASS: Outside tap dismisses the list without closing settings or changing language
+PASS: Actual pointer raycast reaches LANGUAGE_DROPDOWN
+PASS: More language options use a bounded scrollable list
+PASS: Last future language option can scroll into view
+PASS: Actual pointer raycast reaches LANGUAGE_DROPDOWN
+PASS: Language dropdown opens
+PASS: Dropdown offers tr
+PASS: Actual pointer raycast reaches Item 0: Türkçe
+PASS: Selecting a language removes the popup and input blocker
+PASS: In-game settings also switch language without resuming
+PASS: Closing settings resumes gameplay
+PASS: Real milestone completion awards its chest at level 5
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: en (320, 568)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: tr (320, 568)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: en (390, 844)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: tr (390, 844)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: en (1170, 2532)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: tr (1170, 2532)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Language changes and resizing never grant the milestone reward again
+PASS: Real milestone completion awards its chest at level 10
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: en (320, 568)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: tr (320, 568)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: en (390, 844)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: tr (390, 844)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: en (1170, 2532)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: tr (1170, 2532)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Language changes and resizing never grant the milestone reward again
+PASS: Real milestone completion awards its chest at level 15
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: en (320, 568)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: tr (320, 568)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: en (390, 844)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: tr (390, 844)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: en (1170, 2532)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: tr (1170, 2532)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Language changes and resizing never grant the milestone reward again
+PASS: Real milestone completion awards its chest at level 20
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: en (320, 568)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: tr (320, 568)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: en (390, 844)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: tr (390, 844)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: en (1170, 2532)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Chest reward belongs to the victory card
+PASS: Chest reward cannot overlap the continue label: tr (1170, 2532)
+PASS: Chest reward has a separate row above the continue touch area
+PASS: No independent reward overlay remains
+PASS: Chest reward text fits
+PASS: Continue button has exactly one correct label
+PASS: Expanded milestone card stays inside the safe area
+PASS: Language changes and resizing never grant the milestone reward again

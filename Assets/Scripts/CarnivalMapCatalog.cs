@@ -11,6 +11,6 @@ namespace PinPop {
   public static Vector2 ScrollStop(int index)=>new Vector2(new[]{160f,410f,180f,400f}[index%4],MapCenter+index*140+(index/AdventureRules.MapPageSize)*100);
   public static float ScrollHeight(int count)=>ScrollStop(Mathf.Max(0,count-1)).y+MapCenter;
   public static readonly Vector2[] Stops={new Vector2(160,365),new Vector2(410,445),new Vector2(180,525),new Vector2(400,605),new Vector2(220,685)};
-  public static string Detail(int level){int n=(AdventureRules.Fixed(level)?1:0)+(AdventureRules.Ice(level)?1:0)+(AdventureRules.Band(level)?1:0)+(AdventureRules.Moving(level)?1:0);string kind=n>1?"Karışık":AdventureRules.Ice(level)?"Buz":AdventureRules.Band(level)?"Bağ":AdventureRules.Moving(level)?"Geçit":AdventureRules.Fixed(level)?"Tampon":"Üçlü";return PinPopLayouts.ColorCount(level)+" renk · "+kind;}
+  public static string Detail(int level){int n=(AdventureRules.Fixed(level)?1:0)+(AdventureRules.Ice(level)?1:0)+(AdventureRules.Band(level)?1:0)+(AdventureRules.Moving(level)?1:0);string kind=n>1?"Karışık":AdventureRules.Ice(level)?"Buz":AdventureRules.Band(level)?"Bağ":AdventureRules.Moving(level)?"Geçit":AdventureRules.Fixed(level)?"Tampon":"Üçlü";return GameLocalization.Format("{0} renk · {1}",PinPopLayouts.ColorCount(level),kind);}
  }
 }

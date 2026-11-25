@@ -41,7 +41,7 @@ namespace PinPop
             data.highestLevel=Mathf.Max(data.highestLevel,PlayerPrefs.GetInt("Level",0));var economy=new PinPopEconomy(data);economy.Save();return economy;
         }
         public void Save(){PlayerPrefs.SetString(SaveKey,JsonUtility.ToJson(Data));PlayerPrefs.SetInt("Coins",Data.coins);PlayerPrefs.SetInt("SwapCredits",Data.swaps);PlayerPrefs.Save();}
-        public static string Format(int value)=>value.ToString("N0",System.Globalization.CultureInfo.GetCultureInfo("tr-TR"));
-        public static string Compact(int value){if(value<10000)return value.ToString();if(value<1000000)return((decimal)(value/100)/10m).ToString("0.#",System.Globalization.CultureInfo.GetCultureInfo("tr-TR"))+"K";return((decimal)(value/100000)/10m).ToString("0.#",System.Globalization.CultureInfo.GetCultureInfo("tr-TR"))+"M";}
+        public static string Format(int value)=>value.ToString("N0",GameLocalization.Culture);
+        public static string Compact(int value){if(value<10000)return value.ToString(GameLocalization.Culture);if(value<1000000)return((decimal)(value/100)/10m).ToString("0.#",GameLocalization.Culture)+"K";return((decimal)(value/100000)/10m).ToString("0.#",GameLocalization.Culture)+"M";}
     }
 }

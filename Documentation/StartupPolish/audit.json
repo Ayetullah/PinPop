@@ -1,0 +1,24 @@
+{
+  "device": "iPhone 13 (iPhone14,5)",
+  "date": "2026-11-24",
+  "checks": {
+    "splash": 17,
+    "transition": 31,
+    "screenLayouts": 163,
+    "failed": 0
+  },
+  "devicePhases": 22,
+  "deviceFrames": 1616,
+  "runtimeErrors": [],
+  "walletPreserved": true,
+  "unityReadySeconds": 0.6059631705284119,
+  "unitySplashToHomeSeconds": 1.4037054777145386,
+  "splashRevealP95Ms": 17.36678695678711,
+  "releaseNativeBuild": "succeeded",
+  "releaseDeviceInstall": "succeeded",
+  "liveAdsExcluded": true,
+  "releaseLaunched": true,
+  "releaseProcessVerifiedRunning": false,
+  "releaseCrashReports": [],
+  "releaseObservedProcessIds": []
+}

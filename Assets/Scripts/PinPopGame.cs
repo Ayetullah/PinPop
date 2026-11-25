@@ -8,6 +8,7 @@ namespace PinPop
     public sealed class PinPopGame : MonoBehaviour
     {
         public PinPopAdventure Adventure {get;private set;}
+        public bool Initialized {get;private set;}
         public int HighestLevel=>economy?.Data.highestLevel??0;
         public readonly List<PinTarget> Pins = new List<PinTarget>();
         public readonly List<int> Queue = new List<int>();
@@ -59,6 +60,7 @@ namespace PinPop
         HtmlReferenceWorld htmlWorld;
         HtmlLook htmlLook;
         int shotCleared;
+        readonly RaycastHit[] aimContacts=new RaycastHit[64];
         Transform[] aimDots;Material aimDotMaterial;
         GameObject reticle;
         public AimPowerRing PowerRing {get;private set;}
@@ -87,24 +89,45 @@ namespace PinPop
         bool keyboardAim;
         System.Collections.IEnumerator Start()
         {
-            Application.targetFrameRate = 60; Application.runInBackground = true; Physics.defaultSolverIterations = 16; Physics.gravity=new Vector3(0,-20f,0);Time.fixedDeltaTime=1f/120;
+            Application.targetFrameRate = 60; Application.runInBackground = true; Physics.defaultSolverIterations = 16; Physics.gravity=new Vector3(0,-20f,0);Time.fixedDeltaTime=1f/120;Time.maximumDeltaTime=1f/15;
 #if UNITY_STANDALONE && !UNITY_EDITOR
             Screen.SetResolution(600, 1000, FullScreenMode.Windowed);
 #endif
             Screen.sleepTimeout = SleepTimeout.NeverSleep;
-            if(PinPopSplash.Visible)yield return null;
-            BuildWorld();MatchTray=gameObject.AddComponent<PinPopMatchTray>();MatchTray.Build(this);MatchTray.Matched+=(item,combo)=>StartCoroutine(PlayTrayMatch(combo));MatchTray.Landed+=slot=>sound.Tone(523.25f*Mathf.Pow(2,new int[]{0,2,4,7,9,12,14,16,19,21,24,26,28}[Mathf.Clamp(slot,0,12)]/12f),.12f); Hud = gameObject.AddComponent<PinPopHUD>(); Hud.Build(this);
-            ReloadSettings();
+            if(PinPopSplash.Visible){yield return null;yield return new WaitForEndOfFrame();}
+            PinPopSplash.Instance?.SetProgress(.08f,"Lunapark hazırlanıyor…");
+            yield return WarmStartupAssets();
+            PinPopSplash.Instance?.SetProgress(.56f,"Lunapark kuruluyor…");StartupTiming.Begin("world construction");BuildWorld();StartupTiming.End();
+            PinPopSplash.Instance?.SetProgress(.62f,"Masa hazırlanıyor…");yield return null;
+            PinPopSplash.Instance?.SetProgress(.64f,"Arayüz hazırlanıyor…");MatchTray=gameObject.AddComponent<PinPopMatchTray>();MatchTray.Build(this);MatchTray.Matched+=(item,combo)=>StartCoroutine(PlayTrayMatch(combo));MatchTray.Landed+=slot=>sound.Tone(523.25f*Mathf.Pow(2,new int[]{0,2,4,7,9,12,14,16,19,21,24,26,28}[Mathf.Clamp(slot,0,12)]/12f),.12f); Hud = gameObject.AddComponent<PinPopHUD>(); yield return Hud.BuildAsync(this);
+            PinPopSplash.Instance?.SetProgress(.78f,"Festival hazırlanıyor…");yield return null;
+            StartupTiming.Begin("economy and adventure");ReloadSettings();
             ReloadEconomy();
             RewardedVideo=gameObject.AddComponent<PinPopRewardedVideo>();RewardedVideo.Build(this);
-            Adventure=gameObject.AddComponent<PinPopAdventure>();Adventure.Build(this);gameObject.AddComponent<AdventureHUD>().Build(this);
-            LoadLevel(Mathf.Max(0,Mathf.Max(PlayerPrefs.GetInt("Level",0),economy.Data.highestLevel)));
-            SetMenu(true); Hud.ShowHome();PinPopSplash.Instance?.MarkReady();
+            Adventure=gameObject.AddComponent<PinPopAdventure>();Adventure.Build(this);gameObject.AddComponent<AdventureHUD>().Build(this);StartupTiming.End();
+            PinPopSplash.Instance?.SetProgress(.86f,"Masa hazırlanıyor…");yield return LoadLevelAsync(Mathf.Max(0,Mathf.Max(PlayerPrefs.GetInt("Level",0),economy.Data.highestLevel)));
+            StartupTiming.Begin("home reveal");SetMenu(true); Hud.ShowHome();Initialized=true;StartupTiming.End();
+            yield return null;StartupTiming.Begin("first home canvas");Canvas.ForceUpdateCanvases();StartupTiming.End();yield return new WaitForEndOfFrame();PinPopSplash.Instance?.MarkReady();
+            Debug.Log("PINPOP: Startup complete; home ready, level="+Level);
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
             var args = System.Environment.GetCommandLineArgs();
+            if(System.Array.IndexOf(args,"-settings-language-review")>=0||System.Array.IndexOf(args,"-language-pref-verify")>=0){gameObject.AddComponent<LanguageSettingsReview>();yield break;}
+            if(System.Array.IndexOf(args,"-crisp-ui-review")>=0){gameObject.AddComponent<CrispUIReview>();yield break;}
             bool test = System.Array.IndexOf(args,"-forty-level-test") >= 0 || System.Array.IndexOf(args, "-power-match-polish-test") >= 0 || System.Array.IndexOf(args, "-launch-position-test") >= 0 || System.Array.IndexOf(args, "-grass-lifetime-test") >= 0 || System.Array.IndexOf(args, "-map-polish-test") >= 0 || System.Array.IndexOf(args, "-animated-help-test") >= 0 || System.Array.IndexOf(args, "-adventure-test") >= 0 || System.Array.IndexOf(args, "-eight-color-test") >= 0 || System.Array.IndexOf(args, "-fov-layout-test") >= 0 || System.Array.IndexOf(args, "-grass-layout-test") >= 0 || System.Array.IndexOf(args, "-physics-review-test") >= 0 || System.Array.IndexOf(args, "-pin-behavior-test") >= 0 || System.Array.IndexOf(args, "-tray-polish-test") >= 0 || System.Array.IndexOf(args, "-smash-match-test") >= 0 || System.Array.IndexOf(args, "-recovery-test") >= 0 || System.Array.IndexOf(args, "-economy-test") >= 0 || System.Array.IndexOf(args, "-economy-progression-test") >= 0 || System.Array.IndexOf(args, "-all-layouts-test") >= 0 || System.Array.IndexOf(args, "-journey-test") >= 0 || System.Array.IndexOf(args, "-rolling-levels-test") >= 0 || System.Array.IndexOf(args, "-video-test") >= 0 || System.Array.IndexOf(args, "-sync-test") >= 0 || System.Array.IndexOf(args, "-transition-test") >= 0 || System.Array.IndexOf(args, "-parity-test") >= 0 || System.Array.IndexOf(args, "-collision-test") >= 0 || System.Array.IndexOf(args, "-self-test") >= 0 || System.Array.IndexOf(args, "-visual-test") >= 0;
             if (test) { SetMenu(false); Hud.ShowGame(); }
             if(System.Array.IndexOf(args,"-splash-review")>=0)gameObject.AddComponent<PinPopStartupRecorder>();
             if (test || System.Array.IndexOf(args,"-splash-test")>=0 || System.Array.IndexOf(args, "-polish-test") >= 0 || System.Array.IndexOf(args, "-pull-test") >= 0) gameObject.AddComponent<PinPopSelfTest>();
+#endif
+        }
+        IEnumerator WarmStartupAssets()
+        {
+            var priority=Application.backgroundLoadingPriority;Application.backgroundLoadingPriority=ThreadPriority.Low;
+            try {
+                var requests=new List<ResourceRequest>{Resources.LoadAsync<GameObject>("Prepared/World"),Resources.LoadAsync<Mesh>("Prepared/pin-mesh")};
+                for(int color=0;color<PinPopPalette.Count;color++){requests.Add(Resources.LoadAsync<Sprite>("PinIcons/pin-"+color));requests.Add(Resources.LoadAsync<Texture2D>("PinSkins/pin-"+color));}
+                for(int style=0;style<4;style++)for(int color=0;color<PinPopPalette.Count;color++){requests.Add(Resources.LoadAsync<Sprite>("Prepared/Balls/icon-"+style+"-"+color));if(style>0)requests.Add(Resources.LoadAsync<Texture2D>("Prepared/Balls/coat-"+style+"-"+color));}
+                while(true){int done=0;float progress=0;foreach(var request in requests){if(request.isDone)done++;progress+=request.progress;}PinPopSplash.Instance?.SetProgress(.12f+.40f*progress/requests.Count,"Renkler hazırlanıyor…");if(done==requests.Count)break;yield return null;}
+            } finally {Application.backgroundLoadingPriority=priority;}
         }
         void BuildWorld()
         {
@@ -112,8 +135,8 @@ namespace PinPop
             RenderSettings.ambientMode=UnityEngine.Rendering.AmbientMode.Trilight;RenderSettings.ambientSkyColor=Art.Hex("D6EBF5")*.9f;RenderSettings.ambientEquatorColor=Color.Lerp(Art.Hex("D6EBF5"),Art.Hex("65754D"),.5f)*.9f;RenderSettings.ambientGroundColor=Art.Hex("65754D")*.9f;
             RenderSettings.fog=true;RenderSettings.fogColor=Art.Hex("C3D8D6");RenderSettings.fogMode=FogMode.Linear;RenderSettings.fogStartDistance=38;RenderSettings.fogEndDistance=100;
             Camera=new GameObject("Game camera").AddComponent<Camera>();Camera.tag="MainCamera";Camera.nearClipPlane=.1f;Camera.farClipPlane=150;Camera.backgroundColor=Art.Hex("BEDDE6");Camera.clearFlags=CameraClearFlags.SolidColor;Camera.gameObject.AddComponent<AudioListener>();htmlLook=Camera.gameObject.AddComponent<HtmlLook>();
-            var light=new GameObject("HTML sun").AddComponent<Light>();light.type=LightType.Directional;light.intensity=1f;light.color=Art.Hex("FFF3DB");light.transform.rotation=Quaternion.LookRotation(new Vector3(9,-19,12));light.shadows=LightShadows.Soft;light.shadowStrength=1;light.shadowBias=.025f;light.shadowNormalBias=.025f;
-            QualitySettings.pixelLightCount=2;QualitySettings.shadowResolution=ShadowResolution.VeryHigh;QualitySettings.shadows=ShadowQuality.All;QualitySettings.shadowDistance=60;QualitySettings.antiAliasing=4;
+            var light=new GameObject("HTML sun").AddComponent<Light>();light.type=LightType.Directional;light.intensity=1f;light.color=Art.Hex("FFF3DB");light.transform.rotation=Quaternion.LookRotation(new Vector3(9,-19,12));light.shadows=LightShadows.Soft;light.shadowStrength=1;light.shadowBias=.025f;light.shadowNormalBias=.025f;light.shadowCustomResolution=4096;
+            QualitySettings.pixelLightCount=2;QualitySettings.shadowResolution=ShadowResolution.VeryHigh;QualitySettings.shadows=ShadowQuality.All;QualitySettings.shadowDistance=45;QualitySettings.shadowCascades=4;QualitySettings.shadowCascade4Split=new Vector3(.20f,.45f,.70f);QualitySettings.antiAliasing=4;
             htmlWorld=new GameObject("HTML reference world").AddComponent<HtmlReferenceWorld>();htmlWorld.Model=this;htmlWorld.Build();tableRoot=htmlWorld.Table;
             // Extend the approach area toward the player; the pin deck stays in place.
             tableRoot.localScale=new Vector3(1,1,13.6f/9.6f);tableRoot.position+=Vector3.back*2;
@@ -121,7 +144,7 @@ namespace PinPop
             // Only balls land on the meadow. Pins still fall freely into the collection threshold.
             for(int layer=0;layer<32;layer++)Physics.IgnoreLayerCollision(GrassLayer,layer,layer!=BallLayer);
             var grass=new GameObject("Grass ball physics");grass.layer=GrassLayer;grass.transform.SetParent(transform,false);grass.transform.position=new Vector3(0,GrassHeight-.1f,0);var ground=grass.AddComponent<BoxCollider>();ground.size=new Vector3(400,.2f,400);HtmlPhysicsContacts.Register(ground,HtmlPhysicsContacts.Kind.Grass);
-            aimDots=new Transform[27];aimDotMaterial=new Material(Shader.Find("PinPop/HTML Unlit"));for(int i=0;i<aimDots.Length;i++){var dot=Art.Shape("Table aim dot "+i,PrimitiveType.Sphere,Vector3.zero,Vector3.one*.081f,aimDotMaterial,transform);dot.GetComponent<Renderer>().shadowCastingMode=UnityEngine.Rendering.ShadowCastingMode.Off;aimDots[i]=dot.transform;dot.SetActive(false);}
+            aimDots=new Transform[27];aimDotMaterial=new Material(Resources.Load<Shader>("AimPowerOverlay")){renderQueue=3998};var outline=new Material(Resources.Load<Shader>("AimPowerOverlay")){color=Art.Hex("294B61"),renderQueue=3997};for(int i=0;i<aimDots.Length;i++){var dot=Art.Shape("Table aim dot "+i,PrimitiveType.Sphere,Vector3.zero,Vector3.one*.081f,outline,transform);dot.GetComponent<Renderer>().shadowCastingMode=UnityEngine.Rendering.ShadowCastingMode.Off;Art.Shape("Dot color",PrimitiveType.Sphere,Vector3.zero,Vector3.one*.62f,aimDotMaterial,dot.transform).GetComponent<Renderer>().shadowCastingMode=UnityEngine.Rendering.ShadowCastingMode.Off;aimDots[i]=dot.transform;dot.SetActive(false);}
             reticle = new GameObject("Aim target"); reticle.transform.SetParent(transform);
             var neutral=new Material(Shader.Find("Sprites/Default")){color=Art.Hex("FFF3D4")};
             var fill=new Material(Shader.Find("Sprites/Default")){color=new Color(1,.95f,.83f,.06f)};
@@ -132,18 +155,24 @@ namespace PinPop
             reticle.SetActive(false);
             sound=gameObject.AddComponent<HtmlGameAudio>();sound.Build(this);
         }
-        public void LoadLevel(int level)
+        public void LoadLevel(int level){var build=PrepareLevel(level,false);while(build.MoveNext()){} }
+        public IEnumerator LoadLevelAsync(int level)=>PrepareLevel(level,true);
+        IEnumerator PrepareLevel(int level,bool spreadWork)
         {
             AttemptId++;matchWinDelay=0;TrayOverflow=false;MatchTray.Clear();VideoRescueUsed=false;if(RewardedVideo!=null)RewardedVideo.Cancel();
-            Time.timeScale=1;StopAllCoroutines();
+            Time.timeScale=1;if(Initialized)StopAllCoroutines();
             foreach (var ball in FindObjectsByType<BowlingBall>(FindObjectsSortMode.None)) Destroy(ball.gameObject);
             foreach(var ring in FindObjectsByType<HtmlImpactRing>(FindObjectsSortMode.None))Destroy(ring.gameObject);foreach(var ps in FindObjectsByType<ParticleSystem>(FindObjectsSortMode.None))Destroy(ps.gameObject);
             if (levelRoot != null) { levelRoot.gameObject.SetActive(false); Destroy(levelRoot.gameObject); }
             if (readyBall != null) Destroy(readyBall.gameObject);
             launchX=0;positioning=gestureChosen=false;Level = AdventureRules.ClampLevel(level); Cleared = LastReward = LastBaseReward = LastMoveReward = 0; PullPower = LastShotPower = 0; keyboardAim = false; Finished = Won = Busy = dragging = false; pointerId = -1;
-            levelRoot = new GameObject("Level " + (Level + 1)).transform; levelRoot.SetParent(transform);
+            levelRoot = new GameObject("Level " + (Level + 1)).transform; levelRoot.SetParent(transform);levelRoot.gameObject.SetActive(false);
             Pins.Clear(); Queue.Clear();
-            foreach(var pin in PinPopLayouts.Build(Level))AddPin(pin.Position,pin.Color);
+            float sliceStarted=Time.realtimeSinceStartup;
+            foreach(var pin in PinPopLayouts.Build(Level)){
+                AddPin(pin.Position,pin.Color);
+                if(spreadWork&&Time.realtimeSinceStartup-sliceStarted>.004f){yield return null;sliceStarted=Time.realtimeSinceStartup;}
+            }
             if(Adventure!=null)Adventure.ResetLevel();
             Total = Pins.Count; Moves = PinPopEconomy.MoveBudget(Level);
             for (int i = 0; i < Moves + 1; i++) Queue.Add(PinPopLayouts.QueueColor(Level,i));
@@ -176,7 +205,7 @@ namespace PinPop
             if(dragging||Transitioning||Busy||Finished||!Hud.SwapShopVisible||!economy.BuySwap())return false;
             SaveEconomy();sound.Tone(660,.15f);Hud.CloseOverlays();Hud.Toast("+1 SWAP ALINDI · −10 COIN",2.3f);return true;
         }
-        public bool BuyBall(int id){if(dragging||Transitioning||Busy||Finished||!Hud.ShopVisible||!economy.BuyBall(id))return false;SaveEconomy();SpawnReadyBall();sound.Tone(660,.15f);Hud.Toast(PinPopEconomy.BallNames[id]+" alındı ve seçildi",2.3f);return true;}
+        public bool BuyBall(int id){if(dragging||Transitioning||Busy||Finished||!Hud.ShopVisible||!economy.BuyBall(id))return false;SaveEconomy();SpawnReadyBall();sound.Tone(660,.15f);Hud.Toast(GameLocalization.Format("{0} alındı ve seçildi",PinPopEconomy.BallNames[id]),2.3f);return true;}
         public bool EquipBall(int id){if(dragging||Transitioning||Busy||Finished||!Hud.ShopVisible||!economy.Equip(id))return false;SaveEconomy();SpawnReadyBall();sound.Tone(510,.1f);return true;}
         public void ReloadEconomy(){economy=PinPopEconomy.Load();SyncEconomy();}
         void SyncEconomy(){Coins=economy.Data.coins;SwapCredits=economy.Data.swaps;}
@@ -202,6 +231,7 @@ namespace PinPop
                 float side=delta.sqrMagnitude-along*along;
                 if(along>0&&side<.65f*.65f)distance=Mathf.Min(distance,Mathf.Max(0,along-Mathf.Sqrt(.65f*.65f-side)));
             }
+            if(Adventure!=null){int count=Physics.SphereCastNonAlloc(origin,.39f,direction,aimContacts,Mathf.Max(0,distance),~0,QueryTriggerInteraction.Ignore);for(int i=0;i<count;i++)if(Adventure.IsObstacle(aimContacts[i].collider))distance=Mathf.Min(distance,aimContacts[i].distance);}
             var point=origin+direction*Mathf.Max(0,distance);point.y=.035f;
             return new RollPrediction{Point=point,Time=distance/Mathf.Lerp(4,24,Mathf.Clamp01(power)),OnTable=true};
         }
@@ -222,6 +252,7 @@ namespace PinPop
         {
             float elapsed = 0;
             while(elapsed<8||MatchTray.Pending){
+                if(TrayOverflow)yield break;
                 if(Cleared>=Total&&MatchTray.Empty){while(!Finished)yield return null;yield break;}
                 bool moving=Pins.Exists(p=>p!=null&&!p.Cleared&&!p.Body.isKinematic&&!p.Body.IsSleeping()&&(p.Body.linearVelocity.sqrMagnitude>.05f));
                 if(elapsed>=2.8f&&!moving&&!MatchTray.Pending&&Cleared<Total)break;
@@ -234,7 +265,12 @@ namespace PinPop
         public void OnPinCleared(PinTarget pin){
             Cleared++;shotCleared++;var point=pin.Body.worldCenterOfMass;var viewport=Camera.WorldToViewportPoint(point);MatchTray.Collect(pin.ColorId,new Vector2(viewport.x,viewport.y));
             foreach(var other in Pins)if(other!=null&&!other.Cleared&&!other.IsLocked)other.Body.WakeUp();
-            Art.Burst(point,Art.Colors[pin.ColorId],6);Hud.CountEffect();Hud.Refresh();if(MatchTray.LiveCount>=PinPopMatchTray.Capacity){TrayOverflow=true;End(false);}
+            Art.Burst(point,Art.Colors[pin.ColorId],6);Hud.CountEffect();Hud.Refresh();if(!TrayOverflow&&MatchTray.LiveCount>=PinPopMatchTray.Capacity){TrayOverflow=true;Busy=true;CancelPull();Time.timeScale=0;StartCoroutine(FinishOverflow(AttemptId));}
+        }
+        IEnumerator FinishOverflow(int attempt){
+            while(attempt==AttemptId&&!Finished&&MatchTray.Pending)yield return null;
+            yield return new WaitForSecondsRealtime(.25f);
+            if(attempt==AttemptId&&TrayOverflow&&!Finished)End(false);
         }
         IEnumerator PlayTrayMatch(int combo){float basis=659.25f*Mathf.Pow(2,Mathf.Min(combo-1,6)*2/12f);foreach(int step in new[]{0,4,7,12}){sound.Tone(basis*Mathf.Pow(2,step/12f),.25f,true);yield return new WaitForSeconds(.035f);}}
         void End(bool won)
@@ -275,7 +311,7 @@ namespace PinPop
         public void SetMenu(bool home)
         {
             CancelPull(); InMenu = home; Time.timeScale = 1; Camera.orthographic = false;htmlLook.Home=home;
-            cameraHome = home ? new Vector3(0, 4.95f, -14) : new Vector3(0, 13f, -25);
+            cameraHome = home ? new Vector3(0, 4.95f, -14) : new Vector3(0, 20.2f, -18.4f);
             Camera.transform.position = cameraHome; Camera.transform.LookAt(home ? new Vector3(0, 1.25f, 0) : new Vector3(0, .2f, -2));
             if (tableRoot != null) tableRoot.gameObject.SetActive(!home);
             if (levelRoot != null) levelRoot.gameObject.SetActive(!home);
@@ -291,6 +327,7 @@ namespace PinPop
             foreach(var pin in Pins)if(pin!=null)pin.Visual.localScale=Vector3.one;
         }
         public void ReloadSettings(){deviceReducedMotion=HtmlPlatformPreferences.ReduceMotion();Muted=PlayerPrefs.GetInt("Muted",1)==1;if(Hud!=null)Hud.Refresh();}
+        public void RefreshLanguage(){htmlWorld?.SetLevel(Level);}
         public void ToggleSound(){Muted=!Muted;if(RewardedVideo!=null)RewardedVideo.SyncSound();PlayerPrefs.SetInt("Muted",Muted?1:0);PlayerPrefs.Save();Hud.Refresh();sound.Tone(600);}
         public void PlayEntryChime(){sound.Chime();}
         static bool Finite(float value)=>!float.IsNaN(value)&&!float.IsInfinity(value);
@@ -302,21 +339,25 @@ namespace PinPop
                 float value=2*Mathf.Atan(Mathf.Tan(Camera.fieldOfView*.5f*Mathf.Deg2Rad)/Mathf.Max(1,.6f/lastCameraAspect))*Mathf.Rad2Deg;
                 if(lastCameraHome)HomeFieldOfView=value;else GameplayFieldOfView=value;
             }
-            float requested=InMenu?HomeFieldOfView:GameplayFieldOfView;float fitted=FitFov(requested,Camera.aspect);
+            float aspect=Camera.aspect;if(!InMenu&&Hud!=null)aspect*=GetComponent<HtmlReferenceHUD>().GameplayWidthFraction;
+            float requested=InMenu?HomeFieldOfView:GameplayFieldOfView;float fitted=FitFov(requested,aspect);
             if(Mathf.Abs(Camera.fieldOfView-fitted)>.0001f)Camera.fieldOfView=fitted;
-            lastCameraFov=Camera.fieldOfView;lastCameraAspect=Camera.aspect;lastCameraHome=InMenu;lastRequestedFov=requested;
+            lastCameraFov=Camera.fieldOfView;lastCameraAspect=aspect;lastCameraHome=InMenu;lastRequestedFov=requested;
         }
         void OnApplicationFocus(bool focused){if(!focused&&Hud!=null)CancelPull();}
         void OnApplicationPause(bool paused){if(paused&&Hud!=null)CancelPull();}
         void Update()
         {
-            if (Camera == null) return;
+            if (!Initialized || Camera == null) return;
             if(!InMenu&&!Finished&&!Transitioning&&Total>0&&Cleared>=Total&&MatchTray.Empty){if(!Paused)matchWinDelay+=Time.deltaTime;if(matchWinDelay>=.7f)End(true);}else matchWinDelay=0;
             RefreshCameraProjection();
-            Camera.ResetProjectionMatrix();var projection=Camera.projectionMatrix;projection.m12=InMenu?.04f:-.06f;Camera.projectionMatrix=projection;
+            Camera.ResetProjectionMatrix();var projection=Camera.projectionMatrix;projection.m12=InMenu?.04f:-.015f;projection.m02=InMenu?0:GetComponent<HtmlReferenceHUD>().GameplayProjectionOffsetX;Camera.projectionMatrix=projection;
             shake = Paused||ReducedMotion||InMenu?0:Mathf.MoveTowards(shake,0,Time.unscaledDeltaTime*.35f); Camera.transform.position = cameraHome + Random.insideUnitSphere * shake;
             bool ready = !InMenu && !Transitioning && !Paused && !Busy && !Finished && Moves > 0;
             RefreshAimPreview();
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
+            if(DevicePolishReview.Active||AuditFixesReview.Active||PopupCloseReview.Active)return;
+#endif
             if(GetComponent<AdventureHUD>()?.ModalVisible==true)return;
             if(Input.GetKeyDown(KeyCode.Escape)&&(Hud.ShopVisible||Hud.SwapShopVisible||Hud.SettingsVisible||Hud.HelpVisible)){Hud.CloseOverlays();return;}
             if (InMenu || Transitioning || Paused || Hud.ResultVisible) return;
@@ -358,10 +399,10 @@ namespace PinPop
             reticle.transform.position=prediction.Point;reticle.transform.localScale=Vector3.one*.6f;
             PowerRing.transform.rotation=Camera.transform.rotation*Quaternion.Euler(-90,0,0);
             float pixelsPerUnit=Mathf.Abs(Camera.WorldToScreenPoint(prediction.Point+Camera.transform.right).x-Camera.WorldToScreenPoint(prediction.Point).x);
-            PowerRing.transform.localScale=Vector3.one*(18*Mathf.Max(1,Camera.pixelWidth/600f)/Mathf.Max(.01f,pixelsPerUnit)/(.8f*.6f));
+            PowerRing.transform.localScale=Vector3.one*(36*(Camera.pixelWidth/390f)/Mathf.Max(.01f,pixelsPerUnit)/(1.6f*.6f));
             aimDotMaterial.SetVector("_Color",new Vector4(color.linear.r,color.linear.g,color.linear.b,.82f));
             Vector3 start=origin;start.y=.035f;start=Vector3.MoveTowards(start,prediction.Point,.46f);
-            for(int i=0;i<aimDots.Length;i++)aimDots[i].position=Vector3.Lerp(start,prediction.Point,(float)i/(aimDots.Length-1));
+            float screenLength=Vector2.Distance(Camera.WorldToScreenPoint(start),Camera.WorldToScreenPoint(prediction.Point));int count=Mathf.Clamp(Mathf.FloorToInt(screenLength/(9*Camera.pixelWidth/390f)),3,aimDots.Length);for(int i=0;i<aimDots.Length;i++){var dot=aimDots[i];dot.gameObject.SetActive(i<count);if(i>=count)continue;dot.position=Vector3.Lerp(start,prediction.Point,(float)i/(count-1));float ppu=Mathf.Abs(Camera.WorldToScreenPoint(dot.position+Camera.transform.right).x-Camera.WorldToScreenPoint(dot.position).x);dot.localScale=Vector3.one*(5*Camera.pixelWidth/390f/Mathf.Max(.01f,ppu));}
         }
         void PointerDown(Vector2 pos,int id){
             if(dragging||InMenu||Transitioning||Paused||Busy||Finished||Moves<=0||Cleared>=Total)return;

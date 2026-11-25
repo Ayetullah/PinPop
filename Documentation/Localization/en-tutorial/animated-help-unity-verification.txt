@@ -1,0 +1,54 @@
+53/53 passed.
+PASS: Other chapters do not trigger or consume first-chapter tutorial
+PASS: First entry automatically opens tutorial and pauses gameplay
+PASS: First showing persists seen flag immediately
+PASS: Tutorial has one close cross and no extra navigation buttons
+PASS: Close cross receives the actual pointer raycast in scene 0
+PASS: Close cross immediately resumes play from scene 0
+PASS: Close cross receives the actual pointer raycast in scene 1
+PASS: Close cross immediately resumes play from scene 1
+PASS: Close cross receives the actual pointer raycast in scene 2
+PASS: Close cross immediately resumes play from scene 2
+PASS: Closing tutorial preserves queue, moves and wallet
+PASS: Animation runs during pause while held bowling ball stays still
+PASS: Pointer reaches tutorial swipe surface
+PASS: Finger swipe left advances one scene
+PASS: Pointer reaches tutorial swipe surface
+PASS: Finger swipe right returns one scene
+PASS: Pointer reaches tutorial swipe surface
+PASS: Right swipe at first scene does not wrap
+PASS: Pointer reaches tutorial swipe surface
+PASS: Pointer reaches tutorial swipe surface
+PASS: Taps and vertical drags do not change scenes
+PASS: Pointer reaches tutorial swipe surface
+PASS: Mouse drag also advances scene
+PASS: Pointer reaches tutorial swipe surface
+PASS: Left swipe reaches last scene
+PASS: Pointer reaches tutorial swipe surface
+PASS: Right swipe can revisit previous scene
+PASS: Resizing preserves tutorial scene and playback position
+PASS: First video automatically advances after its full duration
+PASS: Wrong color demonstration keeps targets fixed
+PASS: Effects stay clipped inside teaching stage
+PASS: Second video automatically advances to swap
+PASS: Swap illustration sends first bowling ball to queue end
+PASS: Last video automatically closes tutorial and resumes gameplay
+PASS: Automatic playback and swipes never mutate board, queue, wallet, moves or swaps
+PASS: Returning to chapter one does not repeat tutorial
+PASS: Closable tutorial fits 320
+PASS: Tutorial close target stays comfortably tappable at 320
+PASS: Pointer reaches tutorial swipe surface
+PASS: Swipe target works at 320
+PASS: Closable tutorial fits 390
+PASS: Tutorial close target stays comfortably tappable at 390
+PASS: Pointer reaches tutorial swipe surface
+PASS: Swipe target works at 390
+PASS: Closable tutorial fits 1000
+PASS: Tutorial close target stays comfortably tappable at 1000
+PASS: Pointer reaches tutorial swipe surface
+PASS: Swipe target works at 1000
+PASS: Reduced motion still uses stable teaching pose
+PASS: Reduced motion still advances automatically
+PASS: Pointer reaches tutorial swipe surface
+PASS: Pointer reaches tutorial swipe surface
+PASS: Left swipe on final scene exits directly to game

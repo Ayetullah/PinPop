@@ -1,0 +1,30 @@
+{
+  "requirements": {
+    "tutorialCloseCrossImplemented": true,
+    "closeWorksInAllThreeSteps": true,
+    "closeResumesUnchangedGameplay": true,
+    "translucentHelperBackgrounds": true,
+    "centeredTablePreserved": true,
+    "sharedPressFeedback": true,
+    "safeAreaTutorialLayout": true
+  },
+  "localChecks": {
+    "uiPassed": 265,
+    "tutorialPassed": 53,
+    "failed": 0
+  },
+  "diagnosticInstalledOnIPhone": true,
+  "deviceRuntimeVerified": true,
+  "releaseBuildSucceeded": true,
+  "releaseInstalled": true,
+  "liveAdsUnchanged": true,
+  "deviceReview": {
+    "phases": 24,
+    "frames": 1669,
+    "errors": 0,
+    "walletPreserved": true,
+    "allTutorialCloseStepsVerified": true
+  },
+  "releaseLaunched": true,
+  "releaseProcessVerifiedRunning": true
+}
