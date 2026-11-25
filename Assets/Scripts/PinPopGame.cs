@@ -45,7 +45,14 @@ namespace PinPop
         public PinPopHUD Hud { get; private set; }
         public const int BallLayer=29,GrassLayer=30;
         public const float GrassHeight=-1.25f;
-        public static readonly Vector3 Launch = new Vector3(0, .40f, -7.2f);
+        public const float LaunchZ=-11.4f;
+        public const float TableFront=LaunchZ-BowlingBall.Radius-.06f,TableBack=.9f,TableHalfWidth=4.2f;
+        public const float TableLength=TableBack-TableFront,TableCenter=(TableBack+TableFront)*.5f;
+        public const float VisualTableBack=TableCenter+4.8354167f*TableLength/9.6f;
+        public const float FixedBarrierZ=-4.65f,MovingBarrierZ=-5.45f;
+        public static bool OnTable(Vector3 at)=>Mathf.Abs(at.x)<=TableHalfWidth&&at.z>=TableFront&&at.z<=TableBack;
+        public const float PinDeckFront=-3.4f,PinDeckBack=.4f;
+        public static readonly Vector3 Launch = new Vector3(0, .40f, LaunchZ);
         public const float LaunchLimit=3.65f;
         float launchX;
         public Vector3 LaunchPosition=>new Vector3(launchX,Launch.y,Launch.z);
@@ -69,7 +76,7 @@ namespace PinPop
         public RollPrediction PreviewRoll { get; private set; }
         public bool AimVisible => reticle != null && reticle.activeInHierarchy;
         [Header("Runtime camera framing")]
-        [Range(1,179)] public float GameplayFieldOfView=42;
+        [Range(1,179)] public float GameplayFieldOfView=43;
         [Range(1,179)] public float HomeFieldOfView=40;
         float lastCameraFov=-1,lastCameraAspect,lastRequestedFov;bool lastCameraHome;
         Vector3 cameraHome;
@@ -138,19 +145,14 @@ namespace PinPop
             var light=new GameObject("HTML sun").AddComponent<Light>();light.type=LightType.Directional;light.intensity=1f;light.color=Art.Hex("FFF3DB");light.transform.rotation=Quaternion.LookRotation(new Vector3(9,-19,12));light.shadows=LightShadows.Soft;light.shadowStrength=1;light.shadowBias=.025f;light.shadowNormalBias=.025f;light.shadowCustomResolution=4096;
             QualitySettings.pixelLightCount=2;QualitySettings.shadowResolution=ShadowResolution.VeryHigh;QualitySettings.shadows=ShadowQuality.All;QualitySettings.shadowDistance=45;QualitySettings.shadowCascades=4;QualitySettings.shadowCascade4Split=new Vector3(.20f,.45f,.70f);QualitySettings.antiAliasing=4;
             htmlWorld=new GameObject("HTML reference world").AddComponent<HtmlReferenceWorld>();htmlWorld.Model=this;htmlWorld.Build();tableRoot=htmlWorld.Table;
-            // Extend the approach area toward the player; the pin deck stays in place.
-            tableRoot.localScale=new Vector3(1,1,13.6f/9.6f);tableRoot.position+=Vector3.back*2;
-            var tableCollider=new GameObject("Table physics");tableCollider.transform.SetParent(tableRoot);tableCollider.transform.position=new Vector3(0,-.05f,-2);var collider=tableCollider.AddComponent<BoxCollider>();collider.size=new Vector3(8.4f,.1f,13.6f);HtmlPhysicsContacts.Register(collider,HtmlPhysicsContacts.Kind.Floor);
+            // Keep the launch line fixed and end the wood just behind the ball.
+            tableRoot.localScale=new Vector3(1,1,TableLength/9.6f);tableRoot.position+=Vector3.forward*TableCenter;
+            var tableCollider=new GameObject("Table physics");tableCollider.transform.SetParent(tableRoot,true);tableCollider.transform.position=new Vector3(0,-.05f,TableCenter);var collider=tableCollider.AddComponent<BoxCollider>();collider.size=new Vector3(TableHalfWidth*2,.1f,TableLength);HtmlPhysicsContacts.Register(collider,HtmlPhysicsContacts.Kind.Floor);
             // Only balls land on the meadow. Pins still fall freely into the collection threshold.
             for(int layer=0;layer<32;layer++)Physics.IgnoreLayerCollision(GrassLayer,layer,layer!=BallLayer);
             var grass=new GameObject("Grass ball physics");grass.layer=GrassLayer;grass.transform.SetParent(transform,false);grass.transform.position=new Vector3(0,GrassHeight-.1f,0);var ground=grass.AddComponent<BoxCollider>();ground.size=new Vector3(400,.2f,400);HtmlPhysicsContacts.Register(ground,HtmlPhysicsContacts.Kind.Grass);
             aimDots=new Transform[27];aimDotMaterial=new Material(Resources.Load<Shader>("AimPowerOverlay")){renderQueue=3998};var outline=new Material(Resources.Load<Shader>("AimPowerOverlay")){color=Art.Hex("294B61"),renderQueue=3997};for(int i=0;i<aimDots.Length;i++){var dot=Art.Shape("Table aim dot "+i,PrimitiveType.Sphere,Vector3.zero,Vector3.one*.081f,outline,transform);dot.GetComponent<Renderer>().shadowCastingMode=UnityEngine.Rendering.ShadowCastingMode.Off;Art.Shape("Dot color",PrimitiveType.Sphere,Vector3.zero,Vector3.one*.62f,aimDotMaterial,dot.transform).GetComponent<Renderer>().shadowCastingMode=UnityEngine.Rendering.ShadowCastingMode.Off;aimDots[i]=dot.transform;dot.SetActive(false);}
             reticle = new GameObject("Aim target"); reticle.transform.SetParent(transform);
-            var neutral=new Material(Shader.Find("Sprites/Default")){color=Art.Hex("FFF3D4")};
-            var fill=new Material(Shader.Find("Sprites/Default")){color=new Color(1,.95f,.83f,.06f)};
-            Art.LandingRing(reticle.transform,"Landing fill",0,.64f,fill,0);
-            Art.LandingRing(reticle.transform,"Ball footprint",.365f,.405f,neutral,.006f);
-            Art.LandingRing(reticle.transform,"Contact center",0,.045f,neutral,.008f);
             var ring=new GameObject("Aim power ring");ring.transform.SetParent(reticle.transform,false);ring.transform.localPosition=Vector3.up*.010f;PowerRing=ring.AddComponent<AimPowerRing>();
             reticle.SetActive(false);
             sound=gameObject.AddComponent<HtmlGameAudio>();sound.Build(this);
@@ -192,13 +194,13 @@ namespace PinPop
             if (readyBall != null) Destroy(readyBall.gameObject);
             if (Moves <= 0 || Finished || Cleared>=Total) return;
             readyBall = new GameObject("Next bowling ball").transform; readyBall.position = LaunchPosition;
-            Art.BallVisual(readyBall, Queue[0], .39f,SelectedBall).transform.localRotation=Quaternion.Euler(5.72958f,-8.59437f,0);if(Adventure!=null&&Adventure.RainbowArmed)ShowRainbowReady();readyBall.gameObject.SetActive(!InMenu);
+            Art.BallVisual(readyBall, Queue[0], BowlingBall.Radius,SelectedBall).transform.localRotation=Quaternion.Euler(5.72958f,-8.59437f,0);if(Adventure!=null&&Adventure.RainbowArmed)ShowRainbowReady();readyBall.gameObject.SetActive(!InMenu);
         }
         public bool Swap()
         {
             if (dragging || InMenu || Transitioning || Paused || Busy || Finished || Cleared>=Total || Moves <= 0 || Queue.Count < 2 || SwapCredits <= 0) return false;
             if(!economy.UseSwap())return false;int first = Queue[0]; Queue.RemoveAt(0); Queue.Add(first); SaveEconomy();
-            SpawnReadyBall(); Hud.Refresh(); Hud.AnimateQueue(); sound.Tone(510,.12f); Hud.Toast("İLK TOP EN SONA GİTTİ · −1 SWAP", 2.3f); return true;
+            SpawnReadyBall(); Hud.Refresh(); Hud.AnimateQueue(); sound.Tone(510,.12f); return true;
         }
         public bool BuySwap()
         {
@@ -223,15 +225,15 @@ namespace PinPop
         public RollPrediction PredictRoll(Vector3 target, float power, Vector3 origin)
         {
             Vector3 direction=ShotVelocity(target,power,origin).normalized;
-            float distance=Mathf.Abs(direction.z)>.001f?((direction.z>0?4.4f:-8.4f)-origin.z)/direction.z:1000;
-            if(Mathf.Abs(direction.x)>.001f)distance=Mathf.Min(distance,((direction.x>0?3.8f:-3.8f)-origin.x)/direction.x);
+            float distance=Mathf.Abs(direction.z)>.001f?((direction.z>0?TableBack-BowlingBall.Radius:TableFront+BowlingBall.Radius)-origin.z)/direction.z:1000;
+            if(Mathf.Abs(direction.x)>.001f)distance=Mathf.Min(distance,((direction.x>0?TableHalfWidth-BowlingBall.Radius:-TableHalfWidth+BowlingBall.Radius)-origin.x)/direction.x);
             foreach(var pin in Pins) {
                 if(pin==null||pin.Cleared||!pin.gameObject.activeInHierarchy)continue;
                 Vector3 delta=pin.Body.worldCenterOfMass-origin;delta.y=0;float along=Vector3.Dot(delta,direction);
                 float side=delta.sqrMagnitude-along*along;
                 if(along>0&&side<.65f*.65f)distance=Mathf.Min(distance,Mathf.Max(0,along-Mathf.Sqrt(.65f*.65f-side)));
             }
-            if(Adventure!=null){int count=Physics.SphereCastNonAlloc(origin,.39f,direction,aimContacts,Mathf.Max(0,distance),~0,QueryTriggerInteraction.Ignore);for(int i=0;i<count;i++)if(Adventure.IsObstacle(aimContacts[i].collider))distance=Mathf.Min(distance,aimContacts[i].distance);}
+            if(Adventure!=null){int count=Physics.SphereCastNonAlloc(origin,BowlingBall.Radius,direction,aimContacts,Mathf.Max(0,distance),~0,QueryTriggerInteraction.Ignore);for(int i=0;i<count;i++)if(Adventure.IsObstacle(aimContacts[i].collider))distance=Mathf.Min(distance,aimContacts[i].distance);}
             var point=origin+direction*Mathf.Max(0,distance);point.y=.035f;
             return new RollPrediction{Point=point,Time=distance/Mathf.Lerp(4,24,Mathf.Clamp01(power)),OnTable=true};
         }
@@ -311,8 +313,8 @@ namespace PinPop
         public void SetMenu(bool home)
         {
             CancelPull(); InMenu = home; Time.timeScale = 1; Camera.orthographic = false;htmlLook.Home=home;
-            cameraHome = home ? new Vector3(0, 4.95f, -14) : new Vector3(0, 20.2f, -18.4f);
-            Camera.transform.position = cameraHome; Camera.transform.LookAt(home ? new Vector3(0, 1.25f, 0) : new Vector3(0, .2f, -2));
+            cameraHome = home ? new Vector3(0, 4.95f, -14) : new Vector3(0, 26f, -23f);
+            Camera.transform.position = cameraHome; Camera.transform.LookAt(home ? new Vector3(0, 1.25f, 0) : new Vector3(0, .2f, -4));
             if (tableRoot != null) tableRoot.gameObject.SetActive(!home);
             if (levelRoot != null) levelRoot.gameObject.SetActive(!home);
             if (readyBall != null) readyBall.gameObject.SetActive(!home);
@@ -336,11 +338,11 @@ namespace PinPop
             // Capture edits on the actual Camera component instead of replacing them next frame.
             float previousRequest=lastCameraHome?HomeFieldOfView:GameplayFieldOfView;
             if(lastCameraFov>0&&Mathf.Abs(Camera.fieldOfView-lastCameraFov)>.001f&&Mathf.Approximately(previousRequest,lastRequestedFov)){
-                float value=2*Mathf.Atan(Mathf.Tan(Camera.fieldOfView*.5f*Mathf.Deg2Rad)/Mathf.Max(1,.6f/lastCameraAspect))*Mathf.Rad2Deg;
+                float value=lastCameraHome?2*Mathf.Atan(Mathf.Tan(Camera.fieldOfView*.5f*Mathf.Deg2Rad)/Mathf.Max(1,.6f/lastCameraAspect))*Mathf.Rad2Deg:Camera.fieldOfView;
                 if(lastCameraHome)HomeFieldOfView=value;else GameplayFieldOfView=value;
             }
-            float aspect=Camera.aspect;if(!InMenu&&Hud!=null)aspect*=GetComponent<HtmlReferenceHUD>().GameplayWidthFraction;
-            float requested=InMenu?HomeFieldOfView:GameplayFieldOfView;float fitted=FitFov(requested,aspect);
+            float aspect=Camera.aspect;
+            float requested=InMenu?HomeFieldOfView:GameplayFieldOfView;float fitted=InMenu?FitFov(requested,aspect):Mathf.Clamp(requested,1,179);
             if(Mathf.Abs(Camera.fieldOfView-fitted)>.0001f)Camera.fieldOfView=fitted;
             lastCameraFov=Camera.fieldOfView;lastCameraAspect=aspect;lastCameraHome=InMenu;lastRequestedFov=requested;
         }
@@ -396,13 +398,21 @@ namespace PinPop
             var prediction=PredictRoll(Aim,power,origin);PreviewRoll=prediction;
             Color color=Art.Colors[Queue[0]];
             PowerRing.SetProgress(power,ReducedMotion);
-            reticle.transform.position=prediction.Point;reticle.transform.localScale=Vector3.one*.6f;
+            reticle.transform.position=prediction.Point;reticle.transform.localScale=Vector3.one;
             PowerRing.transform.rotation=Camera.transform.rotation*Quaternion.Euler(-90,0,0);
-            float pixelsPerUnit=Mathf.Abs(Camera.WorldToScreenPoint(prediction.Point+Camera.transform.right).x-Camera.WorldToScreenPoint(prediction.Point).x);
-            PowerRing.transform.localScale=Vector3.one*(36*(Camera.pixelWidth/390f)/Mathf.Max(.01f,pixelsPerUnit)/(1.6f*.6f));
+            PowerRing.transform.localScale=Vector3.one*(BowlingBall.Radius/AimPowerRing.OuterRadius);
+            Vector2 ringCenter=Camera.WorldToScreenPoint(PowerRing.transform.position);
+            float ringRadius=Vector2.Distance(ringCenter,Camera.WorldToScreenPoint(PowerRing.transform.position+Camera.transform.right*BowlingBall.Radius));
+            float dotDiameter=5*Camera.pixelWidth/390f,clearance=ringRadius+dotDiameter*.5f+2*Camera.pixelWidth/390f;
             aimDotMaterial.SetVector("_Color",new Vector4(color.linear.r,color.linear.g,color.linear.b,.82f));
             Vector3 start=origin;start.y=.035f;start=Vector3.MoveTowards(start,prediction.Point,.46f);
-            float screenLength=Vector2.Distance(Camera.WorldToScreenPoint(start),Camera.WorldToScreenPoint(prediction.Point));int count=Mathf.Clamp(Mathf.FloorToInt(screenLength/(9*Camera.pixelWidth/390f)),3,aimDots.Length);for(int i=0;i<aimDots.Length;i++){var dot=aimDots[i];dot.gameObject.SetActive(i<count);if(i>=count)continue;dot.position=Vector3.Lerp(start,prediction.Point,(float)i/(count-1));float ppu=Mathf.Abs(Camera.WorldToScreenPoint(dot.position+Camera.transform.right).x-Camera.WorldToScreenPoint(dot.position).x);dot.localScale=Vector3.one*(5*Camera.pixelWidth/390f/Mathf.Max(.01f,ppu));}
+            float screenLength=Vector2.Distance(Camera.WorldToScreenPoint(start),Camera.WorldToScreenPoint(prediction.Point));int count=Mathf.Clamp(Mathf.FloorToInt(screenLength/(9*Camera.pixelWidth/390f)),3,aimDots.Length);
+            for(int i=0;i<aimDots.Length;i++){
+                var dot=aimDots[i];if(i>=count){dot.gameObject.SetActive(false);continue;}
+                dot.position=Vector3.Lerp(start,prediction.Point,(float)i/(count-1));
+                bool outside=Vector2.Distance(Camera.WorldToScreenPoint(dot.position),ringCenter)>clearance;dot.gameObject.SetActive(outside);if(!outside)continue;
+                float ppu=Mathf.Abs(Camera.WorldToScreenPoint(dot.position+Camera.transform.right).x-Camera.WorldToScreenPoint(dot.position).x);dot.localScale=Vector3.one*(dotDiameter/Mathf.Max(.01f,ppu));
+            }
         }
         void PointerDown(Vector2 pos,int id){
             if(dragging||InMenu||Transitioning||Paused||Busy||Finished||Moves<=0||Cleared>=Total)return;

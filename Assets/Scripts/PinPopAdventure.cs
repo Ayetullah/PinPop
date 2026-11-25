@@ -35,14 +35,14 @@ namespace PinPop {
   public void Reload(){try{Data=JsonUtility.FromJson<AdventureSave>(PlayerPrefs.GetString(SaveKey,""))??new AdventureSave();}catch{Data=new AdventureSave();}if(Data.stock==null||Data.stock.Length!=4)Data.stock=new[]{3,2,2,2};for(int i=0;i<4;i++)Data.stock[i]=Mathf.Clamp(Data.stock[i],0,999);Data.chests&=(1<<AdventureRules.MapPageCount)-1;Save();}
   public void Save(){PlayerPrefs.SetString(SaveKey,JsonUtility.ToJson(Data));PlayerPrefs.Save();}
   public void ResetLevel(){PocketColor=-1;RainbowArmed=ShotRainbow=false;LastChest=LastChestCoins=0;band.Clear();moving=null;phase=0;if(world!=null){world.gameObject.SetActive(false);Destroy(world.gameObject);}world=new GameObject("Adventure obstacles").transform;world.SetParent(transform,false);
-   if(AdventureRules.Fixed(game.Level)){Barrier("Left bumper",new Vector3(-1.75f,.38f,-3.55f),new Vector3(1.15f,.76f,.42f),false);Barrier("Right bumper",new Vector3(1.75f,.38f,-3.55f),new Vector3(1.15f,.76f,.42f),false);}
-   if(AdventureRules.Moving(game.Level))moving=Barrier("Moving festival gate",new Vector3(0,.42f,-4.6f),new Vector3(1.1f,.84f,.35f),true);
+   if(AdventureRules.Fixed(game.Level)){Barrier("Left bumper",new Vector3(-1.75f,.38f,PinPopGame.FixedBarrierZ),new Vector3(1.15f,.76f,.42f),false);Barrier("Right bumper",new Vector3(1.75f,.38f,PinPopGame.FixedBarrierZ),new Vector3(1.15f,.76f,.42f),false);}
+   if(AdventureRules.Moving(game.Level))moving=Barrier("Moving festival gate",new Vector3(0,.42f,PinPopGame.MovingBarrierZ),new Vector3(1.1f,.84f,.35f),true);
    if(AdventureRules.Ice(game.Level))for(int c=0;c<Mathf.Min(4,PinPopLayouts.ColorCount(game.Level));c++){var p=game.Pins.Find(x=>x.ColorId==c);if(p!=null)p.Protect(true,false);}
    if(AdventureRules.Band(game.Level)){var group=game.Pins.FindAll(x=>x.ColorId==PinPopLayouts.QueueColor(game.Level,1));for(int i=0;i<Mathf.Min(3,group.Count);i++){group[i].Protect(false,true);band.Add(group[i]);}}
   }
   Rigidbody Barrier(string name,Vector3 at,Vector3 size,bool move){var obj=Art.Shape(name,PrimitiveType.Cube,at,size,Art.Mat(Art.Hex(move?"BA8AD2":"46758B")),world,true);var col=obj.GetComponent<Collider>();if(col==null)col=obj.AddComponent<BoxCollider>();col.sharedMaterial=BowlingBall.ContactMaterial;var stripe=Art.Shape("Cream bumper stripe",PrimitiveType.Cube,Vector3.zero,new Vector3(.92f,.16f,1.025f),Art.Mat(Art.Hex("F8E7B9")),obj.transform);stripe.transform.localPosition=new Vector3(0,.15f,0);if(!move)return null;var body=obj.AddComponent<Rigidbody>();body.isKinematic=true;return body;}
   public bool IsObstacle(Collider collider)=>collider!=null&&world!=null&&collider.transform.IsChildOf(world);
-  void FixedUpdate(){if(game==null||game.InMenu||game.Paused||game.Transitioning||game.Finished)return;if(moving!=null){phase+=Time.fixedDeltaTime;moving.MovePosition(new Vector3(Mathf.Sin(phase*.85f)*2.35f,.42f,-4.6f));}}
+  void FixedUpdate(){if(game==null||game.InMenu||game.Paused||game.Transitioning||game.Finished)return;if(moving!=null){phase+=Time.fixedDeltaTime;moving.MovePosition(new Vector3(Mathf.Sin(phase*.85f)*2.35f,.42f,PinPopGame.MovingBarrierZ));}}
   void LateUpdate(){if(world!=null)world.gameObject.SetActive(!game.InMenu);}
   public void BeginShot(){ShotRainbow=RainbowArmed;RainbowArmed=false;}
   public void BreakBand(){foreach(var p in band)if(p!=null&&!p.Cleared)p.ReleaseBand();game.Hud.Toast("BAĞ KOPTU · SONRAKİ ATIŞTA SERBEST",2);}

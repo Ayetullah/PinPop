@@ -1,0 +1,197 @@
+196/196 passed.
+PASS: Campaign contains forty levels, two regions and eight checkpoints
+PASS: Level 1 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 1 has a distinct map name
+PASS: Level 2 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 2 has a distinct map name
+PASS: Level 3 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 3 has a distinct map name
+PASS: Level 4 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 4 has a distinct map name
+PASS: Level 5 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 5 has a distinct map name
+PASS: Level 6 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 6 has a distinct map name
+PASS: Level 7 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 7 has a distinct map name
+PASS: Level 8 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 8 has a distinct map name
+PASS: Level 9 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 9 has a distinct map name
+PASS: Level 10 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 10 has a distinct map name
+PASS: Level 11 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 11 has a distinct map name
+PASS: Level 12 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 12 has a distinct map name
+PASS: Level 13 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 13 has a distinct map name
+PASS: Level 14 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 14 has a distinct map name
+PASS: Level 15 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 15 has a distinct map name
+PASS: Level 16 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 16 has a distinct map name
+PASS: Level 17 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 17 has a distinct map name
+PASS: Level 18 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 18 has a distinct map name
+PASS: Level 19 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 19 has a distinct map name
+PASS: Level 20 has complete triples, supplied colors, safe spacing and table bounds
+PASS: Level 20 has a distinct map name
+PASS: Level 21 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 21 has a distinct arrangement
+PASS: Level 21 has a distinct map name
+PASS: New level 21 loads its physics pins and queue
+PASS: Level 22 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 22 has a distinct arrangement
+PASS: Level 22 has a distinct map name
+PASS: New level 22 loads its physics pins and queue
+PASS: Level 23 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 23 has a distinct arrangement
+PASS: Level 23 has a distinct map name
+PASS: New level 23 loads its physics pins and queue
+PASS: Level 24 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 24 has a distinct arrangement
+PASS: Level 24 has a distinct map name
+PASS: New level 24 loads its physics pins and queue
+PASS: Level 25 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 25 has a distinct arrangement
+PASS: Level 25 has a distinct map name
+PASS: New level 25 loads its physics pins and queue
+PASS: Level 26 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 26 has a distinct arrangement
+PASS: Level 26 has a distinct map name
+PASS: New level 26 loads its physics pins and queue
+PASS: Level 27 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 27 has a distinct arrangement
+PASS: Level 27 has a distinct map name
+PASS: New level 27 loads its physics pins and queue
+PASS: Level 28 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 28 has a distinct arrangement
+PASS: Level 28 has a distinct map name
+PASS: New level 28 loads its physics pins and queue
+PASS: Level 29 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 29 has a distinct arrangement
+PASS: Level 29 has a distinct map name
+PASS: New level 29 loads its physics pins and queue
+PASS: Level 30 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 30 has a distinct arrangement
+PASS: Level 30 has a distinct map name
+PASS: New level 30 loads its physics pins and queue
+PASS: Level 31 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 31 has a distinct arrangement
+PASS: Level 31 has a distinct map name
+PASS: New level 31 loads its physics pins and queue
+PASS: Level 32 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 32 has a distinct arrangement
+PASS: Level 32 has a distinct map name
+PASS: New level 32 loads its physics pins and queue
+PASS: Level 33 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 33 has a distinct arrangement
+PASS: Level 33 has a distinct map name
+PASS: New level 33 loads its physics pins and queue
+PASS: Level 34 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 34 has a distinct arrangement
+PASS: Level 34 has a distinct map name
+PASS: New level 34 loads its physics pins and queue
+PASS: Level 35 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 35 has a distinct arrangement
+PASS: Level 35 has a distinct map name
+PASS: New level 35 loads its physics pins and queue
+PASS: Level 36 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 36 has a distinct arrangement
+PASS: Level 36 has a distinct map name
+PASS: New level 36 loads its physics pins and queue
+PASS: Level 37 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 37 has a distinct arrangement
+PASS: Level 37 has a distinct map name
+PASS: New level 37 loads its physics pins and queue
+PASS: Level 38 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 38 has a distinct arrangement
+PASS: Level 38 has a distinct map name
+PASS: New level 38 loads its physics pins and queue
+PASS: Level 39 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 39 has a distinct arrangement
+PASS: Level 39 has a distinct map name
+PASS: New level 39 loads its physics pins and queue
+PASS: Level 40 has complete triples, supplied colors, safe spacing and table bounds
+PASS: New level 40 has a distinct arrangement
+PASS: Level 40 has a distinct map name
+PASS: New level 40 loads its physics pins and queue
+PASS: Compact table physics has the intended ten-unit length and edges
+PASS: Visible wooden table matches the compact physics surface
+PASS: Ready ball rests six centimeters inside the front edge
+PASS: Pin deck has moved toward the launch ball
+PASS: Swap still rotates the queue and spends one credit without spending moves
+PASS: Swap does not display an information message
+PASS: Compact level 1 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 2 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 3 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 4 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 5 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 6 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 7 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 8 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 9 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 10 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 11 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 12 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 13 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 14 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 15 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 16 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 17 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 18 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 19 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 20 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 21 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 22 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 23 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 24 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 25 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 26 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 27 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 28 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 29 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 30 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 31 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 32 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 33 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 34 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 35 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 36 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 37 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 38 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 39 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Compact level 40 keeps pins and obstacles on the board, clear of launch and each other
+PASS: Ball launches from the compact board front
+PASS: Shot from the new front position reaches the closer pins
+PASS: Twenty-level save resumes at level twenty-one without losing wallet or rewards
+PASS: Second region contains only levels twenty-one through forty
+PASS: Old campaign completion unlocks only the next new level
+PASS: UI button is available: MAP_REGION_0
+PASS: Pointer reaches button: MAP_REGION_0
+PASS: Press keeps the button hit target fixed: MAP_REGION_0
+PASS: Previous region has only its own twenty levels and completed progress
+PASS: UI button is available: MAP_REGION_1
+PASS: Pointer reaches button: MAP_REGION_1
+PASS: Press keeps the button hit target fixed: MAP_REGION_1
+PASS: Switching back opens second region at zero of twenty
+PASS: Region switching preserves wallet, claimed chests and stock
+PASS: UI button is available: MAP_LEVEL_20
+PASS: Pointer reaches button: MAP_LEVEL_20
+PASS: Map actually launches newly unlocked level twenty-one
+PASS: UI button is available: CONTINUE
+PASS: Pointer reaches button: CONTINUE
+PASS: Press keeps the button hit target fixed: CONTINUE
+PASS: Actual result continue advances twenty to twenty-one
+PASS: Campaign ends at forty, with progression continuing after twenty
+PASS: All eight checkpoint rewards are single claim and old rewards remain claimed
+PASS: UI button is available: CONTINUE
+PASS: Pointer reaches button: CONTINUE
+PASS: Press keeps the button hit target fixed: CONTINUE
+PASS: Final result action returns to the map after level forty
+PASS: Completed campaign focuses level forty
+PASS: Completed second region shows twenty of twenty

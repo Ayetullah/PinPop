@@ -7,7 +7,7 @@ namespace PinPop {
  // then blast and compact. Overflow finishes reserved flights while physics is frozen.
  public sealed class PinPopMatchTray:MonoBehaviour {
   public const int Capacity=10;
-  public const float CollectHeight=-.8f,FlightDuration=.48f,ConvergeDuration=.32f,BlastDuration=.44f;
+  public const float CollectHeight=-.8f,FlightDuration=.48f,SettleDuration=.22f,ConvergeDuration=.32f,BlastDuration=.44f;
   public sealed class Item {
    public int Id,Color,Group;public bool Arrived,Matched,BlastAnnounced,Presented;public float RenderScale=1,SlotGoal;public float Age,MergeAge=-1,MergeSlot,MergeFromSlot,VisualSlot,LandAge,SlotAge,SlotFrom;public int SlotTarget;public Vector2 Source;public float Spin,Lift;
   }
@@ -21,19 +21,19 @@ namespace PinPop {
   public event Action Changed;
   public event Action<Item,int> Matched;
   public event Action<int> Landed;
-  sealed class Presentation {public readonly List<Item> Items=new List<Item>();public bool Visible;}
+  sealed class Presentation {public readonly List<Item> Items=new List<Item>();public bool Visible;public int Wells=>Items[0].MergeAge>=ConvergeDuration*.4f?0:Items.Count;}
   readonly List<Presentation> presentations=new List<Presentation>(),presentationPool=new List<Presentation>();
   int presentationUsed;
   Presentation NewPresentation(){if(presentationUsed==presentationPool.Count)presentationPool.Add(new Presentation());var unit=presentationPool[presentationUsed++];presentations.Add(unit);return unit;}
   readonly Dictionary<int,Presentation> presentationGroups=new Dictionary<int,Presentation>();
-  // Completed triples share one reserved well, with three small figures until they converge.
+  // Reserve a separate well for every figure until the triple has left the board.
   // Extra reservations wait for a visible well; their flight clocks do not run off-screen.
   void ArrangePresentation(){
    presentations.Clear();presentationGroups.Clear();presentationUsed=0;foreach(var unit in presentationPool){unit.Items.Clear();unit.Visible=false;}
    foreach(var item in Items){Presentation unit;if(item.Matched){if(!presentationGroups.TryGetValue(item.Group,out unit)){unit=NewPresentation();presentationGroups[item.Group]=unit;}}else {unit=NewPresentation();}unit.Items.Add(item);unit.Visible|=item.Presented;}
-   int used=0;foreach(var unit in presentations)if(unit.Visible)used++;
-   foreach(var unit in presentations)if(!unit.Visible&&used<Capacity){unit.Visible=true;used++;}
-   int slot=0;foreach(var unit in presentations){for(int i=0;i<unit.Items.Count;i++){var item=unit.Items[i];item.Presented=unit.Visible;if(!unit.Visible)continue;if(item.MergeAge>=0)item.MergeSlot=slot;float target=slot+(item.Matched?(i-1)*.22f:0);if(item.SlotTarget!=slot||Mathf.Abs(item.SlotGoal-target)>.001f){item.SlotFrom=item.VisualSlot;item.SlotTarget=slot;item.SlotGoal=target;item.SlotAge=0;}}if(unit.Visible)slot++;}
+   int used=0;foreach(var unit in presentations)if(unit.Visible){if(used+unit.Wells<=Capacity)used+=unit.Wells;else unit.Visible=false;}
+   foreach(var unit in presentations)if(!unit.Visible&&used+unit.Wells<=Capacity){unit.Visible=true;used+=unit.Wells;}
+   int slot=0;foreach(var unit in presentations){for(int i=0;i<unit.Items.Count;i++){var item=unit.Items[i];item.Presented=unit.Visible;if(!unit.Visible||item.MergeAge>=0)continue;int target=slot+i;if(item.SlotTarget!=target||Mathf.Abs(item.SlotGoal-target)>.001f){item.SlotFrom=item.VisualSlot;item.SlotTarget=target;item.SlotGoal=target;item.SlotAge=0;}}if(unit.Visible)slot+=unit.Wells;}
   }
   PinPopGame game;int nextId,nextGroup;float clock,lastMatch=-100;
   public void Build(PinPopGame owner){game=owner;}
@@ -52,13 +52,13 @@ namespace PinPop {
    ArrangePresentation();
    for(int i=0;i<Items.Count;i++){var item=Items[i];
     if(!item.Presented)continue;
-    item.Age+=dt;item.RenderScale=Mathf.MoveTowards(item.RenderScale,item.Matched?.44f:1,dt*4);
+    item.Age+=dt;item.RenderScale=Mathf.MoveTowards(item.RenderScale,1,dt*4);
     item.SlotAge+=dt;item.VisualSlot=Mathf.Lerp(item.SlotFrom,item.SlotGoal,Ease(item.SlotAge/.22f));
-    if(!item.Arrived&&item.Age>=FlightDuration){item.Arrived=true;item.LandAge=0;Landed?.Invoke(item.SlotTarget);changed=true;}if(item.Arrived)item.LandAge+=dt;
+    if(!item.Arrived&&item.Age>=FlightDuration){item.Arrived=true;item.LandAge=item.Age-FlightDuration;Landed?.Invoke(item.SlotTarget);changed=true;}else if(item.Arrived)item.LandAge+=dt;
    }
-   foreach(var unit in presentations){var list=unit.Items;if(!list[0].Matched||list.Count!=3||!list.TrueForAll(x=>x.Arrived&&x.Presented))continue;
-    if(list[0].MergeAge<0){list.Sort((a,b)=>Items.IndexOf(a)-Items.IndexOf(b));float middle=list[1].SlotTarget;foreach(var item in list){item.MergeAge=0;item.MergeSlot=middle;item.MergeFromSlot=item.VisualSlot;}}
-    foreach(var item in list)item.MergeAge+=dt;
+   foreach(var unit in presentations){var list=unit.Items;if(!list[0].Matched||list.Count!=3||!list.TrueForAll(x=>x.Arrived&&x.Presented&&(x.MergeAge>=0||x.LandAge>=SettleDuration&&x.SlotAge>=.22f)))continue;
+    float mergeStep=dt;if(list[0].MergeAge<0){foreach(var entry in list)mergeStep=Mathf.Min(mergeStep,Mathf.Max(0,Mathf.Min(entry.LandAge-SettleDuration,entry.SlotAge-.22f)));list.Sort((a,b)=>Items.IndexOf(a)-Items.IndexOf(b));float middle=list[1].SlotTarget;foreach(var item in list){item.MergeAge=0;item.MergeSlot=middle;item.MergeFromSlot=item.VisualSlot;}}
+    foreach(var item in list)item.MergeAge+=mergeStep;
     if(list[0].MergeAge>=ConvergeDuration&&!list[0].BlastAnnounced){foreach(var item in list)item.BlastAnnounced=true;Combo=clock-lastMatch<2.2f?Combo+1:1;lastMatch=clock;MatchCount++;Matched?.Invoke(list[1],Combo);changed=true;}
     if(list[0].MergeAge>=ConvergeDuration+BlastDuration){foreach(var item in list)Items.Remove(item);changed=true;}
    }

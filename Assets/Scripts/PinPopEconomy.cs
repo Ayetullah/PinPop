@@ -42,6 +42,6 @@ namespace PinPop
         }
         public void Save(){PlayerPrefs.SetString(SaveKey,JsonUtility.ToJson(Data));PlayerPrefs.SetInt("Coins",Data.coins);PlayerPrefs.SetInt("SwapCredits",Data.swaps);PlayerPrefs.Save();}
         public static string Format(int value)=>value.ToString("N0",GameLocalization.Culture);
-        public static string Compact(int value){if(value<10000)return value.ToString(GameLocalization.Culture);if(value<1000000)return((decimal)(value/100)/10m).ToString("0.#",GameLocalization.Culture)+"K";return((decimal)(value/100000)/10m).ToString("0.#",GameLocalization.Culture)+"M";}
+        public static string Compact(int value){var culture=System.Globalization.CultureInfo.InvariantCulture;if(value<1000)return value.ToString(culture);if(value<1000000)return((decimal)(value/100)/10m).ToString("0.#",culture)+"k";return((decimal)(value/100000)/10m).ToString("0.#",culture)+"m";}
     }
 }

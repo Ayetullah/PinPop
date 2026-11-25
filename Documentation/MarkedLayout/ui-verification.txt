@@ -1,0 +1,395 @@
+PASS: Turkish devices select Turkish
+PASS: Every other device language, including unknown, falls back to English
+PASS: Primary action is localized
+PASS: Dynamic level labels are localized beyond level 1000
+PASS: Currency grouping follows the selected language
+PASS: Coin amounts use correct English singular and plural forms
+PASS: All region names, subtitles and map stop names have English entries
+PASS: Native UI initialized
+PASS: Home has play, shop, map and one settings button
+PASS: Home has no swap balance display
+PASS: Home settings is an icon without text
+PASS: Home settings is above the bottom navigation
+PASS: Pointer reaches close cross: HOME_SETTINGS
+PASS: Top settings icon opens settings
+PASS: Home settings have no redundant Done button
+PASS: Pointer reaches close cross: CLOSE_SETTINGS
+PASS: Home settings cross closes and resumes
+PASS: Actual transition shows the requested level in the selected language
+PASS: Shared control dock exists
+PASS: Rainbow is geometry, not a missing font glyph
+PASS: Helpers occupy a vertical side rail
+PASS: Bottom dock only contains queue and swap at 320x568
+PASS: Gameplay camera uses actual FOV 43 at 320x568
+PASS: Table-to-dock gap is reduced at 320x568: 47.80985
+PASS: Table front has breathing room: 47.80985
+PASS: Helpers have separate surfaces without a large rail background
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Table is centered in the viewport
+PASS: Helpers are ordered top to bottom
+PASS: Helper touch width at 320: 44.3077
+PASS: Helper stays inside safe area
+PASS: Helper touch target stays outside the table: BOOSTER_2
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 320: 44.3077
+PASS: Helper stays inside safe area
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 320: 44.3077
+PASS: Helper stays inside safe area
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 320: 44.3077
+PASS: Helper stays inside safe area
+PASS: Helper touch target stays outside the table: BOOSTER_3
+PASS: Helper icon is smaller than the previous design
+PASS: HUD text fits: level
+PASS: HUD text fits: count
+PASS: Helpers occupy a vertical side rail
+PASS: Bottom dock only contains queue and swap at 390x693
+PASS: Gameplay camera uses actual FOV 43 at 390x693
+PASS: Table-to-dock gap is reduced at 390x693: 58.63551
+PASS: Table front has breathing room: 58.63551
+PASS: Helpers have separate surfaces without a large rail background
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Table is centered in the viewport
+PASS: Helpers are ordered top to bottom
+PASS: Helper touch width at 390: 53.99998
+PASS: Helper stays inside safe area
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 390: 53.99998
+PASS: Helper stays inside safe area
+PASS: Helper touch target stays outside the table: BOOSTER_3
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 390: 53.99998
+PASS: Helper stays inside safe area
+PASS: Helper touch target stays outside the table: BOOSTER_2
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 390: 53.99998
+PASS: Helper stays inside safe area
+PASS: Helper icon is smaller than the previous design
+PASS: HUD text fits: level
+PASS: HUD text fits: count
+PASS: Helpers occupy a vertical side rail
+PASS: Bottom dock only contains queue and swap at 390x844
+PASS: Gameplay camera uses actual FOV 43 at 390x844
+PASS: Table-to-dock gap is reduced at 390x844: 90.11296
+PASS: Table front has breathing room: 90.11296
+PASS: Helpers have separate surfaces without a large rail background
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Table is centered in the viewport
+PASS: Helpers are ordered top to bottom
+PASS: Helper touch width at 390: 54
+PASS: Helper stays inside safe area
+PASS: Helper touch target stays outside the table: BOOSTER_3
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 390: 54
+PASS: Helper stays inside safe area
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 390: 54
+PASS: Helper stays inside safe area
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 390: 54
+PASS: Helper stays inside safe area
+PASS: Helper icon is smaller than the previous design
+PASS: HUD text fits: level
+PASS: HUD text fits: count
+PASS: Helpers occupy a vertical side rail
+PASS: Bottom dock only contains queue and swap at 430x932
+PASS: Gameplay camera uses actual FOV 43 at 430x932
+PASS: Table-to-dock gap is reduced at 430x932: 99.65663
+PASS: Table front has breathing room: 99.65663
+PASS: Helpers have separate surfaces without a large rail background
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Table is centered in the viewport
+PASS: Helpers are ordered top to bottom
+PASS: Helper touch width at 430: 59.53846
+PASS: Helper stays inside safe area
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 430: 59.53846
+PASS: Helper stays inside safe area
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 430: 59.53846
+PASS: Helper stays inside safe area
+PASS: Helper touch target stays outside the table: BOOSTER_3
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 430: 59.53846
+PASS: Helper stays inside safe area
+PASS: Helper icon is smaller than the previous design
+PASS: HUD text fits: count
+PASS: HUD text fits: level
+PASS: Helpers occupy a vertical side rail
+PASS: Bottom dock only contains queue and swap at 768x1024
+PASS: Gameplay camera uses actual FOV 43 at 768x1024
+PASS: Table-to-dock gap is reduced at 768x1024: 77.82742
+PASS: Table front has breathing room: 77.82742
+PASS: Helpers have separate surfaces without a large rail background
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Table is centered in the viewport
+PASS: Helpers are ordered top to bottom
+PASS: Helper touch width at 768: 85.0708
+PASS: Helper stays inside safe area
+PASS: Helper touch target stays outside the table: BOOSTER_3
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 768: 85.0708
+PASS: Helper stays inside safe area
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 768: 85.0708
+PASS: Helper stays inside safe area
+PASS: Helper touch target stays outside the table: BOOSTER_2
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 768: 85.0708
+PASS: Helper stays inside safe area
+PASS: Helper touch target stays outside the table: BOOSTER_1
+PASS: Helper icon is smaller than the previous design
+PASS: HUD text fits: count
+PASS: HUD text fits: level
+PASS: Marked ball center y=1365.745 (target 1366)
+PASS: Marked table back y=632.3582 (target 635)
+PASS: Marked pin front boundary y=873.9216 (target 873)
+PASS: Marked collection board x=265.2433, top=434.358, width=511.9983, height=85.33325
+PASS: Collected pin stays inside the resized board
+PASS: Collected pin stays inside the resized board
+PASS: Helpers occupy a vertical side rail
+PASS: Bottom dock only contains queue and swap at 1014x1792
+PASS: Gameplay camera uses actual FOV 43 at 1014x1792
+PASS: Table-to-dock gap is reduced at 1014x1792: 149.8501
+PASS: Table front has breathing room: 149.8501
+PASS: Helpers have separate surfaces without a large rail background
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Table is centered in the viewport
+PASS: Helpers are ordered top to bottom
+PASS: Helper touch width at 1014: 140.4
+PASS: Helper stays inside safe area
+PASS: Helper touch target stays outside the table: BOOSTER_3
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 1014: 140.4
+PASS: Helper stays inside safe area
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 1014: 140.4
+PASS: Helper stays inside safe area
+PASS: Helper touch target stays outside the table: BOOSTER_2
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 1014: 140.4
+PASS: Helper stays inside safe area
+PASS: Helper icon is smaller than the previous design
+PASS: HUD text fits: level
+PASS: HUD text fits: count
+PASS: Helpers occupy a vertical side rail
+PASS: Bottom dock only contains queue and swap at 1170x2532
+PASS: Gameplay camera uses actual FOV 43 at 1170x2532
+PASS: Table-to-dock gap is reduced at 1170x2532: 204.3388
+PASS: Table front has breathing room: 204.3388
+PASS: Helpers have separate surfaces without a large rail background
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Helper keeps an invisible generous touch target
+PASS: Helper surface is translucent and lets the button receive input
+PASS: Table is centered in the viewport
+PASS: Helpers are ordered top to bottom
+PASS: Helper touch width at 1170: 162
+PASS: Helper stays inside safe area
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 1170: 162
+PASS: Helper stays inside safe area
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 1170: 162
+PASS: Helper stays inside safe area
+PASS: Helper touch target stays outside the table: BOOSTER_2
+PASS: Helper icon is smaller than the previous design
+PASS: Helper touch width at 1170: 162
+PASS: Helper stays inside safe area
+PASS: Helper touch target stays outside the table: BOOSTER_3
+PASS: Helper icon is smaller than the previous design
+PASS: HUD text fits: count
+PASS: HUD text fits: level
+PASS: Game settings retain actions and remove only Done
+PASS: Pointer reaches close cross: CLOSE_SETTINGS
+PASS: Game settings cross resumes gameplay
+PASS: Available swaps display their stock
+PASS: Swap button has a compact visible width
+PASS: No permanent separate plus button
+PASS: Empty swap becomes a plus action
+PASS: Empty swap opens purchase without spending a move or currency
+PASS: Maximum helper stock remains readable
+PASS: Maximum helper stock remains readable
+PASS: Maximum helper stock remains readable
+PASS: Maximum helper stock remains readable
+PASS: Power ring tracks pull 0.25
+PASS: Pull has no percentage or instruction text at 0.25
+PASS: No MAX badge at 0.25
+PASS: Aim ring diameter=77.24px, ball at target=77.24px, overlapping dots=0
+PASS: Power ring tracks pull 0.6
+PASS: Pull has no percentage or instruction text at 0.6
+PASS: No MAX badge at 0.6
+PASS: Aim ring diameter=77.24px, ball at target=77.24px, overlapping dots=0
+PASS: Power ring tracks pull 1
+PASS: Pull has no percentage or instruction text at 1
+PASS: No MAX badge at 1
+PASS: Aim ring diameter=77.24px, ball at target=77.24px, overlapping dots=0
+PASS: FOV 43: Aim ring diameter=77.24px, ball at target=77.24px, overlapping dots=0
+PASS: FOV 55: Aim ring diameter=58.45px, ball at target=58.45px, overlapping dots=0
+PASS: FOV 70: Aim ring diameter=43.45px, ball at target=43.45px, overlapping dots=0
+PASS: Result star count for 0 remaining moves
+PASS: Result star count for 1 remaining moves
+PASS: Result star count for 9 remaining moves
+PASS: Large ball preview has a 512 pixel source
+PASS: Helper 0 uses a native-density glyph atlas
+PASS: Helper explanation fits
+PASS: Helper 1 uses a native-density glyph atlas
+PASS: Helper explanation fits
+PASS: Helper 2 uses a native-density glyph atlas
+PASS: Helper explanation fits
+PASS: Helper 3 uses a native-density glyph atlas
+PASS: Helper explanation fits
+PASS: Map label fits: Şeker Durağı
+PASS: Map label fits: 8 renk · Geçit
+PASS: Map label fits: Ödül Rafı
+PASS: Map label fits: 8 renk · Karışık
+PASS: Map label fits: 8 renk · Geçit
+PASS: Map label fits: Büyük Kupa
+PASS: Map label fits: Roket Rampası
+PASS: Map label fits: İlk Tampon
+PASS: Map label fits: 8 renk · Bağ
+PASS: Map label fits: 8 renk · Karışık
+PASS: Map label fits: 4 renk · Tampon
+PASS: Map label fits: 4 renk · Üçlü
+PASS: Map label fits: 8 renk · Karışık
+PASS: Map label fits: Işık Şöleni
+PASS: Map label fits: Bilet Gişesi
+PASS: Map label fits: Altın Kabin
+PASS: Map label fits: Buzlu Geçit
+PASS: Map label fits: 8 renk · Karışık
+PASS: Map label fits: Ördek Avı
+PASS: Map label fits: 8 renk · Karışık
+PASS: Map label fits: Bulut Yolu
+PASS: Map label fits: 7 renk · Üçlü
+PASS: Map label fits: 7 renk · Karışık
+PASS: Map label fits: Yıldız Yolu
+PASS: Map label fits: 3 renk · Üçlü
+PASS: Map label fits: 5 renk · Üçlü
+PASS: Map label fits: Gökyüzü Turu
+PASS: Map label fits: 6 renk · Karışık
+PASS: Map label fits: 5 renk · Buz
+PASS: Map label fits: 6 renk · Üçlü
+PASS: Map label fits: Halka Atışı
+PASS: Map label fits: Büyük Çadır
+PASS: Map label fits: 8 renk · Üçlü
+PASS: Map label fits: Ay Işığı
+PASS: Map label fits: Gökkuşağı
+PASS: Map label fits: Güç Kulesi
+PASS: Map label fits: Balon Sokağı
+PASS: Map label fits: 3 renk · Üçlü
+PASS: Map label fits: 8 renk · Bağ
+PASS: Map label fits: Rüzgâr Gülü
+PASS: Second region label fits: Şampiyonluk Kupası
+PASS: Second region label fits: Çapraz Halkalar
+PASS: Second region label fits: 8 renk · Karışık
+PASS: Second region label fits: 8 renk · Bağ
+PASS: Second region label fits: Gökkuşağı Zirvesi
+PASS: Second region label fits: 8 renk · Bağ
+PASS: Second region label fits: 8 renk · Karışık
+PASS: Second region label fits: Final Işıkları
+PASS: Second region label fits: Yüksek Kabin
+PASS: Second region label fits: Büyük Ödül
+PASS: Second region label fits: 8 renk · Karışık
+PASS: Second region label fits: 8 renk · Karışık
+PASS: Second region label fits: 8 renk · Karışık
+PASS: Second region label fits: 8 renk · Geçit
+PASS: Second region label fits: Renkli Kortej
+PASS: Second region label fits: 8 renk · Karışık
+PASS: Second region label fits: 8 renk · Karışık
+PASS: Second region label fits: Yıldız Koridoru
+PASS: Second region label fits: Roket Geçidi
+PASS: Second region label fits: İkinci Bilet
+PASS: Second region label fits: 8 renk · Bağ
+PASS: Second region label fits: 8 renk · Geçit
+PASS: Second region label fits: Bulut Merdiveni
+PASS: Second region label fits: 8 renk · Karışık
+PASS: Second region label fits: 8 renk · Geçit
+PASS: Second region label fits: Donmuş Meydan
+PASS: Second region label fits: 8 renk · Karışık
+PASS: Second region label fits: 8 renk · Bağ
+PASS: Second region label fits: Şeker Labirenti
+PASS: Second region label fits: Rüzgâr Köprüsü
+PASS: Second region label fits: 8 renk · Geçit
+PASS: Second region label fits: Dönen Renkler
+PASS: Second region label fits: 8 renk · Bağ
+PASS: Second region label fits: Güç Geçidi
+PASS: Second region label fits: Ay Bahçesi
+PASS: Second region label fits: 8 renk · Karışık
+PASS: Second region label fits: Usta Çadırı
+PASS: Second region label fits: 8 renk · Geçit
+PASS: Second region label fits: Ördek Koridoru
+PASS: Second region label fits: Çifte Tampon
+PASS: Mechanic has a matching animated demonstration: SEKME ENGELLERİ
+PASS: Mechanic popup has only its cross as a dismiss control
+PASS: Mechanic has a matching animated demonstration: BUZLU DUBA
+PASS: Mechanic popup has only its cross as a dismiss control
+PASS: Mechanic has a matching animated demonstration: BAĞLI ÜÇLÜ
+PASS: Mechanic popup has only its cross as a dismiss control
+PASS: Mechanic has a matching animated demonstration: HAREKETLİ BARİYER
+PASS: Mechanic popup has only its cross as a dismiss control
+PASS: Reduced motion freezes the lesson demonstration
+PASS: Queued lesson uses one close control
+PASS: Pointer reaches close cross: ADVENTURE_CLOSE
+PASS: Next queued lesson stays paused
+PASS: Queued lesson uses one close control
+PASS: Pointer reaches close cross: ADVENTURE_CLOSE
+PASS: Next queued lesson stays paused
+PASS: Queued lesson uses one close control
+PASS: Pointer reaches close cross: ADVENTURE_CLOSE
+PASS: Next queued lesson stays paused
+PASS: Queued lesson uses one close control
+PASS: Pointer reaches close cross: ADVENTURE_CLOSE
+PASS: Cross advances pending lessons and resumes after the last
+PASS: Dismissing lessons preserves moves, queue and coins
+PASS: Button responds to a press
+PASS: Interrupted press restores artwork
+PASS: Scaled text requests a native-density glyph atlas
+PASS: Visible text has no missing glyphs: 
+PASS: All exercised UI copy belongs to the localization catalog: 

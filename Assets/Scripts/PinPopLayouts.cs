@@ -25,6 +25,11 @@ namespace PinPop {
      color=(color+ColorOffset(level))%colors;result.Add(new Pin{Position=new Vector3(x,.02f,z),Color=color});
     }
    }
+   // Fit both three-row bands into the marked deck while keeping a full pin clearance between them.
+   if(colors>4){float frontMax=float.MinValue,backMin=float.MaxValue;for(int i=0;i<result.Count;i++){if(i<24)frontMax=Mathf.Max(frontMax,result[i].Position.z);else backMin=Mathf.Min(backMin,result[i].Position.z);}float shift=frontMax+.86f-backMin;for(int i=24;i<result.Count;i++){var pin=result[i];pin.Position.z+=shift;result[i]=pin;}}
+   float min=float.MaxValue,max=float.MinValue;foreach(var pin in result){min=Mathf.Min(min,pin.Position.z);max=Mathf.Max(max,pin.Position.z);}
+   float scale=Mathf.Min(1,(PinPopGame.PinDeckBack-PinPopGame.PinDeckFront)/Mathf.Max(.001f,max-min));
+   for(int i=0;i<result.Count;i++){var pin=result[i];pin.Position.z=PinPopGame.PinDeckFront+(pin.Position.z-min)*scale;result[i]=pin;}
    return result;
   }
  }

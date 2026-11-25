@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9405f1f8235e14b1ebffd00f44ec9ac2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PinPop.PinPopGame
-  GameplayFieldOfView: 42
+  GameplayFieldOfView: 43
   HomeFieldOfView: 40
 --- !u!4 &157581421
 Transform:
@@ -222,7 +222,7 @@ Camera:
   m_Depth: 90
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 134217728
+    m_Bits: 0
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

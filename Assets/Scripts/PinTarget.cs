@@ -66,7 +66,7 @@ namespace PinPop
         }
         void Update()
         {
-            if(blob!=null){bool onTable=Mathf.Abs(transform.position.x)<4.2f&&transform.position.z>=-8.8f&&transform.position.z<=4.8f;blob.position=new Vector3(transform.position.x,onTable?.008f:-1.26f,transform.position.z);blob.localScale=Vector3.one*Mathf.Max(.05f,Visual.localScale.x);}
+            if(blob!=null){bool onTable=PinPopGame.OnTable(transform.position);blob.position=new Vector3(transform.position.x,onTable?.008f:-1.26f,transform.position.z);blob.localScale=Vector3.one*Mathf.Max(.05f,Visual.localScale.x);}
             if(Cleared||IsLocked||game.TrayOverflow)return;
             if(Body.worldCenterOfMass.y<PinPopMatchTray.CollectHeight){
                 Cleared=true;game.OnPinCleared(this);foreach(var collider in Hitboxes)collider.enabled=false;gameObject.SetActive(false);Destroy(gameObject);

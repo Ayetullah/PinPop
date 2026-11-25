@@ -1,0 +1,37 @@
+36/36 passed.
+PASS: Actual rigidbody contact at offset -0.35
+PASS: Impact transfers forward momentum to pin at offset -0.35
+PASS: Glancing hit has a lateral surface normal at offset -0.35
+PASS: Pin receives physical momentum at offset -0.35
+PASS: Actual rigidbody contact at offset 0
+PASS: Impact transfers forward momentum to pin at offset 0
+PASS: Glancing hit has a lateral surface normal at offset 0
+PASS: Pin receives physical momentum at offset 0
+PASS: Actual rigidbody contact at offset 0.35
+PASS: Impact transfers forward momentum to pin at offset 0.35
+PASS: Glancing hit has a lateral surface normal at offset 0.35
+PASS: Pin receives physical momentum at offset 0.35
+PASS: Left and right impacts deflect the ball in opposite directions
+PASS: Centered impact does not invent a lateral direction
+PASS: Mirrored contacts produce approximately mirrored deflection
+PASS: Wrong-color ball contacts pin at offset -0.35
+PASS: Wrong-color pin remains fixed at offset -0.35
+PASS: Wrong-color rebound loses speed at offset -0.35
+PASS: Wrong-color contact briefly flashes at offset -0.35
+PASS: Block flash returns to original color at offset -0.35
+PASS: Wrong-color ball contacts pin at offset 0
+PASS: Wrong-color pin remains fixed at offset 0
+PASS: Wrong-color rebound loses speed at offset 0
+PASS: Wrong-color contact briefly flashes at offset 0
+PASS: Block flash returns to original color at offset 0
+PASS: Centered wrong-color impact rebounds without lateral drift
+PASS: Matching next ball unlocks the pin
+PASS: Matching next ball can move the previously blocked pin
+PASS: Wrong-color ball contacts pin at offset 0.35
+PASS: Wrong-color pin remains fixed at offset 0.35
+PASS: Wrong-color rebound loses speed at offset 0.35
+PASS: Wrong-color contact briefly flashes at offset 0.35
+PASS: Block flash returns to original color at offset 0.35
+PASS: Wrong-color left and right contacts deflect in opposite directions
+PASS: Wrong-color mirrored contacts have mirrored rebound angles
+PASS: Contacts use dissipative restitution

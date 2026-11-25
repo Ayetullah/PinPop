@@ -39,6 +39,7 @@ namespace PinPop {
   public static bool IsCatalogOutput(string value){
    Load();if(string.IsNullOrWhiteSpace(value)||english.ContainsKey(value)||englishValues.Contains(value))return true;
    if(System.Text.RegularExpressions.Regex.IsMatch(value,@"^[\d\s.,/×+−→★☆<>:=KMb–·]+$"))return true;
+   if(System.Text.RegularExpressions.Regex.IsMatch(value,@"^\d+(?:[.,]\d+)?[km]$"))return true;
    foreach(var row in english)foreach(string template in new[]{row.Key,row.Value,singular.TryGetValue(row.Key,out string one)?one:row.Value})if(template.Contains("{0}")){
     string pattern=System.Text.RegularExpressions.Regex.Escape(template);foreach(System.Text.RegularExpressions.Match field in System.Text.RegularExpressions.Regex.Matches(template,@"\{\d+\}"))pattern=pattern.Replace(System.Text.RegularExpressions.Regex.Escape(field.Value),".*");
     if(System.Text.RegularExpressions.Regex.IsMatch(value,"^"+pattern+"$",System.Text.RegularExpressions.RegexOptions.Singleline))return true;

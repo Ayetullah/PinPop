@@ -30,31 +30,28 @@ namespace PinPop {
    UICamera.allowMSAA=true;crispReady=true;RefreshCrispUI();
   }
   void BuildNativeHome(){
-   NPanel("Home coin plate",nativeHome,14,safeTop,105,38,"FFF1D5",19);NIcon("Home coin",nativeHome,19,safeTop+5,28,CrispIcon.Kind.Coin);NativeField("home/homeCoins",nativeHome,52,safeTop,60,38,18,"294B61");
-   NPanel("Home swaps plate",nativeHome,264,safeTop,112,38,"FFF1D5",19);NIcon("Home swap",nativeHome,269,safeTop+6,26,CrispIcon.Kind.Swap,"7465AE");NativeField("home/homeSwaps",nativeHome,298,safeTop,72,38,15,"294B61");
+   NPanel("Home coin plate",nativeHome,14,safeTop+3,92,38,"FFF1D5",19);NIcon("Home coin",nativeHome,19,safeTop+8,28,CrispIcon.Kind.Coin);var homeCoins=NativeField("home/homeCoins",nativeHome,49,safeTop+3,49,38,18,"294B61");homeCoins.resizeTextForBestFit=true;homeCoins.resizeTextMinSize=Mathf.RoundToInt(12*unit);homeCoins.resizeTextMaxSize=Mathf.RoundToInt(18*unit);
+   var settings=ReplaceButton("home","homeSettings",nativeHome,332,safeTop,44,44,"","FFF1D5",CrispIcon.Kind.Gear);
+   ((CrispShape)settings.targetGraphic).Radius=22*unit;var gear=settings.GetComponentInChildren<CrispIcon>();gear.color=Art.Hex("36596A");gear.rectTransform.anchoredPosition=new Vector2(9,-9)*unit;
+   var shadow=nativeHome.Find("HOME_SETTINGS shadow").GetComponent<CrispShape>();shadow.Radius=22*unit;shadow.color=new Color(.18f,.29f,.26f,.12f);
    NText("Logo shadow",nativeHome,16,safeTop+72,358,67,"PINPOP",58,"294B61");NText("Logo",nativeHome,14,safeTop+67,358,67,"PINPOP",58,"FFF1D5");NText("Festival subtitle",nativeHome,20,safeTop+140,350,26,"BOWLING FESTİVALİ",16,"294B61");
    float nav=logicalHeight-safeBottom-58;ReplaceButton("home","play",nativeHome,80,nav-108,230,56,"OYNA");NText("Home tagline",nativeHome,20,nav-47,350,30,"Aynı rengi bul, masayı temizle.",15,"294B61",false);
-   NPanel("Navigation",nativeHome,8,nav-4,374,66,"294B61",14);ReplaceButton("home","homeShop",nativeHome,15,nav+2,114,52,"Mağaza","365B70",CrispIcon.Kind.Shop);ReplaceButton("home","homeTab",nativeHome,138,nav+2,114,52,"Harita","466E80",CrispIcon.Kind.Map);ReplaceButton("home","homeSettings",nativeHome,261,nav+2,114,52,"Ayarlar","365B70",CrispIcon.Kind.Gear);
+   NPanel("Navigation",nativeHome,8,nav-4,374,66,"294B61",14);ReplaceButton("home","homeShop",nativeHome,15,nav+2,174,52,"Mağaza","365B70",CrispIcon.Kind.Shop);ReplaceButton("home","homeTab",nativeHome,201,nav+2,174,52,"Harita","466E80",CrispIcon.Kind.Map);
   }
   void BuildNativeGame(){
-   // Keep the information rail light; moves remain the primary number.
-   NPanel("Moves card",nativeGame,12,safeTop,54,62,"294B61",14);
-   NText("Move caption",nativeGame,14,safeTop+5,50,17,"HAMLE",11);
-   NativeField("game/moves",nativeGame,14,safeTop+21,50,37,30);
-   NativeField("game/level",nativeGame,83,safeTop+1,229,29,18,"294B61");
-   NPanel("Progress track",nativeGame,90,safeTop+37,210,5,"91ABA0",3);
-   progressFill=NPanel("Progress fill",nativeGame,90,safeTop+37,210,5,"E8B64D",3);
-   var collected=NativeField("game/count",nativeGame,90,safeTop+47,210,20,13,"496966");collected.font=CrispUI.Regular;
+   NativeField("game/level",nativeGame,83,safeTop+1,224,29,18,"294B61");
+   NPanel("Moves card",nativeGame,135,safeTop+46,120,36,"294B61",12);
+   NText("Move caption",nativeGame,142,safeTop+51,62,25,"HAMLE",12);
+   NativeField("game/moves",nativeGame,204,safeTop+47,44,34,24);
    var settings=ReplaceButton("game","settings",nativeGame,336,safeTop+9,38,38,"","FFF1D5",CrispIcon.Kind.Gear);
-   var shop=ReplaceButton("game","gameShop",nativeGame,336,safeTop+65,38,38,"","FFF1D5",CrispIcon.Kind.Shop);
-   foreach(var b in new[]{settings,shop}){var art=(CrispShape)b.targetGraphic;art.Radius=19*unit;b.GetComponentInChildren<CrispIcon>().color=Art.Hex("36596A");}
-   foreach(string name in new[]{"SETTINGS shadow","GAME_SHOP shadow"}){var shadow=nativeGame.Find(name).GetComponent<CrispShape>();shadow.Radius=19*unit;shadow.color=new Color(.18f,.29f,.26f,.12f);}
-   NPanel("Coin plate",nativeGame,12,safeTop+74,108,27,"FFF1D5",14);
-   NIcon("Coin",nativeGame,17,safeTop+77,21,CrispIcon.Kind.Coin);
-   var coins=NativeField("game/coins",nativeGame,40,safeTop+74,74,27,14,"49614F");coins.font=CrispUI.Regular;
+   ((CrispShape)settings.targetGraphic).Radius=19*unit;settings.GetComponentInChildren<CrispIcon>().color=Art.Hex("36596A");
+   var settingsShadow=nativeGame.Find("SETTINGS shadow").GetComponent<CrispShape>();settingsShadow.Radius=19*unit;settingsShadow.color=new Color(.18f,.29f,.26f,.12f);
+   NPanel("Coin plate",nativeGame,12,safeTop+9,88,38,"FFF1D5",19);
+   NIcon("Coin",nativeGame,18,safeTop+15,26,CrispIcon.Kind.Coin);
+   var coins=NativeField("game/coins",nativeGame,43,safeTop+9,49,38,14,"49614F");coins.font=CrispUI.Regular;
 
    // Translucent individual surfaces separate helpers from the grass without shifting the table.
-   var rail=NRect("Helper rail",nativeGame,0,safeTop+120,54,216);
+   var rail=NRect("Helper rail",nativeGame,4,safeTop+57,54,216);
    for(int i=0;i<4;i++){
     int id=i;var target=NRect("BOOSTER_"+i,rail,0,i*54,54,54);var hit=target.gameObject.AddComponent<Image>();hit.color=Color.clear;hit.raycastTarget=true;
     var artwork=NRect("Helper artwork "+i,target,3,3,48,48);
@@ -131,7 +128,6 @@ namespace PinPop {
    var options=new System.Collections.Generic.List<Dropdown.OptionData>();int selected=0;for(int i=0;i<GameLocalization.SupportedLanguages.Count;i++){var choice=GameLocalization.SupportedLanguages[i];options.Add(new Dropdown.OptionData(choice.nativeName));if(choice.code==GameLocalization.LanguageCode)selected=i;}dropdown.AddOptions(options);dropdown.SetValueWithoutNotify(selected);dropdown.RefreshShownValue();dropdown.onValueChanged.AddListener(index=>{if(index<GameLocalization.SupportedLanguages.Count)GameLocalization.SetPreference(GameLocalization.SupportedLanguages[index].code);});template.gameObject.SetActive(false);
   }
   void RefreshCrispUI(){if(!crispReady)return;
-   progressFill.rectTransform.sizeDelta=new Vector2(210*unit*game.Cleared/Mathf.Max(1,game.Total),5*unit);progressFill.gameObject.SetActive(game.Cleared>0);
    if(!settingsFresh||lastMuted!=game.Muted||lastReduced!=game.ReducedMotion){settingsFresh=true;lastMuted=game.Muted;lastReduced=game.ReducedMotion;foreach(string id in new[]{"settingsHome","settingsGame"}){Set(id+"/sound",GameLocalization.Format("Ses efektleri  ·  {0}",game.Muted?"KAPALI":"AÇIK"));Set(id+"/motion",GameLocalization.Format("Hareketi azalt  ·  {0}",game.ReducedMotion?"AÇIK":"KAPALI"));}}
    for(int i=0;i<3;i++)NextBalls[i].transform.parent.gameObject.SetActive(NextBalls[i].gameObject.activeSelf);
    if(shownSwapStock!=game.SwapCredits){shownSwapStock=game.SwapCredits;bool empty=shownSwapStock<=0;swapStockBadge.color=Art.Hex(empty?"FFD15B":"D8C4F2");swapStockLabel.text=empty?"+":PinPopEconomy.Compact(shownSwapStock);swapStockLabel.fontSize=Mathf.RoundToInt((empty?20:13)*unit);}
