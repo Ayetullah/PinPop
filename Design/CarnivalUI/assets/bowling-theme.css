@@ -1,0 +1,20 @@
+/* Shared PinPop bowling theme: art is decorative, controls and copy stay live. */
+.bowling-preview{background:radial-gradient(ellipse at 50% 34%,#34233f,#171323 72%);--safe-top:env(safe-area-inset-top,0px);--safe-bottom:env(safe-area-inset-bottom,0px);--safe-left:env(safe-area-inset-left,0px);--safe-right:env(safe-area-inset-right,0px)}
+.bowling-preview .viewport{padding:var(--safe-top) var(--safe-right) var(--safe-bottom) var(--safe-left)}
+.bowling-preview .stage{border:0;border-radius:0;box-shadow:none;background:#30203f url('backdrop-bowling.png') center/100% 100% no-repeat}
+.bowling-preview .stage:before,.bowling-preview .stage:after,.bowling-preview .festival-scene{display:none}
+.bowling-preview .modal{left:34px}
+.bowling-preview .canopy{left:16px;top:-98px;width:290px;height:106px;object-fit:contain;filter:none;animation:none;pointer-events:none}
+.bowling-preview .panel{border-color:#fff0c0;background:linear-gradient(125deg,#f4d598,#d3ac72);box-shadow:0 6px 0 #291a31,0 0 0 2px #a77b4a,inset 0 0 0 3px #f3e6bd}
+.bowling-preview .panel-inner{background:linear-gradient(#fff7df,#f1e2bf);box-shadow:inset 0 0 0 4px #fff8df80,inset 0 0 20px #ba895321;border-color:#cba76e70}
+.bowling-preview .headline,.bowling-preview .percentage{color:#79583e;-webkit-text-stroke:0;text-shadow:0 1px #fffdf1;paint-order:normal}
+.bowling-preview .body-copy,.bowling-preview .reward-caption,.bowling-preview .eyebrow{color:#725238}
+.bowling-preview .reward{color:#8a5a20;text-shadow:0 1px #fff8df}
+.bowling-preview .tag{background:#e9d7ae;border-color:#d3b77c;color:#79583e;letter-spacing:1px}
+.bowling-preview .close{color:#745e4a}
+.bowling-preview .close:before{background:#e3cba3;border-color:#fff0c4;box-shadow:none}
+.bowling-preview .close:hover:before{background:#d4b780}
+.bowling-preview .sunburst{opacity:.12}
+.bowling-preview .theme-caption{font-size:11px;letter-spacing:.2px;color:#cfb8db;opacity:.8;max-width:250px;line-height:1.5}
+.bowling-preview .brand{letter-spacing:2px;opacity:.4}
+.bowling-preview .brand b{letter-spacing:2px}

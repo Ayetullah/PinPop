@@ -1,0 +1,1 @@
+Bu klasördeki HTML ekran görüntüleri ilk tasarım aşamasının arşividir. Son istekte hareket azaltma oyun ayarı kaldırıldı; güncel HTML ses ve dil seçeneklerini içerir. Güncel Unity ekranları kaynak projede Documentation/AllPopups klasöründedir.

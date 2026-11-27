@@ -1,0 +1,28 @@
+{
+  "localHtml": "bowling-tema.html",
+  "browserChecked": true,
+  "viewports": [
+    {
+      "width": 390,
+      "height": 844,
+      "stageFits": true,
+      "panelFits": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "stageFits": true,
+      "panelFits": true
+    }
+  ],
+  "pinImagesLoaded": 3,
+  "ferrisWheelRemoved": true,
+  "gridRemoved": true,
+  "soundToggleCheckedAndRestored": true,
+  "languagesChecked": [
+    "tr",
+    "en"
+  ],
+  "backgroundAnimation": false,
+  "unityChanged": false
+}

@@ -30,8 +30,12 @@ namespace PinPop
         public bool InMenu { get; private set; } = true;
         public bool Transitioning { get; set; }
         public bool Paused => Time.timeScale == 0;
-        bool deviceReducedMotion;
-        public bool ReducedMotion => PlayerPrefs.GetInt("ReducedMotion", deviceReducedMotion?1:0) == 1;
+        public bool ReducedMotion {get {
+#if UNITY_EDITOR || DEVELOPMENT_BUILD
+            if(CrispUI.ReviewReducedMotion.HasValue)return CrispUI.ReviewReducedMotion.Value;
+#endif
+            return false;
+        }}
         public const int LevelReward = 30, SwapPrice = 10, StarterSwaps = 3;
         public int Coins { get; private set; }
         public int SwapCredits { get; private set; }
@@ -205,7 +209,7 @@ namespace PinPop
         public bool BuySwap()
         {
             if(dragging||Transitioning||Busy||Finished||!Hud.SwapShopVisible||!economy.BuySwap())return false;
-            SaveEconomy();sound.Tone(660,.15f);Hud.CloseOverlays();Hud.Toast("+1 SWAP ALINDI · −10 COIN",2.3f);return true;
+            SaveEconomy();sound.Tone(660,.15f);Hud.Refresh();Hud.Toast("+1 SWAP ALINDI · −10 COIN",2.3f);return true;
         }
         public bool BuyBall(int id){if(dragging||Transitioning||Busy||Finished||!Hud.ShopVisible||!economy.BuyBall(id))return false;SaveEconomy();SpawnReadyBall();sound.Tone(660,.15f);Hud.Toast(GameLocalization.Format("{0} alındı ve seçildi",PinPopEconomy.BallNames[id]),2.3f);return true;}
         public bool EquipBall(int id){if(dragging||Transitioning||Busy||Finished||!Hud.ShopVisible||!economy.Equip(id))return false;SaveEconomy();SpawnReadyBall();sound.Tone(510,.1f);return true;}
@@ -260,6 +264,7 @@ namespace PinPop
                 if(elapsed>=2.8f&&!moving&&!MatchTray.Pending&&Cleared<Total)break;
                 yield return null;elapsed+=Time.deltaTime;
             }
+            RetireTableBalls();
             if(Cleared>=Total){while(!Finished)yield return null;}
             else if(Moves==0)End(false);
             else {Busy=false;SpawnReadyBall();Hud.Refresh();}
@@ -275,9 +280,11 @@ namespace PinPop
             if(attempt==AttemptId&&TrayOverflow&&!Finished)End(false);
         }
         IEnumerator PlayTrayMatch(int combo){float basis=659.25f*Mathf.Pow(2,Mathf.Min(combo-1,6)*2/12f);foreach(int step in new[]{0,4,7,12}){sound.Tone(basis*Mathf.Pow(2,step/12f),.25f,true);yield return new WaitForSeconds(.035f);}}
+        void RetireTableBalls(){foreach(var ball in FindObjectsByType<BowlingBall>(FindObjectsSortMode.None))if(ball.OnTable)ball.Despawn();}
         void End(bool won)
         {
             if (Finished || (won&&(Total<=0||Cleared<Total||!MatchTray.Empty))) return;
+            RetireTableBalls();
             Finished = true; Won = won; Busy = false; dragging = false;Time.timeScale=0;
             if (won)
             {
@@ -292,7 +299,7 @@ namespace PinPop
         {
             if(attempt!=AttemptId||!CanWatchForMoves)return false;
             VideoRescueUsed=true;Finished=Won=Busy=false;Moves=3;PullPower=0;keyboardAim=dragging=false;pointerId=-1;
-            foreach(var ball in FindObjectsByType<BowlingBall>(FindObjectsSortMode.None))if(!ball.PreserveOnNextShot)Destroy(ball.gameObject);
+            foreach(var ball in FindObjectsByType<BowlingBall>(FindObjectsSortMode.None))if(!ball.PreserveOnNextShot)ball.Despawn();
             while(Queue.Count<Moves+1)Queue.Add(Queue.Count==0?PinPopLayouts.QueueColor(Level,0):(Queue[Queue.Count-1]+1)%PinPopLayouts.ColorCount(Level));
             Hud.HideResult();if(EventSystem.current!=null)EventSystem.current.SetSelectedGameObject(null);Time.timeScale=1;SpawnReadyBall();Hud.Refresh();Hud.AnimateQueue();Hud.RescueEffect();sound.Chime();Hud.Toast("+3 HAMLE · KALDIĞIN YERDEN DEVAM!",2.5f);return true;
         }
@@ -320,7 +327,6 @@ namespace PinPop
             if (readyBall != null) readyBall.gameObject.SetActive(!home);
             if(htmlWorld!=null)htmlWorld.SetHome(home);
         }
-        public void ToggleReducedMotion() { PlayerPrefs.SetInt("ReducedMotion", ReducedMotion ? 0 : 1); PlayerPrefs.Save(); Hud.Refresh(); }
         public void AnimateEntrance() { if (!ReducedMotion) StartCoroutine(Entrance()); }
         IEnumerator Entrance()
         {
@@ -328,7 +334,7 @@ namespace PinPop
             for(float time=0;time<duration;time+=Time.unscaledDeltaTime){if(ReducedMotion)break;for(int i=0;i<Pins.Count;i++){var pin=Pins[i];if(pin==null)continue;float t=Mathf.Clamp01((time-i*.014f)/.42f),scale=1+2.18f*Mathf.Pow(t-1,3)+1.18f*Mathf.Pow(t-1,2);pin.Visual.localScale=Vector3.one*Mathf.Max(.001f,scale);}yield return null;}
             foreach(var pin in Pins)if(pin!=null)pin.Visual.localScale=Vector3.one;
         }
-        public void ReloadSettings(){deviceReducedMotion=HtmlPlatformPreferences.ReduceMotion();Muted=PlayerPrefs.GetInt("Muted",1)==1;if(Hud!=null)Hud.Refresh();}
+        public void ReloadSettings(){if(PlayerPrefs.HasKey("ReducedMotion")){PlayerPrefs.DeleteKey("ReducedMotion");PlayerPrefs.Save();}Muted=PlayerPrefs.GetInt("Muted",1)==1;if(Hud!=null)Hud.Refresh();}
         public void RefreshLanguage(){htmlWorld?.SetLevel(Level);}
         public void ToggleSound(){Muted=!Muted;if(RewardedVideo!=null)RewardedVideo.SyncSound();PlayerPrefs.SetInt("Muted",Muted?1:0);PlayerPrefs.Save();Hud.Refresh();sound.Tone(600);}
         public void PlayEntryChime(){sound.Chime();}
@@ -361,7 +367,7 @@ namespace PinPop
             if(DevicePolishReview.Active||AuditFixesReview.Active||PopupCloseReview.Active)return;
 #endif
             if(GetComponent<AdventureHUD>()?.ModalVisible==true)return;
-            if(Input.GetKeyDown(KeyCode.Escape)&&(Hud.ShopVisible||Hud.SwapShopVisible||Hud.SettingsVisible||Hud.HelpVisible)){Hud.CloseOverlays();return;}
+            if(Input.GetKeyDown(KeyCode.Escape)&&(Hud.ShopVisible||Hud.SwapShopVisible||Hud.SettingsVisible||Hud.HelpVisible||Hud.ResultVisible||GetComponent<AdventureHUD>().ModalVisible||RewardedVideo.Busy))return;
             if (InMenu || Transitioning || Paused || Hud.ResultVisible) return;
             if (Input.GetKeyDown(KeyCode.Escape)) { if (dragging||keyboardAim) CancelPull(); else Hud.ShowSettings(); return; }
             bool uiFocus=EventSystem.current!=null&&EventSystem.current.currentSelectedGameObject!=null&&EventSystem.current.currentSelectedGameObject.activeInHierarchy&&EventSystem.current.currentSelectedGameObject.GetComponent<UnityEngine.UI.Button>()!=null;

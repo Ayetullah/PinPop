@@ -1,0 +1,21 @@
+{
+  "nativeBuildSucceeded": true,
+  "signatureVerified": true,
+  "configuration": "Release",
+  "bundleId": "com.pinpop.colorbowling",
+  "sdk": "iphoneos18.5",
+  "appPath": "/Users/ayetullah/Desktop/Projeler/Unity Projects/PinPop/Builds/iOSBowlingThemeDerived-20261126-211543/Build/Products/Release-iphoneos/PinPop.app",
+  "exportPath": "/Users/ayetullah/Desktop/Projeler/Unity Projects/PinPop/Builds/iOSBowlingTheme-20261126-211543",
+  "sourceSha256": {
+    "Assets/Scripts/CarnivalPopup.cs": "394e09bd7fd113bf0176baa5c4bb72947c09833f545105cfbe9cc1b46e952557",
+    "Assets/Resources/CarnivalUI/bowling-emblem.png": "e6b552d1b7382b7f2593c0841908a3ffc10374459c040f17bd0260e7e4525cd1",
+    "Assets/Resources/CarnivalUI/backdrop-bowling.png": "ed4e5302962f08533fe37bc657829242bb2cff35779ab3753db43c5fa75a7372"
+  },
+  "appExecutableSha256": "59517cf016dc3485ec4cfdb4457ba8f34532347b6e270aa751d2491d5f80873a",
+  "deviceInstalled": true,
+  "testAds": true,
+  "deviceLaunched": true,
+  "runningAfterLaunch": true,
+  "installedAtUtc": "2026-11-27T11:09:42.497806+00:00",
+  "lastInstallDevice": "\u0130o / iPhone 13"
+}

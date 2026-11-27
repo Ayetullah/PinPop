@@ -1,0 +1,127 @@
+[
+  {
+    "screen": "settings-home",
+    "route": "PinPopHUD.ShowSettings / home",
+    "preview": "settings-home-tr-390.png"
+  },
+  {
+    "screen": "settings-game",
+    "route": "PinPopHUD.ShowSettings / game",
+    "preview": "settings-tr-390.png"
+  },
+  {
+    "screen": "language",
+    "route": "LanguageDropdown",
+    "preview": "language-list-tr-390.png"
+  },
+  {
+    "screen": "shop",
+    "route": "PinPopHUD.ShowShop",
+    "preview": "shop-tr-390.png"
+  },
+  {
+    "screen": "swap-buy",
+    "route": "PinPopHUD.ShowSwapShop",
+    "preview": "swap-tr-390.png"
+  },
+  {
+    "screen": "helper-color",
+    "route": "AdventureHUD.ShowBooster(0)",
+    "preview": "helper-0-tr-390.png"
+  },
+  {
+    "screen": "helper-rainbow",
+    "route": "AdventureHUD.ShowBooster(1)",
+    "preview": "helper-1-tr-390.png"
+  },
+  {
+    "screen": "helper-pocket",
+    "route": "AdventureHUD.ShowBooster(2)",
+    "preview": "helper-2-tr-390.png"
+  },
+  {
+    "screen": "helper-moves",
+    "route": "AdventureHUD.ShowBooster(3)",
+    "preview": "helper-3-tr-390.png"
+  },
+  {
+    "screen": "pocket-empty",
+    "route": "AdventureHUD.ShowBooster(2) / empty",
+    "preview": "pocket-empty-tr-390.png"
+  },
+  {
+    "screen": "lesson-fixed",
+    "route": "AdventureHUD.PresentLesson / fixed",
+    "preview": "lesson-0-tr-390.png"
+  },
+  {
+    "screen": "lesson-ice",
+    "route": "AdventureHUD.PresentLesson / ice",
+    "preview": "lesson-1-tr-390.png"
+  },
+  {
+    "screen": "lesson-band",
+    "route": "AdventureHUD.PresentLesson / band",
+    "preview": "lesson-2-tr-390.png"
+  },
+  {
+    "screen": "lesson-moving",
+    "route": "AdventureHUD.PresentLesson / moving",
+    "preview": "lesson-3-tr-390.png"
+  },
+  {
+    "screen": "lesson-character",
+    "route": "AdventureHUD.PresentLesson / color",
+    "preview": "lesson-4-tr-390.png"
+  },
+  {
+    "screen": "tutorial-aim",
+    "route": "PinPopHUD.ShowHelp / 0",
+    "preview": "howto-0-tr-390.png"
+  },
+  {
+    "screen": "tutorial-color",
+    "route": "PinPopHUD.ShowHelp / 1",
+    "preview": "howto-1-tr-390.png"
+  },
+  {
+    "screen": "tutorial-swap",
+    "route": "PinPopHUD.ShowHelp / 2",
+    "preview": "howto-2-tr-390.png"
+  },
+  {
+    "screen": "map",
+    "route": "AdventureHUD.ShowMap",
+    "preview": "map-tr-390.png"
+  },
+  {
+    "screen": "video",
+    "route": "PinPopRewardedVideo.Watch",
+    "preview": "video-preparing-tr-390.png"
+  },
+  {
+    "screen": "success",
+    "route": "PinPopHUD.ShowResult(true)",
+    "preview": "success-tr-390.png"
+  },
+  {
+    "screen": "failure",
+    "route": "PinPopHUD.ShowResult(false)",
+    "preview": "failure-tr-390.png"
+  },
+  {
+    "screen": "restart",
+    "route": "HtmlReferenceHUD.ShowCarnivalRestart",
+    "preview": "restart-tr-390.png"
+  },
+  {
+    "screen": "feature-progress",
+    "route": "HtmlReferenceHUD.ContinueCarnivalResult",
+    "preview": "progress-tr-390.png"
+  },
+  {
+    "screen": "feature-unlocked",
+    "route": "AdventureHUD.ShowCarnivalBand",
+    "preview": "unlock-real.png"
+  }
+]

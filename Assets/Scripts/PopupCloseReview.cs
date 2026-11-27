@@ -21,7 +21,7 @@ namespace PinPop {
    while((game=FindFirstObjectByType<PinPopGame>())==null||!game.Initialized||PinPopSplash.Visible)yield return null;
    events=EventSystem.current;eventsEnabled=events.enabled;events.enabled=false;
    foreach(string key in new[]{PinPopEconomy.SaveKey,PinPopAdventure.SaveKey,GameLocalization.PreferenceKey})Remember(key,false);foreach(string key in new[]{"Level","Coins","SwapCredits","ReducedMotion","Muted",PinPopHUD.TutorialSeenKey})Remember(key,true);
-   string language=Environment.GetEnvironmentVariable("PINPOP_REVIEW_LANGUAGE");GameLocalization.SetPreference(language=="en"?"en":"tr");PlayerPrefs.SetInt("ReducedMotion",1);PlayerPrefs.SetInt(PinPopHUD.TutorialSeenKey,1);
+   string language=Environment.GetEnvironmentVariable("PINPOP_REVIEW_LANGUAGE");GameLocalization.SetPreference(language=="en"?"en":"tr");CrispUI.ReviewReducedMotion=true;PlayerPrefs.SetInt(PinPopHUD.TutorialSeenKey,1);
    PlayerPrefs.SetInt("Level",0);new PinPopEconomy(new EconomySave{coins=300,swaps=3,highestLevel=40}).Save();PlayerPrefs.SetString(PinPopAdventure.SaveKey,JsonUtility.ToJson(new AdventureSave{lessons=511}));game.ReloadEconomy();game.Adventure.Reload();
    foreach(var size in new[]{new Vector2Int(320,568),new Vector2Int(390,844),new Vector2Int(1170,2532)}){
     Size(size.x,size.y);Board(11);yield return new WaitForSecondsRealtime(.3f);

@@ -1133,6 +1133,102 @@
     {
       "source": "NASIL OYNANIR?",
       "en": "HOW TO PLAY"
+    },
+    {
+      "source": "HARİKASIN!",
+      "en": "AMAZING!"
+    },
+    {
+      "source": "MASA\nTERTEMİZ!",
+      "en": "TABLE\nCLEARED!"
+    },
+    {
+      "source": "Renkleri buldun, masayı temizledin.",
+      "en": "You matched the colors and cleared the table."
+    },
+    {
+      "source": "ÇOK YAKLAŞTIN!",
+      "en": "SO CLOSE!"
+    },
+    {
+      "source": "YENİDEN BAŞLAT?",
+      "en": "RESTART LEVEL?"
+    },
+    {
+      "source": "Bu bölüme baştan başlayacaksın.\nMevcut denemen sıfırlanacak.",
+      "en": "Start this level over?\nYour current attempt will be reset."
+    },
+    {
+      "source": "YENİDEN BAŞLAT",
+      "en": "RESTART"
+    },
+    {
+      "source": "OYUNA DEVAM ET",
+      "en": "KEEP PLAYING"
+    },
+    {
+      "source": "Azaltılmış hareket",
+      "en": "Reduced motion"
+    },
+    {
+      "source": "YENİ BİR SÜRPRİZ",
+      "en": "SOMETHING NEW"
+    },
+    {
+      "source": "YENİ ÖZELLİK AÇILDI!",
+      "en": "FEATURE UNLOCKED!"
+    },
+    {
+      "source": "BÖLÜM 7’DE AÇILDI",
+      "en": "UNLOCKED AT LEVEL 7"
+    },
+    {
+      "source": "Her bölüm seni yeni bir özelliğe yaklaştırır.",
+      "en": "A little closer with every level."
+    },
+    {
+      "source": "HADİ OYNAYALIM!",
+      "en": "LET’S PLAY!"
+    },
+    {
+      "source": "Yeni bir atış, yepyeni bir şans.",
+      "en": "A fresh roll. A brand-new chance."
+    },
+    {
+      "source": "PINPOP\nBOWLING FESTİVALİ",
+      "en": "PINPOP\nBOWLING FESTIVAL"
+    },
+    {
+      "source": "Ses efektleri",
+      "en": "Sound effects"
+    },
+    {
+      "source": "Envanter: {0}",
+      "en": "Inventory: {0}"
+    },
+    {
+      "source": "ASLAN AÇILDI",
+      "en": "LION UNLOCKED"
+    },
+    {
+      "source": "Toplanan üç aynı figür birleşip silinir.",
+      "en": "Three matching collected figures merge and clear."
+    },
+    {
+      "source": "Satın alma hamle harcamaz.",
+      "en": "Purchasing doesn't use a move."
+    },
+    {
+      "source": "Video tamamlandı",
+      "en": "Video completed"
+    },
+    {
+      "source": "Video tamamlanmadı",
+      "en": "Video not completed"
+    },
+    {
+      "source": "Ödül hazır · +3 hamle",
+      "en": "Reward ready · +3 moves"
     }
   ]
 }

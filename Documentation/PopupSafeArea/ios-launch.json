@@ -1,0 +1,57 @@
+{
+  "info" : {
+    "arguments" : [
+      "devicectl",
+      "device",
+      "process",
+      "launch",
+      "--device",
+      "74BA03D3-C5AC-520D-8F10-456014764261",
+      "--terminate-existing",
+      "com.pinpop.colorbowling",
+      "--json-output",
+      "/tmp/pinpop-ios-safe-launch.json"
+    ],
+    "commandType" : "devicectl.device.process.launch",
+    "environment" : {
+      "TERM" : "dumb"
+    },
+    "jsonVersion" : 2,
+    "outcome" : "success",
+    "version" : "443.24"
+  },
+  "result" : {
+    "deviceIdentifier" : "74BA03D3-C5AC-520D-8F10-456014764261",
+    "launchOptions" : {
+      "activatedWhenStarted" : true,
+      "arguments" : [
+
+      ],
+      "environmentVariables" : {
+        "TERM" : "dumb"
+      },
+      "platformSpecificOptions" : {
+
+      },
+      "startStopped" : false,
+      "terminateExistingInstances" : true,
+      "user" : {
+        "active" : true
+      }
+    },
+    "process" : {
+      "auditToken" : [
+        4294967295,
+        501,
+        501,
+        501,
+        501,
+        17240,
+        0,
+        47578
+      ],
+      "executable" : "file:///private/var/containers/Bundle/Application/C8A84A43-B166-4D87-9120-7C473D6FE353/PinPop.app/PinPop",
+      "processIdentifier" : 17240
+    }
+  }
+}

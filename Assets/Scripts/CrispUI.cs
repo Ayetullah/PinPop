@@ -5,6 +5,8 @@ namespace PinPop {
  // Pixel-space UI: fonts are rasterized at their displayed size, never enlarged screenshots.
  public static class CrispUI {
 #if UNITY_EDITOR || DEVELOPMENT_BUILD
+  public static bool? ReviewReducedMotion;
+  [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]static void ResetReviewMotion(){ReviewReducedMotion=null;}
   public static Rect? ReviewSafeArea;
   public static Vector2Int? ReviewSize;
 #endif

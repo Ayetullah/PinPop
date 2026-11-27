@@ -2,7 +2,7 @@ using System;
 using System.Runtime.InteropServices;
 using UnityEngine;
 namespace PinPop {
- // Browser prefers-reduced-motion equivalent; an explicit in-game choice takes priority.
+ // Platform accessibility preference only; there is no in-game motion setting.
  public static class HtmlPlatformPreferences {
 #if UNITY_STANDALONE_OSX || UNITY_EDITOR_OSX
   [DllImport("/usr/lib/libobjc.A.dylib")] static extern IntPtr objc_getClass(string name);

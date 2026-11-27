@@ -29,7 +29,7 @@ namespace PinPop {
   }
   void Awake(){Build(false);}
   public void BuildEditorPreview(){Build(true);}
-  void Build(bool preview){if(SplashCamera!=null)return;editorPreview=preview;if(!preview){Instance=this;DontDestroyOnLoad(gameObject);}reduced=PlayerPrefs.GetInt("ReducedMotion",HtmlPlatformPreferences.ReduceMotion()?1:0)==1;
+  void Build(bool preview){if(SplashCamera!=null)return;editorPreview=preview;if(!preview){Instance=this;DontDestroyOnLoad(gameObject);}reduced=false;
    SplashCamera=gameObject.AddComponent<Camera>();SplashCamera.depth=100;SplashCamera.clearFlags=CameraClearFlags.Depth;SplashCamera.cullingMask=1<<27;SplashCamera.orthographic=true;SplashCamera.orthographicSize=5;SplashCamera.nearClipPlane=.1f;SplashCamera.farClipPlane=10;SplashCamera.transform.position=new Vector3(0,0,-5);
    var go=new GameObject("Startup canvas",typeof(RectTransform),typeof(Canvas),typeof(GraphicRaycaster),typeof(CanvasGroup));go.layer=27;go.transform.SetParent(transform,false);var canvas=go.GetComponent<Canvas>();canvas.renderMode=RenderMode.ScreenSpaceCamera;canvas.worldCamera=SplashCamera;canvas.planeDistance=1;canvas.sortingOrder=1000;fade=go.GetComponent<CanvasGroup>();
    var block=Image("Startup blocker",go.transform,0,0,1,1,Art.Hex("F4F0E4"));var br=block.rectTransform;br.anchorMin=Vector2.zero;br.anchorMax=Vector2.one;br.offsetMin=br.offsetMax=Vector2.zero;block.raycastTarget=true;

@@ -1,0 +1,24 @@
+{
+  "installed": true,
+  "launched": true,
+  "runningAfterLaunch": true,
+  "model": "iPhone 13",
+  "osVersion": "27.2.1",
+  "configuration": "Release",
+  "bundleId": "com.pinpop.colorbowling",
+  "version": "1.0",
+  "build": "1",
+  "grassFractureAfterSeconds": 2,
+  "sharedPurchaseUI": true,
+  "testAds": true,
+  "installedAtUtc": "2026-11-26T09:40:01.474824+00:00",
+  "sourceSha256": {
+    "BowlingBall.cs": "97948ac037a6abb753661b32c3c7ad482fb933670527aea77abf02562ea97cb3",
+    "BallDespawnFX.cs": "7d17d4aa8051c621a79220723196621d4494bca8791e0fe5f23c969d3d7c7f1e",
+    "CarnivalPurchaseButton.cs": "9dadbed87bae4cfb864e64662b0242e04c6df97f2ffe643d90d32e5acf382cb4",
+    "AdventurePopups.cs": "6ed93ecd39a9ec3c517379c8f332371a0bea703c0b1ab186655cc98dc291f1b0",
+    "HtmlReferenceHUD.cs": "68db6858cd35300243cbbc9cc7d9de85248609d23d0a6654631520c3a1d459c8",
+    "PinPopGame.cs": "17618d54e7a6680bc66e6b2587d32495b4ecd956d2862ae9c31cd92242aa7be6"
+  },
+  "appExecutableSha256": "154ba90a4d49a705489d2235c3f972633176c9097fc90de4605135eb210ab69a"
+}

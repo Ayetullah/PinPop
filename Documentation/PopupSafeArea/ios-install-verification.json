@@ -1,0 +1,16 @@
+{
+  "installed": true,
+  "launched": true,
+  "runningAfterLaunch": true,
+  "configuration": "Release",
+  "model": "iPhone 13",
+  "bundleId": "com.pinpop.colorbowling",
+  "exportPath": "/Users/ayetullah/Desktop/Projeler/Unity Projects/PinPop/Builds/iOSSafeArea-20261126-195302",
+  "appPath": "/Users/ayetullah/Desktop/Projeler/Unity Projects/PinPop/Builds/iOSSafeAreaDerived-20261126-195302/Build/Products/Release-iphoneos/PinPop.app",
+  "verifiedAtUtc": "2026-11-26T19:56:45.547759+00:00",
+  "safeAreaFixSourceSha256": "4afc96fd57a6679fccd0bc3e0bb701a86377964619f13f53f074bed267b8dcdf",
+  "executableSha256": "473b77d2ff64f01aa2fdfefef8cba298421148aaa3cbd16458e8c699f7ba13f1",
+  "nativeSafeAreaChecksPassed": 8525,
+  "uninstalledExistingApp": false,
+  "physicalPopupScreenshotVerified": false
+}

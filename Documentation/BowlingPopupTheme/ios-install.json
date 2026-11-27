@@ -1,0 +1,37 @@
+{
+  "info" : {
+    "arguments" : [
+      "devicectl",
+      "device",
+      "install",
+      "app",
+      "--device",
+      "74BA03D3-C5AC-520D-8F10-456014764261",
+      "/Users/ayetullah/Desktop/Projeler/Unity Projects/PinPop/Builds/iOSBowlingThemeDerived-20261126-211543/Build/Products/Release-iphoneos/PinPop.app",
+      "--json-output",
+      "/tmp/pinpop-current-wired-install.json"
+    ],
+    "commandType" : "devicectl.device.install.app",
+    "environment" : {
+      "TERM" : "dumb"
+    },
+    "jsonVersion" : 2,
+    "outcome" : "success",
+    "version" : "443.24"
+  },
+  "result" : {
+    "deviceIdentifier" : "74BA03D3-C5AC-520D-8F10-456014764261",
+    "installedApplications" : [
+      {
+        "bundleID" : "com.pinpop.colorbowling",
+        "databaseSequenceNumber" : 2484,
+        "databaseUUID" : "32B2E1D2-F795-40F7-A0F2-0310F067F006",
+        "installationURL" : "file:///private/var/containers/Bundle/Application/2761F31C-1011-46AD-858D-7852AC9DAC9E/PinPop.app/",
+        "launchServicesIdentifier" : "unknown",
+        "options" : {
+
+        }
+      }
+    ]
+  }
+}

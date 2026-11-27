@@ -1,0 +1,17 @@
+{
+  "responsive_cases_passed": 18,
+  "interactions_verified": [
+    "sound toggle",
+    "reduced motion toggle",
+    "Turkish and English switching",
+    "how-to open and close with focus return",
+    "restart confirmation and return",
+    "feature progress 60 to 80 to level 7 unlock"
+  ],
+  "preview_protocol": "HTTP localhost",
+  "limitations": [
+    "Direct file URL browser testing unavailable under browser URL policy.",
+    "One historical MutationObserver console entry without a source URL was observed; project scripts do not use MutationObserver."
+  ],
+  "scope": "HTML prototypes only; no Unity implementation or live advertising integration"
+}

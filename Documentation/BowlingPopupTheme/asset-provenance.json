@@ -1,0 +1,18 @@
+{
+  "generator": "built-in image_gen",
+  "approvedReference": "exec-88bf5d5e-6cbc-430c-b045-786f2bf56a58.png",
+  "assets": [
+    {
+      "path": "Assets/Resources/CarnivalUI/bowling-emblem.png",
+      "source": "exec-508cd677-c24f-4d68-b6ec-35a38d8c601f.png",
+      "transparent": true,
+      "prompt": "Extract only the approved bowling emblem: three-hole polished gold ball centered between the pink rabbit and turquoise bird pins, leaning outward, with a slim gold arch beneath. Fully transparent alpha; wide compact composition; no UI panel, words, logo, background or tent."
+    },
+    {
+      "path": "Assets/Resources/CarnivalUI/backdrop-bowling.png",
+      "source": "exec-f945cc9a-5409-4352-a0c6-f880a229927d.png",
+      "transparent": false,
+      "prompt": "Portrait 1:2 production UI background only. Rich soft plum-purple radial gradient; top 70% and bottom 6% empty. Subtle lower-right lavender rabbit, bird and cat bowling pins with one bowling ball and a curved rolling trail, three tiny dim sparkles. No UI, text, logo, grid, wheel or canopy."
+    }
+  ]
+}
